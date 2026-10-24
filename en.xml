@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>英文推特圈每日精选</title><link>https://yanjyeli.github.io/x-digest-feed/en/</link><atom:link href="https://yanjyeli.github.io/x-digest-feed/en.xml" rel="self" type="application/rss+xml"/><description>每天早上 8 点（上海时间）更新的英文推特圈精选，用中文写</description><language>zh-cn</language><lastBuildDate>Sat, 24 Oct 2026 08:00:00 +0800</lastBuildDate><ttl>360</ttl>
-<item><title>英文推特圈精选｜10月23日（上海时间）</title><link>https://yanjyeli.github.io/x-digest-feed/en/2026-10-23.html</link><guid isPermaLink="false">x-digest-en-2026-10-23</guid><pubDate>Sat, 24 Oct 2026 08:00:00 +0800</pubDate><description><![CDATA[<p><strong>英文推特圈精选｜10月23日（上海时间）</strong></p>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>英文推特圈每日精选</title><link>https://yanjieli.com/x-digest-feed/en/</link><atom:link href="https://yanjieli.com/x-digest-feed/en.xml" rel="self" type="application/rss+xml"/><description>每天早上 8 点（上海时间）更新的英文推特圈精选，用中文写</description><language>zh-cn</language><lastBuildDate>Sat, 24 Oct 2026 08:00:00 +0800</lastBuildDate><ttl>360</ttl>
+<item><title>英文推特圈精选｜10月23日（上海时间）</title><link>https://yanjieli.com/x-digest-feed/en/2026-10-23.html</link><guid isPermaLink="false">x-digest-en-2026-10-23</guid><pubDate>Sat, 24 Oct 2026 08:00:00 +0800</pubDate><description><![CDATA[<p><strong>英文推特圈精选｜10月23日（上海时间）</strong></p>
 <p><strong>今日主线</strong>
 1. 安全潮从 PHP 烧到 Ruby，levelsio 让大家赶紧把 VPS 收进 Tailscale，rauchg 喊停长期静态密钥，还吐槽守护互联网加密的人密码竟然是「4」
 2. Opus 4.8 在哈佛社科论文同行评审里全面打赢人类专家，emollick 说学界得赶紧想清楚怎么和 AI 共存
@@ -241,7 +241,7 @@
 - <a href="https://x.com/KentBeck">Kent Beck @KentBeck</a>，XP、TDD 和模式的老前辈，Gergely 今天拿他当终身学习榜样，适合看工程方法论怎么在 AI 时代还站住
 - <a href="https://x.com/LexnLin">Leon Lin @LexnLin</a>，做创意 AI 和开源 Taste Skill，被 Perplexity 直接接进 Computer，关注设计和生成之间那一层的人
 - <a href="https://x.com/simonw">Simon Willison @simonw</a>，prompt injection 一词的提出者，LLM 工具和安全边界讲得清楚，名单里已有但一直没正式推荐，今天内容和他最对口</p>]]></content:encoded></item>
-<item><title>英文推特圈精选｜10月22日（上海时间）</title><link>https://yanjyeli.github.io/x-digest-feed/en/2026-10-22.html</link><guid isPermaLink="false">x-digest-en-2026-10-22</guid><pubDate>Fri, 23 Oct 2026 08:00:00 +0800</pubDate><description><![CDATA[<p><strong>英文推特圈精选｜10月22日（上海时间）</strong></p>
+<item><title>英文推特圈精选｜10月22日（上海时间）</title><link>https://yanjieli.com/x-digest-feed/en/2026-10-22.html</link><guid isPermaLink="false">x-digest-en-2026-10-22</guid><pubDate>Fri, 23 Oct 2026 08:00:00 +0800</pubDate><description><![CDATA[<p><strong>英文推特圈精选｜10月22日（上海时间）</strong></p>
 <p><strong>今日主线</strong>
 1. PHP2Shell 之后安全事件接连爆发，Node.js、GitLab、NGINX 一天内一堆 CVE，Railway 被黑，英文圈普遍认为 AI 挖漏洞的速度已经把防守方逼到极限
 2. 银行开始发现账户里有第三方 AI agent 自己在操作，agent 和现有系统的冲突从技术问题变成了风控问题
@@ -472,7 +472,7 @@
 - <a href="https://x.com/GergelyOrosz">Gergely Orosz @GergelyOrosz</a>，Pragmatic Engineer 作者，软件工程和行业动态讲得透，这次安全潮他的总结是最清楚的
 - <a href="https://x.com/benthompson">Ben Thompson @benthompson</a>，Stratechery 作者，科技商业分析的老牌标杆，适合看大公司战略
 - <a href="https://x.com/Vtrivedy10">Viv @Vtrivedy10</a>，LangChain Labs 应用研究，常分享用轨迹数据微调小模型做 agent 的实操方法</p>]]></content:encoded></item>
-<item><title>英文推特圈精选｜10月21日（上海时间）</title><link>https://yanjyeli.github.io/x-digest-feed/en/2026-10-21.html</link><guid isPermaLink="false">x-digest-en-2026-10-21</guid><pubDate>Thu, 22 Oct 2026 08:00:00 +0800</pubDate><description><![CDATA[<p><strong>英文推特圈精选｜10月21日（上海时间）</strong></p>
+<item><title>英文推特圈精选｜10月21日（上海时间）</title><link>https://yanjieli.com/x-digest-feed/en/2026-10-21.html</link><guid isPermaLink="false">x-digest-en-2026-10-21</guid><pubDate>Thu, 22 Oct 2026 08:00:00 +0800</pubDate><description><![CDATA[<p><strong>英文推特圈精选｜10月21日（上海时间）</strong></p>
 <p><strong>今日主线</strong>
 1. PHP 爆出两个 CVSS 9.2 的远程代码执行漏洞 PHP2Shell，OpenAI 说是自家模型先找到的，英文圈一边连夜打补丁一边讨论 AI 攻防进入新阶段
 2. SpaceX 第三季度营收 146 亿美元同比涨 161%，马斯克喊出 2028 年 1 万亿美元营收不再是天方夜谭
@@ -705,7 +705,7 @@
 <p><strong>推荐关注</strong>
 - <a href="https://x.com/hwchase17">Harrison Chase @hwchase17</a>，LangChain 创始人，天天在讲 agent harness、评测和线上迭代的实操经验，做 agent 的人绕不开
 - <a href="https://x.com/DrJimFan">Jim Fan @DrJimFan</a>，NVIDIA 机器人方向负责人，具身智能和机器人基础模型的一手进展基本都在他这</p>]]></content:encoded></item>
-<item><title>英文推特圈精选｜10月20日（上海时间）</title><link>https://yanjyeli.github.io/x-digest-feed/en/2026-10-20.html</link><guid isPermaLink="false">x-digest-en-2026-10-20</guid><pubDate>Wed, 21 Oct 2026 08:00:00 +0800</pubDate><description><![CDATA[<p><strong>英文推特圈精选｜10月20日（上海时间）</strong></p>
+<item><title>英文推特圈精选｜10月20日（上海时间）</title><link>https://yanjieli.com/x-digest-feed/en/2026-10-20.html</link><guid isPermaLink="false">x-digest-en-2026-10-20</guid><pubDate>Wed, 21 Oct 2026 08:00:00 +0800</pubDate><description><![CDATA[<p><strong>英文推特圈精选｜10月20日（上海时间）</strong></p>
 <p><strong>今日主线</strong>
 1. 多人协作的 agent 成了英文圈的新话题，Wabi 2.0 上线后 Garry Tan、Tobi 和 Ethan Mollick 都在聊 AI 怎么走出一人一窗口
 2. 普通上班族也开始被 AI 编程彻底改变，levelsio 说朋友公司直接砍掉年费 1 万美元的 CMS 自己做

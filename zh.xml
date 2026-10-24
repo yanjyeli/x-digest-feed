@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>中文推特圈每日精选</title><link>https://yanjyeli.github.io/x-digest-feed/zh/</link><atom:link href="https://yanjyeli.github.io/x-digest-feed/zh.xml" rel="self" type="application/rss+xml"/><description>每天早上 8 点（上海时间）更新的中文推特圈精选</description><language>zh-cn</language><lastBuildDate>Sat, 24 Oct 2026 08:00:00 +0800</lastBuildDate><ttl>360</ttl>
-<item><title>中文推特圈精选｜10月23日（上海时间）</title><link>https://yanjyeli.github.io/x-digest-feed/zh/2026-10-23.html</link><guid isPermaLink="false">x-digest-zh-2026-10-23</guid><pubDate>Sat, 24 Oct 2026 08:00:00 +0800</pubDate><description><![CDATA[<p><strong>中文推特圈精选｜10月23日（上海时间）</strong></p>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>中文推特圈每日精选</title><link>https://yanjieli.com/x-digest-feed/zh/</link><atom:link href="https://yanjieli.com/x-digest-feed/zh.xml" rel="self" type="application/rss+xml"/><description>每天早上 8 点（上海时间）更新的中文推特圈精选</description><language>zh-cn</language><lastBuildDate>Sat, 24 Oct 2026 08:00:00 +0800</lastBuildDate><ttl>360</ttl>
+<item><title>中文推特圈精选｜10月23日（上海时间）</title><link>https://yanjieli.com/x-digest-feed/zh/2026-10-23.html</link><guid isPermaLink="false">x-digest-zh-2026-10-23</guid><pubDate>Sat, 24 Oct 2026 08:00:00 +0800</pubDate><description><![CDATA[<p><strong>中文推特圈精选｜10月23日（上海时间）</strong></p>
 <p><strong>今日主线</strong>
 1. 美股半导体「黑色星期四」，SMH 跌近 6%，情绪分掉到 20，中文投资圈在清仓、去杠杆和加仓 QQQ 之间拉扯
 2. Grok Bot 一口气打通手机 App、1Password Agent 连接器和交互 Pages，个人助理工作流又往前走了一步
@@ -257,7 +257,7 @@
 <li><a href="https://x.com/laogui">老鬼 @laogui</a>：用 Cursor BDK 实锤 Grok Bot 底层显示 Grok 4.5，偏产品折腾和逆向观察，想搞清 Agent 产品细节可以看看</li>
 <li><a href="https://x.com/wolfqing1">庆哥 @wolfqing1</a>：拆解 Grok Bot lead @poteto 一人月大约 2000 到 2500 个 PR 的方法，数字是自报，但工程节奏讨论有参考价值</li>
 </ul>]]></content:encoded></item>
-<item><title>中文推特圈精选｜10月22日（上海时间）</title><link>https://yanjyeli.github.io/x-digest-feed/zh/2026-10-22.html</link><guid isPermaLink="false">x-digest-zh-2026-10-22</guid><pubDate>Fri, 23 Oct 2026 08:00:00 +0800</pubDate><description><![CDATA[<p><strong>中文推特圈精选｜10月22日（上海时间）</strong></p>
+<item><title>中文推特圈精选｜10月22日（上海时间）</title><link>https://yanjieli.com/x-digest-feed/zh/2026-10-22.html</link><guid isPermaLink="false">x-digest-zh-2026-10-22</guid><pubDate>Fri, 23 Oct 2026 08:00:00 +0800</pubDate><description><![CDATA[<p><strong>中文推特圈精选｜10月22日（上海时间）</strong></p>
 <p><strong>今日主线</strong>
 1. DeepSeek 传出约 1000 亿元新融资，Recursive 开源本地编程模型 Flint，中文 AI 圈一边聊钱一边聊本地跑模型
 2. Meta 和特斯拉财报后美股科技、半导体回调，A 股港股同步走弱，投资号分成喊加仓和冷静拆数字两派
@@ -506,7 +506,7 @@
 <ul>
 <li>小墨同学 <a href="https://x.com/xiaomovps">@xiaomovps</a>：连续两期入选，DeepSeek Harness 和 Pi 都是自己动手测，同模型换 Harness 的 Token 对比这种实测在中文圈不多见</li>
 </ul>]]></content:encoded></item>
-<item><title>中文推特圈精选｜10月21日（上海时间）</title><link>https://yanjyeli.github.io/x-digest-feed/zh/2026-10-21.html</link><guid isPermaLink="false">x-digest-zh-2026-10-21</guid><pubDate>Thu, 22 Oct 2026 08:00:00 +0800</pubDate><description><![CDATA[<p><strong>中文推特圈精选｜10月21日（上海时间）</strong></p>
+<item><title>中文推特圈精选｜10月21日（上海时间）</title><link>https://yanjieli.com/x-digest-feed/zh/2026-10-21.html</link><guid isPermaLink="false">x-digest-zh-2026-10-21</guid><pubDate>Thu, 22 Oct 2026 08:00:00 +0800</pubDate><description><![CDATA[<p><strong>中文推特圈精选｜10月21日（上海时间）</strong></p>
 <p><strong>今日主线</strong>
 1. PHP 爆出两个免登录接管服务器的漏洞，AI 参与发现，加上印度 CA 用个位数当私钥，安全圈一天两件大事
 2. SpaceX Q3 财报 AI 收入暴涨 830%，还和特斯拉成立合并特别委员会，中文投资圈都在算短租算力这笔账
@@ -731,7 +731,7 @@
 <li>Gorden Sun <a href="https://x.com/Gorden_Sun">@Gorden_Sun</a>：只发 AI 相关，自己维护的 AI 资讯日报连续日更 3 年，开源模型和工具发现得快，一条一个干货</li>
 <li>思维怪怪 <a href="https://x.com/0xLogicrw">@0xLogicrw</a>：AI 行业快讯写得像新闻稿，融资、模型、安全事件都有，dsh-our-free-model 收到可疑律师函那条把时间线核对得很细</li>
 </ul>]]></content:encoded></item>
-<item><title>中文推特圈精选｜10月20日（上海时间）</title><link>https://yanjyeli.github.io/x-digest-feed/zh/2026-10-20.html</link><guid isPermaLink="false">x-digest-zh-2026-10-20</guid><pubDate>Wed, 21 Oct 2026 08:00:00 +0800</pubDate><description><![CDATA[<p><strong>中文推特圈精选｜10月20日（上海时间）</strong></p>
+<item><title>中文推特圈精选｜10月20日（上海时间）</title><link>https://yanjieli.com/x-digest-feed/zh/2026-10-20.html</link><guid isPermaLink="false">x-digest-zh-2026-10-20</guid><pubDate>Wed, 21 Oct 2026 08:00:00 +0800</pubDate><description><![CDATA[<p><strong>中文推特圈精选｜10月20日（上海时间）</strong></p>
 <p><strong>今日主线</strong>
 1. DeepSeek 开源线上推理框架 DeepInfer，V4.1 Flash 同天拿下 Agent Arena 开源第一，中文 AI 圈几乎全员在聊
 2. MiniMax M3.1 Flash 揭面上线，国产 Flash 模型开始拼听话程度和单任务成本
