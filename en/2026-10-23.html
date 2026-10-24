@@ -1,0 +1,121 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>英文推特圈精选｜10月23日（上海时间）</title><style>body{max-width:760px;margin:2em auto;padding:0 1em;font:16px/1.7 -apple-system,'PingFang SC','Noto Sans CJK SC',sans-serif;color:#222}a{color:#1d6fd6}hr{border:0;border-top:1px solid #ddd;margin:1.5em 0}nav{font-size:14px;margin-bottom:1em}</style></head><body><nav><a href="../index.html">全部订阅</a> · <a href="index.html">英文推特圈每日精选 往期</a></nav><p><strong>英文推特圈精选｜10月23日（上海时间）</strong></p>
+<p><strong>今日主线</strong>
+1. 安全潮从 PHP 烧到 Ruby，levelsio 让大家赶紧把 VPS 收进 Tailscale，rauchg 喊停长期静态密钥，还吐槽守护互联网加密的人密码竟然是「4」
+2. Opus 4.8 在哈佛社科论文同行评审里全面打赢人类专家，emollick 说学界得赶紧想清楚怎么和 AI 共存
+3. Agent 把软件往两极拉：一边是深后端，一边是即时前端，Vercel 的临时部署和 Perplexity Computer 过夜把树莓派改成游戏机都是这一幕</p>
+<hr />
+<p><strong>Gergely Orosz</strong> @GergelyOrosz</p>
+<ul>
+<li><strong>软件工程溢价从哪来</strong>：他说很多人忘了，软件工程师比机械电气土木化工挣得多、能远程、福利更好，核心原因是这行变化太快，愿意快速学新技术和新方法的人更少，过去大概有 10 到 20 年相对稳定，于是大家忘了溢价从哪来，AI 只是又一轮技术浪潮，能掌握的人会更好过 <a href="https://x.com/GergelyOrosz/status/2113611319685378282">原帖</a></li>
+<li><strong>不爱学新东西就等于退出</strong>：他接着说如果你不喜欢学新东西，甚至不愿学和自己原先看法冲突的东西，那你其实已经在有意无意离开这个行业，他特别敬重 Kent Beck，当作终身学习的榜样 <a href="https://x.com/GergelyOrosz/status/2113613584500400519">原帖</a></li>
+<li><strong>夸 Grok Bot 也吐槽</strong>：他说 Grok Bot 团队发货极快，而且是唯一在欧盟正式上线的大平台助手，Meta Muse 和 OpenAI Dots 在欧英都不可用，不过管理 connectors 的界面一度被拿掉，他又抱怨了一通 <a href="https://x.com/GergelyOrosz/status/2113638794939249095">原帖</a></li>
+</ul>
+<p>看法：他把「AI 冲击」落回职业基本面，溢价来自持续学习，不是来自岗位名称</p>
+<hr />
+<p><strong>Pieter Levels</strong> @levelsio</p>
+<ul>
+<li><strong>VPS 赶紧藏起来</strong>：他说现在到处在被黑，有 VPS 的人尽快把机器从公网收进 Tailscale，再用 Cloudflare Tunnel 对外，SSH key 挡不住漏洞和利用 <a href="https://x.com/levelsio/status/2113587042185576853">原帖</a></li>
+<li><strong>两个都免费</strong>：有人担心依赖公司，他说 Tailscale 基于开源 WireGuard，也可以让 AI 直接帮你搭，而且 Cloudflare Tunnel 和 Tailscale 对个人都免费，靠企业加购赚钱 <a href="https://x.com/levelsio/status/2113597275519803830">原帖</a> <a href="https://x.com/levelsio/status/2113597155063554313">WireGuard 补充</a></li>
+<li><strong>昨天 PHP，今天 Ruby</strong>：有人说只有「软语言」才会中招，他回今天轮到 Ruby 了，上游爆出多个 10.0 严重漏洞，GitLab 那波问题也追到了 Ruby 本身 <a href="https://x.com/levelsio/status/2113656147114901797">原帖</a></li>
+</ul>
+<p>看法：实操建议比骂语言有用，AI 挖洞时代所有暴露在公网的老软件都要假设会被翻一遍</p>
+<hr />
+<p><strong>Guillermo Rauch</strong> @rauchg</p>
+<ul>
+<li><strong>杀掉静态凭证</strong>：他转 Vercel 的行业呼吁，调查 1000 多家 SaaS 里只有 8.4% 支持安全认证，主张用短命 OIDC 令牌取代长期密钥，像当年一起推 TLS 绿锁一样 <a href="https://x.com/rauchg/status/2113399539227136084">原帖</a></li>
+<li><strong>本周吐槽</strong>：说你阿姨的密码是厨房便利贴上的 P4ssword，而守护互联网加密的人密码是「4」，这把钥匙能用来瞄准和解密几乎一切，残余风险还在清理 <a href="https://x.com/rauchg/status/2113462657059639505">原帖</a></li>
+<li><strong>Agent 把软件撕成两极</strong>：一边是深后端，一边是即时前端，Ship 上讲了托管后端和 agent 的积木，tmp.now 临时部署连注册都省了，agents 可以随时丢上线 <a href="https://x.com/rauchg/status/2113357674989650307">原帖</a></li>
+<li><strong>面试变了</strong>：有人说五年前不会写 debounce 挂了面试，他回现在更重要的是懂 debounce 这个概念，在概念空间里导航的能力已经比写代码本身更重要 <a href="https://x.com/rauchg/status/2113355036889932196">原帖</a></li>
+<li><strong>Generative UI 例子</strong>：夸 TakoViz 接进 AI Gateway 后，AI 搜索不再只吐长文，能直接给出股票天气体育等可操作的数据组件 <a href="https://x.com/rauchg/status/2113451268316205515">原帖</a></li>
+</ul>
+<p>看法：安全叙事和产品叙事绑在一起，临时部署是给 agent 用的，OIDC 是给人类和机器共用的</p>
+<hr />
+<p><strong>Ethan Mollick</strong> @emollick</p>
+<ul>
+<li><strong>Opus 4.8 打赢人类审稿人</strong>：一项覆盖 124 篇哈佛社科论文的研究里，Opus 4.8 在各项指标上胜过人类专家同行评审，他说学界必须尽快想清楚怎么让科学流程适应 AI <a href="https://x.com/emollick/status/2113483068174692831">原帖</a></li>
+<li><strong>短期更利攻击方</strong>：他引用学术模型的结论，现有证据不多，但多数动态模型显示 AI 初期更帮攻击者，因为攻击的边际成本太低 <a href="https://x.com/emollick/status/2113466978035749097">原帖</a></li>
+<li><strong>提示注入没那么灵了</strong>：他转 prompt injection 一词发明者 Simon Willison 的判断，最强模型上单纯注入要求改分数之类已经很难奏效，和他们自己的测试一致，弱模型仍要小心 <a href="https://x.com/emollick/status/2113626577623826515">原帖</a></li>
+<li><strong>Codex 实用提示</strong>：还分享了一个给 Codex 配 computer use 的实用 prompt，收藏很高 <a href="https://x.com/emollick/status/2113361252173091114">原帖</a></li>
+</ul>
+<p>看法：同行评审被追上，比写代码被追上更刺痛学术界，制度怎么改会比模型分数更难</p>
+<hr />
+<p><strong>DHH</strong> @dhh</p>
+<ul>
+<li><strong>小米北京工厂</strong>：他参观小米新车产线，说 91% 自动化，精度和质量惊人，2024 年第一辆车到现在日产 1000 辆，并说这彻底打碎了「中国只靠廉价劳动力」的借口 <a href="https://x.com/dhh/status/2113499365847257560">原帖</a></li>
+<li><strong>中国行观感</strong>：说七年没来，感觉像过了四十年，被这里的能量乐观和勤奋震撼，认为西方对自身管理式衰退没有借口，建议欧美政客和企业家至少来待一周 <a href="https://x.com/dhh/status/2113505009476190666">原帖</a></li>
+<li><strong>负能量反转为动力</strong>：有人整理他的观点，最好的想法一开始听起来都很蠢，要学会把负面反馈的极性反过来，变成向前的动量 <a href="https://x.com/dhh/status/2113534951597408735">原帖</a></li>
+</ul>
+<p>看法：工厂和城市观感很具体，他另有不少欧洲政治帖，这里不展开</p>
+<hr />
+<p><strong>Theo</strong> @thsottiaux</p>
+<ul>
+<li><strong>Codex Day 18 预告重置</strong>：说 Decisions API 已正式可用，OpenResponses 加入 Linux Foundation，性能有改进，Uber 全面押注 Codex，然后甩下一句「对，那是一次重置」，并说次日上午 10 点前太平洋时间会有小更新落地 <a href="https://x.com/thsottiaux/status/2113492187770175603">原帖</a></li>
+</ul>
+<p>看法：卖关子很成功，这条浏览量过百万，具体重置内容要等落地再看</p>
+<hr />
+<p><strong>Aravind Srinivas</strong> @AravSrinivas</p>
+<ul>
+<li><strong>树莓派过夜变游戏机</strong>：有用户把 Perplexity Computer 通过 Tailscale SSH 接到 Raspberry Pi 5，一夜之间它自己做成街机界面游戏机，能生成 GBA、C、Rust 和终端游戏并自动编译试玩修错，还做了自定义手柄服务和可联机的体素游戏 <a href="https://x.com/AravSrinivas/status/2113661112143282441">原帖</a></li>
+<li><strong>本地 Decision Model</strong>：Perplexity 的决策小模型可以在 Mac 上完全本地跑，数据不出机器 <a href="https://x.com/AravSrinivas/status/2113420151232352444">原帖</a></li>
+<li><strong>Taste Skill 进 Computer</strong>：接入 LexnLin 的开源 Taste Skill，先定艺术方向再搭网站，参考了 247 个获奖站点，每人送 5000 credits 试用 <a href="https://x.com/AravSrinivas/status/2113655142201671981">原帖</a></li>
+<li><strong>Batch API</strong>：Agent API 上线批处理，单文件最多 5 万请求，适合大规模数据 enrichment <a href="https://x.com/AravSrinivas/status/2113368776532271185">原帖</a></li>
+</ul>
+<p>看法：给 Computer 权限后它能整夜自己干活，演示很炫，权限和安全边界也更值得想</p>
+<hr />
+<p><strong>Simon Willison</strong> @simonw</p>
+<ul>
+<li><strong>提示注入的边界</strong>：有人问 lethal trifecta 会不会被高估，他说对今天最强模型可能不再是大问题，Anthropic 对防注入很有信心，但对更便宜更弱的模型仍要当真 <a href="https://x.com/simonw/status/2113484746999411051">原帖</a></li>
+<li><strong>漏洞末日和加密货币</strong>：在这波漏洞潮里他反问，还有谁觉得把资产放在交易不可逆的加密货币里是好主意 <a href="https://x.com/simonw/status/2113633667583287786">原帖</a></li>
+</ul>
+<p>看法：发明「prompt injection」这个词的人自己在下调焦虑，说明模型层在进步，应用层别掉以轻心</p>
+<hr />
+<p><strong>Mitchell Hashimoto</strong> @mitchellh</p>
+<ul>
+<li><strong>Rex iOS 外测开始</strong>：Ghostty 团队的 Rex 开始外部测试，专门适配 iPad 和 iPhone Duo，准备免费上架 App Store，闪屏动画被他自称史上最强 <a href="https://x.com/mitchellh/status/2113346052090925406">原帖</a></li>
+<li><strong>纸板 Duo 走伦敦</strong>：为了设计折叠屏体验，同事按真实尺寸做了各种 Duo 纸板模型，在伦敦街上用「方法演技」想象怎么用 Rex <a href="https://x.com/mitchellh/status/2113349703022915701">原帖</a></li>
+</ul>
+<p>看法：对端侧体验较真到这个程度，产品出来大概率会好看</p>
+<hr />
+<p><strong>Bindu Reddy</strong> @bindureddy</p>
+<ul>
+<li><strong>Smaug-Nemotron-3.5</strong>：她宣布基于 Nvidia 模型改进的开源版，强调能在单机 DGX Spark 或单张 H200 上跑，偏向 agent 编程，权重已上 HuggingFace <a href="https://x.com/bindureddy/status/2113480704764076310">原帖</a></li>
+<li><strong>智能成本还要降 10 倍</strong>：看好 Kimi K3.1 和中国开源实验室继续用更低价格提供接近前沿的能力 <a href="https://x.com/bindureddy/status/2113658482704740511">原帖</a></li>
+<li><strong>没有机器人就只是数字空转</strong>：她偏空超级智能叙事，认为没有机器人就容易陷入 AI 给 AI 写文档写代码的低价值循环 <a href="https://x.com/bindureddy/status/2113616103234810141">原帖</a></li>
+</ul>
+<p>看法：自己产品发布味道重，但「数字空转」和成本下行两条值得听</p>
+<hr />
+<p><strong>Chamath Palihapitiya</strong> @chamath</p>
+<ul>
+<li><strong>SpaceX 债比主权债香</strong>：评论 SpaceX 约 400 亿美元融资成本抬升的报道，认为这份债比多数主权债更「money good」，也意味着 2027 年除投资级超大规模云之外，其他借款人定价大概会到 10% 到 12% <a href="https://x.com/chamath/status/2113398247469555993">原帖</a></li>
+</ul>
+<p>看法：他把 SpaceX 当准主权信用看，做一级市场和另类固收的人可以对照自己的假设</p>
+<hr />
+<p><strong>Garry Tan</strong> @garrytan</p>
+<ul>
+<li><strong>Podium 两年半做到 1.5 亿 ARR</strong>：转 Podium 的故事，同一家公司第一次花八年做到 1.5 亿 ARR，第二次用 AI 改造只花两年半，说这就是 AI 真正打中成熟 SaaS 的样子 <a href="https://x.com/garrytan/status/2113353678895919196">原帖</a></li>
+<li><strong>Aside Browser</strong>：推荐 Aside，说能让 agent 真正会用网页 <a href="https://x.com/garrytan/status/2113367007567794563">原帖</a></li>
+</ul>
+<p>看法：老 SaaS 被 AI 重做一遍的曲线，比再讲一个纯 AI 原生故事更有参考价值</p>
+<hr />
+<p><strong>tobi lutke</strong> @tobi</p>
+<ul>
+<li><strong>Code mode 环境</strong>：转发并称赞一个观点，MCP 对 CLI 的争论层错了，两者都可以，关键是放进能保持状态的 REPL 式环境里跑 <a href="https://x.com/tobi/status/2113596638899974567">原帖</a></li>
+</ul>
+<p>看法：很小但很实用，做 agent 工具链的人值得对照自己的设计</p>
+<hr />
+<p><strong>Amjad Masad</strong> @amasad</p>
+<ul>
+<li><strong>Replit 怎么挡这波洞</strong>：发文说明他们如何给用户应用打补丁、更新语言工具链并拦截利用，回应近期第三方软件连环漏洞 <a href="https://x.com/amasad/status/2113474587166171560">原帖</a></li>
+</ul>
+<p>看法：平台方这几天都在借安全事件秀防护能力，选型时可以把响应速度算进评估</p>
+<hr />
+<p><strong>小工具</strong>
+- <a href="https://x.com/rauchg/status/2113357674989650307">tmp.now / vercel deploy --temporary</a>，给 agent 用的临时部署，拖文件就能拿 live URL，一小时内登录可认领
+- <a href="https://x.com/mitchellh/status/2113346052090925406">Rex iOS 外测</a>，Mitchell Hashimoto 团队新产品，含 iPad 和 Duo 适配，准备免费上架
+- <a href="https://x.com/AravSrinivas/status/2113655142201671981">Taste Skill</a>，LexnLin 开源，已进 Perplexity Computer，搭站前先定视觉方向
+- <a href="https://x.com/AravSrinivas/status/2113420151232352444">Perplexity Decision Model 本地版</a>，4B 决策模型可在 Mac 本地跑，无需 API key
+- <a href="https://x.com/garrytan/status/2113367007567794563">Aside Browser</a>，Garry Tan 推荐，专门提升 agent 浏览网页的能力</p>
+<p><strong>推荐关注</strong>
+- <a href="https://x.com/KentBeck">Kent Beck @KentBeck</a>，XP、TDD 和模式的老前辈，Gergely 今天拿他当终身学习榜样，适合看工程方法论怎么在 AI 时代还站住
+- <a href="https://x.com/LexnLin">Leon Lin @LexnLin</a>，做创意 AI 和开源 Taste Skill，被 Perplexity 直接接进 Computer，关注设计和生成之间那一层的人
+- <a href="https://x.com/simonw">Simon Willison @simonw</a>，prompt injection 一词的提出者，LLM 工具和安全边界讲得清楚，名单里已有但一直没正式推荐，今天内容和他最对口</p></body></html>

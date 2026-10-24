@@ -1,0 +1,121 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>中文推特圈精选｜10月20日（上海时间）</title><style>body{max-width:760px;margin:2em auto;padding:0 1em;font:16px/1.7 -apple-system,'PingFang SC','Noto Sans CJK SC',sans-serif;color:#222}a{color:#1d6fd6}hr{border:0;border-top:1px solid #ddd;margin:1.5em 0}nav{font-size:14px;margin-bottom:1em}</style></head><body><nav><a href="../index.html">全部订阅</a> · <a href="index.html">中文推特圈每日精选 往期</a></nav><p><strong>中文推特圈精选｜10月20日（上海时间）</strong></p>
+<p><strong>今日主线</strong>
+1. DeepSeek 开源线上推理框架 DeepInfer，V4.1 Flash 同天拿下 Agent Arena 开源第一，中文 AI 圈几乎全员在聊
+2. MiniMax M3.1 Flash 揭面上线，国产 Flash 模型开始拼听话程度和单任务成本
+3. 美股财报周开打，大摩 Wilson 喊逢低买入，AI 基础设施的资本压力也被反复提起</p>
+<hr />
+<p><strong>宝玉 @dotey</strong></p>
+<ul>
+<li><strong>DeepInfer 到底开源了什么</strong>：他把推理框架比作后厨出餐系统，模型只是菜谱，调度好了同样的卡能多接几倍单，核心提速靠投机解码，草稿模型先猜最多 5 个 token 再由大模型一次核对。门槛很高，只支持 V4.1 Flash，要 Blackwell 或昇腾 950 这类数据中心卡，开源的只是离线推理，缓存系统和分离式部署都没放出来 <a href="https://x.com/dotey/status/2112555557139718161">原帖</a></li>
+<li><strong>deepseek-recipe 的用处</strong>：配套组件负责把 OpenAI 和 Anthropic 的请求格式翻译成 DeepSeek 能读的输入，再把思考过程和工具调用翻回去，对齐官方 API 行为，MIT 协议，有 Python 和 Rust 版 <a href="https://x.com/dotey/status/2112555557139718161">原帖</a></li>
+<li><strong>GPUI 换回 Electron 的理由</strong>：他做 baocut 时踩了 GPUI 的坑，Rust 编译吃 CPU 吃磁盘，改一点 UI 要等几分钟到十几分钟，agent 验证 UI 也慢。换回 Electron 后能热更新，还能直接在 agent 内置浏览器里验证，重渲染部分用 Rust 编成 wasm 补性能 <a href="https://x.com/dotey/status/2112552063640997984">原帖</a></li>
+</ul>
+<p>看法：今天讲 DeepInfer 最清楚的一篇，GPUI 那条是真踩过坑的一手经验，"对 agent 友好" 正在变成技术选型的新标准</p>
+<hr />
+<p><strong>岚叔 @LufzzLiz</strong></p>
+<ul>
+<li><strong>DeepInfer 的硬数据</strong>：官方披露单集群每天服务 155 万亿 token，按低谷价算每 GPU 小时营收 38 美元，注意这是营收不是利润。长上下文靠约 100 PiB SSD 存 KV 缓存，Agent 流量留 3 天，聊天流量留 7 天，最小高效部署单元建议 64 张 Prefill 卡加 64 张 Decode 卡 <a href="https://x.com/LufzzLiz/status/2112557411500507308">原帖</a></li>
+<li><strong>MiniMax M3.1 Flash 实测</strong>：拿鹈鹕单板滑雪和 DeepSeek V4.1 Flash 对比，MiniMax 更贴题，DeepSeek 视觉更好但做成了空中漂移，他的结论是 MiniMax 任务还原度更高，属于听话好用型 <a href="https://x.com/LufzzLiz/status/2112514643143151824">原帖</a></li>
+</ul>
+<p>看法：数字整理得扎实，模型对比也是自己跑的，比单纯转述官宣强很多</p>
+<hr />
+<p><strong>向阳乔木 @vista8</strong></p>
+<ul>
+<li><strong>DeepSeek 登顶 Agent Arena</strong>：V4.1 Flash 拿到开源模型第一、总榜第 11，同一天还开源了 DeepInfer，他提到不少播客都在夸 DeepSeek 的 infra 能力 <a href="https://x.com/vista8/status/2112517407390756997">原帖</a></li>
+<li><strong>让 Codex 填审批材料</strong>：办 GEO 大会要报备，他把营业执照、身份证、样例模板丢进一个文件夹，写一段提示词让 Codex 填，不到 10 分钟搞定 <a href="https://x.com/vista8/status/2112449926336749923">原帖</a></li>
+<li><strong>个人内容发布流</strong>：飞书写稿，用 Skill 查格式发到博客，再一键推公众号草稿箱，发 X 用自己做的 Chrome 插件同步，他也开始做插件改造 X 的 @ 体验 <a href="https://x.com/vista8/status/2112436033690480918">原帖</a></li>
+</ul>
+<p>看法：Codex 填表这种琐事场景，比各种榜单更能说明 agent 现在的实际价值</p>
+<hr />
+<p><strong>铁锤人 @lxfater</strong></p>
+<ul>
+<li><strong>开源了为什么自部署还更贵</strong>：他借 DeepInfer 解释，下载模型只是第一步，让机器少闲着、少重复计算、同时服务更多人才是降成本关键，这也是官方 API 难被自部署打败的原因 <a href="https://x.com/lxfater/status/2112528325579055603">原帖</a></li>
+<li><strong>Personal Agent 从接数据开始</strong>：他把微信数据库、飞书 CLI、X API、Gmail 都接进 Codex，用来跟进甲方会议需求、从微信里找出答应别人的事写进飞书任务、监听群聊过滤噪音。建议先把每天最烦的一件事做顺，不用一次全接 <a href="https://x.com/lxfater/status/2112507719986880682">原帖</a></li>
+</ul>
+<p>看法：思路很务实，和你现在让 Mel 处理邮件和日程的方向基本一致</p>
+<hr />
+<p><strong>酱紫表 @pengchujin</strong></p>
+<ul>
+<li><strong>给国产电视做苹果风桌面</strong>：用 AI 给小米电视做了干净的启动器，没广告没推荐流，只有大图标、时钟、壁纸和 Apple TV 的 4K 屏保，支持 agent 自动部署、开机自启，开源免费，这条有 500 多赞 <a href="https://x.com/pengchujin/status/2112488030581957085">原帖</a></li>
+<li><strong>项目热度</strong>：当晚 GitHub 过了 300 star，歸藏 @op7418 也基于它和 cleanyourtv 打了自己的 guizang TV 包 <a href="https://x.com/pengchujin/status/2112566931157086623">原帖</a></li>
+</ul>
+<p>看法：典型的 AI 时代个人小项目，痛点真、做得快、传播也快，京东和 B 站会员的羊毛帖可以略过</p>
+<hr />
+<p><strong>yetone @yetone</strong></p>
+<ul>
+<li><strong>为 Vibe Coding 再买一台 Mac mini</strong>：Claude Code 同时跑的 subagent 越来越多，已经换成 Mac mini 了还是经常卡死，于是又下单一台最新款，自嘲第一次在家搞分布式计算是为了写代码 <a href="https://x.com/yetone/status/2112453405084111123">原帖</a></li>
+</ul>
+<p>看法：一句话说明了多 agent 并行对本地算力的真实压力</p>
+<hr />
+<p><strong>Tw93 @HiTw93</strong></p>
+<ul>
+<li><strong>多客户端技术选型系列</strong>：很多人好奇他怎么用 Mac 开发 Windows 软件，他开了一个系列，第一篇介绍各种桌面端和移动端开发技术的选择和背后的思考，这条有 400 多赞 <a href="https://x.com/HiTw93/status/2112526198807183766">原帖</a></li>
+</ul>
+<p>看法：和宝玉那条 GPUI 对照着看很有意思，可以收藏等后续</p>
+<hr />
+<p><strong>DIŸgöd @DIYgod</strong></p>
+<ul>
+<li><strong>全屋隐私网关</strong>：博客新文讲怎么用两台 NAS 把全家设备的 IP 藏起来，属于家庭网络折腾向的长文 <a href="https://x.com/DIYgod/status/2112472449686401253">原帖</a></li>
+</ul>
+<p>看法：DIYgod 的博客一般细节足，对家里有 NAS 的人值得读</p>
+<hr />
+<p><strong>𝘁𝗮𝗿𝗲𝘀𝗸𝘆 @taresky</strong></p>
+<ul>
+<li><strong>KVM 设备操控手机</strong>：用 KVM 类外设让 AI 操作 iPhone 和安卓，相当于物理外挂，软件检测难，但国内大厂已经在做行为检测，缺点是慢、性能差 <a href="https://x.com/taresky/status/2112496188390011352">原帖</a></li>
+<li><strong>兼容模式就是 native 模式</strong>：以前他觉得 AI 用人的方式去点 App 只是过渡，现在觉得这本身就是 AI 的原生用法 <a href="https://x.com/taresky/status/2112489337409737084">原帖</a></li>
+<li><strong>便宜模型做短信拦截</strong>：拿 DeepSeek Flash 做短信过滤，低价模型开始进入这种日常小场景 <a href="https://x.com/taresky/status/2112516020179279893">原帖</a></li>
+</ul>
+<p>看法：观点短但有想法，"兼容即原生" 这个判断值得记一下</p>
+<hr />
+<p><strong>老沙 @sxzz</strong></p>
+<ul>
+<li><strong>Grok Bot 替他打通 IRS 电话</strong>：IRS 电话一直打不进，他让 Grok Bot 周一早 7 点开始自动拨，打了 5 次，最后一次自己找到留号回拨的选项，7:40 他就接到 IRS 回电，打电话用的 Bland 也是 bot 自己注册的 <a href="https://x.com/sxzz/status/2112344654683492392">原帖</a></li>
+</ul>
+<p>看法：一个很具体的真实用例，跟你在用的产品是同一个，可以参考这种把烦人电话交出去的用法</p>
+<hr />
+<p><strong>Richie.L @HakWitTalk</strong></p>
+<ul>
+<li><strong>Claude Code 剪短视频</strong>：29 万粉 TikTok 博主现场演示，5 分钟素材丢给 Claude，15 秒出竖版广告，用 FFmpeg、Whisper、Python 本地处理。最值得抄的是把剪辑写成 TSV 文本，每一刀一行，改数字就能调，不过喜剧节奏还得人教 <a href="https://x.com/HakWitTalk/status/2112541225983283667">原帖</a></li>
+<li><strong>Anthropic 署名缩写不是 "动荡将至"</strong>：有人因为 Anthropic 一篇工程博客致谢全用缩写，联想到怕员工被针对，他翻了博客首页 25 篇，只有这篇这样写，其他报告仍署全名，判断是脑补成分大 <a href="https://x.com/HakWitTalk/status/2112407256071540883">原帖</a></li>
+</ul>
+<p>看法：第二条是少见的自己去核实再下结论，这种求证习惯加分</p>
+<hr />
+<p><strong>李志 | Rational Investing @LZRationalnvest</strong></p>
+<ul>
+<li><strong>OpenAI 冲 1.4 万亿估值</strong>：据路透社，OpenAI 在推约 300 亿美元新融资，想赶在 Anthropic 预计 11 月中旬 IPO 前锁定投资人，年化营收约 500 亿美元，年底目标 700 亿，3 月估值还是 8520 亿 <a href="https://x.com/LZRationalnvest/status/2112426179512971483">原帖</a></li>
+<li><strong>韩国 Elice 上市首日跌 32%</strong>：AI 数据中心公司，散户认购超 400 倍、有收入有利润，照样破发。他把它和 Firmus 撤回 IPO、AirTrunk 推迟上市、CoreWeave 回撤放在一起看，引用高盛的话，算力需求能指数增长，资本却跟不上 <a href="https://x.com/LZRationalnvest/status/2112420367751172293">原帖</a></li>
+</ul>
+<p>看法：两条放一起看，AI 一级市场还在抬价，二级市场已经开始挑剔</p>
+<hr />
+<p><strong>Galaxy_Chloe @KelseyDingMD</strong></p>
+<ul>
+<li><strong>SOXX 终结 9 连跌</strong>：标普涨 0.4%、纳指涨 1.1%，SOXX 涨 2%，她判断主要是上周跌最狠的超跌反弹，能否持续要看周三财报 <a href="https://x.com/KelseyDingMD/status/2112284069929320569">原帖</a></li>
+<li><strong>巴菲特 2008 年那句话</strong>：回应网友质疑，出自《纽约时报》专栏《Buy American. I Am.》，之后市场又跌了小半年，但从 2008 年 10 月到现在标普涨了 8 倍 <a href="https://x.com/KelseyDingMD/status/2112304402958823584">原帖</a></li>
+<li><strong>X 运营心得</strong>：评论、引用、收藏权重高，发帖后 30 到 60 分钟的互动速度决定能跑多远，她每天发 5 到 8 条，其中 2 到 3 条是扎实内容 <a href="https://x.com/KelseyDingMD/status/2112371531255042108">原帖</a></li>
+</ul>
+<p>看法：市场点评克制，不喊单，偏长期视角</p>
+<hr />
+<p><strong>Michelle @michelle_z21331</strong></p>
+<ul>
+<li><strong>大摩 Wilson 转多</strong>：摩根士丹利首席美股策略师 Michael Wilson 认为调整接近尾声，标普离高点只差约 2% 但很多个股已明显回调，优质公司开始领先，可能整理到 11 月，但这是买点不是熊市开端。她自己的态度是定投照旧 <a href="https://x.com/michelle_z21331/status/2112543137696522635">原帖</a></li>
+<li><strong>X 推荐算法两项调整</strong>：马斯克说算法会更准地预测用户在帖子上停留的时长，并训练了新的检索模型找用户愿意读完的内容，但没说长帖会不会更受推荐 <a href="https://x.com/michelle_z21331/status/2112375887752843742">原帖</a></li>
+</ul>
+<p>看法：信息转述为主但整理干净，投资TALK君 @TJ_Research 对 Wilson 的评价也可以参考，说他 23、24 年判断完全反了，但每次都有数据支撑 <a href="https://x.com/TJ_Research/status/2112570179955593720">原帖</a></p>
+<hr />
+<p><strong>硅谷居士 @SVScholar</strong></p>
+<ul>
+<li><strong>两周财报日历</strong>：SpaceX 10/20，特斯拉和 Meta 10/21，SK 海力士和 Visa 10/27，微软和谷歌 10/28，亚马逊、英特尔、礼来 10/29 <a href="https://x.com/SVScholar/status/2112428099010810014">原帖</a></li>
+<li><strong>情绪指标和 QDII 溢价</strong>：10 月 20 日市场情绪得分 20，处在极度恐慌区间。QDII 美股基金溢价仍在高位，国泰纳指 513100 约 19%，博时标普 513500 约 9% <a href="https://x.com/SVScholar/status/2112541323861610793">原帖</a></li>
+<li><strong>AI 基建和中国出口</strong>：他认为美国 AI 资本开支对中国出口贡献很大，如果美国放缓，中国出口多半跟着放缓 <a href="https://x.com/SVScholar/status/2112370338516570472">原帖</a></li>
+</ul>
+<p>看法：财报日历实用，QDII 溢价提醒对国内买美股基金的人有用，诗词类水帖可以跳过</p>
+<hr />
+<p><strong>小工具</strong>
+- <a href="https://x.com/abskoop/status/2112539703530635299">Mac.apk</a>，Apple Silicon Mac 上直接跑安卓 App，不起虚拟机，App 有独立窗口和 Dock 图标，目前 Alpha，要 macOS 26.4
+- <a href="https://x.com/xiaomovps/status/2112481721434427564">fx0</a>，Vercel 新出的自然语言生成交互网页工具，底层是 libfx，@xiaomovps 实测复杂页面两轮调整不到 30 秒
+- <a href="https://x.com/AI_Jasonyu/status/2112403006943535506">PaywallPro 付费墙库</a>，@AI_Jasonyu 从 2023 年开始存 App 付费墙，开源部分有 1400 多个 App，可看主推周付还是年付、改价历史
+- <a href="https://x.com/Pluvio9yte/status/2112562230768369937">Web 3D 拆解开源项目</a>，@Pluvio9yte 推荐，能把物品做成可旋转、可分层拆解的交互网页，适合做产品动效</p>
+<hr />
+<p><strong>推荐关注</strong>
+- <a href="https://x.com/dotey">宝玉 @dotey</a>，AI 技术解读的标杆，今天把 DeepInfer 讲得最透，还有自己做产品的一手踩坑经验
+- <a href="https://x.com/lxfater">铁锤人 @lxfater</a>，专注 AI 落地和个人 agent，讲成本和数据打通很实在，没有空话</p></body></html>

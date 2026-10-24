@@ -1,0 +1,113 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>中文推特圈精选｜10月21日（上海时间）</title><style>body{max-width:760px;margin:2em auto;padding:0 1em;font:16px/1.7 -apple-system,'PingFang SC','Noto Sans CJK SC',sans-serif;color:#222}a{color:#1d6fd6}hr{border:0;border-top:1px solid #ddd;margin:1.5em 0}nav{font-size:14px;margin-bottom:1em}</style></head><body><nav><a href="../index.html">全部订阅</a> · <a href="index.html">中文推特圈每日精选 往期</a></nav><p><strong>中文推特圈精选｜10月21日（上海时间）</strong></p>
+<p><strong>今日主线</strong>
+1. PHP 爆出两个免登录接管服务器的漏洞，AI 参与发现，加上印度 CA 用个位数当私钥，安全圈一天两件大事
+2. SpaceX Q3 财报 AI 收入暴涨 830%，还和特斯拉成立合并特别委员会，中文投资圈都在算短租算力这笔账
+3. DeepSeek Harness 插件生态、Codex 桌面版幕后、多端原生开发，开发者在聊的是工作流怎么搭</p>
+<hr />
+<p><strong>宝玉 @dotey</strong></p>
+<ul>
+<li><strong>PHP2Shell 怎么应对</strong>：PHP 官方 21 日紧急发布 8.5.12、8.4.27、8.3.36、8.2.35，修两个免登录远程执行漏洞，PHP 5.4 以来的版本基本都受影响，mod_php 风险最高。自己管服务器的立刻升级，用虚拟主机的去问主机商，Cloudflare 的拦截规则只是临时挡一下。漏洞由 Calif 用 GPT-5.6 Sol 在 OpenAI 的 Patch the Planet 计划里找到，原定 22 日公开，因 Hacker News 提前泄露改到 21 日，攻击已经开始 <a href="https://x.com/dotey/status/2112934529916616991">原帖</a></li>
+<li><strong>Codex 桌面版是怎么来的</strong>：读 Every 的《How Codex Happened》，Tibo 和 Andrew Ambrosino 没有 Fork VS Code，而是照聊天软件做，左边任务右边对话，最冒险的是不放代码编辑器。一开始内部没人主力用，直到 GPT-5.1-Codex-Max 和 5.2 出来，2 月 Codex 应用在 OpenAI 内部流行，Brockman 说回到老工作流像穿越回过去 <a href="https://x.com/dotey/status/2112751585671409696">原帖</a></li>
+<li><strong>AI 做的页面都一个样</strong>：他觉得 Claude 这类前沿模型默认就会用 shadcn/ui，不用刻意提示，结果大家做出来千篇一律。Claude Design 的思路是先导入或做一套设计系统，PPT、网页、视频都用它，他自己直接用 Adobe 的设计系统 <a href="https://x.com/dotey/status/2112598829870575718">原帖</a></li>
+<li><strong>开源便宜了闭源会不会没钱</strong>：转述 fin 的 AI 半导体推演第 4 篇，结论是不会，每代芯片同样的电多产一倍 token，1GW 数据中心跑旗舰模型一年能卖 800 亿美元，硬件摊销约 80 亿。开源占 token 用量 20% 以上，但按花的钱只占 5% 到 10% <a href="https://x.com/dotey/status/2112758776432304188">原帖</a></li>
+</ul>
+<p>看法：PHP 那篇是昨天中文圈最完整的一份处置指南，该做什么写得很清楚，值得转给管网站的朋友</p>
+<hr />
+<p><strong>歸藏 @op7418</strong></p>
+<ul>
+<li><strong>安全圈两件大事</strong>：一是印度某证书颁发机构的私钥弱到离谱，有一个就是数字 4，其余是 56、66、115 这种，多次审计没发现，Chrome 和 Firefox 几小时内拉黑，8 个私钥已全部吊销。浏览器端已安全，非浏览器场景要自己排查。二是 PHP 漏洞，荷兰议会、芬兰政府网站、Pixiv 都临时关站，OpenAI 还说已经发现更多同等规模的漏洞 <a href="https://x.com/op7418/status/2112931729547936037">原帖</a></li>
+<li><strong>AI 给电视去广告教程</strong>：前一天发的电视去广告项目很火，评论区问题多，他补录了一个详细教程视频 <a href="https://x.com/op7418/status/2112835248870592903">原帖</a></li>
+</ul>
+<p>看法：CA 私钥这件事中文圈讲得少，他用一句话讲清了影响范围，非浏览器那句提醒很实用</p>
+<hr />
+<p><strong>Tw93 @HiTw93</strong></p>
+<ul>
+<li><strong>Mole Windows 版的技术栈</strong>：Mac 版是 Swift + SwiftUI，Windows 版直接用 C# + WinUI 3 跑在 .NET 10 上，运行时打包进安装包，x64 和 ARM64 各出原生包，更新用开源的 Velopack。他让 AI 分析过，十几万行 Swift 里能脱离系统框架复用的不到 20%，所以基本从零写 <a href="https://x.com/HiTw93/status/2112915889523941780">原帖</a></li>
+<li><strong>复用规则而不是代码</strong>：颜色、字号、间距、圆角这些设计 token 用脚本从 Swift 生成 XAML 资源，11 种语言文案也一起转。每次同步记下对应 Mac 哪个提交，再用一份 SYNC.md 当对账表，标清哪些已实现、哪些刻意不同。他的结论是代码抽象没那么重要了，规则抽象更重要 <a href="https://x.com/HiTw93/status/2112915889523941780">原帖</a></li>
+<li><strong>Windows 签名的坑</strong>：微软 Azure Artifact Signing 每月 9.99 美元，但个人只开放给美国和加拿大开发者，私钥必须放 HSM，单张证书最长 460 天。他最后买了 Certum 云端 OV 证书，3 年 300 多美元，每次发版还要把安装包提交微软恶意软件分析门户慢慢攒 SmartScreen 信誉 <a href="https://x.com/HiTw93/status/2112915889523941780">原帖</a></li>
+</ul>
+<p>看法：多端选型系列第二篇，比第一篇更落地，SYNC.md 对账的做法用 AI 写双端的人可以直接抄</p>
+<hr />
+<p><strong>Galaxy_Chloe @KelseyDingMD</strong></p>
+<ul>
+<li><strong>欧洲倒退了</strong>：和法国英国朋友聊下来感受一样，物价涨、工作难找，有朋友在办退英国籍回中国。她引了德拉吉报告，过去 50 年欧洲没诞生一家市值超千亿美元的新公司，创新投资每年缺口约 8000 亿欧元，法国债务占 GDP 三年从 109.5% 涨到 119%，利息占 GDP 2.2% <a href="https://x.com/KelseyDingMD/status/2112612673015968169">原帖</a></li>
+<li><strong>Netflix 财报</strong>：营收 128.7 亿达线，EPS 0.87 超预期，营业利润率 34.6%，但盘后跌近 7%，广告收入目标从 30 亿下调到 27 亿。更深的问题是时长，尼尔森数据 YouTube 占美国家庭电视时间 14.2%，Netflix 只有 7.8% <a href="https://x.com/KelseyDingMD/status/2112642992226078856">原帖</a></li>
+<li><strong>新版 FSD 被吐槽</strong>：身边四个朋友都说新版不如上一版，换错车道、最后关头猛打方向，修好 A 问题 B 问题又回来，大家的总结是车主在给 Robotaxi 当训练数据 <a href="https://x.com/KelseyDingMD/status/2112671017743335457">原帖</a></li>
+</ul>
+<p>看法：观点鲜明数据也给到了，Netflix 那条把对手从流媒体换成创作者，角度不错</p>
+<hr />
+<p><strong>投资TALK君 @TJ_Research</strong></p>
+<ul>
+<li><strong>SpaceX 押注短租算力</strong>：SpaceX 把算力几乎全部做成按需短租，盘后上涨，而市场在杀已经用中长期合同锁利润的新云。他的判断是需求一旦出问题，先受伤的一定是 SpaceX，老马在走钢丝 <a href="https://x.com/TJ_Research/status/2112659968562524512">原帖</a></li>
+<li><strong>10GW 短租撑得住吗</strong>：引 SemiAnalysis 明年 50GW 算力上线，假设 SpaceX 占 20% 也就是 10GW 全部短租，现在短租价是中租的 1 到 1.5 倍是因为长租溢出。如果这样还能持续涨价、6 个月回本，那就说明英伟达芯片卖便宜了 <a href="https://x.com/TJ_Research/status/2112735763464863981">原帖</a></li>
+<li><strong>对模型公司的含义</strong>：如果明年底 SpaceX 卖算力 ARR 真能做到 1 万亿美元，按 50% 毛利倒推，两家模型公司营收要到 2 万亿 ARR，是现在的 10 倍以上，他自己也说是模糊正确的估算 <a href="https://x.com/TJ_Research/status/2112665569551855750">原帖</a></li>
+</ul>
+<p>看法：比喊涨的帖子冷静很多，把短租逻辑和新云的关系讲透了</p>
+<hr />
+<p><strong>Lucy L. @LucyBuilding</strong></p>
+<ul>
+<li><strong>SpaceX 电话会要点</strong>：AI 业务单季 75.6 亿美元，接近上季 3 倍，其中含 Cursor 约 6.08 亿美元并表。算力续约价还在涨，新部署回收期不到一年，算力目标年底 2.5 到 3GW、明年底约 13GW，Q3 资本开支 196 亿，Q4 预计 350 亿到 400 亿。她的跟踪方向是 VST、CEG 电力，GEV 燃机电网，VRT 散热 <a href="https://x.com/LucyBuilding/status/2112756683470508149">原帖</a></li>
+<li><strong>Meta 财报前瞻</strong>：收入偏乐观，倾向靠近 610 到 640 亿指引上沿，但 9 月因 Muse 已经涨了约 27%。Muse 9 月才推出，不该指望它在 Q3 贡献大量收入，比较 EPS 时要先确认是否含约 100 亿美元法律费用 <a href="https://x.com/LucyBuilding/status/2112932359872172385">原帖</a></li>
+</ul>
+<p>看法：数字扎实，还提醒了法律费用这种容易被误读的细节，是这批投资号里最专业的一个</p>
+<hr />
+<p><strong>小墨同学 @xiaomovps</strong></p>
+<ul>
+<li><strong>DeepSeek Harness 插件清单</strong>：推荐五个插件，dshmarket 插件市场一键安装，billion-context 把长对话分层压缩还能找回细节，dsh-ops 给 Windows 补 Bash 和 PowerShell 7，dsh-free-search 支持 Bing、DuckDuckGo、SearXNG 自动回退，dsh-better-sidebar 把文件编辑、终端、Git、Diff Review 整合到一起 <a href="https://x.com/xiaomovps/status/2112840223227089396">原帖</a></li>
+<li><strong>Oh My Pi 走在 Pi 前面</strong>：OMP 的 Browser Relay 能直接接管已经打开的 Chrome 标签页，Subagent 并行配独立 Worktree，还加了 DeepSeek Search API。Hashline 用带锚点的格式让模型只改具体位置，不重写大段代码 <a href="https://x.com/xiaomovps/status/2112784288030794092">原帖</a></li>
+<li><strong>Pi 社区的 GUI</strong>：社区开始给 Pi 做各种图形界面，比如 Morse 提供 VS Code 和浏览器双端 UI，保留原本的 Agent 能力 <a href="https://x.com/xiaomovps/status/2112757422758797707">原帖</a></li>
+</ul>
+<p>看法：一手折腾记录，插件介绍到具体用途，想上手 DeepSeek Harness 的可以照着装</p>
+<hr />
+<p><strong>雪踏乌云 @Pluvio9yte</strong></p>
+<ul>
+<li><strong>用 Opus 5.5 做《桃花源记》游戏</strong>：五幕对着原文写策划，Codex 出概念图，角色三视图丢进 ViggleAI 的 PINOC 生成带骨骼的 3D 高斯泼溅角色，PINOC MCP 接进 Claude Code 让 Claude 自己调。最关键是固定机位截图和《小王子》并排对比，溪畔桃林一个场景就迭代了八轮 <a href="https://x.com/Pluvio9yte/status/2112833515037610354">原帖</a></li>
+<li><strong>MemT 1.0 把记忆做进模型</strong>：MemOS 团队原本做外挂记忆，这次推出 MemT 1.0，把记住、改错、更新经验放进模型计算里，官方内测 Coding 和 Working 场景提升 5% 以上，权重在 Hugging Face。铁锤人 @lxfater 也同步介绍了这个模型，两边都 @ 了官方 <a href="https://x.com/Pluvio9yte/status/2112702909565587829">原帖</a></li>
+<li><strong>Claude Max 送 API 额度</strong>：Max 5x 每月送 100 美元，20x 送 200 美元，Team 按席位最多 500 美元，Pro 没有，可以拿来跑 Agent SDK 或 Batch API <a href="https://x.com/Pluvio9yte/status/2112866260967096805">原帖</a></li>
+</ul>
+<p>看法：游戏那条流程完整可复现，MemT 那条更像合作推广，数据要等第三方验证</p>
+<hr />
+<p><strong>向阳乔木 @vista8</strong></p>
+<ul>
+<li><strong>X 插件对付 AI 评论</strong>：用 Jev 模型识别 AI 评论，支持人工标注拉黑，还能看精确关注数、是否互关、一键发布 X 文章、导出书签为 Markdown，GitHub 免费开源 <a href="https://x.com/vista8/status/2112798672694214960">原帖</a></li>
+<li><strong>All-In 播客中文站</strong>：继 Lex Fridman 中文站之后做了 All-In，顺带讲了来历，2020 年疫情期间四个牌友 Chamath、Jason、Sacks、Friedberg 把牌桌聊天搬到线上，名字取自扑克的全押 <a href="https://x.com/vista8/status/2112892240746164225">原帖</a></li>
+<li><strong>RSS 插件加播客转写</strong>：乔木 AI RSS 的 Obsidian 插件新增 5 个海外顶流 AI 播客的文字转写 <a href="https://x.com/vista8/status/2112915102366380276">原帖</a></li>
+</ul>
+<p>看法：持续在做把英文内容搬成中文可读的工具，对不想听播客的人很友好</p>
+<hr />
+<p><strong>酱紫表 @pengchujin</strong></p>
+<ul>
+<li><strong>UU 远程管所有 Agent</strong>：他觉得 UU 远程比 Claude 和 Codex 自带远程好用很多，一个工具搞定所有 Agent，国内网络稳定手机不用挂代理，电脑锁屏也能连上，配合手机语音输入效率高，并说明没有恰饭 <a href="https://x.com/pengchujin/status/2112782689283822023">原帖</a></li>
+<li><strong>AI 时代网站又重要了</strong>：AI 开发 Web 方便，AI 从网站取信息也方便，App 反而不行 <a href="https://x.com/pengchujin/status/2112585402729341263">原帖</a></li>
+<li><strong>新项目一天破千 Star</strong>：他的 Aerial 项目不到一天突破 1000 Star <a href="https://x.com/pengchujin/status/2112791586962829673">原帖</a></li>
+</ul>
+<p>看法：短平快的实用经验，远程控制 Agent 这个需求正在变成刚需</p>
+<hr />
+<p><strong>Andy Stewart @manateelazycat</strong></p>
+<ul>
+<li><strong>rime-ice-installer 进了 Omarchy</strong>：他的输入法安装器被 DHH 的 Omarchy 内置，词库是雾凇拼音，大模型用万象，候选词面板和翻页都配好了，兼容 GTK、QT、Wayland、X11 <a href="https://x.com/manateelazycat/status/2112723851616625007">原帖</a></li>
+<li><strong>DeepSeek 1017 本地提速</strong>：用 DeepInfer 优化一晚，单流解码到 56 TPS，后来实战写代码接近 100 TPS <a href="https://x.com/manateelazycat/status/2112797343989023041">原帖</a></li>
+<li><strong>Light OS 做 Agent 监控</strong>：嫌 herdr 移动端适配差，懒猫微服的 Light OS 会在 PC 端做类似功能，内网主机上能实时看所有 Agent 的工作状态 <a href="https://x.com/manateelazycat/status/2112802690334142680">原帖</a></li>
+</ul>
+<p>看法：DeepInfer 开源后第一批真跑起来并给数字的人之一，比复述新闻有价值</p>
+<hr />
+<p><strong>李志 @LZRationalnvest</strong></p>
+<ul>
+<li><strong>美国云居民四大基础设施</strong>：美国手机号推荐 Tello、US Mobile，地址用 Anytime Mailbox 收件扫描转寄，长期在国内用美国金融服务要稳定的住宅 IP，再加 ITIN 个人税号，之后再逐步开银行账户、办第一张信用卡、攒信用 <a href="https://x.com/LZRationalnvest/status/2112873648126328936">原帖</a></li>
+<li><strong>Capital One 开户图文版</strong>：没有 SSN，只有 ITIN 加中国护照，预审批被拒后再申请通过，一共 6 天，整理成了可以对照的步骤 <a href="https://x.com/LZRationalnvest/status/2112883412147343856">原帖</a></li>
+</ul>
+<p>看法：清单清楚实操性强，带 refer 有一点推广味，但内容本身站得住</p>
+<hr />
+<p><strong>小工具</strong></p>
+<ul>
+<li><strong>phonon-31m-en</strong>：Gradium 的英文 TTS，模型只有 64.5MB，不用显卡，手机和浏览器里能流式朗读，可商用，via 新账号 Gorden Sun <a href="https://x.com/Gorden_Sun/status/2112730896474481111">原帖</a></li>
+<li><strong>OrcaCyber-Nano-1.0</strong>：27B 开源网络安全模型，本地运行，能做反编译、漏洞分析，还能识别网络拓扑截图 <a href="https://x.com/Gorden_Sun/status/2112834702881226948">原帖</a></li>
+<li><strong>Topview T1 视频模型</strong>：鱼总聊AI 算的账，30 秒 1080P 约 6.6 美元，Seedance 2.5 官方价约 17.55 美元，便宜 62%，帖子 @ 了官方，带推广性质 <a href="https://x.com/AI_Jasonyu/status/2112921893355291011">原帖</a></li>
+<li><strong>京东领 Apple Music</strong>：酱紫表分享京东又能免费领 Apple Music 会员 <a href="https://x.com/pengchujin/status/2112578307694989771">原帖</a></li>
+</ul>
+<hr />
+<p><strong>推荐关注</strong></p>
+<ul>
+<li>Gorden Sun <a href="https://x.com/Gorden_Sun">@Gorden_Sun</a>：只发 AI 相关，自己维护的 AI 资讯日报连续日更 3 年，开源模型和工具发现得快，一条一个干货</li>
+<li>思维怪怪 <a href="https://x.com/0xLogicrw">@0xLogicrw</a>：AI 行业快讯写得像新闻稿，融资、模型、安全事件都有，dsh-our-free-model 收到可疑律师函那条把时间线核对得很细</li>
+</ul></body></html>

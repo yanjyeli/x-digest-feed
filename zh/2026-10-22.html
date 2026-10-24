@@ -1,0 +1,125 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>中文推特圈精选｜10月22日（上海时间）</title><style>body{max-width:760px;margin:2em auto;padding:0 1em;font:16px/1.7 -apple-system,'PingFang SC','Noto Sans CJK SC',sans-serif;color:#222}a{color:#1d6fd6}hr{border:0;border-top:1px solid #ddd;margin:1.5em 0}nav{font-size:14px;margin-bottom:1em}</style></head><body><nav><a href="../index.html">全部订阅</a> · <a href="index.html">中文推特圈每日精选 往期</a></nav><p><strong>中文推特圈精选｜10月22日（上海时间）</strong></p>
+<p><strong>今日主线</strong>
+1. DeepSeek 传出约 1000 亿元新融资，Recursive 开源本地编程模型 Flint，中文 AI 圈一边聊钱一边聊本地跑模型
+2. Meta 和特斯拉财报后美股科技、半导体回调，A 股港股同步走弱，投资号分成喊加仓和冷静拆数字两派
+3. Claude 封号又来一波，Claude Duet 和各家 personal agent 上线，怎么配 Agent 成了日常话题</p>
+<hr />
+<p><strong>宝玉 @dotey</strong></p>
+<ul>
+<li><strong>DeepSeek 约 1000 亿元融资</strong>：彭博 21 日独家报道，DeepSeek 新一轮融资约 1000 亿元人民币（约 150 亿美元），腾讯和宁德时代出钱最多，公司还没官方确认。起初只打算融 500 亿元，谈的过程中先加到 800 亿再到 1000 亿，这是半年内第二次融资，6 月那轮约 510 亿元。据《财经》报道，投前估值约 5000 亿元，已请中信证券筹备科创板上市，目标 2027 年挂牌 <a href="https://x.com/dotey/status/2113124395321360646">原帖</a></li>
+<li><strong>怎么查 TTS 读错多音字</strong>：分享一个方法，把 TTS 音频交给 Kaldi 做语音识别，但不看识别出的汉字，而是读解码路径上的音素序列，再和目标字的正确读音逐项比对，人工试听靠不住也没法规模化，这个办法能批量判定 TTS 到底读了什么音 <a href="https://x.com/dotey/status/2113111603650474251">原帖</a></li>
+<li><strong>1Password 给 Agent 共享密码</strong>：一开始以为 1Password 出事了，其实是新功能，可以把密码共享给 Agent。他的态度是部分网站可以给，主要几个账号还是不放心 <a href="https://x.com/dotey/status/2113291134265115101">原帖</a></li>
+</ul>
+<p>看法：融资那条把三个数字的来历和两轮融资的对比讲得很清楚，比转一句传闻有用得多</p>
+<hr />
+<p><strong>思维怪怪 @0xLogicrw</strong></p>
+<ul>
+<li><strong>沃尔玛向 AI Agent 开门</strong>：沃尔玛推出 Walmart Agent Gateway，通过 MCP 让 ChatGPT、Gemini、Meta Muse 等第三方 Agent 直接搜商品下单，不用再模拟点网页过验证码。11 月上线的 Agent Profiles 相当于给每个 Agent 开单独购物账户，可设 50、100、200 美元限额或逐单审批，Agent 拿不到银行卡信息，价格和真人一样。对比亚马逊起诉 Perplexity、9 月封堵 Meta Muse，路线完全相反 <a href="https://x.com/0xLogicrw/status/2113184451199180918">原帖</a></li>
+<li><strong>Anthropic 越值钱越亏</strong>：招股书草案显示 2026 上半年营收从 11 亿美元涨到 163 亿，净亏损却从 130 亿扩大到 807 亿美元，其中 720 亿来自可转换票据等融资工具的会计重估，估值越涨账面亏得越多。真正在涨的是算力，上半年基础设施投入近 90 亿美元，另有超过 6000 亿美元未来云和芯片合同 <a href="https://x.com/0xLogicrw/status/2113189627247112398">原帖</a></li>
+<li><strong>Recursive 的 Flint 和豪华团队</strong>：今年 5 月融资 6.5 亿美元的 Recursive 交出第一款模型 Flint，总参数约 400 亿、每次激活 25 亿，专为本地编程 Agent 设计。8 位联合创始人包括 ViT 第一作者 Dosovitskiy、田渊栋、前 OpenAI Codex 负责人 Josh Tobin 等，模型架构和训练都用了他们的自动化研究系统 Eureka Machine。在 48GB 的 M4 Pro 上综合得分约 81%，略低于 Qwen3.8 27B 的 85%，但长上下文生成速度接近后者 7 倍 <a href="https://x.com/0xLogicrw/status/2113207463898128618">原帖</a></li>
+<li><strong>Muse 六周 1000 万用户</strong>：Meta 电话会披露，Muse 上线约 6 周在美加有超过 1000 万人开通，约 25% 每天使用，购物是最热门用途 <a href="https://x.com/0xLogicrw/status/2113221612866883947">原帖</a></li>
+</ul>
+<p>看法：快讯写得像短新闻，背景和对比都带上了，就是同一条经常发两三遍，看的时候要自己去重</p>
+<hr />
+<p><strong>小墨同学 @xiaomovps</strong></p>
+<ul>
+<li><strong>Pi 和 DeepSeek Harness 的区别</strong>：Pi 核心尽量简单，Subagent、权限、工作流靠 Extension 和 Skills 补；DSH 走一切皆插件，连 Model Adapter、Session Storage 甚至 Agent Loop 都能换，但还在 Developer Preview。他引的一组独立测试里，同样用 GPT-6 Astra，在特定 Terminal-Bench 子集上 Pi 60.32%、DSH 52.38%，结论是 Harness 越复杂不等于越好 <a href="https://x.com/xiaomovps/status/2113181138445533579">原帖</a></li>
+<li><strong>同模型 Token 差 46 倍</strong>：用 DeepSeek V4 Flash、High 思考强度、同一个鹈鹕骑自行车提示词，分别在两个 Harness 里跑，Token 消耗差了 46 倍，追问下去发现 Pi 只跑了 3 轮，DSH 跑了 28 轮 <a href="https://x.com/xiaomovps/status/2113257563831804057">原帖</a> <a href="https://x.com/xiaomovps/status/2113283228467622362">续篇</a></li>
+<li><strong>别忘了容器里的 Node</strong>：PHP 之外 Node.js 这次一口气修了 10 个漏洞，修复版本是 22.23.4、24.22.1、26.12.1，Node 20 已停止支持。他用 Claude Code 排查自己的机器，发现 Nginx Proxy Manager 容器里还是 Node 20，升不了就直接换成 Caddy，提醒只升宿主机不够 <a href="https://x.com/xiaomovps/status/2113123111478694201">原帖</a></li>
+<li><strong>用 OpenCode Go 降 API 成本</strong>：DSH 接官方 API 太贵，可以在设置里接 OpenCode Go 套餐，他说 10 美元能用到 80 美元的 DeepSeek V4 Flash 额度，另外还有几个免费模型 <a href="https://x.com/xiaomovps/status/2113199599854989730">原帖</a></li>
+</ul>
+<p>看法：自己动手做对比测试，Harness 影响成本这个结论很值得记住，换工具前先测一轮</p>
+<hr />
+<p><strong>雪踏乌云 @Pluvio9yte</strong></p>
+<ul>
+<li><strong>他的 personal agent 配置</strong>：分四个 Bot，出海站点运营负责监控新词、流量、每天上外链并汇报收入；自媒体运营监控热点和喜欢的博主，审小红书和抖音的流量；每周 AI 大事总结从 X 上汇总；计划清单 Bot 会对没完成的事反复定时提醒，比只设截止时间的清单 App 好用。他说现在基本不刷推了，靠 Bot 推送筛好的博主 <a href="https://x.com/Pluvio9yte/status/2113065297284599924">原帖</a></li>
+<li><strong>AI 做游戏工具清单</strong>：策划用 Claude 或 Gemini 整理成 GDD.md，写代码用 Claude Code、Codex，给 Agent 装 gamedev-skills、Game Creator、threejs-game-skills 这类技能包。2D 图用 Nano Banana、GPT Image，3D 用 Tripo、Meshy 生成再用 Blender 修，动作去 Mixamo，音乐 Suno，音效和配音用 ElevenLabs 或豆包火山 <a href="https://x.com/Pluvio9yte/status/2113116886808334715">原帖</a></li>
+</ul>
+<p>看法：两条收藏量都破了四五百，游戏清单从策划到配音一条龙，拿来就能照着搭</p>
+<hr />
+<p><strong>Galaxy_Chloe @KelseyDingMD</strong></p>
+<ul>
+<li><strong>四份财报一览</strong>：Lam Research 营收 82.2 亿美元创新高、同比增 54%，全面超预期却盘后跌 5.8%；德州仪器全面超预期涨 0.8%；Meta 营收 646 亿、同比增 26%，含 99 亿美元一次性法律费用，盘后涨 4%；特斯拉营收微 miss，但自由现金流 15.3 亿美元远好于预期，FSD 北美新车搭载率超 75%、活跃订阅 174 万，盘后涨 2%。她的总结是财报和股价之间没有公式 <a href="https://x.com/KelseyDingMD/status/2113013804875604323">原帖</a></li>
+<li><strong>海军 JAG 这条路</strong>：邻居家老大杜克法学院毕业去海军当 JAG，三年学费就要 25 万美元。JAG 入伍即军官，住房伙食补贴免税，医疗全包，学贷走 PSLF 满 10 年可减免，续服还有最高 11 万美元奖金，对很多家庭是不错的出路 <a href="https://x.com/KelseyDingMD/status/2113036976664539246">原帖</a></li>
+<li><strong>油价和加息</strong>：中期选举前看不到降级可能，油价会维持高位，市场可能已经把油价站上 110 美元和美联储 12 月加息挂上钩 <a href="https://x.com/KelseyDingMD/status/2113287280463102088">原帖</a></li>
+</ul>
+<p>看法：财报那条一页纸看完四家，数字齐全，JAG 那条是生活里抠出来的好素材</p>
+<hr />
+<p><strong>投资TALK君 @TJ_Research</strong></p>
+<ul>
+<li><strong>特斯拉财报扫一眼</strong>：毛利率 19.6% 对比预期 17.8%，运营费用 48 亿对比预期 44 亿，综合下来运营利润小超预期，FSD 搭载率 75% 是亮点 <a href="https://x.com/TJ_Research/status/2113012552934342835">原帖</a></li>
+<li><strong>为什么数据中心不放特斯拉</strong>：很多特斯拉股东不满这次电话会，也有人问为什么数据中心不在特斯拉做。他的看法是未来两三年特斯拉投资者会感谢马斯克把短租算力的赌注押在 SpaceX，而不是特斯拉 <a href="https://x.com/TJ_Research/status/2113066327397285992">原帖</a></li>
+<li><strong>滚动熊市里的情绪</strong>：标普离新高只跌了 1%，半导体年内还涨 70%（最高时 110%），情绪却低得可怕，他认为 7 月起美股就是滚动熊市。现在半导体硬件全被杀回 7 月位置，大科技也回调，但标普等权横盘，市场并没有因为宏观事件恐慌 <a href="https://x.com/TJ_Research/status/2113168250431312371">原帖</a> <a href="https://x.com/TJ_Research/status/2113290346415165447">补充</a></li>
+</ul>
+<p>看法：财报解读够快，盘面判断也给了等权指数这种依据，后面几条喊加仓的情绪帖可以略过</p>
+<hr />
+<p><strong>李志 @LZRationalnvest</strong></p>
+<ul>
+<li><strong>Meta 财报拆细</strong>：Q3 营收 646 亿美元，Q4 指引 730 亿到 760 亿，剔除约 99 亿和解费用后 EPS 7.40 美元。自由现金流 -22 亿，上市以来首次转负，资本开支指引上调到 1350 亿到 1450 亿。广告展示量增 10%、单价增 14%，但总成本费用涨 68%，营业利润率从 40% 掉到 20%，还准备发无投票权的 C 类股 <a href="https://x.com/LZRationalnvest/status/2113093064130798068">原帖</a></li>
+<li><strong>FSD 在中国</strong>：整理了马斯克电话会原话，正在非常努力争取在中国更广泛的 FSD 批准，确实很难，部分车辆已经能跑，并在积极和监管合作 <a href="https://x.com/LZRationalnvest/status/2113100021164089435">原帖</a></li>
+<li><strong>NextDC 单日跌 41.7%</strong>：澳洲数据中心运营商 NextDC 创上市以来最大单日跌幅，约 30 亿澳元市值蒸发，起因是墨尔本 M3 数据中心的扩张受阻，他认为这说明欧美不少人反对建数据中心 <a href="https://x.com/LZRationalnvest/status/2113149486877069566">原帖</a></li>
+<li><strong>跟美国机构打交道的小办法</strong>：英语不熟可以主动问有没有中文客服或普通话翻译，他这次去 Chase 网点开户就提前约了中文客户经理 <a href="https://x.com/LZRationalnvest/status/2113140038951387544">原帖</a></li>
+</ul>
+<p>看法：Meta 这条把现金流转负和利润率腰斩点出来了，比只报营收超预期的帖子更完整</p>
+<hr />
+<p><strong>硅谷居士 @SVScholar</strong></p>
+<ul>
+<li><strong>上证回到 20 年前</strong>：上证跌破 3700 点在 3670 附近，按过去 20 年人民币累计贬值约 50% 折算，相当于 2006 年的 2400 点，也就是 2006 年 11 月首次突破的位置 <a href="https://x.com/SVScholar/status/2113114567383699560">原帖</a></li>
+<li><strong>创业板四个月跌近 40%</strong>：创业板指年中高点以来近四个月跌近 40%，超过 2022 年熊市，快追平 2015 年杠杆牛破灭，沪深 300 连跌 11 周创纪录 <a href="https://x.com/SVScholar/status/2113152796015091829">原帖</a></li>
+<li><strong>Meta 未来承诺 8250 亿美元</strong>：Meta 监管文件披露，截至 9 月底已承诺的未来支出约 8250 亿美元，涵盖租约、云合同和数据中心，7 月时还是约 7000 亿，信用风险指标创新高 <a href="https://x.com/SVScholar/status/2113289045778587841">原帖</a></li>
+<li><strong>估值对比</strong>：英伟达市盈率跌破 27、前瞻 13，Meta 市盈率 22、前瞻 19，他称之为白菜价 <a href="https://x.com/SVScholar/status/2113295369182515366">原帖</a></li>
+</ul>
+<p>看法：数据型帖子不少，但同一条常发两遍，还夹着打油诗，挑数字看就好</p>
+<hr />
+<p><strong>Tw93 @HiTw93</strong></p>
+<ul>
+<li><strong>Kaku 可以远程用了</strong>：在 Mac 上运行 kaku remote 会生成一个链接，换台电脑或 iPad 用任意浏览器打开就能操作家里那台 Mac 的 Kaku，适合家里放一台性能好的 Mac、人在外面的场景 <a href="https://x.com/HiTw93/status/2113162522597724258">原帖</a></li>
+<li><strong>多端系列第三篇</strong>：前两篇聊了客户端技术选型和在 Mac 上开发 Windows 软件，这篇讲做客户端时怎么利用各种语言的特性把产品做得更好 <a href="https://x.com/HiTw93/status/2113276119860613209">原帖</a></li>
+<li><strong>推荐一期长访谈</strong>：推荐小珺和曾鸣聊 AI 时代的产业观和组织升级，说最近很喜欢这种有人味的长访谈 <a href="https://x.com/HiTw93/status/2113224237070889019">原帖</a></li>
+</ul>
+<p>看法：多端系列持续更新，Kaku remote 是很实用的小功能，用 Kaku 的可以试试</p>
+<hr />
+<p><strong>岚叔 @LufzzLiz</strong></p>
+<ul>
+<li><strong>新开 Claude 账号的支付流程</strong>：先 30 秒注册美区 Apple ID，在 Claude App 买会员时新 ID 会提示购买失败，直接申诉并附上一段说明礼品卡已兑换但购买失败的英文，三天内会收到邮件，之后就能付款。他选 20 美元档起步，没触发 KYC <a href="https://x.com/LufzzLiz/status/2113100866492502498">原帖</a></li>
+<li><strong>Claude Duet 能做什么</strong>：基于 Opus 5.5 的主动式助理，每天发晨间简报、查邮箱日历，能通过 Gmail、Slack、QuickBooks、Stripe 等处理业务，有自己的云端虚拟机。限制也不少，几小时查一次不是实时，后台任务共用订阅额度，付款签署前要确认，证券交易和转账不能做，目前只有美国 Pro 和 Max 能排队 <a href="https://x.com/LufzzLiz/status/2113063943367545133">原帖</a></li>
+<li><strong>封号潮</strong>：同一天图拉鼎 @tualatrix 说自己的 Claude 账号刚被封，索性放假陪女儿出门，铁锤人 @lxfater 也说被封了，感叹探测手段厉害 <a href="https://x.com/tualatrix/status/2113068990792904977">图拉鼎原帖</a></li>
+</ul>
+<p>看法：Duet 那条把容易漏看的限制都列了，比官方宣传更值得看，支付流程属于个人经验，能不能复现要看运气</p>
+<hr />
+<p><strong>歸藏 @op7418</strong></p>
+<ul>
+<li><strong>PokeBonk 火了</strong>：有人做了宝可梦版《吸血鬼幸存者》，扮演宝可梦在地图里自动打怪升级，打完 Boss 进下一张图，玩家很多国内也火，他好奇任天堂会怎么看 <a href="https://x.com/op7418/status/2113134055680262324">原帖</a></li>
+<li><strong>把 Codex 接到电视上</strong>：接着前几天的电视项目，他把 Codex 连到电视上，可以直接对着电视和它聊天 <a href="https://x.com/op7418/status/2113101644334551095">原帖</a></li>
+<li><strong>影视飓风出海</strong>：影视飓风也开始做海外内容，他觉得画质吊打海外数码测评，但现在的视频看完只记得转场和样片，测评不像测评，反而更喜欢何同学的新片 <a href="https://x.com/op7418/status/2113193055922921619">原帖</a></li>
+</ul>
+<p>看法：选题偏好玩和内容观察，影视飓风那条观点直接，和 Anita 说的出海是唯一出路正好互相对照</p>
+<hr />
+<p><strong>Richie.L @HakWitTalk</strong></p>
+<ul>
+<li><strong>Claude Code 2.1.304 该升级的几条</strong>：76 条更新里 43 条修 bug，最该升的是用 --worktree 时如果 HEAD 分离或切到别的分支，退出会不问就删掉工作树和分支，没合并的提交可能丢。rm -r 删挂载盘顶层目录现在会弹确认，恢复很久以前的对话如果要吃掉一大块 5 小时额度也会先问你 <a href="https://x.com/HakWitTalk/status/2113078447086195199">原帖</a></li>
+<li><strong>Claude 修好 20 年前的压缩包</strong>：Reddit 网友 90 年代在伦敦开过 Amiga BBS，旧硬盘打包成 7z 后坏了，二十多年打不开。Claude 第一次磨了两天认输，换更强模型 10 分钟找到病根，一个字节错位，文件其实都没坏，现在 BBS 在树莓派上重新上线。他也指出标题的 30 年有水分 <a href="https://x.com/HakWitTalk/status/2113093261028139436">原帖</a></li>
+</ul>
+<p>看法：更新日志挑重点讲后果，比贴原文有用，平时刷屏帖偏多，但这两条质量不错</p>
+<hr />
+<p><strong>Gorden Sun @Gorden_Sun</strong></p>
+<ul>
+<li><strong>英伟达开源检索三件套</strong>：Nemotron 3.5 Parse 负责看懂图文文档，Embed 负责在海量图文里搜，Rerank 负责精细排序，复杂表格和折线图都能解析成结构化数据，加入重排后准确率明显提高，调用成本降低约 14% <a href="https://x.com/Gorden_Sun/status/2113114045591285817">原帖</a></li>
+<li><strong>Underdog Bark 3.0</strong>：163 MB 的语音转文字模型，苹果 M 系列上转 5 分钟音频只要半秒，英文会议场景错误率低于 Whisper，Clean 版会自动过滤嗯啊和口误，可惜只支持英文 <a href="https://x.com/Gorden_Sun/status/2113141081026224479">原帖</a></li>
+<li><strong>这两天漏洞清单</strong>：PHP RCE、Node.js、GitLab、LiteLLM、eMudhra CA、Railway，一天之内安全事件扎堆 <a href="https://x.com/Gorden_Sun/status/2113085000254165124">原帖</a></li>
+</ul>
+<p>看法：开源模型发现快，一条一个干货，漏洞清单那条适合拿来逐项自查</p>
+<hr />
+<p><strong>小工具</strong></p>
+<ul>
+<li><strong>Hoistbay</strong>：免费开源的 S3 客户端，支持 macOS 和 Windows，上传后能按规则自动设 Cache-Control 等 Header，省得来回切 AWS Console 清 CloudFront 缓存，via ahhhhfs <a href="https://x.com/abskoop/status/2113221689895202844">原帖</a></li>
+<li><strong>向阳乔木的 X 插件上架 Chrome</strong>：支持 AI 回复过滤、高级 X 搜索，自带 Markdown 编辑器和 AI 助手，写完直接发 X 文章 <a href="https://x.com/vista8/status/2113210728580857908">原帖</a></li>
+<li><strong>BetterStage</strong>：把 Mac 窗口当浏览器标签页管，新开窗口自动吸进标签队列，还能按提示词让 AI 整理窗口，思维怪怪说是从 AeroSpace 折腾配置里解脱出来 <a href="https://x.com/0xLogicrw/status/2113171372872814839">原帖</a></li>
+<li><strong>Amp Orbs 支持自托管</strong>：Agent 的开发环境可以部署到自己的 Mac、Docker 或 Kubernetes，也支持 E2B、Modal、Vercel 沙箱 <a href="https://x.com/0xLogicrw/status/2113279073862701474">原帖</a></li>
+<li><strong>开源紫微斗数排盘引擎</strong>：基于 Next.js 和 iztro，附 1950 到 2026 年 67.5 万张命盘的数据集，本地可跑，via Gorden Sun <a href="https://x.com/Gorden_Sun/status/2113124936911065172">原帖</a></li>
+</ul>
+<hr />
+<p><strong>推荐关注</strong></p>
+<ul>
+<li>小墨同学 <a href="https://x.com/xiaomovps">@xiaomovps</a>：连续两期入选，DeepSeek Harness 和 Pi 都是自己动手测，同模型换 Harness 的 Token 对比这种实测在中文圈不多见</li>
+</ul></body></html>
