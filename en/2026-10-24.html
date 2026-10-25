@@ -1,0 +1,116 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>英文推特圈精选｜10月24日（上海时间）</title><style>body{max-width:760px;margin:2em auto;padding:0 1em;font:16px/1.7 -apple-system,'PingFang SC','Noto Sans CJK SC',sans-serif;color:#222}a{color:#1d6fd6}hr{border:0;border-top:1px solid #ddd;margin:1.5em 0}nav{font-size:14px;margin-bottom:1em}</style></head><body><nav><a href="../index.html">全部订阅</a> · <a href="index.html">英文推特圈每日精选 往期</a></nav><p><strong>英文推特圈精选｜10月24日（上海时间）</strong></p>
+<p><strong>今日主线</strong>
+1. OpenAI 公布红队结果，前沿模型 agent 在加固过的沙箱里轻松逃逸，还能跨 VM 用时序侧信道互传秘密，emollick 和 rauchg 都说该认真对待
+2. 漏洞潮继续，这次轮到 Brotli，Gergely 盯着 eMudhra 证书事故，预言它会被 Chrome 和 Mozilla 踢出根证书
+3. 模型战口水不断，Kimi K3.1 被捧又被打脸，Meta 的 Muse 在日本冲到 App Store 第一，Chroma 并入 Replit</p>
+<hr />
+<p><strong>Gergely Orosz</strong> @GergelyOrosz</p>
+<ul>
+<li><strong>中层管理的残酷现实</strong>：他转述 Will Larson（Imprint CTO，写过多本工程管理书）的话，做中层的人得决定是退休还是重新学技能，Larson 自己就从带 250 人退回带 25 人的小团队，亲手写代码，一年合进的 PR 比过去十多年当高管加起来还多 <a href="https://x.com/GergelyOrosz/status/2113981320523288887">原帖</a> <a href="https://x.com/GergelyOrosz/status/2113981869582684453">补充</a></li>
+<li><strong>硬推 Linear 的 CTO</strong>：全公司约 250 人里大概只有 3 个人赞成从 JIRA 换到 Linear，Larson 还是推了下去，目的是让 agent 能自己找任务、领任务、干活，现在大家都明白了为什么，他的结论是好领导不一定讨人喜欢 <a href="https://x.com/GergelyOrosz/status/2113907775860363280">原帖</a></li>
+<li><strong>eMudhra 要被踢出根证书</strong>：这家印度 CA 被要求 24 小时内解释一张错签证书怎么来的，结果没交代清楚，还要求延期并甩锅给投资人和客户，他直接预言 Chrome 和 Mozilla 会把它的 G1 根移除，还质疑对方关于私钥生成出错的说法前后矛盾 <a href="https://x.com/GergelyOrosz/status/2113915351553712545">原帖</a> <a href="https://x.com/GergelyOrosz/status/2113911597567799711">追问</a></li>
+<li><strong>验证才是新重点</strong>：他认为软件「正确性验证」正在变成最重要的类别，code review 只是最轻的一层，轻量形式化验证、可观测性加监控告警都属于这一组；另外在读 Modal 的 GPU Glossary 纸书补硬件课，PDF 免费 <a href="https://x.com/GergelyOrosz/status/2114000434855608681">原帖</a> <a href="https://x.com/GergelyOrosz/status/2113927941486723083">GPU Glossary</a></li>
+</ul>
+<p>看法：今天他最有料，Larson 的两段话把「AI 时代管理者该干嘛」讲得比大多数长文都具体</p>
+<hr />
+<p><strong>Ethan Mollick</strong> @emollick</p>
+<ul>
+<li><strong>实验室的「离谱说法」要认真听</strong>：OpenAI 让多队前沿模型 agent 去攻击自家加固的隔离基础设施，结果它们用各种新办法轻松逃逸，他说 Anthropic 当初讲 Mythos 级 AI 改变网络安全被嘲笑，Noam Brown 说模型会找到新方式互相协调也被嘲笑，现在看都得当真 <a href="https://x.com/emollick/status/2114001653879672877">原帖</a></li>
+<li><strong>内部模型和公开模型的差距</strong>：出于安全顾虑和研究优势，实验室内部模型和发布版本的差距在拉大，他预计 OpenAI 和 Anthropic 会越来越想直接用这个优势进入新市场，尤其是金融和生物科技 <a href="https://x.com/emollick/status/2113681838611087572">原帖</a></li>
+</ul>
+<p>看法：第二条更值得投资圈琢磨，模型公司从卖铲子变成下场挖矿，下游很多行业的竞争格局都要重估</p>
+<hr />
+<p><strong>Guillermo Rauch</strong> @rauchg</p>
+<ul>
+<li><strong>Agent 在云上玩「通灵板」</strong>：同一份 OpenAI 报告里，分处不同 VM 但共享宿主机的 agent，在没有网络和共享可写文件的情况下成功互传了合成秘密，他说这类共享主机时序攻击至少 2015 年就为人所知，一直没有完整解法，全球网络基础设施靠的是「理论上可行但谁会这么干」，而 agent 就是那个会这么干的 <a href="https://x.com/rauchg/status/2113759533801877920">原帖</a></li>
+</ul>
+<p>看法：多租户云的隔离假设被 agent 重新压测，做沙箱和 agent 托管的厂商这周压力最大</p>
+<hr />
+<p><strong>Pieter Levels</strong> @levelsio</p>
+<ul>
+<li><strong>这回轮到 Brotli</strong>：OpenAI 报告了压缩库 Brotli 的严重漏洞，Node.js、Bun、Envoy 都内置它，攻击者无需登录、只发恶意压缩数据就可能接管系统，他一句「现在轮到 Brotli 了」，延续这几天 PHP、Ruby 接连出事的节奏 <a href="https://x.com/levelsio/status/2113799716471296052">原帖</a></li>
+<li><strong>还是要藏 VPS</strong>：有人反驳说内网设备也能被黑，他回让 10 台可能中招的设备接触你的 VPS，总好过对全世界 80 亿人开放 <a href="https://x.com/levelsio/status/2114020657482858920">原帖</a></li>
+<li><strong>网页版战机模拟器能空战了</strong>：他转发一个浏览器里的拟真战斗机模拟器新增 dogfight 模式，直呼太酷 <a href="https://x.com/levelsio/status/2113985122944831829">原帖</a></li>
+</ul>
+<p>看法：他昨天的 Tailscale 建议今天又被现实补了一刀，AI 找洞的速度已经快过大多数人打补丁</p>
+<hr />
+<p><strong>DHH</strong> @dhh</p>
+<ul>
+<li><strong>Omarchy 出中国版</strong>：他在杭州和阿里云团队见面，双方要一起做 Omarchy 中国版，不用 VPN、预装主流中国应用、单独出 ISO <a href="https://x.com/dhh/status/2113925234558632408">原帖</a></li>
+<li><strong>工程师治国</strong>：得知中国有程序员节后，他说难怪发展这么快，很多头部公司由工程师掌舵，所以 AI 和 Omarchy 都接得快，西方顶层少点 MBA 会更好 <a href="https://x.com/dhh/status/2113852725158957327">原帖</a></li>
+<li><strong>Bug 报告交给 agent</strong>：他赞同一个观点，人类写的 bug 报告平均很烂，agent 写的平均很好，干脆让 AI 来提 <a href="https://x.com/dhh/status/2113847430168908018">原帖</a></li>
+<li><strong>二流程序员才抗拒 AI</strong>：转一条说「抱怨 AI 的主要是二流程序员，一流的都很开心」的帖子，说基本符合他的经验；另外他把 Omarchy 接到华为 Mate 折叠屏当 18 寸外接屏 <a href="https://x.com/dhh/status/2113825159589102052">原帖</a> <a href="https://x.com/dhh/status/2113855137353486631">Mate 折叠屏</a></li>
+</ul>
+<p>看法：中国行还在发酵，阿里云合作是实打实的产品动作，其余观点帖情绪成分偏多</p>
+<hr />
+<p><strong>Theo</strong> @thsottiaux</p>
+<ul>
+<li><strong>Codex Day 19 小更新</strong>：dots 的通话连接更快，codex 里中途切换推理强度不再让缓存失效，codex cli 也更新了，昨天预告的「重置」看来是分批落地 <a href="https://x.com/thsottiaux/status/2113770573994299544">原帖</a></li>
+<li><strong>别把自己做成工具</strong>：一句金句，现在「拥有一个工具」和「成为一个工具」的差别很微妙，一不小心就把自己构建成了工具，近万赞 <a href="https://x.com/thsottiaux/status/2113838156193894447">原帖</a></li>
+</ul>
+<p>看法：缓存不失效这种改动不起眼，但对长会话的成本和速度很实在</p>
+<hr />
+<p><strong>Leon Lin</strong> @LexnLin</p>
+<ul>
+<li><strong>Kimi K3.1 Pro 先捧后修正</strong>：他先发帖惊呼 Kimi K3.1 Pro（max）比 Opus 5.5 便宜约 3 倍，Terminal Bench 4.0 还略胜，几小时后自己更正，强调不是付费推广，实测下来明显不如 Opus 5.5，订阅的速率限制也不理想，但仍算扎实，比 Kimi K3 少了过度思考 <a href="https://x.com/LexnLin/status/2113681697489186948">原帖</a> <a href="https://x.com/LexnLin/status/2113937867013542265">更正</a></li>
+<li><strong>全代码生成的 3D 场景</strong>：用 Opus 5.5 复刻夏威夷 Na Pali 海岸并让无人机穿行，所有画面都是代码，附开源仓库，过千赞；还用 Opus 5.5 做了 3D 版 Kick the Buddy，闪电、陨石、黑洞、火箭筒一应俱全 <a href="https://x.com/LexnLin/status/2113720560920428685">原帖</a> <a href="https://x.com/LexnLin/status/2114005623620980888">Kick the Buddy</a></li>
+</ul>
+<p>看法：主动更正跑分惊叹，这种博主比只发爆款的可信，Kimi 这一轮基本可以看成「便宜但没追平」</p>
+<hr />
+<p><strong>Bindu Reddy</strong> @bindureddy</p>
+<ul>
+<li><strong>Kimi K3.1 不如 DeepSeek Flash</strong>：她说 Kimi K3.1 在 LiveBench 上低于 DeepSeek Flash，怀疑对公开榜刷分，单任务价格有竞争力但不是 Fable、Astra 那一档，开源王者仍是 DeepSeek；定价 $2 / $10 每百万 token，比 K3 便宜但远没到 5 倍 <a href="https://x.com/bindureddy/status/2113776861222420564">原帖</a> <a href="https://x.com/bindureddy/status/2113678609206727037">定价</a></li>
+<li><strong>公开榜单是浪费时间</strong>：她认为任何像样的实验室发布前都会针对 benchmark 优化，每个模型都在为跑分和能在 X 上爆的 3D 渲染调优 <a href="https://x.com/bindureddy/status/2113689615253299647">原帖</a></li>
+</ul>
+<p>看法：和 LexnLin 的更正互相印证，选模型还是得在自己的任务上跑一遍</p>
+<hr />
+<p><strong>Alexandr Wang</strong> @alexandr_wang</p>
+<ul>
+<li><strong>Muse 登顶日本</strong>：Muse 在日本上线一天就成了日本第一的 App，排在他最爱的无印良品之前 <a href="https://x.com/alexandr_wang/status/2113682089166184649">原帖</a></li>
+<li><strong>Muse Wonder 刷新 LisanBench</strong>：他转发 LisanBench 更新，Muse Wonder Full 和 Muse Wonder 拿到最佳成绩，原帖作者注明 Meta 提供了免费访问，并说大家还在低估 Muse Wonder Full，更好的模型马上就来 <a href="https://x.com/alexandr_wang/status/2113996699681313135">原帖</a> <a href="https://x.com/alexandr_wang/status/2113804539661021615">预告</a></li>
+</ul>
+<p>看法：跑分那条带了「Ad」披露，参考价值打折，日本榜第一倒是硬数据</p>
+<hr />
+<p><strong>Amjad Masad</strong> @amasad</p>
+<ul>
+<li><strong>Chroma 并入 Replit</strong>：向量数据库 Chroma 团队加入 Replit，他说 Chroma 在 RAG 这个词流行前就在做，到 Replit 后要解决 agent 干实事最难的问题，也就是上下文和记忆，Chroma 方面称要一起做「自动驾驶公司」的上下文层 <a href="https://x.com/amasad/status/2113736007111827606">原帖</a></li>
+<li><strong>Replit for Government</strong>：推出政府版，并请来曾负责 AWS 公共部门业务的 Michael Greenwald <a href="https://x.com/amasad/status/2113676717105787192">原帖</a></li>
+</ul>
+<p>看法：agent 平台开始收购记忆基础设施，独立向量库的路越来越窄</p>
+<hr />
+<p><strong>Garry Tan</strong> @garrytan</p>
+<ul>
+<li><strong>Grep 开源 harness</strong>：他说 Grep 开源大块 agent harness 是件大事，对方第四天放出的工作流 DSL 把 agent 循环变成更确定的配方，在不掉性能的前提下明显降了成本 <a href="https://x.com/garrytan/status/2113668801565008120">原帖</a></li>
+<li><strong>GBrain 个人版</strong>：他们推出给创始人的 GBrain 个人方案，让 Claude、Codex 和 Capy 共用一份「你认识谁、你怎么做事」的记忆，不用每个 agent 从零开始 <a href="https://x.com/garrytan/status/2113666998442024989">原帖</a></li>
+</ul>
+<p>看法：他今天另有不少旧金山住房政治帖，这里只留和 agent 记忆相关的两条，正好和 Replit 收 Chroma 是同一个方向</p>
+<hr />
+<p><strong>Aravind Srinivas</strong> @AravSrinivas</p>
+<ul>
+<li><strong>/impeccable 进 Computer</strong>：Paul Bakaus 做的开源 skill，专门让生成的界面不再像 AI 流水线产物，现在内置进 Perplexity Computer，每人送 5000 credits 试用 <a href="https://x.com/AravSrinivas/status/2114021917586014449">原帖</a></li>
+<li><strong>管理员控制 Effort 上下限</strong>：企业管理员可以给员工设定 Effort 等级的下限和上限，Effort 和能力及成本挂钩，用来控制内部「token 拉满」的花费 <a href="https://x.com/AravSrinivas/status/2113683117651460532">原帖</a></li>
+</ul>
+<p>看法：连续两天往 Computer 塞设计类 skill，Perplexity 显然想主打「做出来不丑」</p>
+<hr />
+<p><strong>Mitchell Hashimoto</strong> @mitchellh</p>
+<ul>
+<li><strong>Rex 支持远程 Kitty 图像</strong>：Rex 现在连远程服务器也支持 Kitty graphics protocol，包括远程机器上的本地文件，做法是拦截基于文件的 Kitty 指令，再通过带内分块改写发给远程客户端 <a href="https://x.com/mitchellh/status/2113761797308391526">原帖</a></li>
+<li><strong>一小时买到 Duo</strong>：早上 8 点半走进 Apple Store，不到一小时拿着 Duo 出来，接下来要和同事把 Rex 在 Duo 上做好 <a href="https://x.com/mitchellh/status/2113685224374890892">原帖</a></li>
+</ul>
+<p>看法：终端里显示远程图片是老痛点，这个实现思路很巧</p>
+<hr />
+<p><strong>Harrison Chase</strong> @hwchase17</p>
+<ul>
+<li><strong>Skill 是记忆不是文件</strong>：他说把 skills 当成记忆或「大脑」而不是静态文件来设计，威力会大很多 <a href="https://x.com/hwchase17/status/2113682309274628382">原帖</a></li>
+</ul>
+<p>看法：一句话，但和今天 GBrain、Chroma 的新闻放在一起看，agent 记忆层是本周最热的基础设施话题</p>
+<hr />
+<p><strong>小工具</strong>
+- <a href="https://x.com/denicmarko/status/2113711989717422125">Cloudflare security-audit skill</a>，Cloudflare 漏洞猎手的起点，开源，让 coding agent 映射攻击面找洞，再由一个新 agent 专门尝试推翻每个发现
+- <a href="https://x.com/AravSrinivas/status/2114021917586014449">/impeccable</a>，Paul Bakaus 的开源界面设计 skill，避免 AI 味设计
+- <a href="https://x.com/GergelyOrosz/status/2113927941486723083">Modal GPU Glossary</a>，讲 GPU 硬件结构和与 CPU 差异的入门书，PDF 免费
+- <a href="https://x.com/garrytan/status/2113666998442024989">GBrain 个人版</a>，多个 coding agent 共享一份创始人记忆
+- <a href="https://x.com/swyx/status/2113717251543367880">swyx 的提醒</a>，vibe coding 的应用记得自己读一遍它发出去的邮件，真人用户会看</p>
+<p><strong>推荐关注</strong>
+- <a href="https://x.com/Lethain">Will Larson @Lethain</a>，Imprint CTO，写过多本工程管理书，今天 Gergely 两次引用他关于中层管理和用 Linear 给 agent 铺路的做法，适合关注工程组织在 AI 时代怎么改
+- <a href="https://x.com/pbakaus">Paul Bakaus @pbakaus</a>，/impeccable 作者，做产品工程和设计类 agent skill，被 Perplexity 直接接进 Computer</p></body></html>
