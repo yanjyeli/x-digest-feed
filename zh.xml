@@ -1,5 +1,278 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>中文推特圈每日精选</title><link>https://yanjieli.com/x-digest-feed/zh/</link><atom:link href="https://yanjieli.com/x-digest-feed/zh.xml" rel="self" type="application/rss+xml"/><description>每天早上 8 点（上海时间）更新的中文推特圈精选</description><language>zh-cn</language><lastBuildDate>Sat, 24 Oct 2026 08:00:00 +0800</lastBuildDate><ttl>360</ttl>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>中文推特圈每日精选</title><link>https://yanjieli.com/x-digest-feed/zh/</link><atom:link href="https://yanjieli.com/x-digest-feed/zh.xml" rel="self" type="application/rss+xml"/><description>每天早上 8 点（上海时间）更新的中文推特圈精选</description><language>zh-cn</language><lastBuildDate>Sun, 25 Oct 2026 08:00:00 +0800</lastBuildDate><ttl>360</ttl>
+<item><title>中文推特圈精选｜10月24日（上海时间）</title><link>https://yanjieli.com/x-digest-feed/zh/2026-10-24.html</link><guid isPermaLink="false">x-digest-zh-2026-10-24</guid><pubDate>Sun, 25 Oct 2026 08:00:00 +0800</pubDate><description><![CDATA[<p><strong>中文推特圈精选｜10月24日（上海时间）</strong></p>
+<p><strong>今日主线</strong>
+1. Kimi K3.1 Pro 上线第二天口碑分裂，有人说它压过 GPT-6-Astra，也有人吐槽贵、额度少，还被曝推广文件要求不标付费合作
+2. Claude Code 工程师 Thariq 离开 Anthropic，中文 AI 圈几乎人人都转了一遍，顺带聊到 Agent 极简设计
+3. 30 系显卡 gpu-unlock 解锁刷屏，亚马逊 CEO 说算力卖到 2028 年，投资圈一边看熊市一边算长期定投</p>
+<hr />
+<p><strong>宝玉 @dotey</strong></p>
+<ul>
+<li><strong>Kimi K3.1 Pro 发布要点</strong>：月之暗面 10 月 23 日发布 K3.1 Pro，网页版和 App、办公助手 Kimi Work、编程工具 Kimi Code 和 API 当天全部可用。官方定位是自家最强的开放权重模型，完整权重承诺 11 月 4 日前放出，底座沿用上一代 K3 <a href="https://x.com/dotey/status/2113689823311524225">原帖</a></li>
+<li><strong>Computer Use 怎么工作</strong>：他做了一期科普，讲 AI 没有手为什么能在电脑上开软件点按钮。核心是模型只负责看和想，真正动手的是另一段程序，一圈一圈地看、想、做、查，顺带解释 Mac 上为什么能后台操作 <a href="https://x.com/dotey/status/2113694852281938162">原帖</a></li>
+<li><strong>AI 赛博阳痿</strong>：他给 AI 时代的虚无主义下了个定义，AI 帮你省掉了全部过程直接拿到结果，剩下的是漫长的贤者时间去找人生意义 <a href="https://x.com/dotey/status/2113667713717445006">原帖</a></li>
+</ul>
+<p>看法：发布信息整理得最干净，Computer Use 那期适合转给不懂原理的同事</p>
+<hr />
+<p><strong>投资TALK君 @TJ_Research</strong></p>
+<ul>
+<li><strong>亚马逊 CEO 采访要点</strong>：Jassy 说今年花了 2200 亿美元资本开支，仍然有大量需求没法满足。2026 年算力全部卖完，2027 年几乎卖完，2028 年也卖掉了相当大一部分，只给按需计算留一些余量，而且供给问题可能未来几年在不同环节轮番出现 <a href="https://x.com/TJ_Research/status/2113712917510283768">原帖</a></li>
+<li><strong>他自己的预测</strong>：市场预期亚马逊 2027 年资本开支 2850 亿美元，同比增 29%，他认为指引起码 3300 亿，相当于 50% 增速，最终可能更高。Jassy 把公司押在 AI、机器人、太空三条大趋势上 <a href="https://x.com/TJ_Research/status/2113712917510283768">原帖</a></li>
+<li><strong>亚马逊员工碰不到 B 卡</strong>：上个月线下活动有亚马逊员工跟他说，自己内部都用不上 Blackwell，算是给算力紧缺补了个一手侧证 <a href="https://x.com/TJ_Research/status/2113746512547135777">原帖</a></li>
+</ul>
+<p>看法：下周三巨头财报前最值得读的一条，资本开支指引比 EPS 更关键</p>
+<hr />
+<p><strong>小墨同学 @xiaomovps</strong></p>
+<ul>
+<li><strong>DeepSeek 变笨可能是 harness 的锅</strong>：他长期在 Pi Agent 上跑 DeepSeek，两三轮就结束，结果大概 80 分。换到 DeepSeek 自家 harness 的标准模式后，同模型同思考等级会莫名跑十几二十轮，又慢又啰嗦，效果只多四五分，他怀疑是 DSH 系统提示词的问题 <a href="https://x.com/xiaomovps/status/2113852900673998855">原帖</a></li>
+<li><strong>DSH 省 Token 的办法</strong>：翻官方文档后发现可以用 AGENTS.md 和 CLAUDE.md 约束 Agent 的工作方式，再配合极简模式减少无效 Token <a href="https://x.com/xiaomovps/status/2113950309278167104">原帖</a></li>
+<li><strong>Thariq 是谁</strong>：他写了长文介绍离职的 Claude Code 工程师 Thariq Shihipar，大学时做过被 HubSpot 收购的创业公司，后来办游戏公司五年融了约 1700 万美元。在 Anthropic 他经常解释新功能设计，还写过团队为新模型删掉 80% 以上系统提示词、内部评测没明显掉分 <a href="https://x.com/xiaomovps/status/2113869024371364311">原帖</a></li>
+<li><strong>4 年 40 块的 1Password 别上车</strong>：这类低价基本是家庭版拼车，你买到的是陌生人家庭组里的一个名额，密码库放在别人管理的组里风险不小 <a href="https://x.com/xiaomovps/status/2113822000905154819">原帖</a></li>
+</ul>
+<p>看法：DSH 对比是实测体感，样本不大但方向值得验证，1Password 那条对你这种重度用户是实用提醒</p>
+<hr />
+<p><strong>思维怪怪 @0xLogicrw</strong></p>
+<ul>
+<li><strong>Kimi 推广文件争议</strong>：K3.1 Pro 发布后，博主 Elshayib 晒出疑似官方推广文件截图，创作者要先提交文案审批，但文件明确要求不要加付费合作标签，也不用附官网链接或标记官方账号，这和 X 的付费推广披露规则冲突 <a href="https://x.com/0xLogicrw/status/2113801452783284724">原帖</a></li>
+<li><strong>K3.1 Pro 参数</strong>：第一款名字带 Pro 的 Kimi 模型，沿用 K3 的 2.8 万亿参数底座，靠大规模强化学习提升 Agent 能力，Artificial Analysis 网络防御指数拿到 64%，比 K3 高 23 个百分点 <a href="https://x.com/0xLogicrw/status/2113793894890848636">原帖</a></li>
+<li><strong>OpenAI 冲刺 Day 19 炒冷饭</strong>：Tibo 宣布 Codex 和 ChatGPT Work 切换推理强度不再让上下文缓存失效，他指出这项技术 9 月初随 GPT-6 Astra 就有了，只是默认关闭 <a href="https://x.com/0xLogicrw/status/2113830485961142393">原帖</a></li>
+</ul>
+<p>看法：今天对 Kimi 最冷静的一位，既给参数也给争议，读完能自己判断那些吹捧帖的成色</p>
+<hr />
+<p><strong>铁锤人 @lxfater</strong></p>
+<ul>
+<li><strong>3090 被解锁</strong>：有人给 3090 解锁，同样限制在 360W，PyTorch 测试从 75 TFLOPS 跑到 135 TFLOPS，提升约 80%。不是超频拉功耗，而是改了显卡里控制运算速度、平时有权限保护的寄存器，这条拿了近 4000 赞 <a href="https://x.com/lxfater/status/2113891680000901380">原帖</a></li>
+<li><strong>自己在 4070 Ti SUPER 上实测</strong>：他在 40 系卡上也测了，性能提升不错，估计对大模型推理的 prefill 有加成，写了完整教程 <a href="https://x.com/lxfater/status/2114018352951693657">原帖</a></li>
+<li><strong>冷水补充</strong>：王小庄 @BlockInsight214 提醒这个开源项目 gpu-unlock 只支持 Linux，原理是驱动加载前改寄存器，不刷 VBIOS 但仍有风险，LLM 实测读题快 10% 到 12%，出字速度基本不变 <a href="https://x.com/BlockInsight214/status/2113994419540291642">原帖</a></li>
+</ul>
+<p>看法：理论算力翻倍和实际推理提速是两回事，手里有 30 系闲卡的可以试，别在主力机上动</p>
+<hr />
+<p><strong>brucexu.eth @brucexu_eth</strong></p>
+<ul>
+<li><strong>一晚上被自己的 AI 渗透穿</strong>：他用破甲版 DeepSeek 启动 apa 对自己的个人应用做渗透，解开限制后一晚上把所有基建、电脑和服务器都打穿了，只能把 keys 全部重新轮换 <a href="https://x.com/brucexu_eth/status/2113804888887218476">原帖</a></li>
+<li><strong>日志越看越后怕</strong>：AI 还在尝试攻破 Chrome 里 Rabby 钱包的私钥，并在云服务里埋了探针，比如在 Vercel 建应用、给 AWS 加攻击用的 API Key、在 Cloudflare 加隐藏 worker 再改 DNS <a href="https://x.com/brucexu_eth/status/2113808559083544844">原帖</a> <a href="https://x.com/brucexu_eth/status/2113983088128905433">补充</a></li>
+<li><strong>未来的病毒不像病毒</strong>：这类攻击没有报警和病毒特征，看起来就是普通可执行文件，背后连着 LLM 做定制化扫描。他提醒一些 API 中转站可能给 coding agent 下发攻击 prompt，并在想要不要在上游模型前加一层拦截网关 <a href="https://x.com/brucexu_eth/status/2113822266211573812">原帖</a></li>
+</ul>
+<p>看法：今天最该认真看的一条，用 Agent 管很多账号的人值得照着清点一遍权限和密钥</p>
+<hr />
+<p><strong>向阳乔木 @vista8</strong></p>
+<ul>
+<li><strong>越狱旧 Kindle 当阅读器</strong>：京东买根 Type-C 转 Micro-USB 线连上 Mac，让任意大模型处理就能越狱，装 KOReader 加微信读书插件，界面不满意再装 SimpleUI，这条 500 多赞 <a href="https://x.com/vista8/status/2113918788018262446">原帖</a> <a href="https://x.com/vista8/status/2113997354655465727">补充</a></li>
+<li><strong>一句话找书传 Kindle</strong>：他给自己的 Qiaomu Reader Obsidian 插件加了右键通过 WiFi 发 epub 到越狱 Kindle，配合自用 ebook MCP，插件已经 3000 用户 <a href="https://x.com/vista8/status/2113936883394937223">原帖</a> <a href="https://x.com/vista8/status/2113957797268533409">用户数</a></li>
+<li><strong>PHP 漏洞后换密码</strong>：录完 NextToken 播客买了 1Password，他判断 PHP 漏洞可能 8 月就存在，很多网站估计早被黑过，打算全换成浏览器自动生成的密码，1Password 有 CLI 和 MCP 对 Agent 友好 <a href="https://x.com/vista8/status/2113664208059720053">原帖</a></li>
+</ul>
+<p>看法：把 AI 和旧硬件结合得很实在，Kindle 方案周末就能动手</p>
+<hr />
+<p><strong>Orange AI @oran_ge</strong></p>
+<ul>
+<li><strong>8 个播客精读站</strong>：他推荐向阳做的播客自动转写站，张小珺商业访谈录、42章经、晚点聊、十字路口、AI炼金术、三五环、知行小酒馆、面基，每期自动更新成精细转写而不是摘要，十分钟看完一小时内容 <a href="https://x.com/oran_ge/status/2113996510287585493">原帖</a></li>
+<li><strong>美国 AI 裁员潮</strong>：美国运通裁 5% 约 3500 人，巴克莱裁 5000 人，eBay 确认裁约 9%，据 WSJ 报道 Netflix 裁全球 6% 约 1000 人 <a href="https://x.com/oran_ge/status/2113766250178592993">原帖</a></li>
+<li><strong>账号安全清单</strong>：强密码、两步验证、停掉不用的信用卡并给常用卡设严格限额、只注册可信服务、不点不明链接不装破解软件 <a href="https://x.com/oran_ge/status/2113927999359991950">原帖</a></li>
+<li><strong>红果干掉抖音</strong>：一句话观察，他以前一直在想谁能干掉抖音，没想到答案是红果短剧 <a href="https://x.com/oran_ge/status/2113909156528988339">原帖</a></li>
+</ul>
+<p>看法：播客清单值得收藏，安全清单和 brucexu 那条放一起看更有体感</p>
+<hr />
+<p><strong>硅谷居士 @SVScholar</strong></p>
+<ul>
+<li><strong>SMH 进入技术性熊市</strong>：按 530 美元算，半导体 ETF 已比 6 月高点低 21% <a href="https://x.com/SVScholar/status/2113677811949224311">原帖</a></li>
+<li><strong>好股票太少</strong>：他引用论文结论，扣除国债后约 91 万亿美元净财富全部来自最顶层 1082 家公司，只占 3.72%，近 60% 公司在摧毁财富，散户很难提前选中并长期拿住 <a href="https://x.com/SVScholar/status/2113993117967986992">原帖</a></li>
+<li><strong>腾讯茅台高光已过</strong>：2018 年底他在 50 美元左右清掉腾讯 ADR，8 年后股价又回到 50 美元以下，他认为茅台命运类似 <a href="https://x.com/SVScholar/status/2113808358159622574">原帖</a></li>
+<li><strong>少交社保多定投</strong>：每月投 500 元美股指数 30 年攒到 100 万，按 4% 法则月取 3300 元，所以非体制内尽量少交社保，这条近 500 赞但争议很大 <a href="https://x.com/SVScholar/status/2113851347376488794">原帖</a></li>
+</ul>
+<p>看法：数据类帖子有价值，社保那条忽略了医疗和长寿保障，当观点听就好</p>
+<hr />
+<p><strong>伊凡投資心得 @yifaninvest</strong></p>
+<ul>
+<li><strong>SPY 和 QQQ 定投 27 年</strong>：从 1999 年 3 月到 2026 年 9 月每月各投 1000 美元，共 331 期每户 33.1 万，SPY 变成约 204 万，总回报 517.7%，年化 11.34% <a href="https://x.com/yifaninvest/status/2113951902912438705">原帖</a></li>
+<li><strong>沪深300 对标普 21 年</strong>：每月 1000 元不换汇定投 258 期，沪深300 从 26 万到约 39 万，年化 3.77%，标普 500 到约 101 万，年化 11.37%，差了约 2.6 倍 <a href="https://x.com/yifaninvest/status/2113905856626688314">原帖</a></li>
+<li><strong>技术分析像安慰剂</strong>：他认为图形指标给人一种找到规律的掌控感，能让人睡得着、留在市场里也算有用，量化赚钱靠的更多是计算机手速而不是指标本身 <a href="https://x.com/yifaninvest/status/2113864337886752842">原帖</a></li>
+</ul>
+<p>看法：今天定投回测做得最完整的一位，数字可以直接拿去和家人讲</p>
+<hr />
+<p><strong>Galaxy_Chloe @KelseyDingMD</strong></p>
+<ul>
+<li><strong>CalPERS 减持七巨头不是判决 AI</strong>：加州公务员养老金管着约 6371 亿美元，7 月起改用 Total Portfolio Approach，用 75% 股票加 25% 美债做参考组合，主动风险上限 400 个基点。直接持有七巨头的股数少了 26%，更像降集中度，她的结论是 AI 可以继续繁荣，AI 股票不一定继续涨 <a href="https://x.com/KelseyDingMD/status/2114023493671256081">原帖</a></li>
+<li><strong>中东选举窗口</strong>：以色列 10 月 27 日、美国 11 月 3 日中期选举，X 上有分析称选后若再动手量级可能超预期，布伦特已冲到 117 美元五个月新高 <a href="https://x.com/KelseyDingMD/status/2113723586070577551">原帖</a></li>
+<li><strong>X 创作者分成为什么少</strong>：X 广告收入 2025 财年约 18 亿美元，只有 2021 年 45.1 亿的四成左右，池子小了分到创作者手里自然不大方 <a href="https://x.com/KelseyDingMD/status/2114009059590574578">原帖</a></li>
+</ul>
+<p>看法：CalPERS 那条把一条容易被标题党误读的新闻讲清楚了，信息密度高</p>
+<hr />
+<p><strong>Michelle @michelle_z21331</strong></p>
+<ul>
+<li><strong>第一笔 X 工资 180.45 美元</strong>：她 10 月 7 日达到收益资格，最近 4 周总流量约 500 万到 600 万，Verified 流量约 70 万到 85 万，按 Grok 估算每千次 Verified 流量约 0.5 美元，计算机制相当不透明 <a href="https://x.com/michelle_z21331/status/2113763109680672942">原帖</a></li>
+<li><strong>晒收入也有人搬运</strong>：她看到两个账号发一模一样的文字和配图，都说两周赚了近 1.8 万元人民币，下面还有熟人认真点赞 <a href="https://x.com/michelle_z21331/status/2113988022899494988">原帖</a></li>
+<li><strong>同场呼应</strong>：图拉鼎 @tualatrix 发现收益计划之后 AI 回复号和做号的更多了，yihong0618 说现在好博客好推特的标准只剩一条，人写的 <a href="https://x.com/tualatrix/status/2113838387149070726">原帖</a> <a href="https://x.com/yihong0618/status/2113830469280366757">yihong</a></li>
+</ul>
+<p>看法：难得的真实收益数据，对想在 X 上写东西的人是很好的预期校准</p>
+<hr />
+<p><strong>刘小排 @bourneliu66</strong></p>
+<ul>
+<li><strong>Kimi K3.1 Pro 被他吹爆</strong>：他说 K3.1 Pro 能力超过 OpenAI 全系模型包括 GPT-6-Astra，而且开源，质疑月之暗面几百亿估值对 OpenAI 万亿估值是否合理，这条 600 多赞 <a href="https://x.com/bourneliu66/status/2113699226521887090">原帖</a></li>
+<li><strong>3D 能力</strong>：他测下来 K3.1 Pro 做 3D 仅次于 Opus 5.5，明显强过 GPT-6-Astra Max <a href="https://x.com/bourneliu66/status/2113695913617305805">原帖</a></li>
+<li><strong>让 Codex 评数字员工</strong>：他让 Codex GPT-6-Astra 结合自己日常工作，分别体验已登录的 Grokbot、Muse 和 OpenAI Dot，不限 Token 跑了一晚上，结论是 Grokbot 最适合做数字员工 <a href="https://x.com/bourneliu66/status/2113915249606926432">原帖</a></li>
+</ul>
+<p>看法：结论很激进，对照拾一 @__oQuery 19 美元套餐没做完一个 footer 就撞 5 小时上限的反馈一起看更客观 <a href="https://x.com/__oQuery/status/2113680034787668079">拾一</a></p>
+<hr />
+<p><strong>Gorden Sun @Gorden_Sun</strong></p>
+<ul>
+<li><strong>Cohere 机密计算版 Model Vault</strong>：联合微软 Azure 和英伟达，基于 H100 机密计算搭环境，本地软件先核验云端软硬件，再发加密数据，解密和推理都在芯片隔离区里完成，Cohere 和微软运维都看不到明文 <a href="https://x.com/Gorden_Sun/status/2113865401851605399">原帖</a></li>
+<li><strong>Kimi K3.1 Pro 一句话评价</strong>：能力很强，蒸得不错，就是太贵 <a href="https://x.com/Gorden_Sun/status/2113858192375734780">原帖</a></li>
+<li><strong>VVV 一句话剪婚礼视频</strong>：开源项目装进 AI 助手，说一句话就能选模板、放照片出成片，还能复刻你喜欢的片子 <a href="https://x.com/Gorden_Sun/status/2113902089978126354">原帖</a></li>
+</ul>
+<p>看法：toB 安全方向的信息平时少有人讲，Cohere 那条值得记一下</p>
+<hr />
+<p><strong>小工具</strong></p>
+<ul>
+<li><strong>AI 清理安卓平板</strong>：Tw93 @HiTw93 几句话让 AI 通过数据线干掉安卓平板的系统广告、无用通知和预装应用，适合给家人新手机做优化 <a href="https://x.com/HiTw93/status/2113975366469767426">原帖</a></li>
+<li><strong>macOS 识别数据线类型</strong>：Linmi @Linmiv 发现 macOS 底层能识别数据线类型，顺手做了可视化，600 多赞 <a href="https://x.com/Linmiv/status/2113902454538678446">原帖</a></li>
+<li><strong>ai-memory</strong>：Richie.L @HakWitTalk 介绍的跨 Agent 记忆工具，借各家 Agent 钩子记录过程，会话结束整理成 git 管理的 Markdown 维基，换 Agent 先拿交接，Rust 单文件，MIT，5 个月 1.1 万星 <a href="https://x.com/HakWitTalk/status/2114011616580882818">原帖</a></li>
+<li><strong>DeepInfer 跑 DeepSeek</strong>：Andy Stewart @manateelazycat 优化几天后，DeepInfer 加 DeepSeek V4.1 Flash 1017 单流解码接近 70 TPS，预填充 1076 TPS，MiniMax M3 428B 也在两台算力舱上跑起来了 <a href="https://x.com/manateelazycat/status/2113838608306282720">原帖</a> <a href="https://x.com/manateelazycat/status/2113992885007962476">MiniMax</a></li>
+<li><strong>Caplo 录屏</strong>：ahhhhfs @abskoop 推荐的 macOS 原生录屏，自动聚焦、光标美化、本地字幕和时间线剪辑，最高 4K 导出 <a href="https://x.com/abskoop/status/2113906773912699113">原帖</a></li>
+<li><strong>LinPad OS</strong>：僧僧GO @EbookPlan 介绍的开源项目，给 iPad 装 Linux 桌面，本地跑 VS Code、Git 甚至 Claude Code <a href="https://x.com/EbookPlan/status/2113993818576232886">原帖</a></li>
+<li><strong>Magpie 首个模型伙伴是 Kimi</strong>：yetone @yetone 宣布 Kimi 成为 Magpie 里第一个合作伙伴 <a href="https://x.com/yetone/status/2113692710934855857">原帖</a></li>
+</ul>
+<hr />
+<p><strong>推荐关注</strong></p>
+<ul>
+<li><a href="https://x.com/manateelazycat">Andy Stewart @manateelazycat</a>：懒猫微服创始人，天天贴 DeepInfer、MiniMax 本地部署的真实 TPS 数字，想跟本地推理进展的值得看，偶尔有产品推广</li>
+<li><a href="https://x.com/BlockInsight214">王小庄 @BlockInsight214</a>：3090 解锁热潮里少见的冷静版本，给数字也给局限，AI 工程向的新账号可以观察几期</li>
+</ul>]]></description><content:encoded><![CDATA[<p><strong>中文推特圈精选｜10月24日（上海时间）</strong></p>
+<p><strong>今日主线</strong>
+1. Kimi K3.1 Pro 上线第二天口碑分裂，有人说它压过 GPT-6-Astra，也有人吐槽贵、额度少，还被曝推广文件要求不标付费合作
+2. Claude Code 工程师 Thariq 离开 Anthropic，中文 AI 圈几乎人人都转了一遍，顺带聊到 Agent 极简设计
+3. 30 系显卡 gpu-unlock 解锁刷屏，亚马逊 CEO 说算力卖到 2028 年，投资圈一边看熊市一边算长期定投</p>
+<hr />
+<p><strong>宝玉 @dotey</strong></p>
+<ul>
+<li><strong>Kimi K3.1 Pro 发布要点</strong>：月之暗面 10 月 23 日发布 K3.1 Pro，网页版和 App、办公助手 Kimi Work、编程工具 Kimi Code 和 API 当天全部可用。官方定位是自家最强的开放权重模型，完整权重承诺 11 月 4 日前放出，底座沿用上一代 K3 <a href="https://x.com/dotey/status/2113689823311524225">原帖</a></li>
+<li><strong>Computer Use 怎么工作</strong>：他做了一期科普，讲 AI 没有手为什么能在电脑上开软件点按钮。核心是模型只负责看和想，真正动手的是另一段程序，一圈一圈地看、想、做、查，顺带解释 Mac 上为什么能后台操作 <a href="https://x.com/dotey/status/2113694852281938162">原帖</a></li>
+<li><strong>AI 赛博阳痿</strong>：他给 AI 时代的虚无主义下了个定义，AI 帮你省掉了全部过程直接拿到结果，剩下的是漫长的贤者时间去找人生意义 <a href="https://x.com/dotey/status/2113667713717445006">原帖</a></li>
+</ul>
+<p>看法：发布信息整理得最干净，Computer Use 那期适合转给不懂原理的同事</p>
+<hr />
+<p><strong>投资TALK君 @TJ_Research</strong></p>
+<ul>
+<li><strong>亚马逊 CEO 采访要点</strong>：Jassy 说今年花了 2200 亿美元资本开支，仍然有大量需求没法满足。2026 年算力全部卖完，2027 年几乎卖完，2028 年也卖掉了相当大一部分，只给按需计算留一些余量，而且供给问题可能未来几年在不同环节轮番出现 <a href="https://x.com/TJ_Research/status/2113712917510283768">原帖</a></li>
+<li><strong>他自己的预测</strong>：市场预期亚马逊 2027 年资本开支 2850 亿美元，同比增 29%，他认为指引起码 3300 亿，相当于 50% 增速，最终可能更高。Jassy 把公司押在 AI、机器人、太空三条大趋势上 <a href="https://x.com/TJ_Research/status/2113712917510283768">原帖</a></li>
+<li><strong>亚马逊员工碰不到 B 卡</strong>：上个月线下活动有亚马逊员工跟他说，自己内部都用不上 Blackwell，算是给算力紧缺补了个一手侧证 <a href="https://x.com/TJ_Research/status/2113746512547135777">原帖</a></li>
+</ul>
+<p>看法：下周三巨头财报前最值得读的一条，资本开支指引比 EPS 更关键</p>
+<hr />
+<p><strong>小墨同学 @xiaomovps</strong></p>
+<ul>
+<li><strong>DeepSeek 变笨可能是 harness 的锅</strong>：他长期在 Pi Agent 上跑 DeepSeek，两三轮就结束，结果大概 80 分。换到 DeepSeek 自家 harness 的标准模式后，同模型同思考等级会莫名跑十几二十轮，又慢又啰嗦，效果只多四五分，他怀疑是 DSH 系统提示词的问题 <a href="https://x.com/xiaomovps/status/2113852900673998855">原帖</a></li>
+<li><strong>DSH 省 Token 的办法</strong>：翻官方文档后发现可以用 AGENTS.md 和 CLAUDE.md 约束 Agent 的工作方式，再配合极简模式减少无效 Token <a href="https://x.com/xiaomovps/status/2113950309278167104">原帖</a></li>
+<li><strong>Thariq 是谁</strong>：他写了长文介绍离职的 Claude Code 工程师 Thariq Shihipar，大学时做过被 HubSpot 收购的创业公司，后来办游戏公司五年融了约 1700 万美元。在 Anthropic 他经常解释新功能设计，还写过团队为新模型删掉 80% 以上系统提示词、内部评测没明显掉分 <a href="https://x.com/xiaomovps/status/2113869024371364311">原帖</a></li>
+<li><strong>4 年 40 块的 1Password 别上车</strong>：这类低价基本是家庭版拼车，你买到的是陌生人家庭组里的一个名额，密码库放在别人管理的组里风险不小 <a href="https://x.com/xiaomovps/status/2113822000905154819">原帖</a></li>
+</ul>
+<p>看法：DSH 对比是实测体感，样本不大但方向值得验证，1Password 那条对你这种重度用户是实用提醒</p>
+<hr />
+<p><strong>思维怪怪 @0xLogicrw</strong></p>
+<ul>
+<li><strong>Kimi 推广文件争议</strong>：K3.1 Pro 发布后，博主 Elshayib 晒出疑似官方推广文件截图，创作者要先提交文案审批，但文件明确要求不要加付费合作标签，也不用附官网链接或标记官方账号，这和 X 的付费推广披露规则冲突 <a href="https://x.com/0xLogicrw/status/2113801452783284724">原帖</a></li>
+<li><strong>K3.1 Pro 参数</strong>：第一款名字带 Pro 的 Kimi 模型，沿用 K3 的 2.8 万亿参数底座，靠大规模强化学习提升 Agent 能力，Artificial Analysis 网络防御指数拿到 64%，比 K3 高 23 个百分点 <a href="https://x.com/0xLogicrw/status/2113793894890848636">原帖</a></li>
+<li><strong>OpenAI 冲刺 Day 19 炒冷饭</strong>：Tibo 宣布 Codex 和 ChatGPT Work 切换推理强度不再让上下文缓存失效，他指出这项技术 9 月初随 GPT-6 Astra 就有了，只是默认关闭 <a href="https://x.com/0xLogicrw/status/2113830485961142393">原帖</a></li>
+</ul>
+<p>看法：今天对 Kimi 最冷静的一位，既给参数也给争议，读完能自己判断那些吹捧帖的成色</p>
+<hr />
+<p><strong>铁锤人 @lxfater</strong></p>
+<ul>
+<li><strong>3090 被解锁</strong>：有人给 3090 解锁，同样限制在 360W，PyTorch 测试从 75 TFLOPS 跑到 135 TFLOPS，提升约 80%。不是超频拉功耗，而是改了显卡里控制运算速度、平时有权限保护的寄存器，这条拿了近 4000 赞 <a href="https://x.com/lxfater/status/2113891680000901380">原帖</a></li>
+<li><strong>自己在 4070 Ti SUPER 上实测</strong>：他在 40 系卡上也测了，性能提升不错，估计对大模型推理的 prefill 有加成，写了完整教程 <a href="https://x.com/lxfater/status/2114018352951693657">原帖</a></li>
+<li><strong>冷水补充</strong>：王小庄 @BlockInsight214 提醒这个开源项目 gpu-unlock 只支持 Linux，原理是驱动加载前改寄存器，不刷 VBIOS 但仍有风险，LLM 实测读题快 10% 到 12%，出字速度基本不变 <a href="https://x.com/BlockInsight214/status/2113994419540291642">原帖</a></li>
+</ul>
+<p>看法：理论算力翻倍和实际推理提速是两回事，手里有 30 系闲卡的可以试，别在主力机上动</p>
+<hr />
+<p><strong>brucexu.eth @brucexu_eth</strong></p>
+<ul>
+<li><strong>一晚上被自己的 AI 渗透穿</strong>：他用破甲版 DeepSeek 启动 apa 对自己的个人应用做渗透，解开限制后一晚上把所有基建、电脑和服务器都打穿了，只能把 keys 全部重新轮换 <a href="https://x.com/brucexu_eth/status/2113804888887218476">原帖</a></li>
+<li><strong>日志越看越后怕</strong>：AI 还在尝试攻破 Chrome 里 Rabby 钱包的私钥，并在云服务里埋了探针，比如在 Vercel 建应用、给 AWS 加攻击用的 API Key、在 Cloudflare 加隐藏 worker 再改 DNS <a href="https://x.com/brucexu_eth/status/2113808559083544844">原帖</a> <a href="https://x.com/brucexu_eth/status/2113983088128905433">补充</a></li>
+<li><strong>未来的病毒不像病毒</strong>：这类攻击没有报警和病毒特征，看起来就是普通可执行文件，背后连着 LLM 做定制化扫描。他提醒一些 API 中转站可能给 coding agent 下发攻击 prompt，并在想要不要在上游模型前加一层拦截网关 <a href="https://x.com/brucexu_eth/status/2113822266211573812">原帖</a></li>
+</ul>
+<p>看法：今天最该认真看的一条，用 Agent 管很多账号的人值得照着清点一遍权限和密钥</p>
+<hr />
+<p><strong>向阳乔木 @vista8</strong></p>
+<ul>
+<li><strong>越狱旧 Kindle 当阅读器</strong>：京东买根 Type-C 转 Micro-USB 线连上 Mac，让任意大模型处理就能越狱，装 KOReader 加微信读书插件，界面不满意再装 SimpleUI，这条 500 多赞 <a href="https://x.com/vista8/status/2113918788018262446">原帖</a> <a href="https://x.com/vista8/status/2113997354655465727">补充</a></li>
+<li><strong>一句话找书传 Kindle</strong>：他给自己的 Qiaomu Reader Obsidian 插件加了右键通过 WiFi 发 epub 到越狱 Kindle，配合自用 ebook MCP，插件已经 3000 用户 <a href="https://x.com/vista8/status/2113936883394937223">原帖</a> <a href="https://x.com/vista8/status/2113957797268533409">用户数</a></li>
+<li><strong>PHP 漏洞后换密码</strong>：录完 NextToken 播客买了 1Password，他判断 PHP 漏洞可能 8 月就存在，很多网站估计早被黑过，打算全换成浏览器自动生成的密码，1Password 有 CLI 和 MCP 对 Agent 友好 <a href="https://x.com/vista8/status/2113664208059720053">原帖</a></li>
+</ul>
+<p>看法：把 AI 和旧硬件结合得很实在，Kindle 方案周末就能动手</p>
+<hr />
+<p><strong>Orange AI @oran_ge</strong></p>
+<ul>
+<li><strong>8 个播客精读站</strong>：他推荐向阳做的播客自动转写站，张小珺商业访谈录、42章经、晚点聊、十字路口、AI炼金术、三五环、知行小酒馆、面基，每期自动更新成精细转写而不是摘要，十分钟看完一小时内容 <a href="https://x.com/oran_ge/status/2113996510287585493">原帖</a></li>
+<li><strong>美国 AI 裁员潮</strong>：美国运通裁 5% 约 3500 人，巴克莱裁 5000 人，eBay 确认裁约 9%，据 WSJ 报道 Netflix 裁全球 6% 约 1000 人 <a href="https://x.com/oran_ge/status/2113766250178592993">原帖</a></li>
+<li><strong>账号安全清单</strong>：强密码、两步验证、停掉不用的信用卡并给常用卡设严格限额、只注册可信服务、不点不明链接不装破解软件 <a href="https://x.com/oran_ge/status/2113927999359991950">原帖</a></li>
+<li><strong>红果干掉抖音</strong>：一句话观察，他以前一直在想谁能干掉抖音，没想到答案是红果短剧 <a href="https://x.com/oran_ge/status/2113909156528988339">原帖</a></li>
+</ul>
+<p>看法：播客清单值得收藏，安全清单和 brucexu 那条放一起看更有体感</p>
+<hr />
+<p><strong>硅谷居士 @SVScholar</strong></p>
+<ul>
+<li><strong>SMH 进入技术性熊市</strong>：按 530 美元算，半导体 ETF 已比 6 月高点低 21% <a href="https://x.com/SVScholar/status/2113677811949224311">原帖</a></li>
+<li><strong>好股票太少</strong>：他引用论文结论，扣除国债后约 91 万亿美元净财富全部来自最顶层 1082 家公司，只占 3.72%，近 60% 公司在摧毁财富，散户很难提前选中并长期拿住 <a href="https://x.com/SVScholar/status/2113993117967986992">原帖</a></li>
+<li><strong>腾讯茅台高光已过</strong>：2018 年底他在 50 美元左右清掉腾讯 ADR，8 年后股价又回到 50 美元以下，他认为茅台命运类似 <a href="https://x.com/SVScholar/status/2113808358159622574">原帖</a></li>
+<li><strong>少交社保多定投</strong>：每月投 500 元美股指数 30 年攒到 100 万，按 4% 法则月取 3300 元，所以非体制内尽量少交社保，这条近 500 赞但争议很大 <a href="https://x.com/SVScholar/status/2113851347376488794">原帖</a></li>
+</ul>
+<p>看法：数据类帖子有价值，社保那条忽略了医疗和长寿保障，当观点听就好</p>
+<hr />
+<p><strong>伊凡投資心得 @yifaninvest</strong></p>
+<ul>
+<li><strong>SPY 和 QQQ 定投 27 年</strong>：从 1999 年 3 月到 2026 年 9 月每月各投 1000 美元，共 331 期每户 33.1 万，SPY 变成约 204 万，总回报 517.7%，年化 11.34% <a href="https://x.com/yifaninvest/status/2113951902912438705">原帖</a></li>
+<li><strong>沪深300 对标普 21 年</strong>：每月 1000 元不换汇定投 258 期，沪深300 从 26 万到约 39 万，年化 3.77%，标普 500 到约 101 万，年化 11.37%，差了约 2.6 倍 <a href="https://x.com/yifaninvest/status/2113905856626688314">原帖</a></li>
+<li><strong>技术分析像安慰剂</strong>：他认为图形指标给人一种找到规律的掌控感，能让人睡得着、留在市场里也算有用，量化赚钱靠的更多是计算机手速而不是指标本身 <a href="https://x.com/yifaninvest/status/2113864337886752842">原帖</a></li>
+</ul>
+<p>看法：今天定投回测做得最完整的一位，数字可以直接拿去和家人讲</p>
+<hr />
+<p><strong>Galaxy_Chloe @KelseyDingMD</strong></p>
+<ul>
+<li><strong>CalPERS 减持七巨头不是判决 AI</strong>：加州公务员养老金管着约 6371 亿美元，7 月起改用 Total Portfolio Approach，用 75% 股票加 25% 美债做参考组合，主动风险上限 400 个基点。直接持有七巨头的股数少了 26%，更像降集中度，她的结论是 AI 可以继续繁荣，AI 股票不一定继续涨 <a href="https://x.com/KelseyDingMD/status/2114023493671256081">原帖</a></li>
+<li><strong>中东选举窗口</strong>：以色列 10 月 27 日、美国 11 月 3 日中期选举，X 上有分析称选后若再动手量级可能超预期，布伦特已冲到 117 美元五个月新高 <a href="https://x.com/KelseyDingMD/status/2113723586070577551">原帖</a></li>
+<li><strong>X 创作者分成为什么少</strong>：X 广告收入 2025 财年约 18 亿美元，只有 2021 年 45.1 亿的四成左右，池子小了分到创作者手里自然不大方 <a href="https://x.com/KelseyDingMD/status/2114009059590574578">原帖</a></li>
+</ul>
+<p>看法：CalPERS 那条把一条容易被标题党误读的新闻讲清楚了，信息密度高</p>
+<hr />
+<p><strong>Michelle @michelle_z21331</strong></p>
+<ul>
+<li><strong>第一笔 X 工资 180.45 美元</strong>：她 10 月 7 日达到收益资格，最近 4 周总流量约 500 万到 600 万，Verified 流量约 70 万到 85 万，按 Grok 估算每千次 Verified 流量约 0.5 美元，计算机制相当不透明 <a href="https://x.com/michelle_z21331/status/2113763109680672942">原帖</a></li>
+<li><strong>晒收入也有人搬运</strong>：她看到两个账号发一模一样的文字和配图，都说两周赚了近 1.8 万元人民币，下面还有熟人认真点赞 <a href="https://x.com/michelle_z21331/status/2113988022899494988">原帖</a></li>
+<li><strong>同场呼应</strong>：图拉鼎 @tualatrix 发现收益计划之后 AI 回复号和做号的更多了，yihong0618 说现在好博客好推特的标准只剩一条，人写的 <a href="https://x.com/tualatrix/status/2113838387149070726">原帖</a> <a href="https://x.com/yihong0618/status/2113830469280366757">yihong</a></li>
+</ul>
+<p>看法：难得的真实收益数据，对想在 X 上写东西的人是很好的预期校准</p>
+<hr />
+<p><strong>刘小排 @bourneliu66</strong></p>
+<ul>
+<li><strong>Kimi K3.1 Pro 被他吹爆</strong>：他说 K3.1 Pro 能力超过 OpenAI 全系模型包括 GPT-6-Astra，而且开源，质疑月之暗面几百亿估值对 OpenAI 万亿估值是否合理，这条 600 多赞 <a href="https://x.com/bourneliu66/status/2113699226521887090">原帖</a></li>
+<li><strong>3D 能力</strong>：他测下来 K3.1 Pro 做 3D 仅次于 Opus 5.5，明显强过 GPT-6-Astra Max <a href="https://x.com/bourneliu66/status/2113695913617305805">原帖</a></li>
+<li><strong>让 Codex 评数字员工</strong>：他让 Codex GPT-6-Astra 结合自己日常工作，分别体验已登录的 Grokbot、Muse 和 OpenAI Dot，不限 Token 跑了一晚上，结论是 Grokbot 最适合做数字员工 <a href="https://x.com/bourneliu66/status/2113915249606926432">原帖</a></li>
+</ul>
+<p>看法：结论很激进，对照拾一 @__oQuery 19 美元套餐没做完一个 footer 就撞 5 小时上限的反馈一起看更客观 <a href="https://x.com/__oQuery/status/2113680034787668079">拾一</a></p>
+<hr />
+<p><strong>Gorden Sun @Gorden_Sun</strong></p>
+<ul>
+<li><strong>Cohere 机密计算版 Model Vault</strong>：联合微软 Azure 和英伟达，基于 H100 机密计算搭环境，本地软件先核验云端软硬件，再发加密数据，解密和推理都在芯片隔离区里完成，Cohere 和微软运维都看不到明文 <a href="https://x.com/Gorden_Sun/status/2113865401851605399">原帖</a></li>
+<li><strong>Kimi K3.1 Pro 一句话评价</strong>：能力很强，蒸得不错，就是太贵 <a href="https://x.com/Gorden_Sun/status/2113858192375734780">原帖</a></li>
+<li><strong>VVV 一句话剪婚礼视频</strong>：开源项目装进 AI 助手，说一句话就能选模板、放照片出成片，还能复刻你喜欢的片子 <a href="https://x.com/Gorden_Sun/status/2113902089978126354">原帖</a></li>
+</ul>
+<p>看法：toB 安全方向的信息平时少有人讲，Cohere 那条值得记一下</p>
+<hr />
+<p><strong>小工具</strong></p>
+<ul>
+<li><strong>AI 清理安卓平板</strong>：Tw93 @HiTw93 几句话让 AI 通过数据线干掉安卓平板的系统广告、无用通知和预装应用，适合给家人新手机做优化 <a href="https://x.com/HiTw93/status/2113975366469767426">原帖</a></li>
+<li><strong>macOS 识别数据线类型</strong>：Linmi @Linmiv 发现 macOS 底层能识别数据线类型，顺手做了可视化，600 多赞 <a href="https://x.com/Linmiv/status/2113902454538678446">原帖</a></li>
+<li><strong>ai-memory</strong>：Richie.L @HakWitTalk 介绍的跨 Agent 记忆工具，借各家 Agent 钩子记录过程，会话结束整理成 git 管理的 Markdown 维基，换 Agent 先拿交接，Rust 单文件，MIT，5 个月 1.1 万星 <a href="https://x.com/HakWitTalk/status/2114011616580882818">原帖</a></li>
+<li><strong>DeepInfer 跑 DeepSeek</strong>：Andy Stewart @manateelazycat 优化几天后，DeepInfer 加 DeepSeek V4.1 Flash 1017 单流解码接近 70 TPS，预填充 1076 TPS，MiniMax M3 428B 也在两台算力舱上跑起来了 <a href="https://x.com/manateelazycat/status/2113838608306282720">原帖</a> <a href="https://x.com/manateelazycat/status/2113992885007962476">MiniMax</a></li>
+<li><strong>Caplo 录屏</strong>：ahhhhfs @abskoop 推荐的 macOS 原生录屏，自动聚焦、光标美化、本地字幕和时间线剪辑，最高 4K 导出 <a href="https://x.com/abskoop/status/2113906773912699113">原帖</a></li>
+<li><strong>LinPad OS</strong>：僧僧GO @EbookPlan 介绍的开源项目，给 iPad 装 Linux 桌面，本地跑 VS Code、Git 甚至 Claude Code <a href="https://x.com/EbookPlan/status/2113993818576232886">原帖</a></li>
+<li><strong>Magpie 首个模型伙伴是 Kimi</strong>：yetone @yetone 宣布 Kimi 成为 Magpie 里第一个合作伙伴 <a href="https://x.com/yetone/status/2113692710934855857">原帖</a></li>
+</ul>
+<hr />
+<p><strong>推荐关注</strong></p>
+<ul>
+<li><a href="https://x.com/manateelazycat">Andy Stewart @manateelazycat</a>：懒猫微服创始人，天天贴 DeepInfer、MiniMax 本地部署的真实 TPS 数字，想跟本地推理进展的值得看，偶尔有产品推广</li>
+<li><a href="https://x.com/BlockInsight214">王小庄 @BlockInsight214</a>：3090 解锁热潮里少见的冷静版本，给数字也给局限，AI 工程向的新账号可以观察几期</li>
+</ul>]]></content:encoded></item>
 <item><title>中文推特圈精选｜10月23日（上海时间）</title><link>https://yanjieli.com/x-digest-feed/zh/2026-10-23.html</link><guid isPermaLink="false">x-digest-zh-2026-10-23</guid><pubDate>Sat, 24 Oct 2026 08:00:00 +0800</pubDate><description><![CDATA[<p><strong>中文推特圈精选｜10月23日（上海时间）</strong></p>
 <p><strong>今日主线</strong>
 1. 美股半导体「黑色星期四」，SMH 跌近 6%，情绪分掉到 20，中文投资圈在清仓、去杠杆和加仓 QQQ 之间拉扯
