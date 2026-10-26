@@ -1,0 +1,123 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>英文推特圈精选｜10月25日（上海时间）</title><style>body{max-width:760px;margin:2em auto;padding:0 1em;font:16px/1.7 -apple-system,'PingFang SC','Noto Sans CJK SC',sans-serif;color:#222}a{color:#1d6fd6}hr{border:0;border-top:1px solid #ddd;margin:1.5em 0}nav{font-size:14px;margin-bottom:1em}</style></head><body><nav><a href="../index.html">全部订阅</a> · <a href="index.html">英文推特圈每日精选 往期</a></nav><p><strong>英文推特圈精选｜10月25日（上海时间）</strong></p>
+<p><strong>今日主线</strong>
+1. 周末话题从模型跑分转到「AI 时代怎么守住自己的服务器」，levelsio 让 Claude Code 把每台 VPS 审一遍，还提议每月一个安全周
+2. 算力越来越贵，H100 租金比去年 12 月涨了 45%，Chamath 说电力才是瓶颈，Elon 列出超算建设的长串卡点，neolab 囤卡转租成了笑话里的商业模式
+3. Agent 落地经验在沉淀，Rauch 说管好 AI 的分寸是第一技能，Mollick 看到高管能直接盯全公司，Harrison Chase 晒出 LangChain 内部的公司级 agent</p>
+<hr />
+<p><strong>Pieter Levels</strong> @levelsio</p>
+<ul>
+<li><strong>花一整天做安全审计</strong>：他在每台 VPS 和每个站点上让 Claude Code 跑「对这个网站和服务器做一次完整安全审计」，原本就开了 Ubuntu 无人值守安全更新加自动重启，这次又用 Claude Code 生成的 Tailscale 策略把每台 VPS 隔离开，彼此访问不到，也碰不到他的 MacBook 和 iPhone，Web 服务统一降到 www-data 权限避免 root <a href="https://x.com/levelsio/status/2114317753985188201">原帖</a></li>
+<li><strong>每月加一个「安全周」</strong>：他借用 Jon Yongfook 的「营销周」说法，认为模型越来越强，防守也得跟上，所以每月要留一周专门做安全，乐观的一面是 AI 的攻防能力大致对等，只要定期让模型审计就能守住 <a href="https://x.com/levelsio/status/2114317753985188201">原帖</a></li>
+<li><strong>起因是朋友被 AI 攻击</strong>：他引用的那条帖子里，一位创业者说自己公司遭遇了从未见过的 AI 发起的网络攻击，现场补漏的压力大到怀疑中风进了急诊，这也是他连续几天谈 VPS 加固的背景 <a href="https://x.com/levelsio/status/2114176258758111347">被引帖</a></li>
+</ul>
+<p>看法：前几天讲的是把 VPS 收进内网，今天是把审计变成例行流程，对独立开发者来说这套组合很可抄</p>
+<hr />
+<p><strong>Guillermo Rauch</strong> @rauchg</p>
+<ul>
+<li><strong>管好 AI 的分寸是第一技能</strong>：有时你会过度指挥，其实 AI 比你懂得多，有时又指挥不足，它会跑偏、带着错误偏见或缺上下文，他说招人时最看重的就是怎么拿捏这个度，近 3000 赞 <a href="https://x.com/rauchg/status/2114085432749347086">原帖</a></li>
+<li><strong>模型的工程黑话</strong>：他很喜欢模型常用的 gate、evidence、culprit、durable、provenance、contract 这类词，因为大部分工程工作是调试和理解已有系统，本质是做取证，他还在想高效工作需要的「最小可用英语」是多少，ASD-STE100 简化技术英语约 900 个词，他猜实际需要的更少 <a href="https://x.com/rauchg/status/2114164830403989880">原帖</a></li>
+</ul>
+<p>看法：第一条可以直接当面试题，第二条点出了为什么 agent 写的调试报告读起来像审计报告</p>
+<hr />
+<p><strong>Chamath Palihapitiya</strong> @chamath</p>
+<ul>
+<li><strong>电力才是硬约束</strong>：他引用数据称 H100 租金比去年 12 月贵了 45%，这款卡 2022 年就上市，之后已出了两代新品，旧卡反而涨价，说明算力需求远超供给，他的判断是电力卡住了一切 <a href="https://x.com/chamath/status/2114093525059174868">原帖</a></li>
+<li><strong>钱流向服务而不是模型</strong>：他转发 Social Capital 的数据，今年全球 AI 支出预计约 2.7 万亿美元，只有约 1% 流向模型本身，配了一个词「Services!」 <a href="https://x.com/chamath/status/2114155223329747221">原帖</a></li>
+<li><strong>Agent 和人一样会在团队里漏信息</strong>：他引用一条中文帖，说 Anthropic 最近建议企业少用 subagent，有客户改成单 agent 加 skills 后速度快了约 2 倍，他觉得讽刺的是 agent 成群协作时出现的问题和人类一样 <a href="https://x.com/chamath/status/2114029854849184026">原帖</a></li>
+</ul>
+<p>看法：1% 这个数字适合拿来反问「模型公司估值靠什么」，钱大头在算力、电力和上面的服务层</p>
+<hr />
+<p><strong>Elon Musk</strong> @elonmusk</p>
+<ul>
+<li><strong>长按点赞送 1 美元</strong>：X 要加一个功能，长按点赞就能通过 X Money 给对方打 1 美元，这条拿了 15 万赞，是 X Money 往日常互动里塞支付的一步 <a href="https://x.com/elonmusk/status/2114184998651822094">原帖</a></li>
+<li><strong>Starlink 和 Starshield 划界</strong>：他说民用的 Starlink 从未允许用于进攻性无人机打击，乌克兰军方违反服务条款，这个漏洞上周已经堵上，军用的 Starshield 是另一套系统由美国政府控制，同时强调 Starlink 关掉的话乌克兰前线会立刻崩溃 <a href="https://x.com/elonmusk/status/2114063986744275011">原帖</a></li>
+<li><strong>超算建设的卡点清单</strong>：他转了一份从土地、许可、并网、变压器开关柜，到噪音、燃料安全、大型车床的清单，说任何一项缺了算力都跑不起来；另外针对 GPU 租金跑赢 6 年折旧（H200 高出 143%，B200 高出 111%），他的比喻是你想雇多少个又聪明又拼、还在不断变强的人 <a href="https://x.com/elonmusk/status/2114167331056140414">原帖</a> <a href="https://x.com/elonmusk/status/2114205004340854795">GPU 折旧</a></li>
+</ul>
+<p>看法：其余大量是德州选举政治帖，略过，GPU 折旧那组数据和 Chamath 的 H100 涨价能对上</p>
+<hr />
+<p><strong>Ethan Mollick</strong> @emollick</p>
+<ul>
+<li><strong>AI 扩大了高管的管理半径</strong>：他观察到大公司用上 AI 后，高层能直接监控整家公司，管理跨度被拉大，这会大幅改变公司运作方式，而且比重新设计组织架构容易落地得多 <a href="https://x.com/emollick/status/2114337256865493250">原帖</a></li>
+</ul>
+<p>看法：只有一条，但很值得琢磨，中层被压缩的另一面就是高层变得更集权</p>
+<hr />
+<p><strong>Harrison Chase</strong> @hwchase17</p>
+<ul>
+<li><strong>LangChain 的公司级 harness</strong>：他发了一篇 X 长文，介绍 LangChain 内部给整家公司用的 agent harness，Hamel Husain 读完注意到其中三个 agent 有两个是做营销的 <a href="https://x.com/hwchase17/status/2114041443836903662">原帖</a> <a href="https://x.com/HamelHusain/status/2114144197678899662">Hamel 的评论</a></li>
+<li><strong>全员都在用</strong>：被问哪个团队最抗拒 agent 时，他说内部各团队都已广泛采用，图表、视频和 PPT 全部由一个叫 content studio 的 agent 产出，面向企业的版本还在做，可申请早期试用 <a href="https://x.com/hwchase17/status/2114085096882118995">原帖</a> <a href="https://x.com/hwchase17/status/2114084516440723525">content studio</a></li>
+<li><strong>多人 agent 难得多</strong>：有人问各家助手有没有能和配偶共享的双人模式，他回多人协作的 agent 比单人难很多 <a href="https://x.com/hwchase17/status/2114055063778070669">原帖</a></li>
+</ul>
+<p>看法：营销 agent 占多数这个细节很真实，内容生产是 agent 最先吃掉的岗位之一</p>
+<hr />
+<p><strong>Tibo</strong> @thsottiaux</p>
+<ul>
+<li><strong>Codex 重置已全部生效</strong>：他宣布更新已全部推送完毕，让大家明天放开用 Codex，并预告这周还有好玩的，上万赞 <a href="https://x.com/thsottiaux/status/2114237083652882932">原帖</a></li>
+<li><strong>Day 20 休息</strong>：冲刺系列第 20 天只发了一句「休息和重置」，周六则是边喝咖啡边修 bug <a href="https://x.com/thsottiaux/status/2114200152701575656">原帖</a></li>
+<li><strong>dots 招人冲 10 亿用户</strong>：他公开招有过类似经验的人，一起把 dots 扩到 10 亿用户 <a href="https://x.com/thsottiaux/status/2114074885622501706">原帖</a></li>
+</ul>
+<p>看法：「fun week ahead」基本是在给本周新发布铺垫，值得留意</p>
+<hr />
+<p><strong>Leon Lin</strong> @LexnLin</p>
+<ul>
+<li><strong>代码生成的真实火焰</strong>：用 Opus 5.5 做了一个 610 万网格的 3D 燃烧模拟，火焰颜色来自黑体辐射物理，再加火花和余烬，没有用任何素材和音频文件 <a href="https://x.com/LexnLin/status/2114370856810107201">原帖</a></li>
+<li><strong>让 Claude 自己看用量</strong>：如果 5 小时额度还剩不少，可以让 Claude 先查看用量，它会根据剩余额度决定开多少 subagent、干多猛，刚好用满又不撞限 <a href="https://x.com/LexnLin/status/2114305659818607019">原帖</a></li>
+<li><strong>ChatGPT 网页版出现用量弹窗</strong>：他发现 ChatGPT 网页端新加了用量限制提示，另外把自己用 Opus 5.5、GPT 6 Astra 做的 demo 汇总成一个页面 <a href="https://x.com/LexnLin/status/2114367141025853634">原帖</a> <a href="https://leonlin.de/demos">Demo 合集</a></li>
+</ul>
+<p>看法：用量那条是真能省钱的小技巧，比单纯晒 demo 实用</p>
+<hr />
+<p><strong>Aravind Srinivas</strong> @AravSrinivas</p>
+<ul>
+<li><strong>SF 2049 变成多人游戏</strong>：Perplexity Computer 做的这款浏览器赛车游戏加了多人房间，基于 Cloudflare Durable Objects，分享 6 位房间码就能一起跑，服务端计圈，房间空了自动关闭；还用 image-to-3D 生成了 10 辆新车，物理引擎是 Rapier，预告片由三个 agent 并行录制，全是真实游戏画面 <a href="https://x.com/AravSrinivas/status/2114372064866169210">原帖</a></li>
+<li><strong>Johnny Cash 地图</strong>：Computer 把《I've Been Everywhere》里唱到的 92 个地名全部标在地图上，随歌声逐个点亮 <a href="https://x.com/AravSrinivas/status/2114068027197272430">原帖</a></li>
+</ul>
+<p>看法：连着几天用游戏和小 demo 秀 Computer，宣传味重，但多人房间加服务端计时说明它能搭完整的小产品了</p>
+<hr />
+<p><strong>Bindu Reddy</strong> @bindureddy</p>
+<ul>
+<li><strong>简单任务 DeepSeek Flash 难打</strong>：她说 DeepSeek Flash 每月更新，比 Sonnet 便宜 10 倍，支持多模态输出，超快版本也快上了，性能价格组合几乎没人能比 <a href="https://x.com/bindureddy/status/2114311735087874461">原帖</a></li>
+</ul>
+<p>看法：和她昨天说 Kimi K3.1 不如 DeepSeek Flash 是一条线，简单任务路由到便宜模型已经是共识</p>
+<hr />
+<p><strong>DHH</strong> @dhh</p>
+<ul>
+<li><strong>Omarchy 上 iPad</strong>：社区做出了一条命令把 Omarchy 装到 iPad 上，整个安装 3.8 分钟，他的原话是「比 GTA6 先到」 <a href="https://x.com/dhh/status/2114217234457395251">原帖</a></li>
+<li><strong>Omarchy 上 FreeBSD</strong>：FreeBSD 联合创始人 Jordan Hubbard 把 Omarchy 搬到 FreeBSD 上，起名 Daemonarchy，DHH 说 2000 年代初他自己的邮件和网站就跑在 FreeBSD 上 <a href="https://x.com/dhh/status/2114202106823385156">原帖</a></li>
+<li><strong>新主题五分钟上电视</strong>：他发布 jade-horse 和 year-of-the-horse 两个主题，五分钟后就有人在 OmarchyTV 上跑起来了 <a href="https://x.com/dhh/status/2114320250996949349">原帖</a></li>
+</ul>
+<p>看法：Omarchy 的社区扩散速度确实快，从中国版到 iPad 再到 FreeBSD 只用了几天</p>
+<hr />
+<p><strong>Garry Tan</strong> @garrytan</p>
+<ul>
+<li><strong>Gstack 最近的变化</strong>：他转了一份更新说明，Gstack 现在能配合 Capy 的 Captains 软件工厂，因为前沿模型变强删掉了约 1000 行旧的模型脚手架，新增 test-audit 找低价值测试，/autoplan 更强，/cso 加了运行时检查 <a href="https://x.com/garrytan/status/2114090740217499854">原帖</a></li>
+</ul>
+<p>看法：模型变强就删脚手架，这是 agent 工具链该有的维护方式</p>
+<hr />
+<p><strong>Nikita Bier</strong> @nikitabier</p>
+<ul>
+<li><strong>漏洞加语音的完美风暴</strong>：前沿模型高速挖出冷门安全漏洞，语音模型又已经和真人听不出差别，他担心模型遇到障碍时会直接伪造来电显示冒充你的银行给你打电话，5000 多赞 <a href="https://x.com/nikitabier/status/2114251829370560631">原帖</a></li>
+</ul>
+<p>看法：和 levelsio 的安全周放一起读，攻击面已经从服务器延伸到人</p>
+<hr />
+<p><strong>Nathan Benaich</strong> @nathanbenaich</p>
+<ul>
+<li><strong>训不出最强模型就去卖推理</strong>：他转了一个 neolab 朋友的话，就算训不出最好的模型，早期锁定的 GPU 产能现在租金已涨 2 到 3 倍，转租就能赚钱，他的总结是「要么死在冲前沿的路上，要么活得够久去卖推理」 <a href="https://x.com/nathanbenaich/status/2114106062605357132">原帖</a></li>
+</ul>
+<p>看法：玩笑话，但和今天的 H100 涨价数据放一起，算力本身就是资产</p>
+<hr />
+<p><strong>Dan Luu</strong> @danluu</p>
+<ul>
+<li><strong>软件该做得更有野心</strong>：他发了新文章，起因是 pgrust 作者 Michael Malis 今年一直给他看自己做的东西，讨论在 AI 工具下软件可以做得更大更好 <a href="https://x.com/danluu/status/2114103795999514770">原帖</a> <a href="https://danluu.com/ambitious/">文章</a></li>
+</ul>
+<p>看法：Dan Luu 的长文一向扎实，周末值得完整读一遍</p>
+<hr />
+<p><strong>小工具</strong>
+- <a href="https://leonlin.de/demos">Leon Lin 的 Demo 合集</a>，按点赞排序的 AI 生成 demo 集合，找灵感用
+- <a href="https://x.com/muratnakmuay/status/2114069163085889800">Corgi</a>，给 coding agent 用的终端多路复用器，基于 Ghostty，类似 tmux，每个 agent 有工作中、等你、完成、空闲状态，按 F1 跳到等你的那个
+- <a href="https://x.com/RoundtableSpace/status/2114141135706923142">vps-forge</a>，一个加固 Linux 服务器的 agent skill，带 5 分钟自动撤销防止把自己锁在外面，和今天的安全话题正好配套
+- <a href="https://x.com/yongfook/status/2114271944568873457">Jon Yongfook 的发现</a>，云端 agent 集群真正的用途不是写代码而是做研究，搜索、解析、推理这类流程即使开 subagent 也慢</p>
+<p><strong>推荐关注</strong>
+- <a href="https://x.com/danluu">Dan Luu @danluu</a>，前微软和 Twitter 工程师，长文以数据扎实著称，今天的新文章讨论软件该怎么做得更有野心，适合想看深度工程思考的人
+- <a href="https://x.com/nathanbenaich">Nathan Benaich @nathanbenaich</a>，Air Street Capital 创始人，每年写 State of AI 报告，对算力和 AI 投资的观察一针见血
+- <a href="https://x.com/yongfook">Jon Yongfook @yongfook</a>，Bannerbear 独立创始人，levelsio 今天引用了他的「营销周」做法，常分享独立开发和 agent 实际用法</p>
+<p><strong>名单调整</strong>
+本周英文名单从 27 个账号扩到 44 个，主要来自关注列表同步，新加了 Gergely Orosz、Leon Lin、Kent Beck、Alexandr Wang、Thariq 等你关注的账号，以及 Mitchell Hashimoto、Harrison Chase、Amjad Masad 等发掘来的账号，今天又补了 Nikita Bier、Nathan Benaich、Dan Luu、Jon Yongfook。暂时没有移出谁，关注列表这周新增了 Paul Bakaus 和 Thariq，没有取关。跟踪还不满一周，本周不给取关建议</p></body></html>
