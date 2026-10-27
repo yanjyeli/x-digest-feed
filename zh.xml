@@ -43,7 +43,7 @@
 <ul>
 <li><strong>封号反而让人清醒</strong>：Claude Max 20x 被封让他从天天 Build 的状态里醒过来，现在用三个 Claude Pro，不算少也绝不算多，得精打细算把 Token 花在真正重要的事情上 <a href="https://x.com/tualatrix/status/2114562871707537754">原帖</a></li>
 <li><strong>自己 Vibe 一个多账号监控</strong>：给自己做了 Claude 多账号的用量监控和切换工具，本来想用 Magpie，觉得等有十个账号再说 <a href="https://x.com/tualatrix/status/2114691653646811269">原帖</a></li>
-<li><strong>iPad mini 8 和 iPhone Duo 一样重</strong>：mini 8 只比 iPhone Duo 重 1 克，比上代轻 38 克约 13%，虽然大概率还不是高刷，他作为 mini 7 用户已经想换 <a href="https://x.com/tualatrix/status/2114719230365204591">原帖</a></li>
+<li><strong>iPad mini 8 和 iPhone Duo 一样重</strong>：mini 8 只比 iPhone Duo 重 1 克，比上代轻 38 克约 13%，看到这组数据他更想换 mini 8 了 <a href="https://x.com/tualatrix/status/2114719230365204591">原帖</a></li>
 </ul>
 <p>看法：限额倒逼取舍这个视角很少有人讲，重度用户可以想想哪些任务其实没必要用顶级模型</p>
 <hr />
@@ -83,7 +83,7 @@
 <ul>
 <li><strong>Claude Code 指挥 Grok Bot 干活</strong>：装上 cursor-grokbot-agents 扩展后，Claude Code 或 Codex 能把 Grok Bot 当协作 Agent 调用，Grok Bot 保留自己的对话、记忆和工具。他的玩法是 Claude Code 拆需求，Grok Bot 改代码提 PR，Cursor Cloud 跑测试，出问题再修 <a href="https://x.com/xiaomovps/status/2114591684407464354">原帖</a></li>
 <li><strong>记忆清理实操四步</strong>：先让 AI 找出重复和冲突的规则列清单再决定，清理过期流程和失效 Skill，长期偏好留在记忆、具体流程放进 Skill，改完再自检一遍，重要文件先备份 <a href="https://x.com/xiaomovps/status/2114610156038504840">原帖</a></li>
-<li><strong>Tailscale 提权漏洞</strong>：攻击者控制一台有 SSH 权限的设备后，可能利用 Unix Socket 转发漏洞拿到目标服务器 Root。思维怪怪和岚叔 @LufzzLiz 也提到 10 月 25 日公布的 Tailworm 报告涉及 Tailscale 和 headscale，建议收紧 SSH 权限 <a href="https://x.com/xiaomovps/status/2114521890102604104">原帖</a> <a href="https://x.com/LufzzLiz/status/2114519644073779687">岚叔</a></li>
+<li><strong>Tailscale 提权漏洞</strong>：攻击者控制一台有 SSH 权限的设备后，可能利用 Unix Socket 转发漏洞拿到目标服务器 Root。岚叔 @LufzzLiz 也转了 Tailworm 报告，建议收紧网络和 SSH 权限，只留必要的人和设备 <a href="https://x.com/xiaomovps/status/2114521890102604104">原帖</a> <a href="https://x.com/LufzzLiz/status/2114519644073779687">岚叔</a></li>
 </ul>
 <p>看法：Tailscale 那条和你有关，你的 VPS 如果用 Tailscale SSH 管理，值得检查一下转发和 ACL 设置</p>
 <hr />
@@ -131,7 +131,7 @@
 <hr />
 <p><strong>推荐关注</strong></p>
 <ul>
-<li><a href="https://x.com/ReZigong">Market Decoded @ReZigong</a>：美股和 AI 双线，#美股说人话 系列把油价、利率和财报日程讲得很白，每天一份带来源的 AI 早报，偶有段子</li>
+<li><a href="https://x.com/ReZigong">Market Decoded @ReZigong</a>：美股和 AI 双线，#美股说人话 系列把油价、利率和财报日程讲得很白，每天一份标注来源的 AI 早报</li>
 <li><a href="https://x.com/antiAIvo">纳米AI @antiAIvo</a>：后端工程师在写的零基础大模型教程，昨天整理了一条从 Transformer 到 DeepSeek-V4 的学习路线，8 个阶段 51 个知识点按顺序读 <a href="https://x.com/antiAIvo/status/2114652127113130437">原帖</a>，适合系统补课，偶有自家网站推广</li>
 </ul>]]></description><content:encoded><![CDATA[<p><strong>中文推特圈精选｜10月26日（上海时间）</strong></p>
 <p><strong>今日主线</strong>
@@ -176,7 +176,7 @@
 <ul>
 <li><strong>封号反而让人清醒</strong>：Claude Max 20x 被封让他从天天 Build 的状态里醒过来，现在用三个 Claude Pro，不算少也绝不算多，得精打细算把 Token 花在真正重要的事情上 <a href="https://x.com/tualatrix/status/2114562871707537754">原帖</a></li>
 <li><strong>自己 Vibe 一个多账号监控</strong>：给自己做了 Claude 多账号的用量监控和切换工具，本来想用 Magpie，觉得等有十个账号再说 <a href="https://x.com/tualatrix/status/2114691653646811269">原帖</a></li>
-<li><strong>iPad mini 8 和 iPhone Duo 一样重</strong>：mini 8 只比 iPhone Duo 重 1 克，比上代轻 38 克约 13%，虽然大概率还不是高刷，他作为 mini 7 用户已经想换 <a href="https://x.com/tualatrix/status/2114719230365204591">原帖</a></li>
+<li><strong>iPad mini 8 和 iPhone Duo 一样重</strong>：mini 8 只比 iPhone Duo 重 1 克，比上代轻 38 克约 13%，看到这组数据他更想换 mini 8 了 <a href="https://x.com/tualatrix/status/2114719230365204591">原帖</a></li>
 </ul>
 <p>看法：限额倒逼取舍这个视角很少有人讲，重度用户可以想想哪些任务其实没必要用顶级模型</p>
 <hr />
@@ -216,7 +216,7 @@
 <ul>
 <li><strong>Claude Code 指挥 Grok Bot 干活</strong>：装上 cursor-grokbot-agents 扩展后，Claude Code 或 Codex 能把 Grok Bot 当协作 Agent 调用，Grok Bot 保留自己的对话、记忆和工具。他的玩法是 Claude Code 拆需求，Grok Bot 改代码提 PR，Cursor Cloud 跑测试，出问题再修 <a href="https://x.com/xiaomovps/status/2114591684407464354">原帖</a></li>
 <li><strong>记忆清理实操四步</strong>：先让 AI 找出重复和冲突的规则列清单再决定，清理过期流程和失效 Skill，长期偏好留在记忆、具体流程放进 Skill，改完再自检一遍，重要文件先备份 <a href="https://x.com/xiaomovps/status/2114610156038504840">原帖</a></li>
-<li><strong>Tailscale 提权漏洞</strong>：攻击者控制一台有 SSH 权限的设备后，可能利用 Unix Socket 转发漏洞拿到目标服务器 Root。思维怪怪和岚叔 @LufzzLiz 也提到 10 月 25 日公布的 Tailworm 报告涉及 Tailscale 和 headscale，建议收紧 SSH 权限 <a href="https://x.com/xiaomovps/status/2114521890102604104">原帖</a> <a href="https://x.com/LufzzLiz/status/2114519644073779687">岚叔</a></li>
+<li><strong>Tailscale 提权漏洞</strong>：攻击者控制一台有 SSH 权限的设备后，可能利用 Unix Socket 转发漏洞拿到目标服务器 Root。岚叔 @LufzzLiz 也转了 Tailworm 报告，建议收紧网络和 SSH 权限，只留必要的人和设备 <a href="https://x.com/xiaomovps/status/2114521890102604104">原帖</a> <a href="https://x.com/LufzzLiz/status/2114519644073779687">岚叔</a></li>
 </ul>
 <p>看法：Tailscale 那条和你有关，你的 VPS 如果用 Tailscale SSH 管理，值得检查一下转发和 ACL 设置</p>
 <hr />
@@ -264,7 +264,7 @@
 <hr />
 <p><strong>推荐关注</strong></p>
 <ul>
-<li><a href="https://x.com/ReZigong">Market Decoded @ReZigong</a>：美股和 AI 双线，#美股说人话 系列把油价、利率和财报日程讲得很白，每天一份带来源的 AI 早报，偶有段子</li>
+<li><a href="https://x.com/ReZigong">Market Decoded @ReZigong</a>：美股和 AI 双线，#美股说人话 系列把油价、利率和财报日程讲得很白，每天一份标注来源的 AI 早报</li>
 <li><a href="https://x.com/antiAIvo">纳米AI @antiAIvo</a>：后端工程师在写的零基础大模型教程，昨天整理了一条从 Transformer 到 DeepSeek-V4 的学习路线，8 个阶段 51 个知识点按顺序读 <a href="https://x.com/antiAIvo/status/2114652127113130437">原帖</a>，适合系统补课，偶有自家网站推广</li>
 </ul>]]></content:encoded></item>
 <item><title>中文推特圈精选｜10月25日（上海时间）</title><link>https://yanjieli.com/x-digest-feed/zh/2026-10-25.html</link><guid isPermaLink="false">x-digest-zh-2026-10-25</guid><pubDate>Mon, 26 Oct 2026 08:00:00 +0800</pubDate><description><![CDATA[<p><strong>中文推特圈精选｜10月25日（上海时间）</strong></p>
