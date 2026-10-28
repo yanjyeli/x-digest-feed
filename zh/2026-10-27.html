@@ -1,0 +1,132 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>中文推特圈精选｜10月27日（上海时间）</title><style>body{max-width:760px;margin:2em auto;padding:0 1em;font:16px/1.7 -apple-system,'PingFang SC','Noto Sans CJK SC',sans-serif;color:#222}a{color:#1d6fd6}hr{border:0;border-top:1px solid #ddd;margin:1.5em 0}nav{font-size:14px;margin-bottom:1em}</style></head><body><nav><a href="../index.html">全部订阅</a> · <a href="index.html">中文推特圈每日精选 往期</a></nav><p><strong>中文推特圈精选｜10月27日（上海时间）</strong></p>
+<p><strong>今日主线</strong>
+1. 微软向约 6 万名员工发自愿离职邀约，占全员四分之一以上，中文圈从补偿细节一路聊到 AI 拿人头费换算力
+2. OpenAI 和 Anthropic 同一天宣布 AI 推翻指数时间假设，OpenAI 还顺手发了主打操作电脑的 GPT-6.1 Terra，API 价格砍半
+3. DeepSeek Harness 插件生态突然爆发，B 站学生和极客扎堆写插件，玩法像当年刷机</p>
+<hr />
+<p><strong>宝玉 @dotey</strong></p>
+<ul>
+<li><strong>微软 6 万人自愿离职邀约</strong>：面向美国、加拿大、英国、印度部分团队，职级 70 级及以下，不看年龄、工龄和绩效，按标准遣散费给补偿，12 月第一周前决定、年底离开。Copilot、CoreAI、Windows、Xbox 团队都在名单里，销售、安全、量子计算不参加。微软也说这个计划不能替代裁员，之后还裁不裁看业务情况 <a href="https://x.com/dotey/status/2114763608856956970">原帖</a></li>
+<li><strong>AI 推翻指数时间假设</strong>：OpenAI 称内部模型给出比 ETH 断言更慢增长的 SAT 算法，证明已过 Lean 检查，由提出者 Impagliazzo、Paturi 和 Ryan Williams 牵头核查，同时还宣称证出杨-米尔斯理论存在、把 Kakeya 猜想推到所有维度。物理部分只做了“存在”没做“质量间隙”，材料暂不公开，由 David Gross 带队的专家组先写论文，目前都还没经过同行评审 <a href="https://x.com/dotey/status/2114867168072315221">原帖</a></li>
+<li><strong>Claude 单独署名的同结论论文</strong>：同一天 Anthropic 在 GitHub 放出论文得出同样结论，署名作者只有 Claude，核心算法 10 月 16 日由内部研究版 Claude 找到，用了 1400 万输出 Token，没有人类输入，而 OpenAI 说自己也是 10 月 16 日找到的 <a href="https://x.com/dotey/status/2114952872458633296">原帖</a></li>
+<li><strong>GPT-6.1 Terra 怎么用</strong>：Plus 及以上直接可用，API 每百万 Token 输入 1 美元、输出 5 美元，比旧版 Terra 便宜一半。Agents' Last Exam 约 60%，和 GPT-6 Astra 打平但单价只有十分之一，官方还说它完成任务的平均速度比 Astra 和 Sol 快 3 倍以上，同图最高分是 Opus 5.5 约 63%，花费也最高 <a href="https://x.com/dotey/status/2114790675279413738">原帖</a></li>
+</ul>
+<p>看法：ETH 那条把“谁说的、谁在核查、哪些还没公开”分得很清楚，在一片欢呼里是最靠谱的读法</p>
+<hr />
+<p><strong>思维怪怪 @0xLogicrw</strong></p>
+<ul>
+<li><strong>DeepSeek 和昇腾的磨合账</strong>：SemiAnalysis 测了昇腾 950PR，华为自家底层程序已发挥出 86% 可达算力，高于 H100 的 75.5%，但实际吞吐中位数只有 H100 的 43%、B300 的 21%。DeepSeek 从 FlashMLA 存储布局、TileLang 预取、DeepEP 昇腾版几个方向减少等待，最快年底用 950DT 做大规模预训练 <a href="https://x.com/0xLogicrw/status/2115018092317401488">原帖</a></li>
+<li><strong>Cloudflare 上的 GLM-5.3 串号事故</strong>：配置给了约 105 万 Token 上下文，GPU 缓存只能放约 68 万，SGLang 又没拒绝超长请求，8 月 27 日到 9 月 9 日有 155 条回答混入别的客户的内容。另有取消请求导致缓存提前复用的独立漏洞，自部署 SGLang 的要升到 v0.5.22 <a href="https://x.com/0xLogicrw/status/2115025636708540659">原帖</a></li>
+<li><strong>上千个 Agent 协作需要什么基础设施</strong>：Anthropic 平台工程负责人 Katelyn Lesse 说团队代码已全由 Claude 写，下一步难题是长周期、有状态、频繁休眠恢复的 Agent 调度，以及每个 Agent 单独授权、可随时撤销、一键全停。她还提到 9 月披露的 4 起测试环境误连公网事故 <a href="https://x.com/0xLogicrw/status/2115003558773084339">原帖</a></li>
+<li><strong>AI 回报还没出七巨头</strong>：Apollo 的 Torsten Sløk 指出剔除七巨头后标普 493 的人均营收和利润率基本原地踏步，Ramp 客户里前 10% 企业贡献 99.5% 的推理费用，二季度 69% 的标普公司说在用 AI，只有 2% 公布持续追踪的成效指标 <a href="https://x.com/0xLogicrw/status/2114970248038560233">原帖</a></li>
+</ul>
+<p>看法：昇腾那条难得把“利用率高”和“绝对算力低”分开讲，读国产芯片新闻时很需要这个区分</p>
+<hr />
+<p><strong>歸藏 @op7418</strong></p>
+<ul>
+<li><strong>DeepSeek Harness 插件热</strong>：他装了几个热门 DSH 插件，觉得生态在疯长，原因是 DeepSeek 便宜、能力中上，很多爱折腾的年轻人只用 DSH，和当年刷机搞 ROM 是一类人，这条 1400 多赞 <a href="https://x.com/op7418/status/2115000078104691168">原帖</a></li>
+<li><strong>目前前五的插件</strong>：dsh-market、DSH-better-sidebar、DeepSeek-Balance-Whale-Widget、dsh-context、dsh-pet，直接跟 DeepSeek 说要装就行，dsh-purge 也很火 <a href="https://x.com/op7418/status/2115002208668573753">原帖</a></li>
+<li><strong>让 DeepSeek 替你刷 B 站</strong>：dsh-bili-scroll 这周很火，他发现自己 B 站视频评论区出现了很多 DeepSeek 在互相聊天，原因是 B 站网页管控松，他觉得利弊都有要再看看 <a href="https://x.com/op7418/status/2115058211225293113">原帖</a></li>
+<li><strong>多 Agent 记忆体系</strong>：重新整理了个人 Memory 和多 Agent 分工，现在 Codex、Muse 和 Grok Bot 一起协作，Claude 没敢让它加入 <a href="https://x.com/op7418/status/2114928011569213603">原帖</a></li>
+</ul>
+<p>看法：B 站评论区开始出现 Agent 互聊这个细节很值得留意，插件生态一热，平台治理问题会比想象中来得快</p>
+<hr />
+<p><strong>向阳乔木 @vista8</strong></p>
+<ul>
+<li><strong>DSH 和 Obsidian 一样好玩</strong>：好的 Obsidian 插件很容易移植到 DeepSeek Harness，他顺手开源了 AI RSS 阅读器、电子书阅读器、UI 学习和个人工作台四个 DSH 插件 <a href="https://x.com/vista8/status/2115084756253863978">原帖</a> <a href="https://x.com/vista8/status/2115085153760694388">插件地址</a></li>
+<li><strong>AI 短剧《持械入宋》</strong>：X 上很多人推荐，他看到第二季 50 集左右，弹幕都在夸编剧，原著作者是抖音上的一位英语老师。他的感受是 AI 表演还有点生硬，但好剧情和台词能弥补很多 <a href="https://x.com/vista8/status/2114881673288634855">原帖</a></li>
+<li><strong>前端去 AI 味的 Skill</strong>：网友推荐的 Hallmark 丑到没有 AI 味，能让 Claude 做出 Codex 的感觉，他结合 emil-design-eng 和 impeccable 做了自己的 qiaomu-design，还附了多个前端 Skill 的对比页 <a href="https://x.com/vista8/status/2115067784912863460">原帖</a> <a href="https://x.com/vista8/status/2115067998637875547">对比</a></li>
+</ul>
+<p>看法：短剧那条比技术帖更有冲击力，AI 内容的门槛已经从画面转到了剧本</p>
+<hr />
+<p><strong>投资TALK君 @TJ_Research</strong></p>
+<ul>
+<li><strong>明年的配置思路</strong>：AI 落地越好资金越贵，投机玩家会被挤压，可能出现小暴雷。方向是现金牛软件、受益 AI 又防守的医疗、资本开支压力在英特尔的半导体，以及 META、GOOG、AAPL、QCOM 这几家智能体相关谁弱买谁，大科技利率到 7% 以上就增配债券，这条近 400 赞 <a href="https://x.com/TJ_Research/status/2114845384367358453">原帖</a></li>
+<li><strong>微软买断是拿 OPEX 换 AI SPEND</strong>：他说一季度财报时有人问纳德拉企业哪来钱用 AI，答案就是用运营开支换。他年初判断劳动力市场的变化会在 27 年二季度前后显现，路径是企业先猛用 Token，发现太贵又带不来营收，然后裁员 <a href="https://x.com/TJ_Research/status/2114754365588185356">原帖</a></li>
+<li><strong>云财报看利润率</strong>：所有云营收增速都在加速，现在的增速来自约一年前的资本开支，算力持续上线，营收增速就不能放缓 <a href="https://x.com/TJ_Research/status/2114882145898348665">原帖</a></li>
+</ul>
+<p>看法：三条连起来是一个完整框架，资本开支推云增速，云增速又逼企业压人头，适合周三财报前对照</p>
+<hr />
+<p><strong>Galaxy_Chloe @KelseyDingMD</strong></p>
+<ul>
+<li><strong>周三财报怎么看微软买断</strong>：建议盯三个数，买断费用计提、全年运营费用指引是否下调、管理层怎么解释省下的钱和 AI 资本开支的关系。她判断这次接受率会低于 4 月的 30%，明年大概率继续裁员，因为自由现金流同比下降了 23% <a href="https://x.com/KelseyDingMD/status/2114779774614950203">原帖</a> <a href="https://x.com/KelseyDingMD/status/2114945800669474880">补充</a></li>
+<li><strong>凯恩斯的两段投资生涯</strong>：前期是宏观交易员加杠杆亏得很惨，后期转向逆向加长期持有，大萧条后和二战期间持续买入。选美比喻说的是短期市场在猜别人怎么想，个人玩家的办法是退出这个游戏回到企业本身 <a href="https://x.com/KelseyDingMD/status/2114912146001973332">原帖</a></li>
+<li><strong>30 岁后读医学院有多难</strong>：2025 年全美 MD 申请 54699 人，录取新生 23440 人，只有 2.6% 超过 30 岁，读完还要住院医 3 到 7 年，最快约十年才能独立行医 <a href="https://x.com/KelseyDingMD/status/2114823911351468398">原帖</a></li>
+</ul>
+<p>看法：财报三个观察点很实用，比单纯感叹大厂不再稳要有用得多</p>
+<hr />
+<p><strong>Orange AI @oran_ge</strong></p>
+<ul>
+<li><strong>自愿裁员的两难</strong>：签了拿 8 到 39 周工资一次付清，但算自愿离职领不到失业金；不签等下一轮，7 月被强制裁掉的人说拿到的包和 4 月自愿走的差不多。同时微软今年资本开支 1159 亿美元、同比涨约 80%，人均创收从 123.5 万涨到 148.8 万美元，他的结论是每个人都得有自己的生意 <a href="https://x.com/oran_ge/status/2114880735324803545">原帖</a></li>
+<li><strong>GEO 先从个人网站做起</strong>：要让每个 AI 都认识自己，他把个人网站重新收拾了一遍，群友开始互换链接，像 web2.0 时代的 GEO 版 <a href="https://x.com/oran_ge/status/2115092945854730581">原帖</a></li>
+</ul>
+<p>看法：失业金那个细节是其他解读里没提到的，对在美国的读者很关键</p>
+<hr />
+<p><strong>李志 @LZRationalnvest</strong></p>
+<ul>
+<li><strong>恒生 Global Money+ 零费用入金嘉信</strong>：同样从香港转美元，汇丰电汇约 20 美元，恒生 Global Money+ 为 0。关键是用嘉信 Direct Deposit 的路由号 071000013 和长账号，收款人填自己而不是嘉信公司，和电汇正好相反，附言写嘉信 8 位账号和英文名，实测 2 到 3 天到账 <a href="https://x.com/LZRationalnvest/status/2114981776770883811">原帖</a></li>
+<li><strong>盈透 Q3</strong>：客户账户 557.6 万、同比增 35%，客户资产 9647 亿美元，户均约 17.3 万美元。净营收 19.1 亿美元里净利息收入占约 60%，税前利润率 78%，早就不是靠佣金吃饭的券商 <a href="https://x.com/LZRationalnvest/status/2115097103852872023">原帖</a></li>
+<li><strong>630 亿美元的算力融资租赁</strong>：美银、花旗、大摩和黑石出钱，SPV 采购博通的 AI 芯片和网络设备再租给 Anthropic，博通还给设备残值兜底，约 435 亿属于优先级债务 <a href="https://x.com/LZRationalnvest/status/2114987800085119163">原帖</a></li>
+</ul>
+<p>看法：入金教程是真能省钱的干货，截图步骤也全，有港卡的可以收藏</p>
+<hr />
+<p><strong>伊凡投資心得 @yifaninvest</strong></p>
+<ul>
+<li><strong>换身份能不能躲开 CRS 追税</strong>：美国居民短线最高税负可超过 54%，长线加州也有约 37%；澳洲短线最高 47%，还要按交易日汇率折算澳元算损益。香港不征资本利得税，但美股股息被预扣 30% 且退不回，大陆居民有中美税收协定只预扣 10%，前提是真实定居 <a href="https://x.com/yifaninvest/status/2114842688088609174">原帖</a></li>
+<li><strong>CRS 最关键的是总卖出金额</strong>：交换的数据包括期末余额、股息和全年累计卖出金额，只计卖出不计买入，频繁交易和融资会让数字很夸张。应税额按实际盈利算，所以要自己能拿出成本证明 <a href="https://x.com/yifaninvest/status/2115026538072809893">原帖</a></li>
+</ul>
+<p>看法：两条合起来把“移民避税”的误区讲透了，做港美股的值得留着</p>
+<hr />
+<p><strong>范凯说AI @fankaishuoai</strong></p>
+<ul>
+<li><strong>实用模型排行</strong>：只看干活能力、速度和稳定性，排名是 Opus 5.5、GPT-6 Astra、DeepSeek V4.1 Flash、Grok 4.7、GLM 5.3 Flash。Astra 适合验收但懒且防御性废话多，DeepSeek 积极但啰唆、深度不够，GLM 只有约 50 token/s 而 DeepSeek 能到 300 <a href="https://x.com/fankaishuoai/status/2114923793051173276">原帖</a></li>
+<li><strong>本地 AI 员工团队</strong>：主力开发用 Pi 加 DeepSeek，设计方案用 Copilot 加 Opus 5.5，验收用 Pi 加 GPT-6 Astra，包工头设计、搬砖工开发、验收工把关，他说 Codex 已经完全用不上 <a href="https://x.com/fankaishuoai/status/2115094306021314694">原帖</a></li>
+<li><strong>Grok Bot 套餐额度实测</strong>：他从后台导出数据反推，30 美元档周限额约 2.76 亿 Token，100 美元档约 13.27 亿，200 美元档约 44 亿，之后又发了一条更正，具体数字以更正版为准 <a href="https://x.com/fankaishuoai/status/2115107335865848068">原帖</a> <a href="https://x.com/fankaishuoai/status/2115107471052489097">更正</a></li>
+</ul>
+<p>看法：排行榜带具体缺点和速度数字，比刷榜分有参考价值</p>
+<hr />
+<p><strong>Richie.L @HakWitTalk</strong></p>
+<ul>
+<li><strong>Meta 改卖股票融资</strong>：按 SEC 公告分三块，约 225 亿美元 A 类股远期出售、约 125 亿强制可转换优先股，再加最多约 600 亿的 C 类股 ATM，最后一块最早明年一季度启动，所以 950 亿是上限。三季度资本开支 349 亿，比经营现金流还多，自由现金流负 21 亿，英伟达、AMD、博通合计有意认购最多 50 亿 <a href="https://x.com/HakWitTalk/status/2114920671377870896">原帖</a></li>
+<li><strong>DeepMind 的森林分类地图 ForTy</strong>：把全球每块 10×10 米的地分成原始林、天然更新林、人工林、速生林、经济林和其他六类，还有 2017 到 2025 逐年序列，对应欧盟零毁林法规的 2020 基线。总体判对 90%，但他翻了预印本，人工林这一类 F1 只有 58.2% <a href="https://x.com/HakWitTalk/status/2114989644546990216">原帖</a></li>
+<li><strong>Reddit 自建原型工具</strong>：Reddit Proto 让设计师起个项目名就能 vibe coding，Git 全被隐藏，组件来自自家设计系统，还能登录真账号看真数据，150 多人在用、攒了约 700 个原型 <a href="https://x.com/HakWitTalk/status/2114753737805984133">原帖</a></li>
+</ul>
+<p>看法：几条都主动指出了数字的局限，比如 950 亿只是上限、人工林准确率偏低，这种写法值得信任</p>
+<hr />
+<p><strong>Leto Bao @leto_bao</strong></p>
+<ul>
+<li><strong>全天录音的个人记忆 App</strong>：他用 Apple Watch 和 AirPods 从起床录到睡觉，做了 AideMemo，记录去过哪、见了谁、吃了什么。随口说一句想去印尼爬山，Claude 晚上就整理攻略并对照日历，还能用付款记录加录音回答“上次那家披萨点的哪种”这类问题 <a href="https://x.com/leto_bao/status/2114899775812407756">原帖</a></li>
+<li><strong>隐私怎么做</strong>：没有账号，数据存在本地，AI 部分走签了零数据保留的私有部署开源模型，拿到了 Apple 的 Data Not Collected 标签，也可以换成 Apple Intelligence 或自己的 API <a href="https://x.com/leto_bao/status/2114926719090274481">原帖</a></li>
+<li><strong>定价逼近 API 成本</strong>：他说订阅价已接近转写 API 本身成本，用满额度他是亏的，这周会上线邀请制免费套餐 <a href="https://x.com/leto_bao/status/2115062596776911001">原帖</a></li>
+</ul>
+<p>看法：思路很前卫，但全天录音会涉及身边人的同意问题，帖子里还没回应这一点</p>
+<hr />
+<p><strong>铁锤人 @lxfater</strong></p>
+<ul>
+<li><strong>在家用游戏卡跑具身模型</strong>：没买机械臂，用 16GB 的 RTX 4070 Ti SUPER 加仿真环境 LIBERO，让 π0.5 控制机械臂打开炉灶、放上摩卡壶。推理引擎用开源的 APXInf，他的卡不在官方适配表上，Python 扩展报找不到函数，是交给 Coding Agent 排查跑通的 <a href="https://x.com/lxfater/status/2114926643173327086">原帖</a> <a href="https://x.com/lxfater/status/2114926650324344835">部署细节</a></li>
+<li><strong>让 Agent 帮你取消续费</strong>：蚂蚁灵光 2.0 号称进化成个人 Agent，他拿来解决退订自动续费这个老难题 <a href="https://x.com/lxfater/status/2115007894882078952">原帖</a></li>
+</ul>
+<p>看法：具身模型能在消费级显卡上跑通，入门门槛比大多数人以为的低</p>
+<hr />
+<p><strong>Lucy L. @LucyBuilding</strong></p>
+<ul>
+<li><strong>新云的融资问题没消失</strong>：周一 NBIS 盘初涨超 11%，CRWV、IREN、APLD 一起反弹。消息面上 Nebius 被报道为法国数据中心新增 2.5 亿欧元融资，但还没找到正式公告，10 月 22 日拿到的花旗 35 亿美元额度期限只有 364 天 <a href="https://x.com/LucyBuilding/status/2115080134860701780">原帖</a></li>
+<li><strong>新云的价值在哪</strong>：客户付钱不只是因为买不到卡，还因为自己搭和运维 GPU 集群很麻烦，网络、存储、调度、稳定性都要处理。她认为新云有真实业务价值，但能给股东留下多少要把融资成本和建设投入一起算 <a href="https://x.com/LucyBuilding/status/2114898312386277406">原帖</a></li>
+</ul>
+<p>看法：没公告的消息就标没公告，这种克制在追涨帖里很少见</p>
+<hr />
+<p><strong>小工具</strong></p>
+<ul>
+<li><strong>iOS 27.2 关闭摇一摇广告</strong>：国行专属，路径是隐私与安全、运动与健身、限制动作数据，双十一前很实用 <a href="https://x.com/abskoop/status/2114883552089452794">原帖</a></li>
+<li><strong>TradingAgents</strong>：用多个 AI 模拟交易公司里的分析师、多空研究员、交易员和风控，美股港股 A 股都能分析，仅供研究 <a href="https://x.com/Gorden_Sun/status/2114930269270770029">原帖</a></li>
+<li><strong>word-atlas 雅思单词</strong>：开源免费，7298 个单词配例句语音，界面质感很好，丢给 Codex 或 Claude Code 一句话就能装 <a href="https://x.com/vista8/status/2115061564852367449">原帖</a></li>
+<li><strong>腾讯 Hy-SimulMT 同传模型</strong>：中英双向边听边译，约 3 秒延迟，30B 总参数约 3B 激活，权重和训练工具都已开放 <a href="https://x.com/0xLogicrw/status/2115031013374218729">原帖</a></li>
+<li><strong>Papers with Code 开源</strong>：Apache 2.0 协议，后端 FastAPI 前端 React，做论文检索和复现榜单的可以直接改 <a href="https://x.com/BlockInsight214/status/2115095951165862186">原帖</a></li>
+<li><strong>PasteNow 支持 iPhone Duo</strong>：图拉鼎的剪贴板工具更新 <a href="https://x.com/tualatrix/status/2114908919768449220">原帖</a></li>
+<li><strong>Aerial 支持安卓 4.0+</strong> <a href="https://x.com/pengchujin/status/2115002359508328497">原帖</a></li>
+</ul>
+<hr />
+<p><strong>推荐关注</strong></p>
+<ul>
+<li><a href="https://x.com/Moblacksoil">墨无归 @Moblacksoil</a>：昨天把一篇 Agent 越权研究讲得很清楚，介绍了 AuthorizationBench，286 个任务跑 6864 次，Agent 越权率 19.2%，推理强度高低几乎没差，先问用户的 Agent 越权率低到 14% <a href="https://x.com/Moblacksoil/status/2115097940444557385">原帖</a>，数字和结论分得干净，发帖量不大可以先观察</li>
+</ul></body></html>
