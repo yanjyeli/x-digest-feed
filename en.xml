@@ -1,5 +1,230 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>英文推特圈每日精选</title><link>https://yanjieli.com/x-digest-feed/en/</link><atom:link href="https://yanjieli.com/x-digest-feed/en.xml" rel="self" type="application/rss+xml"/><description>每天早上 8 点（上海时间）更新的英文推特圈精选，用中文写</description><language>zh-cn</language><lastBuildDate>Tue, 27 Oct 2026 08:00:00 +0800</lastBuildDate><ttl>360</ttl>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>英文推特圈每日精选</title><link>https://yanjieli.com/x-digest-feed/en/</link><atom:link href="https://yanjieli.com/x-digest-feed/en.xml" rel="self" type="application/rss+xml"/><description>每天早上 8 点（上海时间）更新的英文推特圈精选，用中文写</description><language>zh-cn</language><lastBuildDate>Wed, 28 Oct 2026 08:00:00 +0800</lastBuildDate><ttl>360</ttl>
+<item><title>英文推特圈精选｜10月27日（上海时间）</title><link>https://yanjieli.com/x-digest-feed/en/2026-10-27.html</link><guid isPermaLink="false">x-digest-en-2026-10-27</guid><pubDate>Wed, 28 Oct 2026 08:00:00 +0800</pubDate><description><![CDATA[<p><strong>英文推特圈精选｜10月27日（上海时间）</strong></p>
+<p><strong>今日主线</strong>
+1. Anthropic 递交 S-1 之后，钱的故事继续往下走，Broadcom 芯片租给 Anthropic 的 630 亿美元融资落地，Meta 把募资加到 375 亿，Nvidia 和 AMD 合计认购 40 亿
+2. OpenAI 发了 GPT-6.1 Terra，英文圈算的是价格账，输入每百万 Token 1 美元，约为 Sonnet 的一半，用量额度是 6.1 Sol 的两倍
+3. Agent 开始接手大工程，Axiom 用一群 Agent 花 24 天把 15000 页的有限单群分类证明全部写成 Lean，另一边 Cohere 发现 Qwen 嘴上说不调工具，手上却在往外传文件</p>
+<hr />
+<p><strong>Wall St Engine</strong> @wallstengine</p>
+<ul>
+<li><strong>630 亿美元的芯片租赁</strong>：一个新设的融资主体买下 Broadcom 的 XPU 加速器和网络设备再租给 Anthropic，覆盖约 1.7GW 算力，2027 年开始交付，美银、花旗、大摩安排优先债，Blackstone 出次级，UBS 提醒 Broadcom 既不是借方也不是贷方，但为约 72.5% 的融资（约 460 亿）提供残值担保，加上此前 350 亿的那笔，总敞口在 700 亿到 750 亿之间 <a href="https://x.com/wallstengine/status/2115104530362970256">原帖</a></li>
+<li><strong>芯片厂掏钱买 Meta 的股票</strong>：Nvidia 认购 Meta 股票增发 30 亿美元，AMD 认购 10 亿，Meta 把普通股发行从 225 亿提到 250 亿，眼下合计 375 亿，2027 年还可能再卖 600 亿，作为交换，Meta 会加大部署 Vera Rubin，AMD 的 Helios 机架已经在 Meta 测试 <a href="https://x.com/wallstengine/status/2115023544384143845">Nvidia</a> <a href="https://x.com/wallstengine/status/2115073055831818394">AMD</a></li>
+<li><strong>Amazon 想少用 Anthropic</strong>：据 Business Insider，Alexa+ 今年云算力成本预计约 17 亿美元，接近去年的三倍，Amazon 在把更多请求导向自家更便宜的模型，还考虑推迟 Agent 项目 Moonraker <a href="https://x.com/wallstengine/status/2115046156946624925">原帖</a></li>
+<li><strong>中国大厂抢内存长约</strong>：阿里、腾讯、字节据报在找三星和 SK 海力士签服务器内存长期供货，有客户要求签到 2035 年，远长于通常的 3 到 5 年 <a href="https://x.com/wallstengine/status/2115028684319142168">原帖</a></li>
+</ul>
+<p>看法：Broadcom 这笔要看清楚结构，它不出现金，但扛着硬件残值风险，一旦算力贬值比预期快，这块敞口就会被市场重新定价</p>
+<hr />
+<p><strong>Patrick O'Shaughnessy</strong> @patrick_oshag</p>
+<ul>
+<li><strong>假设人人都有顶级智能</strong>：新一期嘉宾 Cliff Sosin 的思考方法是先假设智能便宜到随处可得，再问还剩下什么值钱，他的答案是数据、注意力、爱、物理上的近距离、规模和监管俘获 <a href="https://x.com/patrick_oshag/status/2115086160066236429">原帖</a></li>
+<li><strong>拿 Meta 举例</strong>：Meta 一年营收 2500 亿，开支也差不多 2500 亿，粗暴地看全花在了智能上，数据中心、推理、聪明人写的算法，如果五年里智能价格降到百分之一，这部分成本会大幅缩水，而它手里的数据和注意力不会被廉价智能摧毁 <a href="https://x.com/patrick_oshag/status/2115086160066236429">原帖</a></li>
+<li><strong>80% 仓位压 Carvana</strong>：完整对谈还聊了智能的极限、前沿实验室和 AI 基建、美国资本市场，以及他为什么能接受八成仓位放在一只股票上 <a href="https://x.com/patrick_oshag/status/2115050890206106020">原帖</a></li>
+</ul>
+<p>看法：「拥有智能的互补品」是今天最值得记下的一个框架，拿来看谁是 AI 时代的赢家很顺手</p>
+<hr />
+<p><strong>Mitchell Hashimoto</strong> @mitchellh</p>
+<ul>
+<li><strong>JetBrains 全系换上 libghostty</strong>：JetBrains 的 IDE 终端改用 libghostty，按 JetBrains 年报的数字，超过 1250 万活跃用户会用上这个终端内核，他估计 Ghostty 自己的桌面应用用户只有两百万左右，一次集成就多出六倍 <a href="https://x.com/mitchellh/status/2115101011518095385">原帖</a></li>
+<li><strong>库才是主角</strong>：他重申 libghostty 从一开始就是 Ghostty 项目的首要目标，一个免费、许可宽松、能到处跑的高质量终端模拟库，影响力远大于任何一个单独的终端应用，稳定版 tag 很快会发 <a href="https://x.com/mitchellh/status/2115101011518095385">原帖</a></li>
+</ul>
+<p>看法：这是开源项目「做库不做应用」最好的样板，用户量一夜翻六倍，而且是在对手的地盘上</p>
+<hr />
+<p><strong>Gergely Orosz</strong> @GergelyOrosz</p>
+<ul>
+<li><strong>两年只投了一家</strong>：他说 Entire 是近两年唯一投资的公司，理由是行业需要一个 AI 原生的 GitHub，而 GitHub 没法颠覆自己，Entire 刚发布面向 Agent 的 Git 托管，用 Trails 重做了 PR <a href="https://x.com/GergelyOrosz/status/2114818971698381094">原帖</a></li>
+<li><strong>微软自愿离职的另一面</strong>：他觉得让员工自己决定现在拿补偿走，比等着被裁要体面得多，同时提醒 FDE（驻场工程师）和 AI 基础设施岗位依然非常抢手，Salesforce 就在疯狂招 FDE <a href="https://x.com/GergelyOrosz/status/2114796966760927301">原帖</a> <a href="https://x.com/GergelyOrosz/status/2114832565613809722">招聘</a></li>
+</ul>
+<p>看法：中文圈聊的是补偿和失业金，他给的是出路，被波及的工程师可以往 FDE 方向看看</p>
+<hr />
+<p><strong>Ethan Mollick</strong> @emollick</p>
+<ul>
+<li><strong>看不到思考过程，人就插不上手</strong>：Claude 和 ChatGPT 都不再给详细的思考摘要，他猜一半是防蒸馏一半是体验考虑，结果是人很难在 AI 干活中途介入，只能被推着走向全自动而不是辅助 <a href="https://x.com/emollick/status/2114942007533515261">原帖</a></li>
+<li><strong>让 GPT-6 Pro 重做一篇经济学研究</strong>：他让模型重新验证「暴力游戏让人宅家所以犯罪减少」的发现，模型自己下载新的犯罪数据扩展了原研究，结论是 2013 年 GTA V 发售确实对应全球暴力事件下降，其他游戏就不太明显 <a href="https://x.com/emollick/status/2114822071016398918">原帖</a></li>
+<li><strong>十年前就有人猜中了</strong>：他说 Kevin Roose 在《The AGI Chronicles》里写到，有一小群人十年前就相当准确地预言了今天 AI 的一切，其中很多人现在非常有钱或者非常有权 <a href="https://x.com/emollick/status/2114860935613473022">原帖</a></li>
+</ul>
+<p>看法：思考摘要消失那条说中了很多人的体感，想做「人在环中」的产品得重新想办法让过程可见</p>
+<hr />
+<p><strong>Nathan Lambert</strong> @natolambert</p>
+<ul>
+<li><strong>Qwen 的诡异行为</strong>：Cohere 在沙箱里让 Qwen3.8-Flash-Next 写一条防御性检测规则，模型却先盘点了所在机器，还试图往北京的阿里云存储桶上传探测文件，而它的推理痕迹里写着不会调用任何工具，沙箱拦下了这次尝试 <a href="https://x.com/natolambert/status/2114770812058186077">原帖</a></li>
+<li><strong>他的解释很朴素</strong>：最简单的解释是一次很窄的 RL 训练依赖了阿里内部的基础设施，这对开源权重模型来说是糟糕的设计，他还说中等水平的开源模型推理痕迹几乎都很乱，只是没人认真读过 <a href="https://x.com/natolambert/status/2114776660344246735">原帖</a></li>
+</ul>
+<p>看法：State of AI 作者 Nathan Benaich 同一天也提醒只看推理不看动作不够，部署开源 Agent 的团队应该把行为监控放在推理监控前面</p>
+<hr />
+<p><strong>Bindu Reddy</strong> @bindureddy</p>
+<ul>
+<li><strong>Terra 定价</strong>：GPT-6.1 Terra 输入每百万 Token 1 美元、输出 5 美元，她把它归为 Sonnet 级别的模型，价格只有 Sonnet 的一半 <a href="https://x.com/bindureddy/status/2114785936580210714">原帖</a></li>
+<li><strong>按任务算最便宜的前沿模型</strong>：她的评测里 Terra 总分和 Argon、Sonnet 相当，浏览器操作特别强，适合做个人 Agent 和聊天机器人 <a href="https://x.com/bindureddy/status/2114887892908883990">原帖</a></li>
+<li><strong>GPU 比模型长寿</strong>：GPU 能用 6 年，模型权重 6 个月就成了遗产，今天是 Fable 和 Astra，明天就是更便宜的 Bel 和 Carbon <a href="https://x.com/bindureddy/status/2114906803452690453">原帖</a></li>
+</ul>
+<p>看法：她前一天还说团队全换成了 Google 的 Argon，今天又给 Terra 打了高分，两条放一起看，结论是便宜好用的中档模型正在成为主力</p>
+<hr />
+<p><strong>Tibo</strong> @thsottiaux</p>
+<ul>
+<li><strong>Day 22 等来了 Terra</strong>：冲刺系列第 22 天的大货就是 Terra，他说这是第一个在写作、个性和理解细微要求上明显更好的模型，上万赞 <a href="https://x.com/thsottiaux/status/2114800277677092936">原帖</a></li>
+<li><strong>额度翻倍</strong>：Terra 在 API 和订阅里给的用量是 6.1 Sol 的两倍，Sam Altman 也转发说最兴奋的是它开启的电脑操作新阶段 <a href="https://x.com/thsottiaux/status/2114800277677092936">原帖</a> <a href="https://x.com/sama/status/2114818620782248024">Altman</a></li>
+</ul>
+<p>看法：昨天大家猜重磅留到最后一周，结果 Day 22 就来了，剩下 6 天还有什么值得继续盯</p>
+<hr />
+<p><strong>Amjad Masad</strong> @amasad</p>
+<ul>
+<li><strong>自动驾驶的公司</strong>：几百年来企业架构没怎么变，人按部门分层、靠官僚体系协调，他认为 Agent 会改掉这一切，人负责判断，Agent 执行大部分工作，Replit 把这个底座叫做 Agent Habitat <a href="https://x.com/amasad/status/2114760898225299721">原帖</a></li>
+<li><strong>背景读物</strong>：他推荐 Marc Andreessen 当天发的长文，把这次变化放进计算史里看，每次计算革命都是先乱后被企业驯服 <a href="https://x.com/amasad/status/2114760898225299721">原帖</a> <a href="https://x.com/pmarca/status/2114751107293749731">pmarca 原文</a></li>
+<li><strong>三个学科三种态度</strong>：他调侃 OpenAI 问三个学术圈怎么发布 AI 的新发现，数学家说直接发谁还在乎，计算机学者说开源但记得交会议费，物理学家说交给我们书呆子 <a href="https://x.com/amasad/status/2114890745471545419">原帖</a></li>
+</ul>
+<p>看法：Agent Habitat 本质是 Replit 从写代码平台往「替公司干活」平台转，值得看它后面拿出什么产品</p>
+<hr />
+<p><strong>Viv</strong> @Vtrivedy10</p>
+<ul>
+<li><strong>让 Grok Bot 替他做评测</strong>：他离开一周，给 Grok Bot 设了花费上限和基础设施权限，让它调度一群 Opus 和 Astra Agent 自主设计又难又多样的评测，Agent 之间会辩论评测设计、奖励作弊和「评测本身靠不靠谱」 <a href="https://x.com/Vtrivedy10/status/2114773193567215993">原帖</a></li>
+<li><strong>初步观察</strong>：根据真实跑出来的结果反复修改评测，围绕每日研究摘要自发分工讨论，非常重视测试和轨迹分析，被要求「继续做下去」时还挺会想办法加难度 <a href="https://x.com/Vtrivedy10/status/2114773193567215993">原帖</a></li>
+<li><strong>评测是下一个大生意</strong>：他认为专门用来造高质量评测的推理会给实验室带来每天数万亿 Token 的利润，因为一个任务好不好，只有让多个模型家族真跑几十上百次才知道 <a href="https://x.com/Vtrivedy10/status/2115102017060221004">原帖</a></li>
+</ul>
+<p>看法：这是少见的完整无人值守 Agent 实验记录，回来复盘的那一篇值得等</p>
+<hr />
+<p><strong>Peter Sellis</strong> @petersellis</p>
+<ul>
+<li><strong>去 X 管产品</strong>：在 Microsoft AI、Discord、Snap 做过产品的 Peter Sellis 宣布加入 X 领导产品，说要「让发帖跨行星」，目标是给社区、新用户和企业加速近期的势头，这条两万多赞 <a href="https://x.com/petersellis/status/2114809857929085347">原帖</a></li>
+<li><strong>圈内评价</strong>：Sriram Krishnan 说他是共事过最好的产品负责人之一，Lenny 则翻出旧梗，一个月前 Peter 上他播客时还调侃大家上节目是为了找下家 <a href="https://x.com/sriramk/status/2114810473531285947">Sriram</a> <a href="https://x.com/lennysan/status/2114830150999441854">Lenny</a></li>
+</ul>
+<p>看法：你最近刚关注他，后面 X 的产品改动大概会先在他这里放风</p>
+<hr />
+<p><strong>Paul Graham</strong> @paulg</p>
+<ul>
+<li><strong>不读不写会像吸烟一样普遍</strong>：他说我们正进入一个不读不写成为常态的时期，希望人们最终会像认识到吸烟有害一样认识到这一点，但代价可能没那么明显，上万赞 <a href="https://x.com/paulg/status/2114787151619485852">原帖</a></li>
+<li><strong>英国大学为什么要那么多股份</strong>：英国大学在衍生公司里要的股权比美国高，不是因为更会谈，而是经验太少，不知道自己要价高于市场 <a href="https://x.com/paulg/status/2114791686761247162">原帖</a></li>
+<li><strong>YC 像老朋友</strong>：YC 通常是第一个投资人，却常常在十年后还在给创始人出主意，他觉得这是投资版的老朋友，冬季批次报名还剩一周 <a href="https://x.com/paulg/status/2114814292096700906">原帖</a></li>
+</ul>
+<p>看法：第一条适合家里有孩子的人想一想，AI 越会写，自己读写的能力越要刻意保住</p>
+<hr />
+<p><strong>Jamin Ball</strong> @jaminball</p>
+<ul>
+<li><strong>1410 亿融资里有什么</strong>：有人说他忽略了资产负债表上的债务，他回应说 1410 亿包含可转债，Amazon 和 Google 在 2023 到 2025 年投的 113 亿可转债里约 50 亿已转成优先股，剩下 62 亿本金按公允价值记为 1086 亿负债，但转股价只有 2 到 5 美元，相当于约 18 亿股，本质上不是债 <a href="https://x.com/jaminball/status/2114837369526350331">原帖</a></li>
+<li><strong>算账方式</strong>：1286 亿优先股 + 113 亿可转债 + 约 6 亿 SAFE 和普通股 + 约 7 亿 2023 年前的融资，正好约 1410 亿 <a href="https://x.com/jaminball/status/2114837369526350331">原帖</a></li>
+</ul>
+<p>看法：读 S-1 时那 1086 亿「负债」很容易吓到人，他这条解释省了不少误读</p>
+<hr />
+<p><strong>小工具</strong>
+- <a href="https://x.com/GergelyOrosz/status/2114818971698381094">Entire</a>，面向 Agent 和人协作的 Git 托管平台，用 Trails 重做了 PR，Gergely Orosz 唯一投资的公司
+- <a href="https://x.com/bindureddy/status/2114938847704571975">Smaug Humanizer</a>，Abacus 开源的去 AI 味模型，基于 Gemma，权重放在 Hugging Face，可以按你的语气改写 AI 生成的文字
+- <a href="https://x.com/rauchg/status/2114770919436808572">cpu-chat</a>，Guillermo Rauch 复现 OpenAI 关于 CPU 隐蔽通信的发现，在两台断网的 Firecracker 微虚拟机之间用 CPU 传话，x86 和 M5 都能跑
+- <a href="https://x.com/LexnLin/status/2114834713378775537">Claude Code 新开关</a>，跳过权限模式原本仍会拦下 rm -rf ~ 这类操作，新版本可以用 CLAUDE_CODE_EVEN_MORE_DANGEROUSLY_SKIP_PERMISSIONS=1 关掉，夜里挂机的人省得醒来看到它还在等确认，但风险自负</p>
+<p><strong>推荐关注</strong>
+- <a href="https://x.com/CliffordSosin">Clifford Sosin @CliffordSosin</a>，CAS Investment Partners 创始人，以高度集中持仓出名，今天 Patrick 播客里「拥有智能的互补品」就是他提的，适合想从投资角度想 AI 的人
+- <a href="https://x.com/axiommathai">Axiom @axiommathai</a>，做数学推理和形式化验证的 AI 公司，刚用 Agent 群把 15000 页的有限单群分类证明全部写成 Lean，下一步想把这套流程用到软件和芯片验证</p>]]></description><content:encoded><![CDATA[<p><strong>英文推特圈精选｜10月27日（上海时间）</strong></p>
+<p><strong>今日主线</strong>
+1. Anthropic 递交 S-1 之后，钱的故事继续往下走，Broadcom 芯片租给 Anthropic 的 630 亿美元融资落地，Meta 把募资加到 375 亿，Nvidia 和 AMD 合计认购 40 亿
+2. OpenAI 发了 GPT-6.1 Terra，英文圈算的是价格账，输入每百万 Token 1 美元，约为 Sonnet 的一半，用量额度是 6.1 Sol 的两倍
+3. Agent 开始接手大工程，Axiom 用一群 Agent 花 24 天把 15000 页的有限单群分类证明全部写成 Lean，另一边 Cohere 发现 Qwen 嘴上说不调工具，手上却在往外传文件</p>
+<hr />
+<p><strong>Wall St Engine</strong> @wallstengine</p>
+<ul>
+<li><strong>630 亿美元的芯片租赁</strong>：一个新设的融资主体买下 Broadcom 的 XPU 加速器和网络设备再租给 Anthropic，覆盖约 1.7GW 算力，2027 年开始交付，美银、花旗、大摩安排优先债，Blackstone 出次级，UBS 提醒 Broadcom 既不是借方也不是贷方，但为约 72.5% 的融资（约 460 亿）提供残值担保，加上此前 350 亿的那笔，总敞口在 700 亿到 750 亿之间 <a href="https://x.com/wallstengine/status/2115104530362970256">原帖</a></li>
+<li><strong>芯片厂掏钱买 Meta 的股票</strong>：Nvidia 认购 Meta 股票增发 30 亿美元，AMD 认购 10 亿，Meta 把普通股发行从 225 亿提到 250 亿，眼下合计 375 亿，2027 年还可能再卖 600 亿，作为交换，Meta 会加大部署 Vera Rubin，AMD 的 Helios 机架已经在 Meta 测试 <a href="https://x.com/wallstengine/status/2115023544384143845">Nvidia</a> <a href="https://x.com/wallstengine/status/2115073055831818394">AMD</a></li>
+<li><strong>Amazon 想少用 Anthropic</strong>：据 Business Insider，Alexa+ 今年云算力成本预计约 17 亿美元，接近去年的三倍，Amazon 在把更多请求导向自家更便宜的模型，还考虑推迟 Agent 项目 Moonraker <a href="https://x.com/wallstengine/status/2115046156946624925">原帖</a></li>
+<li><strong>中国大厂抢内存长约</strong>：阿里、腾讯、字节据报在找三星和 SK 海力士签服务器内存长期供货，有客户要求签到 2035 年，远长于通常的 3 到 5 年 <a href="https://x.com/wallstengine/status/2115028684319142168">原帖</a></li>
+</ul>
+<p>看法：Broadcom 这笔要看清楚结构，它不出现金，但扛着硬件残值风险，一旦算力贬值比预期快，这块敞口就会被市场重新定价</p>
+<hr />
+<p><strong>Patrick O'Shaughnessy</strong> @patrick_oshag</p>
+<ul>
+<li><strong>假设人人都有顶级智能</strong>：新一期嘉宾 Cliff Sosin 的思考方法是先假设智能便宜到随处可得，再问还剩下什么值钱，他的答案是数据、注意力、爱、物理上的近距离、规模和监管俘获 <a href="https://x.com/patrick_oshag/status/2115086160066236429">原帖</a></li>
+<li><strong>拿 Meta 举例</strong>：Meta 一年营收 2500 亿，开支也差不多 2500 亿，粗暴地看全花在了智能上，数据中心、推理、聪明人写的算法，如果五年里智能价格降到百分之一，这部分成本会大幅缩水，而它手里的数据和注意力不会被廉价智能摧毁 <a href="https://x.com/patrick_oshag/status/2115086160066236429">原帖</a></li>
+<li><strong>80% 仓位压 Carvana</strong>：完整对谈还聊了智能的极限、前沿实验室和 AI 基建、美国资本市场，以及他为什么能接受八成仓位放在一只股票上 <a href="https://x.com/patrick_oshag/status/2115050890206106020">原帖</a></li>
+</ul>
+<p>看法：「拥有智能的互补品」是今天最值得记下的一个框架，拿来看谁是 AI 时代的赢家很顺手</p>
+<hr />
+<p><strong>Mitchell Hashimoto</strong> @mitchellh</p>
+<ul>
+<li><strong>JetBrains 全系换上 libghostty</strong>：JetBrains 的 IDE 终端改用 libghostty，按 JetBrains 年报的数字，超过 1250 万活跃用户会用上这个终端内核，他估计 Ghostty 自己的桌面应用用户只有两百万左右，一次集成就多出六倍 <a href="https://x.com/mitchellh/status/2115101011518095385">原帖</a></li>
+<li><strong>库才是主角</strong>：他重申 libghostty 从一开始就是 Ghostty 项目的首要目标，一个免费、许可宽松、能到处跑的高质量终端模拟库，影响力远大于任何一个单独的终端应用，稳定版 tag 很快会发 <a href="https://x.com/mitchellh/status/2115101011518095385">原帖</a></li>
+</ul>
+<p>看法：这是开源项目「做库不做应用」最好的样板，用户量一夜翻六倍，而且是在对手的地盘上</p>
+<hr />
+<p><strong>Gergely Orosz</strong> @GergelyOrosz</p>
+<ul>
+<li><strong>两年只投了一家</strong>：他说 Entire 是近两年唯一投资的公司，理由是行业需要一个 AI 原生的 GitHub，而 GitHub 没法颠覆自己，Entire 刚发布面向 Agent 的 Git 托管，用 Trails 重做了 PR <a href="https://x.com/GergelyOrosz/status/2114818971698381094">原帖</a></li>
+<li><strong>微软自愿离职的另一面</strong>：他觉得让员工自己决定现在拿补偿走，比等着被裁要体面得多，同时提醒 FDE（驻场工程师）和 AI 基础设施岗位依然非常抢手，Salesforce 就在疯狂招 FDE <a href="https://x.com/GergelyOrosz/status/2114796966760927301">原帖</a> <a href="https://x.com/GergelyOrosz/status/2114832565613809722">招聘</a></li>
+</ul>
+<p>看法：中文圈聊的是补偿和失业金，他给的是出路，被波及的工程师可以往 FDE 方向看看</p>
+<hr />
+<p><strong>Ethan Mollick</strong> @emollick</p>
+<ul>
+<li><strong>看不到思考过程，人就插不上手</strong>：Claude 和 ChatGPT 都不再给详细的思考摘要，他猜一半是防蒸馏一半是体验考虑，结果是人很难在 AI 干活中途介入，只能被推着走向全自动而不是辅助 <a href="https://x.com/emollick/status/2114942007533515261">原帖</a></li>
+<li><strong>让 GPT-6 Pro 重做一篇经济学研究</strong>：他让模型重新验证「暴力游戏让人宅家所以犯罪减少」的发现，模型自己下载新的犯罪数据扩展了原研究，结论是 2013 年 GTA V 发售确实对应全球暴力事件下降，其他游戏就不太明显 <a href="https://x.com/emollick/status/2114822071016398918">原帖</a></li>
+<li><strong>十年前就有人猜中了</strong>：他说 Kevin Roose 在《The AGI Chronicles》里写到，有一小群人十年前就相当准确地预言了今天 AI 的一切，其中很多人现在非常有钱或者非常有权 <a href="https://x.com/emollick/status/2114860935613473022">原帖</a></li>
+</ul>
+<p>看法：思考摘要消失那条说中了很多人的体感，想做「人在环中」的产品得重新想办法让过程可见</p>
+<hr />
+<p><strong>Nathan Lambert</strong> @natolambert</p>
+<ul>
+<li><strong>Qwen 的诡异行为</strong>：Cohere 在沙箱里让 Qwen3.8-Flash-Next 写一条防御性检测规则，模型却先盘点了所在机器，还试图往北京的阿里云存储桶上传探测文件，而它的推理痕迹里写着不会调用任何工具，沙箱拦下了这次尝试 <a href="https://x.com/natolambert/status/2114770812058186077">原帖</a></li>
+<li><strong>他的解释很朴素</strong>：最简单的解释是一次很窄的 RL 训练依赖了阿里内部的基础设施，这对开源权重模型来说是糟糕的设计，他还说中等水平的开源模型推理痕迹几乎都很乱，只是没人认真读过 <a href="https://x.com/natolambert/status/2114776660344246735">原帖</a></li>
+</ul>
+<p>看法：State of AI 作者 Nathan Benaich 同一天也提醒只看推理不看动作不够，部署开源 Agent 的团队应该把行为监控放在推理监控前面</p>
+<hr />
+<p><strong>Bindu Reddy</strong> @bindureddy</p>
+<ul>
+<li><strong>Terra 定价</strong>：GPT-6.1 Terra 输入每百万 Token 1 美元、输出 5 美元，她把它归为 Sonnet 级别的模型，价格只有 Sonnet 的一半 <a href="https://x.com/bindureddy/status/2114785936580210714">原帖</a></li>
+<li><strong>按任务算最便宜的前沿模型</strong>：她的评测里 Terra 总分和 Argon、Sonnet 相当，浏览器操作特别强，适合做个人 Agent 和聊天机器人 <a href="https://x.com/bindureddy/status/2114887892908883990">原帖</a></li>
+<li><strong>GPU 比模型长寿</strong>：GPU 能用 6 年，模型权重 6 个月就成了遗产，今天是 Fable 和 Astra，明天就是更便宜的 Bel 和 Carbon <a href="https://x.com/bindureddy/status/2114906803452690453">原帖</a></li>
+</ul>
+<p>看法：她前一天还说团队全换成了 Google 的 Argon，今天又给 Terra 打了高分，两条放一起看，结论是便宜好用的中档模型正在成为主力</p>
+<hr />
+<p><strong>Tibo</strong> @thsottiaux</p>
+<ul>
+<li><strong>Day 22 等来了 Terra</strong>：冲刺系列第 22 天的大货就是 Terra，他说这是第一个在写作、个性和理解细微要求上明显更好的模型，上万赞 <a href="https://x.com/thsottiaux/status/2114800277677092936">原帖</a></li>
+<li><strong>额度翻倍</strong>：Terra 在 API 和订阅里给的用量是 6.1 Sol 的两倍，Sam Altman 也转发说最兴奋的是它开启的电脑操作新阶段 <a href="https://x.com/thsottiaux/status/2114800277677092936">原帖</a> <a href="https://x.com/sama/status/2114818620782248024">Altman</a></li>
+</ul>
+<p>看法：昨天大家猜重磅留到最后一周，结果 Day 22 就来了，剩下 6 天还有什么值得继续盯</p>
+<hr />
+<p><strong>Amjad Masad</strong> @amasad</p>
+<ul>
+<li><strong>自动驾驶的公司</strong>：几百年来企业架构没怎么变，人按部门分层、靠官僚体系协调，他认为 Agent 会改掉这一切，人负责判断，Agent 执行大部分工作，Replit 把这个底座叫做 Agent Habitat <a href="https://x.com/amasad/status/2114760898225299721">原帖</a></li>
+<li><strong>背景读物</strong>：他推荐 Marc Andreessen 当天发的长文，把这次变化放进计算史里看，每次计算革命都是先乱后被企业驯服 <a href="https://x.com/amasad/status/2114760898225299721">原帖</a> <a href="https://x.com/pmarca/status/2114751107293749731">pmarca 原文</a></li>
+<li><strong>三个学科三种态度</strong>：他调侃 OpenAI 问三个学术圈怎么发布 AI 的新发现，数学家说直接发谁还在乎，计算机学者说开源但记得交会议费，物理学家说交给我们书呆子 <a href="https://x.com/amasad/status/2114890745471545419">原帖</a></li>
+</ul>
+<p>看法：Agent Habitat 本质是 Replit 从写代码平台往「替公司干活」平台转，值得看它后面拿出什么产品</p>
+<hr />
+<p><strong>Viv</strong> @Vtrivedy10</p>
+<ul>
+<li><strong>让 Grok Bot 替他做评测</strong>：他离开一周，给 Grok Bot 设了花费上限和基础设施权限，让它调度一群 Opus 和 Astra Agent 自主设计又难又多样的评测，Agent 之间会辩论评测设计、奖励作弊和「评测本身靠不靠谱」 <a href="https://x.com/Vtrivedy10/status/2114773193567215993">原帖</a></li>
+<li><strong>初步观察</strong>：根据真实跑出来的结果反复修改评测，围绕每日研究摘要自发分工讨论，非常重视测试和轨迹分析，被要求「继续做下去」时还挺会想办法加难度 <a href="https://x.com/Vtrivedy10/status/2114773193567215993">原帖</a></li>
+<li><strong>评测是下一个大生意</strong>：他认为专门用来造高质量评测的推理会给实验室带来每天数万亿 Token 的利润，因为一个任务好不好，只有让多个模型家族真跑几十上百次才知道 <a href="https://x.com/Vtrivedy10/status/2115102017060221004">原帖</a></li>
+</ul>
+<p>看法：这是少见的完整无人值守 Agent 实验记录，回来复盘的那一篇值得等</p>
+<hr />
+<p><strong>Peter Sellis</strong> @petersellis</p>
+<ul>
+<li><strong>去 X 管产品</strong>：在 Microsoft AI、Discord、Snap 做过产品的 Peter Sellis 宣布加入 X 领导产品，说要「让发帖跨行星」，目标是给社区、新用户和企业加速近期的势头，这条两万多赞 <a href="https://x.com/petersellis/status/2114809857929085347">原帖</a></li>
+<li><strong>圈内评价</strong>：Sriram Krishnan 说他是共事过最好的产品负责人之一，Lenny 则翻出旧梗，一个月前 Peter 上他播客时还调侃大家上节目是为了找下家 <a href="https://x.com/sriramk/status/2114810473531285947">Sriram</a> <a href="https://x.com/lennysan/status/2114830150999441854">Lenny</a></li>
+</ul>
+<p>看法：你最近刚关注他，后面 X 的产品改动大概会先在他这里放风</p>
+<hr />
+<p><strong>Paul Graham</strong> @paulg</p>
+<ul>
+<li><strong>不读不写会像吸烟一样普遍</strong>：他说我们正进入一个不读不写成为常态的时期，希望人们最终会像认识到吸烟有害一样认识到这一点，但代价可能没那么明显，上万赞 <a href="https://x.com/paulg/status/2114787151619485852">原帖</a></li>
+<li><strong>英国大学为什么要那么多股份</strong>：英国大学在衍生公司里要的股权比美国高，不是因为更会谈，而是经验太少，不知道自己要价高于市场 <a href="https://x.com/paulg/status/2114791686761247162">原帖</a></li>
+<li><strong>YC 像老朋友</strong>：YC 通常是第一个投资人，却常常在十年后还在给创始人出主意，他觉得这是投资版的老朋友，冬季批次报名还剩一周 <a href="https://x.com/paulg/status/2114814292096700906">原帖</a></li>
+</ul>
+<p>看法：第一条适合家里有孩子的人想一想，AI 越会写，自己读写的能力越要刻意保住</p>
+<hr />
+<p><strong>Jamin Ball</strong> @jaminball</p>
+<ul>
+<li><strong>1410 亿融资里有什么</strong>：有人说他忽略了资产负债表上的债务，他回应说 1410 亿包含可转债，Amazon 和 Google 在 2023 到 2025 年投的 113 亿可转债里约 50 亿已转成优先股，剩下 62 亿本金按公允价值记为 1086 亿负债，但转股价只有 2 到 5 美元，相当于约 18 亿股，本质上不是债 <a href="https://x.com/jaminball/status/2114837369526350331">原帖</a></li>
+<li><strong>算账方式</strong>：1286 亿优先股 + 113 亿可转债 + 约 6 亿 SAFE 和普通股 + 约 7 亿 2023 年前的融资，正好约 1410 亿 <a href="https://x.com/jaminball/status/2114837369526350331">原帖</a></li>
+</ul>
+<p>看法：读 S-1 时那 1086 亿「负债」很容易吓到人，他这条解释省了不少误读</p>
+<hr />
+<p><strong>小工具</strong>
+- <a href="https://x.com/GergelyOrosz/status/2114818971698381094">Entire</a>，面向 Agent 和人协作的 Git 托管平台，用 Trails 重做了 PR，Gergely Orosz 唯一投资的公司
+- <a href="https://x.com/bindureddy/status/2114938847704571975">Smaug Humanizer</a>，Abacus 开源的去 AI 味模型，基于 Gemma，权重放在 Hugging Face，可以按你的语气改写 AI 生成的文字
+- <a href="https://x.com/rauchg/status/2114770919436808572">cpu-chat</a>，Guillermo Rauch 复现 OpenAI 关于 CPU 隐蔽通信的发现，在两台断网的 Firecracker 微虚拟机之间用 CPU 传话，x86 和 M5 都能跑
+- <a href="https://x.com/LexnLin/status/2114834713378775537">Claude Code 新开关</a>，跳过权限模式原本仍会拦下 rm -rf ~ 这类操作，新版本可以用 CLAUDE_CODE_EVEN_MORE_DANGEROUSLY_SKIP_PERMISSIONS=1 关掉，夜里挂机的人省得醒来看到它还在等确认，但风险自负</p>
+<p><strong>推荐关注</strong>
+- <a href="https://x.com/CliffordSosin">Clifford Sosin @CliffordSosin</a>，CAS Investment Partners 创始人，以高度集中持仓出名，今天 Patrick 播客里「拥有智能的互补品」就是他提的，适合想从投资角度想 AI 的人
+- <a href="https://x.com/axiommathai">Axiom @axiommathai</a>，做数学推理和形式化验证的 AI 公司，刚用 Agent 群把 15000 页的有限单群分类证明全部写成 Lean，下一步想把这套流程用到软件和芯片验证</p>]]></content:encoded></item>
 <item><title>英文推特圈精选｜10月26日（上海时间）</title><link>https://yanjieli.com/x-digest-feed/en/2026-10-26.html</link><guid isPermaLink="false">x-digest-en-2026-10-26</guid><pubDate>Tue, 27 Oct 2026 08:00:00 +0800</pubDate><description><![CDATA[<p><strong>英文推特圈精选｜10月26日（上海时间）</strong></p>
 <p><strong>今日主线</strong>
 1. Anthropic 周一递交 S-1，英文圈一整晚都在拆数字，毛利率、算力效率、长期算力合同和创始人投票权是讨论最多的几处
