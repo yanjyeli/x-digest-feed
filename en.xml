@@ -11,7 +11,7 @@
 <li><strong>630 亿美元的芯片租赁</strong>：一个新设的融资主体买下 Broadcom 的 XPU 加速器和网络设备再租给 Anthropic，覆盖约 1.7GW 算力，2027 年开始交付，美银、花旗、大摩安排优先债，Blackstone 出次级，UBS 提醒 Broadcom 既不是借方也不是贷方，但为约 72.5% 的融资（约 460 亿）提供残值担保，加上此前 350 亿的那笔，总敞口在 700 亿到 750 亿之间 <a href="https://x.com/wallstengine/status/2115104530362970256">原帖</a></li>
 <li><strong>芯片厂掏钱买 Meta 的股票</strong>：Nvidia 认购 Meta 股票增发 30 亿美元，AMD 认购 10 亿，Meta 把普通股发行从 225 亿提到 250 亿，眼下合计 375 亿，2027 年还可能再卖 600 亿，作为交换，Meta 会加大部署 Vera Rubin，AMD 的 Helios 机架已经在 Meta 测试 <a href="https://x.com/wallstengine/status/2115023544384143845">Nvidia</a> <a href="https://x.com/wallstengine/status/2115073055831818394">AMD</a></li>
 <li><strong>Amazon 想少用 Anthropic</strong>：据 Business Insider，Alexa+ 今年云算力成本预计约 17 亿美元，接近去年的三倍，Amazon 在把更多请求导向自家更便宜的模型，还考虑推迟 Agent 项目 Moonraker <a href="https://x.com/wallstengine/status/2115046156946624925">原帖</a></li>
-<li><strong>中国大厂抢内存长约</strong>：阿里、腾讯、字节据报在找三星和 SK 海力士签服务器内存长期供货，有客户要求签到 2035 年，远长于通常的 3 到 5 年 <a href="https://x.com/wallstengine/status/2115028684319142168">原帖</a></li>
+<li><strong>Agent 群验证了史上最大的数学证明</strong>：Axiom 宣布把有限单群分类定理完整形式化，原证明约 15000 页、跨越几代 100 多位数学家，一群 Agent 分工写证明、互相审查、通过 GitHub 合并，24 天产出约 4000 万行 Lean 证明，下一步想用到软件和芯片验证 <a href="https://x.com/wallstengine/status/2115094100693434723">原帖</a></li>
 </ul>
 <p>看法：Broadcom 这笔要看清楚结构，它不出现金，但扛着硬件残值风险，一旦算力贬值比预期快，这块敞口就会被市场重新定价</p>
 <hr />
@@ -123,7 +123,7 @@
 <li><strong>630 亿美元的芯片租赁</strong>：一个新设的融资主体买下 Broadcom 的 XPU 加速器和网络设备再租给 Anthropic，覆盖约 1.7GW 算力，2027 年开始交付，美银、花旗、大摩安排优先债，Blackstone 出次级，UBS 提醒 Broadcom 既不是借方也不是贷方，但为约 72.5% 的融资（约 460 亿）提供残值担保，加上此前 350 亿的那笔，总敞口在 700 亿到 750 亿之间 <a href="https://x.com/wallstengine/status/2115104530362970256">原帖</a></li>
 <li><strong>芯片厂掏钱买 Meta 的股票</strong>：Nvidia 认购 Meta 股票增发 30 亿美元，AMD 认购 10 亿，Meta 把普通股发行从 225 亿提到 250 亿，眼下合计 375 亿，2027 年还可能再卖 600 亿，作为交换，Meta 会加大部署 Vera Rubin，AMD 的 Helios 机架已经在 Meta 测试 <a href="https://x.com/wallstengine/status/2115023544384143845">Nvidia</a> <a href="https://x.com/wallstengine/status/2115073055831818394">AMD</a></li>
 <li><strong>Amazon 想少用 Anthropic</strong>：据 Business Insider，Alexa+ 今年云算力成本预计约 17 亿美元，接近去年的三倍，Amazon 在把更多请求导向自家更便宜的模型，还考虑推迟 Agent 项目 Moonraker <a href="https://x.com/wallstengine/status/2115046156946624925">原帖</a></li>
-<li><strong>中国大厂抢内存长约</strong>：阿里、腾讯、字节据报在找三星和 SK 海力士签服务器内存长期供货，有客户要求签到 2035 年，远长于通常的 3 到 5 年 <a href="https://x.com/wallstengine/status/2115028684319142168">原帖</a></li>
+<li><strong>Agent 群验证了史上最大的数学证明</strong>：Axiom 宣布把有限单群分类定理完整形式化，原证明约 15000 页、跨越几代 100 多位数学家，一群 Agent 分工写证明、互相审查、通过 GitHub 合并，24 天产出约 4000 万行 Lean 证明，下一步想用到软件和芯片验证 <a href="https://x.com/wallstengine/status/2115094100693434723">原帖</a></li>
 </ul>
 <p>看法：Broadcom 这笔要看清楚结构，它不出现金，但扛着硬件残值风险，一旦算力贬值比预期快，这块敞口就会被市场重新定价</p>
 <hr />
