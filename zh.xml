@@ -1,5 +1,298 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>中文推特圈每日精选</title><link>https://yanjieli.com/x-digest-feed/zh/</link><atom:link href="https://yanjieli.com/x-digest-feed/zh.xml" rel="self" type="application/rss+xml"/><description>每天早上 8 点（上海时间）更新的中文推特圈精选</description><language>zh-cn</language><lastBuildDate>Wed, 28 Oct 2026 08:00:00 +0800</lastBuildDate><ttl>360</ttl>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>中文推特圈每日精选</title><link>https://yanjieli.com/x-digest-feed/zh/</link><atom:link href="https://yanjieli.com/x-digest-feed/zh.xml" rel="self" type="application/rss+xml"/><description>每天早上 8 点（上海时间）更新的中文推特圈精选</description><language>zh-cn</language><lastBuildDate>Thu, 29 Oct 2026 08:00:00 +0800</lastBuildDate><ttl>360</ttl>
+<item><title>中文推特圈精选｜10月28日（上海时间）</title><link>https://yanjieli.com/x-digest-feed/zh/2026-10-28.html</link><guid isPermaLink="false">x-digest-zh-2026-10-28</guid><pubDate>Thu, 29 Oct 2026 08:00:00 +0800</pubDate><description><![CDATA[<p><strong>中文推特圈精选｜10月28日（上海时间）</strong></p>
+<p><strong>今日主线</strong>
+1. 谷歌发布 Genie 4 世界模型，中文圈一边惊叹实时生成的游戏手感，一边提醒单次只有约 2 分钟、跑久了画面还会走样
+2. Anthropic 一天里放出新药研发进展、收购一人药企、工程经理取消传统编程面试，AI 改写研发和招聘的讨论刷屏
+3. SK 海力士三季度营业利润率约 80%，存储还算不算周期股成了投资圈主话题，Artificial Analysis v5 榜单把开源和闭源的差距拉到 12 分也引发争论</p>
+<hr />
+<p><strong>宝玉 @dotey</strong></p>
+<ul>
+<li><strong>Anthropic 工程经理取消传统编程面试</strong>：Felix Rieseberg 10 月 27 日在博客说，这个月起他面试不再考编程题，理由是 Claude 做这类题比人强，团队里最能出成果的人和考得好不好关系不大。他带过 Cowork 和 Claude Code 桌面版团队，文章标题叫“冲劲胜过资历”，认为有了 AI，一个人能做出多大成果不再那么取决于攒了多少年经验，他已经看到入行不久的工程师跑赢资历更老的人。宝玉特别注明这只是他个人的面试做法，Anthropic 全公司是否如此文章没说 <a href="https://x.com/dotey/status/2115218749888634988">原帖</a></li>
+<li><strong>Claude 参与新药研发的成绩单</strong>：Anthropic 和 6 家药企、生物技术公司合作，Generate Biomedicines 用 Claude Code 把 CAR-T 的一段基因指令缩短约 70%，Enveda 让 Claude 审 1061 页生产文件，人工发现的 11 处问题全找到，还多找出 7 处。被收购的一人药企 Mithril 研究 LAMA2 先天性肌营养不良，小鼠握力约为对照组两倍，但用药组 7 只、对照组 4 只，统计上还差一点显著，最快 2028 年底才可能进人体试验 <a href="https://x.com/dotey/status/2115183164905906513">原帖</a></li>
+<li><strong>AI 核对完数学史上最长的证明</strong>：Axiom 用几十个 AI agent 花 24 天，把散落在 500 多篇论文、约 1.5 万页的有限单群分类定理证明改写成 Lean 代码并通过检查，共约 4310 万行。过程中发现 John Walter 1986 年一篇论文引用的说法有反例，AI 借 Solomon 1976 年的思路写出新证法补上。宝玉提醒 Lean 管不了开头那句定理陈述翻译得对不对，目前还没有外部独立核查 <a href="https://x.com/dotey/status/2115145479222665228">原帖</a></li>
+<li><strong>Opus 5.5 之后 Agent 能替代初级剪辑师</strong>：他之前做的剪辑 Skill 在新模型发布后大多用不上了，自己对照过，同一个视频不用任何 Skill，只给 ASR 和 TTS 工具，Opus 5.5 的效果反而更好。他因此把 BaoCut 的时间线编辑器退居二线，认为剪辑 Agent 和 Codex 一样不需要完整编辑器，能标记哪里要改就够了 <a href="https://x.com/dotey/status/2115282464935473225">原帖</a></li>
+</ul>
+<p>看法：药物研发那条把样本量、未经同行评审甚至 Claude 发错邮件都写了出来，比转述新闻稿的版本可信得多</p>
+<hr />
+<p><strong>思维怪怪 @0xLogicrw</strong></p>
+<ul>
+<li><strong>Genie 4 世界模型</strong>：输入文字生成可探索的虚拟世界，键盘控制移动，能随时改天气、加人物，首次支持原生音频，由 Gemini 3.8 Flash 充当实时导演拆任务、检查进度。单次模拟最长约 2 分钟，是 Project Genie 的两倍，但跑久了物体位置和外观仍会变，目前只对少量受邀测试者开放，之后给 Google AI Ultra 用户和部分 API 开发者 <a href="https://x.com/0xLogicrw/status/2115273556208828429">原帖</a></li>
+<li><strong>欧洲“主权 AI”被扒出用了 Kimi 权重</strong>：瑞士 Giotto 发布 Alto 和 Solo，宣称是欧洲最聪明的主权 AI，结果模型自称 Kimi，CEO 承认继承了部分 Kimi 权重再训练，具体版本没说。讽刺的是他 10 月 19 日刚发文批评欧洲拿开源模型包装主权 AI，9 月西班牙 Multiverse 的 Quasar 438B 也被扒出和 GLM-5.2 有关 <a href="https://x.com/0xLogicrw/status/2115289912106700845">原帖</a></li>
+<li><strong>上游删库，客户的私有 Fork 跟着没了</strong>：被 Anthropic 收购的 Stainless 10 月 27 日删掉一个私有仓库，不到两秒，支付平台 Dodo Payments 从它 Fork 的私有仓库也被自动删除，审计日志只显示一名外部人员执行了 repo.destroy。这是 GitHub 的规则，删私有仓库会一并删掉所有私有 Fork，Dodo 靠本地副本恢复，并提醒依赖上游的私有 Fork 尽快转成独立仓库 <a href="https://x.com/0xLogicrw/status/2115354482473361599">原帖</a></li>
+<li><strong>RWE-Bench 考真实工程题</strong>：11 款模型做 20 项机械、电气和航空航天任务，包括曲轴设计、八层板 71 条信号线布线、涡轮叶片散热仿真，由工程软件和物理求解器自动判分。单次平均通过率 GPT-6 Astra 37% 第一、Opus 5.5 29%，允许尝试 5 次后 Opus 5.5 以 70% 反超 Astra 的 60%，DeepSeek V4.1 Flash、GLM-5.3、Grok 4.7 等 5 款全部失败 <a href="https://x.com/0xLogicrw/status/2115396120717451612">原帖</a></li>
+</ul>
+<p>看法：删库那条对任何拿私有 Fork 当依赖的团队都是实打实的风险，值得转给管仓库的人</p>
+<hr />
+<p><strong>墨无归 @Moblacksoil</strong></p>
+<ul>
+<li><strong>Artificial Analysis v5 换了考法</strong>：新版 60% 权重来自不公开题目的私有评测，新增 FrontierCode 2.0，看仓库维护者愿不愿意合入模型改的代码，另加 70 个命令行科研任务。开源和头部的差距从 3 分拉到 12 分，前十模型单任务花费从 0.96 美元到 13.04 美元，差了 13 倍多，选模型时成本也得算进去 <a href="https://x.com/Moblacksoil/status/2115276365977268660">原帖</a></li>
+<li><strong>Epoch AI 的全球算力账</strong>：按海关记录估算，2022 年以来约 72% 的 AI 算力落在美国，中国约 10%。增量更集中，美国每年拿到的新增算力份额从 2022 到 2024 年的约 60%，涨到 2025 年 72%，2026 上半年约 78% <a href="https://x.com/Moblacksoil/status/2115384830829416761">原帖</a></li>
+<li><strong>长鑫准备小规模量产 HBM3E</strong>：路透援引知情人士，CXMT 计划约两个月内小规模量产 HBM3E，已向多家国内 AI 芯片公司送样。良率约 20% 到 30%，SK 海力士约 70%，测试表现更接近上一代 HBM3，低良率推高成本，售价预计高于海外同类，计划尚未公开 <a href="https://x.com/Moblacksoil/status/2115399930424524987">原帖</a></li>
+<li><strong>Claude 文本水印扩大</strong>：8 月 2 日之后在欧盟新上线的 Claude 型号出厂就带机器可读水印，藏在用词选择里，复制粘贴也带得走，对外检测仍是私有预览。社区流传的客户邮件称 11 月 3 日起更多旧型号也会加上，作者注明这部分只是转述，没见官方逐条确认 <a href="https://x.com/Moblacksoil/status/2115421321886625919">原帖</a></li>
+</ul>
+<p>看法：每条都标出来源和没确认的部分，刚关注第一天就能看出是靠谱的信息源</p>
+<hr />
+<p><strong>Michael Guo @Michaelzsguo</strong></p>
+<ul>
+<li><strong>开源模型是工坊不是平替</strong>：针对 AA v5 引发的“开源被甩开”讨论，他认为两种极端说法都不对，写代码和长链条 agent 任务仍交给 Opus 5.5。本地一台 Mac 常驻 Qwen3.8-27B 4-bit 做小活和家庭安防分析，配音用 Ming-3.0 和 Drama 3，配乐 YuE2，视频 MiniMax H3，理由是这些活量大、要反复试、对隐私敏感，按次付费不划算 <a href="https://x.com/Michaelzsguo/status/2115434811749703983">原帖</a></li>
+<li><strong>冒充 OpenAI 员工的钓鱼号</strong>：转述一位网友险些中招的经历，骗局从“OpenAI 找你谈合作”开始，一步步把人带到账号授权页面，授权之后 X 账号就可能被接管，看着像官方员工的账号也别轻信 <a href="https://x.com/Michaelzsguo/status/2115366691941077046">原帖</a></li>
+</ul>
+<p>看法：本地模型分工那张清单很具体，想搭家用 AI 工作流可以直接对照</p>
+<hr />
+<p><strong>投资TALK君 @TJ_Research</strong></p>
+<ul>
+<li><strong>HOOD 和 Coinbase 的执行力差距</strong>：Robinhood 2024 年 Q4 加密营收 3.58 亿美元、股票 6100 万，到 2026 年 Q3 加密缩到 1.2 亿，股票翻倍到 1.21 亿，预测市场贡献 1.73 亿，总营收比当时高 30%。同期 Coinbase 季度营收只有高点的一半，他认为这就是市场给 HOOD 更高估值的原因 <a href="https://x.com/TJ_Research/status/2115227682661085329">原帖</a></li>
+<li><strong>万亿级机构长期跑输</strong>：一家管理约 9000 亿美元的机构，成立以来、过去 5 年、过去 3 年都明显跑输指数。他的观察是近几年自下而上的主动基金很难做，指数高度集中，押错就大幅落后，趋势型量化反而规模涨得很快，从业二三十年的老 PM 对 AI 的偏见今年才慢慢追上 <a href="https://x.com/TJ_Research/status/2115156182532870590">原帖</a></li>
+<li><strong>特粉被当天股价带着走</strong>：SpaceX 财报后涨 7%、特斯拉财报后跌，不少海外特斯拉投资者抱怨财报会不够激情，几天后特斯拉反而走得比 SpaceX 好。他的结论是很多人以为自己在做价值投资，其实情绪完全被当天价格牵着 <a href="https://x.com/TJ_Research/status/2115290129812029837">原帖</a></li>
+</ul>
+<p>看法：一线机构视角的复盘，比单纯喊多喊空有用得多</p>
+<hr />
+<p><strong>伊凡投資心得 @yifaninvest</strong></p>
+<ul>
+<li><strong>海力士财报改写周期股剧本</strong>：三季度营收首次破 100 万亿韩元，营业利润 83.3 万亿，利润率 80%。他认为存储向来涨三年跌三年，这个剧本正在被改写，但也提醒看好不等于借钱炒股，all in 宽基可以，all in 单只股票不行 <a href="https://x.com/yifaninvest/status/2115327173603332421">原帖</a> <a href="https://x.com/yifaninvest/status/2115360520698294668">原帖</a></li>
+<li><strong>Wise 入金别搞混</strong>：向 Wise 入金有两条路径，容易混的是币种账户下面的“充值/添加资金”，那是从 Wise 内部发起的一笔充值，和从外部账户转进来不是一回事 <a href="https://x.com/yifaninvest/status/2115239372325032427">原帖</a></li>
+<li><strong>非同名账户互转用 WiseTag</strong>：最便捷又免费的方法是 Tag，在 App 首页点左上角名字，个人资料页 Wise 图标旁边那串字符就是你的 Tag <a href="https://x.com/yifaninvest/status/2115248683692200229">原帖</a></li>
+<li><strong>出海资金链路</strong>：他推荐香港银行到 Wise 再到美股券商的路线，iFAST 解决资金从国内出境更顺畅，Wise 解决在美国本土零成本划转，两者搭配用 <a href="https://x.com/yifaninvest/status/2115320847133208894">原帖</a></li>
+</ul>
+<p>看法：出入金这几条都是国内投资者最常卡住的环节，收藏价值高</p>
+<hr />
+<p><strong>硅谷居士 @SVScholar</strong></p>
+<ul>
+<li><strong>海力士豪掷 750 亿美元回购</strong>：SK 海力士宣布今年回购 750 亿美元自家股票，并承诺未来把自由现金流的一半以上用于分红和回购，他的评价是韩国财阀终于开始给投资者发真金白银 <a href="https://x.com/SVScholar/status/2115318788711420310">原帖</a></li>
+<li><strong>希捷利润增长 221%</strong>：营收 42 亿美元，同比增长 61%，净利润 17.6 亿美元，同比增长 221%，公司预计下季度营收约 48 亿美元，同比增长约 71% <a href="https://x.com/SVScholar/status/2115187808797397142">原帖</a></li>
+<li><strong>QDII 美股基金溢价</strong>：10 月 27 日博时标普 513500 溢价 9.8%、嘉实纳指 159501 溢价 17.1%、国泰纳指 513100 溢价 15.5%，今年以来收益分别为 10.5%、22.5%、20.3%，他的一贯建议是忽略溢价继续买 <a href="https://x.com/SVScholar/status/2115279122817835517">原帖</a></li>
+</ul>
+<p>看法：财报速记很快，但 15% 以上的溢价还“闭着眼睛买”我持保留，溢价回落本身就是一笔看不见的亏损</p>
+<hr />
+<p><strong>Market Decoded @ReZigong</strong></p>
+<ul>
+<li><strong>美联储决议前的读法</strong>：10 月 27 日到 28 日议息，路透调查 100 位经济学家里 94 位预计维持 3.75% 到 4.00%。他认为维持利率已被充分预期，真正影响市场的是对通胀、就业和 12 月路径的表述，偏鸽会重新定价利率路径，偏鹰则科技股估值承压 <a href="https://x.com/ReZigong/status/2115261641621434434">原帖</a></li>
+<li><strong>苹果和纳指 100 负相关</strong>：苹果受自身业务和估值驱动，指数主要被 AI 基础设施股推着走，短期背离完全可能持续。他提醒真正危险的是把过去经常同步当成未来必然同步，均值回归只是一种可能 <a href="https://x.com/ReZigong/status/2115337489032609894">原帖</a></li>
+<li><strong>海力士产能已被长协锁住</strong>：公司表示 2027 到 2028 年超过一半产能已通过长期协议锁定，他认为对美光的参考价值在 HBM 需求、合约价格和扩产速度，而不是简单比谁涨谁跌 <a href="https://x.com/ReZigong/status/2115460984597016661">原帖</a></li>
+<li><strong>美国警告海湾国家</strong>：据 WSJ，美国警告海湾国家为中期选举后可能的对伊军事行动做准备，同时向以色列部署爱国者、补充弹药。他判断短期最先反应的是油价和避险资产，黄金和金矿股的相对吸引力反而被强化 <a href="https://x.com/ReZigong/status/2115313887461687568">原帖</a></li>
+</ul>
+<p>看法：事实、观点、失效条件分开写，这个结构比多数财经号清楚</p>
+<hr />
+<p><strong>小墨同学 @xiaomovps</strong></p>
+<ul>
+<li><strong>用 Grok Bot 的 5 个小知识</strong>：X 搜索每分钟 30 次、每天 1000 次、一次最多 25 条；云电脑没人用会休眠，自己跑的 cron 和后台进程一起暂停；所有 Bot 共用一台电脑，各有屏幕但不隔离；重建后文件和登录能恢复，apt、npm、pip 装的软件不一定保留。他的建议是定时任务交给自带的任务机制，重要数据再同步到 GitHub <a href="https://x.com/xiaomovps/status/2115378617614262327">原帖</a></li>
+<li><strong>ESP32 加 Agent 的三个开源项目</strong>：Tiny Engineer 用 ESP32-C3 和 5 个舵机给 Claude Code 做了个会跟着干活的桌面机器人；乐鑫官方 ESP-Claw 把 Agent Runtime 放进芯片，支持 MCP 和动态加载 Lua；MimiClaw 用 C 写 Agent 循环，5 美元的芯片就能跑，支持 Telegram、定时任务和本地记忆 <a href="https://x.com/xiaomovps/status/2115395887887479279">原帖</a></li>
+<li><strong>DeepSeek Harness 接入自家搜索</strong>：新版已接 DeepSeek 自己的 Search API，在左侧插件菜单打开网页搜索即可，不用再折腾第三方搜索服务 <a href="https://x.com/xiaomovps/status/2115466676661793049">原帖</a></li>
+</ul>
+<p>看法：第一条对 Grok Bot 用户很实用，休眠会暂停自建 cron 这点最容易踩坑</p>
+<hr />
+<p><strong>纳米AI @antiAIvo</strong></p>
+<ul>
+<li><strong>NamiGPT 从零手写 GPT-2</strong>：把几个月学大模型的笔记开源，用 PyTorch 手写 GPT-2 并加载 OpenAI 官方权重跑通生成。全程只用“猫吃鱼”3 个词，从分词一路推到预测下一个词，每一步矩阵都能在网页上一格一格看，15 篇图文，模型本体不到 200 行，测试保证和 HuggingFace 输出一致 <a href="https://x.com/antiAIvo/status/2115280002208157933">原帖</a></li>
+<li><strong>为什么存储是 AI 的瓶颈</strong>：权重平时存在 SSD 的 NAND 里，推理前加载进 DRAM，再搬进 GPU 旁边的 HBM，每生成一个 token 都要把权重从 HBM 读一遍。上下文越长 KV 缓存越大，HBM 装不下就溢出到 DRAM 再到 SSD，三层存储都被 AI 拉动，海力士三样都有且 HBM 份额领先 <a href="https://x.com/antiAIvo/status/2115271061998887182">原帖</a></li>
+<li><strong>大模型怎么做难的 DP 题</strong>：他的理解是模型和人一样，先凭经验猜是线性、区间还是树形 DP，再定义状态写转移，用样例验证后补维或换思路。逐字输出不代表思考只有一个字那么深，就像人写代码也是一个字符一个字符敲 <a href="https://x.com/antiAIvo/status/2115329203180847442">原帖</a></li>
+</ul>
+<p>看法：用三个词讲透 GPT-2 的教程很少见，想补原理的可以从这里入门</p>
+<hr />
+<p><strong>卫斯理 @imwsl90</strong></p>
+<ul>
+<li><strong>切实可行的失业自救指南</strong>：要做的是积极找工作别拿着赔偿懈怠、拉收支表砍开支、学会卖、技术人做面向大众的产品加培训、做自媒体。不要做的是创业、开实体店、做外贸、送外卖、开民宿躺平，最后提醒别信大 V 说什么项目很挣钱 <a href="https://x.com/imwsl90/status/2115270809279467589">原帖</a></li>
+<li><strong>网易邮箱 Mail Agent 实测</strong>：网易邮箱大师底部有入口，DeepSeek V4 Flash/Pro 驱动，可以自定义人格、风格和底线。他让它分析订阅类邮件，找出一个被遗忘的喜马拉雅儿童 VIP 自动扣费 <a href="https://x.com/imwsl90/status/2115330834781655317">原帖</a></li>
+<li><strong>每月 AI 花销</strong>：DeepSeek 100 元、Grok Bot 200 元、ChatGPT 680 元，加上杂七杂八的工具订阅 400 元，一个月共 1400 元 <a href="https://x.com/imwsl90/status/2115259151828054255">原帖</a></li>
+</ul>
+<p>看法：“不要做”那份清单是踩过坑的人写的，比鸡汤实在</p>
+<hr />
+<p><strong>brucexu.eth @brucexu_eth</strong></p>
+<ul>
+<li><strong>DeepSeek V4.1 Flash 跑到 1500 tok/s</strong>：他转发的演示里 V4.1 Flash 输出速度约 1500 tok/s，之后又看到 2100 tok/s 的记录，感叹这是开源模型的胜利，好奇生成速度接近实时之后会发生什么 <a href="https://x.com/brucexu_eth/status/2115261380169482386">原帖</a> <a href="https://x.com/brucexu_eth/status/2115283592452747480">原帖</a></li>
+<li><strong>美梦破裂的硬件账</strong>：这套速度背后大约是 2 台 Nvidia GB300，成本约 100 万美元，个人根本买不起 <a href="https://x.com/brucexu_eth/status/2115264077027307882">原帖</a></li>
+</ul>
+<p>看法：速度很惊艳，但百万美元的门槛说明这还是机房里的数字</p>
+<hr />
+<p><strong>Andy Stewart @manateelazycat</strong></p>
+<ul>
+<li><strong>懒猫 AI 算力舱一天卖近 200 台</strong>：顺丰特快发货，到手可跑 DeepSeek 1017 和 GLM 5.3 Flash，他测本地 DeepSeek 1017 单流解码最高约 90 TPS <a href="https://x.com/manateelazycat/status/2115383530993963070">原帖</a> <a href="https://x.com/manateelazycat/status/2115236579912610034">原帖</a></li>
+<li><strong>同传成了卖点</strong>：很多老板买算力舱是冲着同声传译，中文到其他语言实时转译延迟约 2 秒，做外贸时不用另买 AI 硬件 <a href="https://x.com/manateelazycat/status/2115412660690862562">原帖</a></li>
+<li><strong>光口线 CRC 错误换铜线解决</strong>：算力舱的光口线经常出 CRC 错误，换成铜线光模块后一个错误都没有，代价只是贵 <a href="https://x.com/manateelazycat/status/2115335374407131521">原帖</a></li>
+</ul>
+<p>看法：卖整机的一线反馈，说明本地大模型已经有不少人愿意直接掏钱买</p>
+<hr />
+<p><strong>范凯说AI @fankaishuoai</strong></p>
+<ul>
+<li><strong>Ollama 上跑 DeepSeek 和 GLM 更快</strong>：切到 Ollama Pro 后他测了一遍，DeepSeek 比官网快 34%，GLM 约为官网速度的 3 倍，反复测都如此，输出一致、没有量化 <a href="https://x.com/fankaishuoai/status/2115367867206279284">原帖</a></li>
+<li><strong>AI 编程没那么神秘</strong>：他认为很多人把 AI 编程搞复杂了，真实流程是躺床上有个想法，用手机和 Bot 聊一聊，注册域名，几分钟出原型，十几分钟上线再边用边改，一两个小时做完一个项目，真赚钱了再认真重构 <a href="https://x.com/fankaishuoai/status/2115279258218271159">原帖</a></li>
+<li><strong>4 个模型 7 个 AI 员工</strong>：GPT-6 Astra、Opus 5.5、DeepSeek、GLM 统一接入 Pi Agent，配 7 个角色，由 Paseo 自动调度，最高频的组合是 DeepSeek 干活、GPT 做设计和验收 <a href="https://x.com/fankaishuoai/status/2115472338171183605">原帖</a></li>
+</ul>
+<p>看法：Ollama 测速的结论很反直觉，迁移前最好自己复测一遍</p>
+<hr />
+<p><strong>Richie.L @HakWitTalk</strong></p>
+<ul>
+<li><strong>Anthropic 直接借研究员给生命科学 PI</strong>：高校、非营利和政府实验室的 PI 可以带课题和 Anthropic 研究员一起干 8 到 12 周，方向限定在因果人类生物学、结构与计算分子生物学、药物化学、药物发现和临床科学。不收钱、不要你的数据，数据和后续研究权利归你，交换条件是成果联合发表、数据和代码开源，申请约开 14 天，按 10 月 22 日发布算 11 月初截止 <a href="https://x.com/HakWitTalk/status/2115433268464206137">原帖</a></li>
+<li><strong>可灵 4.0 上了 Runware</strong>：单次最长 30 秒、最高 1080p，自带双声道音频，对白支持中英日韩等语言，长度是 3.0 的两倍，最多 10 个关键帧，可以按秒用 API 调 <a href="https://x.com/HakWitTalk/status/2115117476090712507">原帖</a></li>
+</ul>
+<p>看法：8 到 12 周内要出初步证据这条硬要求，说明 Anthropic 要的是能快速见苗头的题</p>
+<hr />
+<p><strong>小工具</strong></p>
+<ul>
+<li><strong>Clearcam</strong>：给现有 RTSP 摄像头加本地 AI 的开源 NVR，人车检测、追踪和录像搜索都在自己电脑上跑，远程查看和推送属付费功能 <a href="https://x.com/abskoop/status/2115384249637630122">原帖</a></li>
+<li><strong>Mailflare</strong>：用 Cloudflare 搭自托管邮箱并绑自己的域名，DKIM、SPF、MX 大多自动配好，附件存 R2 <a href="https://x.com/0xGky/status/2115376777958965661">原帖</a></li>
+<li><strong>ThinkRail</strong>：JetBrains 孵化，给 pi agent 套一个 IDE，每个任务开独立 git worktree，用 SPEC.md 钉住需求，Apache 协议 <a href="https://x.com/ai_fengshou/status/2115356896739590590">原帖</a></li>
+<li><strong>Postiz</strong>：开源的多平台发帖排期工具，X、Instagram、YouTube、TikTok 一次排好，支持 MCP 和命令行，自部署免费 <a href="https://x.com/ai_fengshou/status/2115356644943032361">原帖</a></li>
+<li><strong>worktree 不遗留规则</strong>：在 AGENTS.md 里写明任务完成必须删除 worktree 和分支，不合并就先打 archive tag，让 Agent 自己收尾 <a href="https://x.com/dotey/status/2115314783503196605">原帖</a></li>
+<li><strong>Ghostty 1.4.0</strong>：终端空闲时自动压缩屏幕外历史，普通文本可省 70% 到 90% 内存 <a href="https://x.com/0xLogicrw/status/2115346975864623416">原帖</a></li>
+<li><strong>Kaku remote</strong>：Mac 上的终端连同 Claude Code 会话可以在其他设备的浏览器里打开，支持触控 <a href="https://x.com/HiTw93/status/2115448387701182969">原帖</a></li>
+<li><strong>MiniMax M3.1 Flash 限免</strong>：EvoX Agent 10 月 28 日到 30 日免费用，就是前几天匿名的 Space Bunny <a href="https://x.com/lxfater/status/2115348125195854291">原帖</a></li>
+<li><strong>AI 浮生记</strong>：向阳乔木让 Codex 写的致敬“北京浮生记”小游戏，在线可玩，代码开源 <a href="https://x.com/vista8/status/2115353660075168054">原帖</a></li>
+<li><strong>DJI MIC 当 AI 录音器</strong> <a href="https://x.com/leto_bao/status/2115400712477966814">原帖</a></li>
+</ul>
+<hr />
+<p><strong>推荐关注</strong></p>
+<ul>
+<li><a href="https://x.com/jenmeilm">Jen LM @jenmeilm</a>：昨天把 Anthropic 10 月 27 日的随机对照实验讲得很透，50 位分析师 86% 选了 agent 被预设的那一边，77% 复述了 agent 的论点却只有 15% 说明来源，最后给了三条保住自己判断的做法，粉丝不到一千但信息密度很高 <a href="https://x.com/jenmeilm/status/2115256803177218528">原帖</a></li>
+<li><a href="https://x.com/shao__meng">meng shao @shao__meng</a>：整理了一份 2026 年 OpenAI SWE 面试复盘，从带版本的 KV 存储、48 小时 webhook 投递作业到可选的 Agentic Coding 轮写得很细，主页定位是 Agent 构建和 AI Coding 实践解读 <a href="https://x.com/shao__meng/status/2115471710967439551">原帖</a></li>
+</ul>]]></description><content:encoded><![CDATA[<p><strong>中文推特圈精选｜10月28日（上海时间）</strong></p>
+<p><strong>今日主线</strong>
+1. 谷歌发布 Genie 4 世界模型，中文圈一边惊叹实时生成的游戏手感，一边提醒单次只有约 2 分钟、跑久了画面还会走样
+2. Anthropic 一天里放出新药研发进展、收购一人药企、工程经理取消传统编程面试，AI 改写研发和招聘的讨论刷屏
+3. SK 海力士三季度营业利润率约 80%，存储还算不算周期股成了投资圈主话题，Artificial Analysis v5 榜单把开源和闭源的差距拉到 12 分也引发争论</p>
+<hr />
+<p><strong>宝玉 @dotey</strong></p>
+<ul>
+<li><strong>Anthropic 工程经理取消传统编程面试</strong>：Felix Rieseberg 10 月 27 日在博客说，这个月起他面试不再考编程题，理由是 Claude 做这类题比人强，团队里最能出成果的人和考得好不好关系不大。他带过 Cowork 和 Claude Code 桌面版团队，文章标题叫“冲劲胜过资历”，认为有了 AI，一个人能做出多大成果不再那么取决于攒了多少年经验，他已经看到入行不久的工程师跑赢资历更老的人。宝玉特别注明这只是他个人的面试做法，Anthropic 全公司是否如此文章没说 <a href="https://x.com/dotey/status/2115218749888634988">原帖</a></li>
+<li><strong>Claude 参与新药研发的成绩单</strong>：Anthropic 和 6 家药企、生物技术公司合作，Generate Biomedicines 用 Claude Code 把 CAR-T 的一段基因指令缩短约 70%，Enveda 让 Claude 审 1061 页生产文件，人工发现的 11 处问题全找到，还多找出 7 处。被收购的一人药企 Mithril 研究 LAMA2 先天性肌营养不良，小鼠握力约为对照组两倍，但用药组 7 只、对照组 4 只，统计上还差一点显著，最快 2028 年底才可能进人体试验 <a href="https://x.com/dotey/status/2115183164905906513">原帖</a></li>
+<li><strong>AI 核对完数学史上最长的证明</strong>：Axiom 用几十个 AI agent 花 24 天，把散落在 500 多篇论文、约 1.5 万页的有限单群分类定理证明改写成 Lean 代码并通过检查，共约 4310 万行。过程中发现 John Walter 1986 年一篇论文引用的说法有反例，AI 借 Solomon 1976 年的思路写出新证法补上。宝玉提醒 Lean 管不了开头那句定理陈述翻译得对不对，目前还没有外部独立核查 <a href="https://x.com/dotey/status/2115145479222665228">原帖</a></li>
+<li><strong>Opus 5.5 之后 Agent 能替代初级剪辑师</strong>：他之前做的剪辑 Skill 在新模型发布后大多用不上了，自己对照过，同一个视频不用任何 Skill，只给 ASR 和 TTS 工具，Opus 5.5 的效果反而更好。他因此把 BaoCut 的时间线编辑器退居二线，认为剪辑 Agent 和 Codex 一样不需要完整编辑器，能标记哪里要改就够了 <a href="https://x.com/dotey/status/2115282464935473225">原帖</a></li>
+</ul>
+<p>看法：药物研发那条把样本量、未经同行评审甚至 Claude 发错邮件都写了出来，比转述新闻稿的版本可信得多</p>
+<hr />
+<p><strong>思维怪怪 @0xLogicrw</strong></p>
+<ul>
+<li><strong>Genie 4 世界模型</strong>：输入文字生成可探索的虚拟世界，键盘控制移动，能随时改天气、加人物，首次支持原生音频，由 Gemini 3.8 Flash 充当实时导演拆任务、检查进度。单次模拟最长约 2 分钟，是 Project Genie 的两倍，但跑久了物体位置和外观仍会变，目前只对少量受邀测试者开放，之后给 Google AI Ultra 用户和部分 API 开发者 <a href="https://x.com/0xLogicrw/status/2115273556208828429">原帖</a></li>
+<li><strong>欧洲“主权 AI”被扒出用了 Kimi 权重</strong>：瑞士 Giotto 发布 Alto 和 Solo，宣称是欧洲最聪明的主权 AI，结果模型自称 Kimi，CEO 承认继承了部分 Kimi 权重再训练，具体版本没说。讽刺的是他 10 月 19 日刚发文批评欧洲拿开源模型包装主权 AI，9 月西班牙 Multiverse 的 Quasar 438B 也被扒出和 GLM-5.2 有关 <a href="https://x.com/0xLogicrw/status/2115289912106700845">原帖</a></li>
+<li><strong>上游删库，客户的私有 Fork 跟着没了</strong>：被 Anthropic 收购的 Stainless 10 月 27 日删掉一个私有仓库，不到两秒，支付平台 Dodo Payments 从它 Fork 的私有仓库也被自动删除，审计日志只显示一名外部人员执行了 repo.destroy。这是 GitHub 的规则，删私有仓库会一并删掉所有私有 Fork，Dodo 靠本地副本恢复，并提醒依赖上游的私有 Fork 尽快转成独立仓库 <a href="https://x.com/0xLogicrw/status/2115354482473361599">原帖</a></li>
+<li><strong>RWE-Bench 考真实工程题</strong>：11 款模型做 20 项机械、电气和航空航天任务，包括曲轴设计、八层板 71 条信号线布线、涡轮叶片散热仿真，由工程软件和物理求解器自动判分。单次平均通过率 GPT-6 Astra 37% 第一、Opus 5.5 29%，允许尝试 5 次后 Opus 5.5 以 70% 反超 Astra 的 60%，DeepSeek V4.1 Flash、GLM-5.3、Grok 4.7 等 5 款全部失败 <a href="https://x.com/0xLogicrw/status/2115396120717451612">原帖</a></li>
+</ul>
+<p>看法：删库那条对任何拿私有 Fork 当依赖的团队都是实打实的风险，值得转给管仓库的人</p>
+<hr />
+<p><strong>墨无归 @Moblacksoil</strong></p>
+<ul>
+<li><strong>Artificial Analysis v5 换了考法</strong>：新版 60% 权重来自不公开题目的私有评测，新增 FrontierCode 2.0，看仓库维护者愿不愿意合入模型改的代码，另加 70 个命令行科研任务。开源和头部的差距从 3 分拉到 12 分，前十模型单任务花费从 0.96 美元到 13.04 美元，差了 13 倍多，选模型时成本也得算进去 <a href="https://x.com/Moblacksoil/status/2115276365977268660">原帖</a></li>
+<li><strong>Epoch AI 的全球算力账</strong>：按海关记录估算，2022 年以来约 72% 的 AI 算力落在美国，中国约 10%。增量更集中，美国每年拿到的新增算力份额从 2022 到 2024 年的约 60%，涨到 2025 年 72%，2026 上半年约 78% <a href="https://x.com/Moblacksoil/status/2115384830829416761">原帖</a></li>
+<li><strong>长鑫准备小规模量产 HBM3E</strong>：路透援引知情人士，CXMT 计划约两个月内小规模量产 HBM3E，已向多家国内 AI 芯片公司送样。良率约 20% 到 30%，SK 海力士约 70%，测试表现更接近上一代 HBM3，低良率推高成本，售价预计高于海外同类，计划尚未公开 <a href="https://x.com/Moblacksoil/status/2115399930424524987">原帖</a></li>
+<li><strong>Claude 文本水印扩大</strong>：8 月 2 日之后在欧盟新上线的 Claude 型号出厂就带机器可读水印，藏在用词选择里，复制粘贴也带得走，对外检测仍是私有预览。社区流传的客户邮件称 11 月 3 日起更多旧型号也会加上，作者注明这部分只是转述，没见官方逐条确认 <a href="https://x.com/Moblacksoil/status/2115421321886625919">原帖</a></li>
+</ul>
+<p>看法：每条都标出来源和没确认的部分，刚关注第一天就能看出是靠谱的信息源</p>
+<hr />
+<p><strong>Michael Guo @Michaelzsguo</strong></p>
+<ul>
+<li><strong>开源模型是工坊不是平替</strong>：针对 AA v5 引发的“开源被甩开”讨论，他认为两种极端说法都不对，写代码和长链条 agent 任务仍交给 Opus 5.5。本地一台 Mac 常驻 Qwen3.8-27B 4-bit 做小活和家庭安防分析，配音用 Ming-3.0 和 Drama 3，配乐 YuE2，视频 MiniMax H3，理由是这些活量大、要反复试、对隐私敏感，按次付费不划算 <a href="https://x.com/Michaelzsguo/status/2115434811749703983">原帖</a></li>
+<li><strong>冒充 OpenAI 员工的钓鱼号</strong>：转述一位网友险些中招的经历，骗局从“OpenAI 找你谈合作”开始，一步步把人带到账号授权页面，授权之后 X 账号就可能被接管，看着像官方员工的账号也别轻信 <a href="https://x.com/Michaelzsguo/status/2115366691941077046">原帖</a></li>
+</ul>
+<p>看法：本地模型分工那张清单很具体，想搭家用 AI 工作流可以直接对照</p>
+<hr />
+<p><strong>投资TALK君 @TJ_Research</strong></p>
+<ul>
+<li><strong>HOOD 和 Coinbase 的执行力差距</strong>：Robinhood 2024 年 Q4 加密营收 3.58 亿美元、股票 6100 万，到 2026 年 Q3 加密缩到 1.2 亿，股票翻倍到 1.21 亿，预测市场贡献 1.73 亿，总营收比当时高 30%。同期 Coinbase 季度营收只有高点的一半，他认为这就是市场给 HOOD 更高估值的原因 <a href="https://x.com/TJ_Research/status/2115227682661085329">原帖</a></li>
+<li><strong>万亿级机构长期跑输</strong>：一家管理约 9000 亿美元的机构，成立以来、过去 5 年、过去 3 年都明显跑输指数。他的观察是近几年自下而上的主动基金很难做，指数高度集中，押错就大幅落后，趋势型量化反而规模涨得很快，从业二三十年的老 PM 对 AI 的偏见今年才慢慢追上 <a href="https://x.com/TJ_Research/status/2115156182532870590">原帖</a></li>
+<li><strong>特粉被当天股价带着走</strong>：SpaceX 财报后涨 7%、特斯拉财报后跌，不少海外特斯拉投资者抱怨财报会不够激情，几天后特斯拉反而走得比 SpaceX 好。他的结论是很多人以为自己在做价值投资，其实情绪完全被当天价格牵着 <a href="https://x.com/TJ_Research/status/2115290129812029837">原帖</a></li>
+</ul>
+<p>看法：一线机构视角的复盘，比单纯喊多喊空有用得多</p>
+<hr />
+<p><strong>伊凡投資心得 @yifaninvest</strong></p>
+<ul>
+<li><strong>海力士财报改写周期股剧本</strong>：三季度营收首次破 100 万亿韩元，营业利润 83.3 万亿，利润率 80%。他认为存储向来涨三年跌三年，这个剧本正在被改写，但也提醒看好不等于借钱炒股，all in 宽基可以，all in 单只股票不行 <a href="https://x.com/yifaninvest/status/2115327173603332421">原帖</a> <a href="https://x.com/yifaninvest/status/2115360520698294668">原帖</a></li>
+<li><strong>Wise 入金别搞混</strong>：向 Wise 入金有两条路径，容易混的是币种账户下面的“充值/添加资金”，那是从 Wise 内部发起的一笔充值，和从外部账户转进来不是一回事 <a href="https://x.com/yifaninvest/status/2115239372325032427">原帖</a></li>
+<li><strong>非同名账户互转用 WiseTag</strong>：最便捷又免费的方法是 Tag，在 App 首页点左上角名字，个人资料页 Wise 图标旁边那串字符就是你的 Tag <a href="https://x.com/yifaninvest/status/2115248683692200229">原帖</a></li>
+<li><strong>出海资金链路</strong>：他推荐香港银行到 Wise 再到美股券商的路线，iFAST 解决资金从国内出境更顺畅，Wise 解决在美国本土零成本划转，两者搭配用 <a href="https://x.com/yifaninvest/status/2115320847133208894">原帖</a></li>
+</ul>
+<p>看法：出入金这几条都是国内投资者最常卡住的环节，收藏价值高</p>
+<hr />
+<p><strong>硅谷居士 @SVScholar</strong></p>
+<ul>
+<li><strong>海力士豪掷 750 亿美元回购</strong>：SK 海力士宣布今年回购 750 亿美元自家股票，并承诺未来把自由现金流的一半以上用于分红和回购，他的评价是韩国财阀终于开始给投资者发真金白银 <a href="https://x.com/SVScholar/status/2115318788711420310">原帖</a></li>
+<li><strong>希捷利润增长 221%</strong>：营收 42 亿美元，同比增长 61%，净利润 17.6 亿美元，同比增长 221%，公司预计下季度营收约 48 亿美元，同比增长约 71% <a href="https://x.com/SVScholar/status/2115187808797397142">原帖</a></li>
+<li><strong>QDII 美股基金溢价</strong>：10 月 27 日博时标普 513500 溢价 9.8%、嘉实纳指 159501 溢价 17.1%、国泰纳指 513100 溢价 15.5%，今年以来收益分别为 10.5%、22.5%、20.3%，他的一贯建议是忽略溢价继续买 <a href="https://x.com/SVScholar/status/2115279122817835517">原帖</a></li>
+</ul>
+<p>看法：财报速记很快，但 15% 以上的溢价还“闭着眼睛买”我持保留，溢价回落本身就是一笔看不见的亏损</p>
+<hr />
+<p><strong>Market Decoded @ReZigong</strong></p>
+<ul>
+<li><strong>美联储决议前的读法</strong>：10 月 27 日到 28 日议息，路透调查 100 位经济学家里 94 位预计维持 3.75% 到 4.00%。他认为维持利率已被充分预期，真正影响市场的是对通胀、就业和 12 月路径的表述，偏鸽会重新定价利率路径，偏鹰则科技股估值承压 <a href="https://x.com/ReZigong/status/2115261641621434434">原帖</a></li>
+<li><strong>苹果和纳指 100 负相关</strong>：苹果受自身业务和估值驱动，指数主要被 AI 基础设施股推着走，短期背离完全可能持续。他提醒真正危险的是把过去经常同步当成未来必然同步，均值回归只是一种可能 <a href="https://x.com/ReZigong/status/2115337489032609894">原帖</a></li>
+<li><strong>海力士产能已被长协锁住</strong>：公司表示 2027 到 2028 年超过一半产能已通过长期协议锁定，他认为对美光的参考价值在 HBM 需求、合约价格和扩产速度，而不是简单比谁涨谁跌 <a href="https://x.com/ReZigong/status/2115460984597016661">原帖</a></li>
+<li><strong>美国警告海湾国家</strong>：据 WSJ，美国警告海湾国家为中期选举后可能的对伊军事行动做准备，同时向以色列部署爱国者、补充弹药。他判断短期最先反应的是油价和避险资产，黄金和金矿股的相对吸引力反而被强化 <a href="https://x.com/ReZigong/status/2115313887461687568">原帖</a></li>
+</ul>
+<p>看法：事实、观点、失效条件分开写，这个结构比多数财经号清楚</p>
+<hr />
+<p><strong>小墨同学 @xiaomovps</strong></p>
+<ul>
+<li><strong>用 Grok Bot 的 5 个小知识</strong>：X 搜索每分钟 30 次、每天 1000 次、一次最多 25 条；云电脑没人用会休眠，自己跑的 cron 和后台进程一起暂停；所有 Bot 共用一台电脑，各有屏幕但不隔离；重建后文件和登录能恢复，apt、npm、pip 装的软件不一定保留。他的建议是定时任务交给自带的任务机制，重要数据再同步到 GitHub <a href="https://x.com/xiaomovps/status/2115378617614262327">原帖</a></li>
+<li><strong>ESP32 加 Agent 的三个开源项目</strong>：Tiny Engineer 用 ESP32-C3 和 5 个舵机给 Claude Code 做了个会跟着干活的桌面机器人；乐鑫官方 ESP-Claw 把 Agent Runtime 放进芯片，支持 MCP 和动态加载 Lua；MimiClaw 用 C 写 Agent 循环，5 美元的芯片就能跑，支持 Telegram、定时任务和本地记忆 <a href="https://x.com/xiaomovps/status/2115395887887479279">原帖</a></li>
+<li><strong>DeepSeek Harness 接入自家搜索</strong>：新版已接 DeepSeek 自己的 Search API，在左侧插件菜单打开网页搜索即可，不用再折腾第三方搜索服务 <a href="https://x.com/xiaomovps/status/2115466676661793049">原帖</a></li>
+</ul>
+<p>看法：第一条对 Grok Bot 用户很实用，休眠会暂停自建 cron 这点最容易踩坑</p>
+<hr />
+<p><strong>纳米AI @antiAIvo</strong></p>
+<ul>
+<li><strong>NamiGPT 从零手写 GPT-2</strong>：把几个月学大模型的笔记开源，用 PyTorch 手写 GPT-2 并加载 OpenAI 官方权重跑通生成。全程只用“猫吃鱼”3 个词，从分词一路推到预测下一个词，每一步矩阵都能在网页上一格一格看，15 篇图文，模型本体不到 200 行，测试保证和 HuggingFace 输出一致 <a href="https://x.com/antiAIvo/status/2115280002208157933">原帖</a></li>
+<li><strong>为什么存储是 AI 的瓶颈</strong>：权重平时存在 SSD 的 NAND 里，推理前加载进 DRAM，再搬进 GPU 旁边的 HBM，每生成一个 token 都要把权重从 HBM 读一遍。上下文越长 KV 缓存越大，HBM 装不下就溢出到 DRAM 再到 SSD，三层存储都被 AI 拉动，海力士三样都有且 HBM 份额领先 <a href="https://x.com/antiAIvo/status/2115271061998887182">原帖</a></li>
+<li><strong>大模型怎么做难的 DP 题</strong>：他的理解是模型和人一样，先凭经验猜是线性、区间还是树形 DP，再定义状态写转移，用样例验证后补维或换思路。逐字输出不代表思考只有一个字那么深，就像人写代码也是一个字符一个字符敲 <a href="https://x.com/antiAIvo/status/2115329203180847442">原帖</a></li>
+</ul>
+<p>看法：用三个词讲透 GPT-2 的教程很少见，想补原理的可以从这里入门</p>
+<hr />
+<p><strong>卫斯理 @imwsl90</strong></p>
+<ul>
+<li><strong>切实可行的失业自救指南</strong>：要做的是积极找工作别拿着赔偿懈怠、拉收支表砍开支、学会卖、技术人做面向大众的产品加培训、做自媒体。不要做的是创业、开实体店、做外贸、送外卖、开民宿躺平，最后提醒别信大 V 说什么项目很挣钱 <a href="https://x.com/imwsl90/status/2115270809279467589">原帖</a></li>
+<li><strong>网易邮箱 Mail Agent 实测</strong>：网易邮箱大师底部有入口，DeepSeek V4 Flash/Pro 驱动，可以自定义人格、风格和底线。他让它分析订阅类邮件，找出一个被遗忘的喜马拉雅儿童 VIP 自动扣费 <a href="https://x.com/imwsl90/status/2115330834781655317">原帖</a></li>
+<li><strong>每月 AI 花销</strong>：DeepSeek 100 元、Grok Bot 200 元、ChatGPT 680 元，加上杂七杂八的工具订阅 400 元，一个月共 1400 元 <a href="https://x.com/imwsl90/status/2115259151828054255">原帖</a></li>
+</ul>
+<p>看法：“不要做”那份清单是踩过坑的人写的，比鸡汤实在</p>
+<hr />
+<p><strong>brucexu.eth @brucexu_eth</strong></p>
+<ul>
+<li><strong>DeepSeek V4.1 Flash 跑到 1500 tok/s</strong>：他转发的演示里 V4.1 Flash 输出速度约 1500 tok/s，之后又看到 2100 tok/s 的记录，感叹这是开源模型的胜利，好奇生成速度接近实时之后会发生什么 <a href="https://x.com/brucexu_eth/status/2115261380169482386">原帖</a> <a href="https://x.com/brucexu_eth/status/2115283592452747480">原帖</a></li>
+<li><strong>美梦破裂的硬件账</strong>：这套速度背后大约是 2 台 Nvidia GB300，成本约 100 万美元，个人根本买不起 <a href="https://x.com/brucexu_eth/status/2115264077027307882">原帖</a></li>
+</ul>
+<p>看法：速度很惊艳，但百万美元的门槛说明这还是机房里的数字</p>
+<hr />
+<p><strong>Andy Stewart @manateelazycat</strong></p>
+<ul>
+<li><strong>懒猫 AI 算力舱一天卖近 200 台</strong>：顺丰特快发货，到手可跑 DeepSeek 1017 和 GLM 5.3 Flash，他测本地 DeepSeek 1017 单流解码最高约 90 TPS <a href="https://x.com/manateelazycat/status/2115383530993963070">原帖</a> <a href="https://x.com/manateelazycat/status/2115236579912610034">原帖</a></li>
+<li><strong>同传成了卖点</strong>：很多老板买算力舱是冲着同声传译，中文到其他语言实时转译延迟约 2 秒，做外贸时不用另买 AI 硬件 <a href="https://x.com/manateelazycat/status/2115412660690862562">原帖</a></li>
+<li><strong>光口线 CRC 错误换铜线解决</strong>：算力舱的光口线经常出 CRC 错误，换成铜线光模块后一个错误都没有，代价只是贵 <a href="https://x.com/manateelazycat/status/2115335374407131521">原帖</a></li>
+</ul>
+<p>看法：卖整机的一线反馈，说明本地大模型已经有不少人愿意直接掏钱买</p>
+<hr />
+<p><strong>范凯说AI @fankaishuoai</strong></p>
+<ul>
+<li><strong>Ollama 上跑 DeepSeek 和 GLM 更快</strong>：切到 Ollama Pro 后他测了一遍，DeepSeek 比官网快 34%，GLM 约为官网速度的 3 倍，反复测都如此，输出一致、没有量化 <a href="https://x.com/fankaishuoai/status/2115367867206279284">原帖</a></li>
+<li><strong>AI 编程没那么神秘</strong>：他认为很多人把 AI 编程搞复杂了，真实流程是躺床上有个想法，用手机和 Bot 聊一聊，注册域名，几分钟出原型，十几分钟上线再边用边改，一两个小时做完一个项目，真赚钱了再认真重构 <a href="https://x.com/fankaishuoai/status/2115279258218271159">原帖</a></li>
+<li><strong>4 个模型 7 个 AI 员工</strong>：GPT-6 Astra、Opus 5.5、DeepSeek、GLM 统一接入 Pi Agent，配 7 个角色，由 Paseo 自动调度，最高频的组合是 DeepSeek 干活、GPT 做设计和验收 <a href="https://x.com/fankaishuoai/status/2115472338171183605">原帖</a></li>
+</ul>
+<p>看法：Ollama 测速的结论很反直觉，迁移前最好自己复测一遍</p>
+<hr />
+<p><strong>Richie.L @HakWitTalk</strong></p>
+<ul>
+<li><strong>Anthropic 直接借研究员给生命科学 PI</strong>：高校、非营利和政府实验室的 PI 可以带课题和 Anthropic 研究员一起干 8 到 12 周，方向限定在因果人类生物学、结构与计算分子生物学、药物化学、药物发现和临床科学。不收钱、不要你的数据，数据和后续研究权利归你，交换条件是成果联合发表、数据和代码开源，申请约开 14 天，按 10 月 22 日发布算 11 月初截止 <a href="https://x.com/HakWitTalk/status/2115433268464206137">原帖</a></li>
+<li><strong>可灵 4.0 上了 Runware</strong>：单次最长 30 秒、最高 1080p，自带双声道音频，对白支持中英日韩等语言，长度是 3.0 的两倍，最多 10 个关键帧，可以按秒用 API 调 <a href="https://x.com/HakWitTalk/status/2115117476090712507">原帖</a></li>
+</ul>
+<p>看法：8 到 12 周内要出初步证据这条硬要求，说明 Anthropic 要的是能快速见苗头的题</p>
+<hr />
+<p><strong>小工具</strong></p>
+<ul>
+<li><strong>Clearcam</strong>：给现有 RTSP 摄像头加本地 AI 的开源 NVR，人车检测、追踪和录像搜索都在自己电脑上跑，远程查看和推送属付费功能 <a href="https://x.com/abskoop/status/2115384249637630122">原帖</a></li>
+<li><strong>Mailflare</strong>：用 Cloudflare 搭自托管邮箱并绑自己的域名，DKIM、SPF、MX 大多自动配好，附件存 R2 <a href="https://x.com/0xGky/status/2115376777958965661">原帖</a></li>
+<li><strong>ThinkRail</strong>：JetBrains 孵化，给 pi agent 套一个 IDE，每个任务开独立 git worktree，用 SPEC.md 钉住需求，Apache 协议 <a href="https://x.com/ai_fengshou/status/2115356896739590590">原帖</a></li>
+<li><strong>Postiz</strong>：开源的多平台发帖排期工具，X、Instagram、YouTube、TikTok 一次排好，支持 MCP 和命令行，自部署免费 <a href="https://x.com/ai_fengshou/status/2115356644943032361">原帖</a></li>
+<li><strong>worktree 不遗留规则</strong>：在 AGENTS.md 里写明任务完成必须删除 worktree 和分支，不合并就先打 archive tag，让 Agent 自己收尾 <a href="https://x.com/dotey/status/2115314783503196605">原帖</a></li>
+<li><strong>Ghostty 1.4.0</strong>：终端空闲时自动压缩屏幕外历史，普通文本可省 70% 到 90% 内存 <a href="https://x.com/0xLogicrw/status/2115346975864623416">原帖</a></li>
+<li><strong>Kaku remote</strong>：Mac 上的终端连同 Claude Code 会话可以在其他设备的浏览器里打开，支持触控 <a href="https://x.com/HiTw93/status/2115448387701182969">原帖</a></li>
+<li><strong>MiniMax M3.1 Flash 限免</strong>：EvoX Agent 10 月 28 日到 30 日免费用，就是前几天匿名的 Space Bunny <a href="https://x.com/lxfater/status/2115348125195854291">原帖</a></li>
+<li><strong>AI 浮生记</strong>：向阳乔木让 Codex 写的致敬“北京浮生记”小游戏，在线可玩，代码开源 <a href="https://x.com/vista8/status/2115353660075168054">原帖</a></li>
+<li><strong>DJI MIC 当 AI 录音器</strong> <a href="https://x.com/leto_bao/status/2115400712477966814">原帖</a></li>
+</ul>
+<hr />
+<p><strong>推荐关注</strong></p>
+<ul>
+<li><a href="https://x.com/jenmeilm">Jen LM @jenmeilm</a>：昨天把 Anthropic 10 月 27 日的随机对照实验讲得很透，50 位分析师 86% 选了 agent 被预设的那一边，77% 复述了 agent 的论点却只有 15% 说明来源，最后给了三条保住自己判断的做法，粉丝不到一千但信息密度很高 <a href="https://x.com/jenmeilm/status/2115256803177218528">原帖</a></li>
+<li><a href="https://x.com/shao__meng">meng shao @shao__meng</a>：整理了一份 2026 年 OpenAI SWE 面试复盘，从带版本的 KV 存储、48 小时 webhook 投递作业到可选的 Agentic Coding 轮写得很细，主页定位是 Agent 构建和 AI Coding 实践解读 <a href="https://x.com/shao__meng/status/2115471710967439551">原帖</a></li>
+</ul>]]></content:encoded></item>
 <item><title>中文推特圈精选｜10月27日（上海时间）</title><link>https://yanjieli.com/x-digest-feed/zh/2026-10-27.html</link><guid isPermaLink="false">x-digest-zh-2026-10-27</guid><pubDate>Wed, 28 Oct 2026 08:00:00 +0800</pubDate><description><![CDATA[<p><strong>中文推特圈精选｜10月27日（上海时间）</strong></p>
 <p><strong>今日主线</strong>
 1. 微软向约 6 万名员工发自愿离职邀约，占全员四分之一以上，中文圈从补偿细节一路聊到 AI 拿人头费换算力
