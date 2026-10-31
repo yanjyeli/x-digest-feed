@@ -1,5 +1,280 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>中文推特圈每日精选</title><link>https://yanjieli.com/x-digest-feed/zh/</link><atom:link href="https://yanjieli.com/x-digest-feed/zh.xml" rel="self" type="application/rss+xml"/><description>每天早上 8 点（上海时间）更新的中文推特圈精选</description><language>zh-cn</language><lastBuildDate>Fri, 30 Oct 2026 08:00:00 +0800</lastBuildDate><ttl>360</ttl>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>中文推特圈每日精选</title><link>https://yanjieli.com/x-digest-feed/zh/</link><atom:link href="https://yanjieli.com/x-digest-feed/zh.xml" rel="self" type="application/rss+xml"/><description>每天早上 8 点（上海时间）更新的中文推特圈精选</description><language>zh-cn</language><lastBuildDate>Sat, 31 Oct 2026 08:00:00 +0800</lastBuildDate><ttl>360</ttl>
+<item><title>中文推特圈精选｜10月30日（上海时间）</title><link>https://yanjieli.com/x-digest-feed/zh/2026-10-30.html</link><guid isPermaLink="false">x-digest-zh-2026-10-30</guid><pubDate>Sat, 31 Oct 2026 08:00:00 +0800</pubDate><description><![CDATA[<p><strong>中文推特圈精选｜10月30日（上海时间）</strong></p>
+<p><strong>今日主线</strong>
+1. 英特尔四季度指引远低于预期，周五开盘重挫近三成，加上谷歌、亚马逊自由现金流转负，半导体和七巨头集体下跌，资金躲进沃尔玛、好市多这类防御股
+2. 币安热钱包被盗约 63 亿美元，初查指向一名运维的笔记本被入侵，同一天 Cursor 扩展市场的 Claude Code 插件被投毒，安全成了中文圈讨论最多的话题
+3. OpenAI 把 Pro 各档和 Business Premium 额度翻倍、取消 Pro 200 降额，转头又被扒出 12 月起 ChatGPT 和 Codex 共用额度，Anthropic 则公开了 Claude 每轮回答后的安全自查机制</p>
+<hr />
+<p><strong>宝玉 @dotey</strong></p>
+<ul>
+<li><strong>Pro 额度翻倍后到底能用多少</strong>：以 Plus 为 1 倍，Pro 100 从 5 倍变 10 倍，Pro 500 从 25 倍变 50 倍，Pro 200 要分人看，9 月 29 日前订阅的老用户原定 10 月 30 日从 20 倍降到 10 倍，现在不降了，之后新订阅的一直是 10 倍，翻倍后也到 20 倍，三档每花 1 美元的用量还是一样，dot 的加长额度“暂时”继续单独计算，多久没说 <a href="https://x.com/dotey/status/2115856411439575386">原帖</a></li>
+<li><strong>Claude 每轮回答后自查安全</strong>：Anthropic 公开“自我评估”机制，从 6 月 Fable 5 上线就在跑，每轮回答后追加一句短指令，让模型输出约 10 个 token 的评估，靠 KV 缓存整体算力只多不到 2%，在 1% 误报下能抓到审查员标出可疑对话的 78%，高优先级的抓到 94%，单条标记不会直接封号，同一组织攒多条高优先级才转人工，零数据保留的流量不跑，宝玉判断这更多是在防蒸馏 <a href="https://x.com/dotey/status/2115923359149998490">原帖</a></li>
+<li><strong>Claude API 单次请求上限提到 128 MB</strong>：Messages 和 Token Counting 两个接口从 32 MB 提到 128 MB，截图多的长任务和大 PDF 以前常常文件先撞墙、上下文还剩很多，只限 Anthropic 官方 API <a href="https://x.com/dotey/status/2115968852349567254">原帖</a></li>
+<li><strong>7 岁孩子在 ChatGPT 里做游戏</strong>：孩子不太会打字，全靠语音，从画图到想生成视频再到让 ChatGPT 做成游戏，然后一边玩一边让它按自己要求改 <a href="https://x.com/dotey/status/2115842646031642966">原帖</a></li>
+</ul>
+<p>看法：额度那条把 Pro 200 新老用户的差别算清楚了，比满屏的“翻倍了”有用得多</p>
+<hr />
+<p><strong>思维怪怪 @0xLogicrw</strong></p>
+<ul>
+<li><strong>Grok 4.8 延期</strong>：马斯克承认研发耗时超预期，说团队不针对跑分优化，9 月 14 日他还说 2.5 万亿参数、当周结束预训练，六周多过去仍未发布，背景是 Grok 4.7 在 AA 相同 xhigh 档位只比 4.6 多 2 分（44 到 46），单题平均输出 token 却从约 3.8 万涨到 8.1 万 <a href="https://x.com/0xLogicrw/status/2116066451165761960">原帖</a></li>
+<li><strong>Phodal 离开阿里 Qoder</strong>：黄峰达告别帖说“在阿里要做好一个产品，可太难了”，他今年 5 月前后加入，做过 Canvas 交互、Agent 插件生态和开源的 Better Harness，Qoder 9 月披露 ARR 1 亿美元，但同期阿里云宣布逐步关停 QoderWork，8 月通义灵码负责人陈鑫也已离职 <a href="https://x.com/0xLogicrw/status/2116189778140135807">原帖</a></li>
+<li><strong>字节 Seed 周畅被曝离职做物理 AI</strong>：Z Finance 称他已拿到头部美元基金支持，就在 10 月 26 日多家媒体还从接近字节的人士处得到“没有离职”的回应，他下半年管理范围已在收缩，更多工作转给 Seedance 2.0 核心负责人曾妍 <a href="https://x.com/0xLogicrw/status/2116187675669770385">原帖</a></li>
+<li><strong>Google 关停 Jules</strong>：12 月 31 日停运，11 月 11 日后只读，5 月团队还在招 2.0 内测并否认和 Antigravity 内部竞争，五个月后异步编程能力并入 Antigravity，个人版 Gemini CLI 此前也转向了 Antigravity CLI <a href="https://x.com/0xLogicrw/status/2116051356540924003">原帖</a></li>
+</ul>
+<p>看法：一天里串起 Qoder、字节、Google 三条人事和产品收缩，国内外 AI 编程产品线都在往少数入口收拢</p>
+<hr />
+<p><strong>投资TALK君 @TJ_Research</strong></p>
+<ul>
+<li><strong>英特尔财报听了两遍之后</strong>：盘后跌是因为四季度 PC 业务清库存导致指引大幅低于预期，杀得没问题，但他把一半跌幅归给市场情绪，按他的推算 2027 年 PC 营收约 305 亿美元（市场预期 334 亿明显偏高），数据中心至少 360 亿、他预估 400 亿以上，毛利率今年约 42%，管理层确认明年继续扩张，明年数据中心营收会超过 PC <a href="https://x.com/TJ_Research/status/2116027636182880266">原帖</a></li>
+<li><strong>亚马逊给了 AWS 两年增速</strong>：管理层给出 2027、2028 年 AWS 增速 40% 以上，高于市场预期的 38% 和 31%，还说 5 到 10 年云营收做到 1 万亿美元，约为现在的 6 倍，他的逻辑是云增速会去匹配现在的资本开支增速 <a href="https://x.com/TJ_Research/status/2116172054751760663">原帖</a></li>
+<li><strong>去做尽调听到的一句实话</strong>：他作为甲方去一家帮他们管债券的机构做 Due Diligence，对方直接说现在利差在低位，一两个季度很难保证跑赢，大跌时才体现优势 <a href="https://x.com/TJ_Research/status/2116048536852730349">原帖</a></li>
+</ul>
+<p>看法：自己说账户要“-6% 起跌”的当晚还能把英特尔的 PC 和数据中心拆成数字讲，这比喊“抄底”有参考价值</p>
+<hr />
+<p><strong>Galaxy_Chloe @KelseyDingMD</strong></p>
+<ul>
+<li><strong>纳指 100 的设计就难跑赢板块基金</strong>：它按市值加权再加特殊权重调整，只收在纳斯达克上市的非金融公司，里面有消费、医疗、通信，增长潜力下来了权重也不主动下调，今年到现在标普 500 涨 12%，纳指 100 只有 16%，多不到 4 个点，波动却大了一截 <a href="https://x.com/KelseyDingMD/status/2115927658080952669">原帖</a></li>
+<li><strong>SPIVA 的算术</strong>：美国主动大盘基金 10 年跑输标普 500 的占 83%，15 年 90%，20 年 93%，她的解释是主动加被动等于市场，扣成本前主动平均只能等于市场，扣完必然跑输，接下来要跟老公摆数字讨论把他的主动基金换掉 <a href="https://x.com/KelseyDingMD/status/2116035659064639714">原帖</a></li>
+<li><strong>三大云都很好看，市场不再统一定价</strong>：Azure 48%、谷歌云翻倍、AWS 39% 是近五年最快，但亚马逊过去 12 个月自由现金流负 424 亿美元、单季资本开支约 760 亿，市场要求花出去的钱立刻变现 <a href="https://x.com/KelseyDingMD/status/2115907027730153787">原帖</a></li>
+</ul>
+<p>看法：纳指设计那条是她持仓体验的延伸，拿 QQQ 的同学值得看看自己到底在买什么</p>
+<hr />
+<p><strong>李志 | Rational Investing @LZRationalnvest</strong></p>
+<ul>
+<li><strong>周五的下跌名单</strong>：英特尔跌 29%，ARM 跌 10.3%，AMD 跌 10%，美光 5.1%，英伟达 3.6%，博通 4.6%，亚马逊、特斯拉、微软也都在跌，沃尔玛、好市多、百事和部分医疗股逆势上涨，他判断资金在躲高估值科技股 <a href="https://x.com/LZRationalnvest/status/2116162926369513520">原帖</a></li>
+<li><strong>币安初查结果</strong>：公告称初步指向一名运维的笔记本电脑被入侵，攻击者借此进入服务容器提交了未授权提现，暂未发现私钥泄露，预计影响约 63 亿美元，约 30 亿已在链上冻结，充提暂停 <a href="https://x.com/LZRationalnvest/status/2115995547278704882">原帖</a></li>
+<li><strong>嘉信账户被锁怎么办</strong>：提示“此帐户访问已被中止”多半是 VPN 导致 IP 变化太快，他之前问过客服，打华语客服 400 120 6217 要求解锁就行 <a href="https://x.com/LZRationalnvest/status/2116140414214525230">原帖</a></li>
+<li><strong>招行香港暂停两家券商银证转账</strong>：2026 年 11 月 30 日下午 4 点起暂停与东吴证券国际、招商证券国际的银证转账，恢复时间待定 <a href="https://x.com/LZRationalnvest/status/2116077397875519534">原帖</a></li>
+</ul>
+<p>看法：嘉信和招行两条都是实打实的出入金提醒，用这两条路的人可以先记下</p>
+<hr />
+<p><strong>Selina美股观察 @wallst_sw</strong></p>
+<ul>
+<li><strong>SpaceX 的客户 B 是 Anthropic 之后</strong>：彭博援引知情人士称三季度超过三分之一收入来自 Anthropic，合同最多 1205 亿美元，她不担心付款能力，Anthropic 二季度收入是同期算力开支的两倍多，真正的风险在合同结构，这笔头一段锁定期明年一季度结束，之后提前 90 天通知就能终止，而 SpaceX 租的下一代英伟达芯片是 Apollo 出钱买的，五年左右的租金只找 SpaceX 收，她会盯续约改价、客户 B 占比和 Anthropic IPO 募资额 <a href="https://x.com/wallst_sw/status/2116192905316733145">原帖</a></li>
+<li><strong>2000 亿资本开支里有不少是涨价</strong>：亚马逊 7 月多加的 200 亿全记在内存头上，彭博称英伟达已通知大客户明年初 AI 服务器涨价 15% 以上，她认为明年各家现金流不够再加预算，最直接受益是存储原厂，网络、光模块、电力散热的订单增速会跑输开支总额，2 月看 2027 年指引要先扣掉存储涨幅 <a href="https://x.com/wallst_sw/status/2116173276695101752">原帖</a></li>
+<li><strong>Reddit 掉的是最不赚钱的用户</strong>：日活里不登录的访客近六成，管理层说八成以上收入来自登录和 App 用户，四季度流失主要是海外不登录访客，真正的担心是谷歌这个拉新入口在收窄，美国登录用户同比几乎没涨，下季她先看美国登录日活 <a href="https://x.com/wallst_sw/status/2116157673322287584">原帖</a></li>
+</ul>
+<p>看法：新发现的账号，每条都写清楚自己盯什么、什么情况算判断错了，财报解读里少见的克制</p>
+<hr />
+<p><strong>Fiona 美股第一线 @fiona_1st</strong></p>
+<ul>
+<li><strong>英伟达替 AI 云作保</strong>：The Information 称英伟达在谈为 Nscale 提供数十亿美元信用担保，帮它借钱建一座 460 兆瓦、给 Anthropic 用的数据中心，英伟达本身是 Nscale 的供应商和股东，8 月底财报里它的最大担保敞口已有 1085 亿，其中 1050 亿是俄亥俄一个租户为 OpenAI 关联方的园区 <a href="https://x.com/fiona_1st/status/2116129235794305260">原帖</a> <a href="https://x.com/fiona_1st/status/2116144083911451079">原帖</a></li>
+<li><strong>闪迪的增长全在数据中心</strong>：截至 10 月 2 日的财季营收 110 亿美元、调整后每股收益 49.51 美元，都超共识，数据中心收入 48 亿、环比涨 61%，消费类环比少了近三成，CEO 说明年 PC 出货还会小降 <a href="https://x.com/fiona_1st/status/2116159686449721774">原帖</a></li>
+<li><strong>卡特彼勒的订单出货比</strong>：在手订单创新高到 780 亿美元，但订单出货比从年初约 1.7 降到约 1.3，1 月给 2027 年指引时可以先看这个比值会不会跌破 1 <a href="https://x.com/fiona_1st/status/2116174534470447282">原帖</a></li>
+</ul>
+<p>看法：担保那两条把英伟达和模型公司的隐性绑定讲出来了，偶尔有互关帖要自己跳过</p>
+<hr />
+<p><strong>伊凡投資心得 @yifaninvest</strong></p>
+<ul>
+<li><strong>英特尔成绩单不差，输在指引</strong>：三季度营收 165 亿美元，数据中心和 AI 同比涨 78%，但四季度指引 150 亿到 160 亿，市场原本期待约 170 亿，PC 被内存涨价拖累下滑 5%，再加以色列工厂意外，原本打算 10 月给 PC 处理器涨价 10% 的算盘也难打了 <a href="https://x.com/yifaninvest/status/2115925579442876569">原帖</a></li>
+<li><strong>中期选举前后的美股</strong>：1980 年以来中期选举年标普平均涨约 4%，非中期年约 13%，但 1950 年以来 19 次中期选举之后 12 个月全部上涨，平均约 15%，选后第一个月通常平淡，平均只涨约 0.5% <a href="https://x.com/yifaninvest/status/2116058041389068716">原帖</a></li>
+<li><strong>美元 QDII 额度也没了</strong>：博时、广发自家 App 上用美元申购的纳指、标普 QDII 去年还有额度，现在只剩石油、生物科技、房地产 REITs 这类 <a href="https://x.com/yifaninvest/status/2115968443707220025">原帖</a></li>
+</ul>
+<p>看法：11 月 3 日就投票，选举那组历史数据正好用来对冲眼下的恐慌</p>
+<hr />
+<p><strong>墨无归 @Moblacksoil</strong></p>
+<ul>
+<li><strong>Cursor 扩展市场的 Claude Code 被投毒</strong>：被篡改的 2.1.313 会收集主机信息、写入 svc-telemetry 公钥并设自启、尝试开反向隧道，多数电脑没开远程登录所以攻击者进不来，但公钥和自启可能还在，最多影响 5000 人，北京时间 10 月 29 日 17:27 到 10 月 30 日 04:35 装过或更新过的要升级并自查 <a href="https://x.com/Moblacksoil/status/2116124706013417693">原帖</a></li>
+<li><strong>隔着 API 查蒸馏</strong>：Meta 新论文 WM-Basin 发现模型提供方藏在输出里的统计暗记会渗进被蒸馏模型的参数，看不到对方内部也能从文本输出检测，误报压到 0.1% 时最好那档检出 79%，旧的数水印词方法在对方降低随机性时常常失效 <a href="https://x.com/Moblacksoil/status/2116091990345494956">原帖</a></li>
+<li><strong>Thinking-in-Bets</strong>：谷歌研究员的论文让智能体在看用户反馈前先私下记下结论、做过的核对和把握程度，被质疑时只查被指出的点，改代码任务里被错误怀疑后把对的地方改坏的比例从 12.2% 降到 0.02% <a href="https://x.com/Moblacksoil/status/2116107341519372545">原帖</a></li>
+<li><strong>百度 AI 搜索 API 打价格战</strong>：增强版活动价 4.9 元每千次（刊例 40），旗舰版 9.9 元（刊例 72）需邀请码，活动到 12 月 31 日，DeepSeek Search 标价 5 元每千次成功请求，计费单位不完全一样，它在 Claude Code、Codex 里经服务端调用的搜索目前免费，北京时间 11 月 1 日起按次收费 <a href="https://x.com/Moblacksoil/status/2116136030713659835">原帖</a></li>
+</ul>
+<p>看法：投毒那条给了精确时间窗和要查的痕迹，用 Cursor 装过这个扩展的可以直接照着排查</p>
+<hr />
+<p><strong>王小庄 @BlockInsight214</strong></p>
+<ul>
+<li><strong>朝鲜假笔试木马能自我传播了</strong>：笔试仓库藏一个 .vscode/tasks.json，在 VS Code 里点“信任”就自动执行并下载 BeaverTail、InvisibleFerret，中招的人再推代码会把感染带进自己的仓库，Trend Micro 3 月统计超过 750 个仓库受感染，他按特征搜到 108 个 tailwind.config.js 末尾藏着混淆代码、168 处偷改提交的 temp_auto_push.bat <a href="https://x.com/BlockInsight214/status/2116132079851446396">原帖</a></li>
+<li><strong>五家 AI 编程工具的内置浏览器全中招</strong>：研究者把 Cursor、Copilot、Codex、VS Code、Claude Desktop 的问题统称 EMBRACE，Cursor 的问题是网页里藏一条看不见的指令就能让 AI 自己关掉沙箱执行（10 月 1 日已修），Copilot 则能被伪造地址栏 <a href="https://x.com/BlockInsight214/status/2116088954386804893">原帖</a></li>
+<li><strong>GLM 5.3 给 Firefox 造 exploit</strong>：Epoch AI 只给模型已公开但还没推送的安全修复信息，用刻意简陋的配置模拟低水平攻击者，GLM 5.3 为 6 个近期版本各自造出可用 exploit，每个成本约 1000 美元，用户打开网页就会被偷密码和 cookie <a href="https://x.com/BlockInsight214/status/2116137288866705529">原帖</a></li>
+</ul>
+<p>看法：三条放在一起看，攻击面已经从人点链接挪到 IDE 和 Agent 自己身上</p>
+<hr />
+<p><strong>meng shao @shao__meng</strong></p>
+<ul>
+<li><strong>阿里云开源《AI Agent Handbook》</strong>：2026 年调研里已开发完成或开发中的约 46%，真正上生产约 18%，上下文和记忆需求约 90%，基于轨迹自动评估的只有约 8%，约 16% 从没量化过成功率，MCP 企业内私有部署仅约 9%，缺的是注册中心、鉴权、灰度和审计，全书按架构、构建、运行、治理、调优写到 L1 到 L4 成熟度 <a href="https://x.com/shao__meng/status/2115975663148765204">原帖</a></li>
+<li><strong>Addy 谈 Opus 5.5 时代怎么用 Claude Code</strong>：一条提示说清要什么、怎么证明做完，从 /effort medium 起调，Claude Code 系统提示删掉八成以上评测没明显掉点，/doctor 的 prompt-audit 能标出为旧模型写的指令，琐碎活别硬拆子 agent，单 agent 加 skills 往往更好更省 <a href="https://x.com/shao__meng/status/2115986116482613486">原帖</a></li>
+<li><strong>给孩子的打字游戏加了句子模块</strong>：孩子手写时会注意首字母大写、空格和句号，打字时总忘，他干脆用软件练，省得妈妈一直说 <a href="https://x.com/shao__meng/status/2116062951279091969">原帖</a></li>
+</ul>
+<p>看法：手册那组调研数字比结构更值得看，评估缺位是企业 Agent 卡在试点的主因</p>
+<hr />
+<p><strong>硅谷居士 @SVScholar</strong></p>
+<ul>
+<li><strong>七姐妹今年谁最差</strong>：特斯拉 -12%、谷歌 -11%、Meta -6%、亚马逊 3%、微软 8%、英伟达 11%、苹果 27%，对照 SMH 47%、VGT 25%、纳指 100 13%、标普 11% <a href="https://x.com/SVScholar/status/2116175809803440250">原帖</a></li>
+<li><strong>英特尔历史第二惨</strong>：10 月 30 日早盘重挫 28%，史上更惨的一次是 1974 年 7 月 5 日跌 31% <a href="https://x.com/SVScholar/status/2116177127816994843">原帖</a></li>
+<li><strong>礼来上调全年指引</strong>：季度营收 244 亿美元、同比增 39%，净利润 64.5 亿、增 16%，2026 全年营收指引上调到 910 亿到 920 亿，中值提高 55 亿 <a href="https://x.com/SVScholar/status/2115869875382210981">原帖</a></li>
+</ul>
+<p>看法：数据型快讯依旧干净，七姐妹那张表和他一贯的指数基金立场正好互相印证</p>
+<hr />
+<p><strong>范凯说AI @fankaishuoai</strong></p>
+<ul>
+<li><strong>做内容别指望 X</strong>：他的 Substack 邮件列表打开率 30% 到 45%，YouTube 长视频粉丝触达率 16% 到 25%、直播 40% 到 60%，X 帖子的粉丝触达率只有 2% 到 4%，曝光几乎全靠推荐算法 <a href="https://x.com/fankaishuoai/status/2116148629597823315">原帖</a></li>
+<li><strong>质疑蒸馏 Astra 的说法</strong>：媒体说 DeepSeek 和 Kimi K3.1 蒸馏了 GPT Astra，他没看到严谨报告，按他用 DeepSeek 1017 的体感风格和 Astra 差异很大，说像 Opus 5.5 都更像一些 <a href="https://x.com/fankaishuoai/status/2116097113214042269">原帖</a></li>
+</ul>
+<p>看法：触达率那组是自己账号的真实数据，对在 X 上做内容的人很有校准作用</p>
+<hr />
+<p><strong>小工具</strong></p>
+<ul>
+<li><strong>baoyu-design v2.1</strong>：在设计页和 slides 上圈元素写评论，Agent 能读也能回，评论和项目数据存在一起 <a href="https://x.com/dotey/status/2116060639533969759">原帖</a></li>
+<li><strong>NamiAgent</strong>：“从零手写 Agent”教程整理成的开源项目，能在指定工作区读写文件、跑命令、接 MCP，写文件和跑命令前先问你，带本地网页端 <a href="https://x.com/antiAIvo/status/2116161150455025693">原帖</a></li>
+<li><strong>Idol</strong>：Sperid Labs 开源，单张物体图几秒生成完整 3D 高斯模型，自动抠图补背面，约 7.2GB 显存 <a href="https://x.com/Gorden_Sun/status/2116145550672490873">原帖</a></li>
+<li><strong>Surya OCR 2.5</strong>：约 0.7B 参数，输出保留排版的网页格式，跨行跨列的复杂表格和公式不用二次处理 <a href="https://x.com/Gorden_Sun/status/2116157329242718234">原帖</a></li>
+<li><strong>抖音评论抓取 skill</strong>：抓全评论区不弹验证码，比浏览器自动化点展开快约 2.5 倍 <a href="https://x.com/Pluvio9yte/status/2116195906328637534">原帖</a></li>
+<li><strong>Magpie 当 Claude Code 多账户切换器</strong>：不在 Agent 页启用 Claude Code，在供应商页登录多个账号再设首选即可 <a href="https://x.com/yetone/status/2115843318693417429">原帖</a></li>
+<li><strong>夸克网盘 Skill</strong>：让 AI 直接读网盘里的图片、视频和资料，生成的文件也能直接存回网盘 <a href="https://x.com/op7418/status/2116119701487337890">原帖</a></li>
+<li><strong>Screenbox</strong>：基于 LibVLC 的 Windows 播放器，Fluent Design 界面，空闲内存不到 50MB <a href="https://x.com/0xGky/status/2115960373136253076">原帖</a></li>
+<li><strong>七牛云每天 1 亿免费 token</strong>：持续到 11 月底，以 DeepSeek V4.1 Flash 和 GLM 5.3 Flash 为主，聚合 API 不能指定模型，需实名 <a href="https://x.com/ruanyf/status/2115985866367909976">原帖</a></li>
+<li><strong>SenseNova-Loop-9B-Preview</strong>：商汤开源，24 层共享权重跑两遍，存约 9B、推理相当于约 14.6B，Apache 2.0 <a href="https://x.com/Moblacksoil/status/2116173779495792818">原帖</a></li>
+</ul>
+<hr />
+<p><strong>推荐关注</strong></p>
+<ul>
+<li><a href="https://x.com/wallst_sw">Selina美股观察 @wallst_sw</a>：简介写华尔街 FA、CFA、CPA，9 月才开的号，昨天三条长帖拆了 SpaceX 和 Anthropic 的算力合同结构、云厂商开支里的涨价成分和 Reddit 掉的是哪批用户，每条都写明自己要盯的指标</li>
+<li><a href="https://x.com/fiona_1st">Fiona 美股第一线 @fiona_1st</a>：简介是 7 年美股投研的 TMT 分析师，也是 9 月新号，英伟达担保、闪迪、卡特彼勒几条都是先给数字再讲一个关键比值，信息密度高，偶尔夹杂互关帖</li>
+</ul>
+<p><strong>建议取关</strong></p>
+<ul>
+<li><a href="https://x.com/grgerwcwetwet">周览资源 @grgerwcwetwet</a>：跟踪一周基本是网盘资源刷屏，10 月 30 日十几条里有“WPS 终身高级会员”“学而思绝版精品课”这类疑似盗版资源链接，和你的关注方向无关</li>
+<li><a href="https://x.com/hodu382759">棈澧 @hodu382759</a>：一天 26 条原创几乎全是羊毛清单和“卧槽”体快讯，还在卖“muse 成品号 5r 一个”和“0 刀信用卡”，前几天也以蓝 V 互浇和卖号为主</li>
+<li><a href="https://x.com/btcup99">比特HODL @btcup99</a>：一周内容以返佣和卡片推广为主，10 月 30 日同一条 OKX U 卡推广发了两遍，云办公室展示帖发了三遍，没有可用信息</li>
+</ul>]]></description><content:encoded><![CDATA[<p><strong>中文推特圈精选｜10月30日（上海时间）</strong></p>
+<p><strong>今日主线</strong>
+1. 英特尔四季度指引远低于预期，周五开盘重挫近三成，加上谷歌、亚马逊自由现金流转负，半导体和七巨头集体下跌，资金躲进沃尔玛、好市多这类防御股
+2. 币安热钱包被盗约 63 亿美元，初查指向一名运维的笔记本被入侵，同一天 Cursor 扩展市场的 Claude Code 插件被投毒，安全成了中文圈讨论最多的话题
+3. OpenAI 把 Pro 各档和 Business Premium 额度翻倍、取消 Pro 200 降额，转头又被扒出 12 月起 ChatGPT 和 Codex 共用额度，Anthropic 则公开了 Claude 每轮回答后的安全自查机制</p>
+<hr />
+<p><strong>宝玉 @dotey</strong></p>
+<ul>
+<li><strong>Pro 额度翻倍后到底能用多少</strong>：以 Plus 为 1 倍，Pro 100 从 5 倍变 10 倍，Pro 500 从 25 倍变 50 倍，Pro 200 要分人看，9 月 29 日前订阅的老用户原定 10 月 30 日从 20 倍降到 10 倍，现在不降了，之后新订阅的一直是 10 倍，翻倍后也到 20 倍，三档每花 1 美元的用量还是一样，dot 的加长额度“暂时”继续单独计算，多久没说 <a href="https://x.com/dotey/status/2115856411439575386">原帖</a></li>
+<li><strong>Claude 每轮回答后自查安全</strong>：Anthropic 公开“自我评估”机制，从 6 月 Fable 5 上线就在跑，每轮回答后追加一句短指令，让模型输出约 10 个 token 的评估，靠 KV 缓存整体算力只多不到 2%，在 1% 误报下能抓到审查员标出可疑对话的 78%，高优先级的抓到 94%，单条标记不会直接封号，同一组织攒多条高优先级才转人工，零数据保留的流量不跑，宝玉判断这更多是在防蒸馏 <a href="https://x.com/dotey/status/2115923359149998490">原帖</a></li>
+<li><strong>Claude API 单次请求上限提到 128 MB</strong>：Messages 和 Token Counting 两个接口从 32 MB 提到 128 MB，截图多的长任务和大 PDF 以前常常文件先撞墙、上下文还剩很多，只限 Anthropic 官方 API <a href="https://x.com/dotey/status/2115968852349567254">原帖</a></li>
+<li><strong>7 岁孩子在 ChatGPT 里做游戏</strong>：孩子不太会打字，全靠语音，从画图到想生成视频再到让 ChatGPT 做成游戏，然后一边玩一边让它按自己要求改 <a href="https://x.com/dotey/status/2115842646031642966">原帖</a></li>
+</ul>
+<p>看法：额度那条把 Pro 200 新老用户的差别算清楚了，比满屏的“翻倍了”有用得多</p>
+<hr />
+<p><strong>思维怪怪 @0xLogicrw</strong></p>
+<ul>
+<li><strong>Grok 4.8 延期</strong>：马斯克承认研发耗时超预期，说团队不针对跑分优化，9 月 14 日他还说 2.5 万亿参数、当周结束预训练，六周多过去仍未发布，背景是 Grok 4.7 在 AA 相同 xhigh 档位只比 4.6 多 2 分（44 到 46），单题平均输出 token 却从约 3.8 万涨到 8.1 万 <a href="https://x.com/0xLogicrw/status/2116066451165761960">原帖</a></li>
+<li><strong>Phodal 离开阿里 Qoder</strong>：黄峰达告别帖说“在阿里要做好一个产品，可太难了”，他今年 5 月前后加入，做过 Canvas 交互、Agent 插件生态和开源的 Better Harness，Qoder 9 月披露 ARR 1 亿美元，但同期阿里云宣布逐步关停 QoderWork，8 月通义灵码负责人陈鑫也已离职 <a href="https://x.com/0xLogicrw/status/2116189778140135807">原帖</a></li>
+<li><strong>字节 Seed 周畅被曝离职做物理 AI</strong>：Z Finance 称他已拿到头部美元基金支持，就在 10 月 26 日多家媒体还从接近字节的人士处得到“没有离职”的回应，他下半年管理范围已在收缩，更多工作转给 Seedance 2.0 核心负责人曾妍 <a href="https://x.com/0xLogicrw/status/2116187675669770385">原帖</a></li>
+<li><strong>Google 关停 Jules</strong>：12 月 31 日停运，11 月 11 日后只读，5 月团队还在招 2.0 内测并否认和 Antigravity 内部竞争，五个月后异步编程能力并入 Antigravity，个人版 Gemini CLI 此前也转向了 Antigravity CLI <a href="https://x.com/0xLogicrw/status/2116051356540924003">原帖</a></li>
+</ul>
+<p>看法：一天里串起 Qoder、字节、Google 三条人事和产品收缩，国内外 AI 编程产品线都在往少数入口收拢</p>
+<hr />
+<p><strong>投资TALK君 @TJ_Research</strong></p>
+<ul>
+<li><strong>英特尔财报听了两遍之后</strong>：盘后跌是因为四季度 PC 业务清库存导致指引大幅低于预期，杀得没问题，但他把一半跌幅归给市场情绪，按他的推算 2027 年 PC 营收约 305 亿美元（市场预期 334 亿明显偏高），数据中心至少 360 亿、他预估 400 亿以上，毛利率今年约 42%，管理层确认明年继续扩张，明年数据中心营收会超过 PC <a href="https://x.com/TJ_Research/status/2116027636182880266">原帖</a></li>
+<li><strong>亚马逊给了 AWS 两年增速</strong>：管理层给出 2027、2028 年 AWS 增速 40% 以上，高于市场预期的 38% 和 31%，还说 5 到 10 年云营收做到 1 万亿美元，约为现在的 6 倍，他的逻辑是云增速会去匹配现在的资本开支增速 <a href="https://x.com/TJ_Research/status/2116172054751760663">原帖</a></li>
+<li><strong>去做尽调听到的一句实话</strong>：他作为甲方去一家帮他们管债券的机构做 Due Diligence，对方直接说现在利差在低位，一两个季度很难保证跑赢，大跌时才体现优势 <a href="https://x.com/TJ_Research/status/2116048536852730349">原帖</a></li>
+</ul>
+<p>看法：自己说账户要“-6% 起跌”的当晚还能把英特尔的 PC 和数据中心拆成数字讲，这比喊“抄底”有参考价值</p>
+<hr />
+<p><strong>Galaxy_Chloe @KelseyDingMD</strong></p>
+<ul>
+<li><strong>纳指 100 的设计就难跑赢板块基金</strong>：它按市值加权再加特殊权重调整，只收在纳斯达克上市的非金融公司，里面有消费、医疗、通信，增长潜力下来了权重也不主动下调，今年到现在标普 500 涨 12%，纳指 100 只有 16%，多不到 4 个点，波动却大了一截 <a href="https://x.com/KelseyDingMD/status/2115927658080952669">原帖</a></li>
+<li><strong>SPIVA 的算术</strong>：美国主动大盘基金 10 年跑输标普 500 的占 83%，15 年 90%，20 年 93%，她的解释是主动加被动等于市场，扣成本前主动平均只能等于市场，扣完必然跑输，接下来要跟老公摆数字讨论把他的主动基金换掉 <a href="https://x.com/KelseyDingMD/status/2116035659064639714">原帖</a></li>
+<li><strong>三大云都很好看，市场不再统一定价</strong>：Azure 48%、谷歌云翻倍、AWS 39% 是近五年最快，但亚马逊过去 12 个月自由现金流负 424 亿美元、单季资本开支约 760 亿，市场要求花出去的钱立刻变现 <a href="https://x.com/KelseyDingMD/status/2115907027730153787">原帖</a></li>
+</ul>
+<p>看法：纳指设计那条是她持仓体验的延伸，拿 QQQ 的同学值得看看自己到底在买什么</p>
+<hr />
+<p><strong>李志 | Rational Investing @LZRationalnvest</strong></p>
+<ul>
+<li><strong>周五的下跌名单</strong>：英特尔跌 29%，ARM 跌 10.3%，AMD 跌 10%，美光 5.1%，英伟达 3.6%，博通 4.6%，亚马逊、特斯拉、微软也都在跌，沃尔玛、好市多、百事和部分医疗股逆势上涨，他判断资金在躲高估值科技股 <a href="https://x.com/LZRationalnvest/status/2116162926369513520">原帖</a></li>
+<li><strong>币安初查结果</strong>：公告称初步指向一名运维的笔记本电脑被入侵，攻击者借此进入服务容器提交了未授权提现，暂未发现私钥泄露，预计影响约 63 亿美元，约 30 亿已在链上冻结，充提暂停 <a href="https://x.com/LZRationalnvest/status/2115995547278704882">原帖</a></li>
+<li><strong>嘉信账户被锁怎么办</strong>：提示“此帐户访问已被中止”多半是 VPN 导致 IP 变化太快，他之前问过客服，打华语客服 400 120 6217 要求解锁就行 <a href="https://x.com/LZRationalnvest/status/2116140414214525230">原帖</a></li>
+<li><strong>招行香港暂停两家券商银证转账</strong>：2026 年 11 月 30 日下午 4 点起暂停与东吴证券国际、招商证券国际的银证转账，恢复时间待定 <a href="https://x.com/LZRationalnvest/status/2116077397875519534">原帖</a></li>
+</ul>
+<p>看法：嘉信和招行两条都是实打实的出入金提醒，用这两条路的人可以先记下</p>
+<hr />
+<p><strong>Selina美股观察 @wallst_sw</strong></p>
+<ul>
+<li><strong>SpaceX 的客户 B 是 Anthropic 之后</strong>：彭博援引知情人士称三季度超过三分之一收入来自 Anthropic，合同最多 1205 亿美元，她不担心付款能力，Anthropic 二季度收入是同期算力开支的两倍多，真正的风险在合同结构，这笔头一段锁定期明年一季度结束，之后提前 90 天通知就能终止，而 SpaceX 租的下一代英伟达芯片是 Apollo 出钱买的，五年左右的租金只找 SpaceX 收，她会盯续约改价、客户 B 占比和 Anthropic IPO 募资额 <a href="https://x.com/wallst_sw/status/2116192905316733145">原帖</a></li>
+<li><strong>2000 亿资本开支里有不少是涨价</strong>：亚马逊 7 月多加的 200 亿全记在内存头上，彭博称英伟达已通知大客户明年初 AI 服务器涨价 15% 以上，她认为明年各家现金流不够再加预算，最直接受益是存储原厂，网络、光模块、电力散热的订单增速会跑输开支总额，2 月看 2027 年指引要先扣掉存储涨幅 <a href="https://x.com/wallst_sw/status/2116173276695101752">原帖</a></li>
+<li><strong>Reddit 掉的是最不赚钱的用户</strong>：日活里不登录的访客近六成，管理层说八成以上收入来自登录和 App 用户，四季度流失主要是海外不登录访客，真正的担心是谷歌这个拉新入口在收窄，美国登录用户同比几乎没涨，下季她先看美国登录日活 <a href="https://x.com/wallst_sw/status/2116157673322287584">原帖</a></li>
+</ul>
+<p>看法：新发现的账号，每条都写清楚自己盯什么、什么情况算判断错了，财报解读里少见的克制</p>
+<hr />
+<p><strong>Fiona 美股第一线 @fiona_1st</strong></p>
+<ul>
+<li><strong>英伟达替 AI 云作保</strong>：The Information 称英伟达在谈为 Nscale 提供数十亿美元信用担保，帮它借钱建一座 460 兆瓦、给 Anthropic 用的数据中心，英伟达本身是 Nscale 的供应商和股东，8 月底财报里它的最大担保敞口已有 1085 亿，其中 1050 亿是俄亥俄一个租户为 OpenAI 关联方的园区 <a href="https://x.com/fiona_1st/status/2116129235794305260">原帖</a> <a href="https://x.com/fiona_1st/status/2116144083911451079">原帖</a></li>
+<li><strong>闪迪的增长全在数据中心</strong>：截至 10 月 2 日的财季营收 110 亿美元、调整后每股收益 49.51 美元，都超共识，数据中心收入 48 亿、环比涨 61%，消费类环比少了近三成，CEO 说明年 PC 出货还会小降 <a href="https://x.com/fiona_1st/status/2116159686449721774">原帖</a></li>
+<li><strong>卡特彼勒的订单出货比</strong>：在手订单创新高到 780 亿美元，但订单出货比从年初约 1.7 降到约 1.3，1 月给 2027 年指引时可以先看这个比值会不会跌破 1 <a href="https://x.com/fiona_1st/status/2116174534470447282">原帖</a></li>
+</ul>
+<p>看法：担保那两条把英伟达和模型公司的隐性绑定讲出来了，偶尔有互关帖要自己跳过</p>
+<hr />
+<p><strong>伊凡投資心得 @yifaninvest</strong></p>
+<ul>
+<li><strong>英特尔成绩单不差，输在指引</strong>：三季度营收 165 亿美元，数据中心和 AI 同比涨 78%，但四季度指引 150 亿到 160 亿，市场原本期待约 170 亿，PC 被内存涨价拖累下滑 5%，再加以色列工厂意外，原本打算 10 月给 PC 处理器涨价 10% 的算盘也难打了 <a href="https://x.com/yifaninvest/status/2115925579442876569">原帖</a></li>
+<li><strong>中期选举前后的美股</strong>：1980 年以来中期选举年标普平均涨约 4%，非中期年约 13%，但 1950 年以来 19 次中期选举之后 12 个月全部上涨，平均约 15%，选后第一个月通常平淡，平均只涨约 0.5% <a href="https://x.com/yifaninvest/status/2116058041389068716">原帖</a></li>
+<li><strong>美元 QDII 额度也没了</strong>：博时、广发自家 App 上用美元申购的纳指、标普 QDII 去年还有额度，现在只剩石油、生物科技、房地产 REITs 这类 <a href="https://x.com/yifaninvest/status/2115968443707220025">原帖</a></li>
+</ul>
+<p>看法：11 月 3 日就投票，选举那组历史数据正好用来对冲眼下的恐慌</p>
+<hr />
+<p><strong>墨无归 @Moblacksoil</strong></p>
+<ul>
+<li><strong>Cursor 扩展市场的 Claude Code 被投毒</strong>：被篡改的 2.1.313 会收集主机信息、写入 svc-telemetry 公钥并设自启、尝试开反向隧道，多数电脑没开远程登录所以攻击者进不来，但公钥和自启可能还在，最多影响 5000 人，北京时间 10 月 29 日 17:27 到 10 月 30 日 04:35 装过或更新过的要升级并自查 <a href="https://x.com/Moblacksoil/status/2116124706013417693">原帖</a></li>
+<li><strong>隔着 API 查蒸馏</strong>：Meta 新论文 WM-Basin 发现模型提供方藏在输出里的统计暗记会渗进被蒸馏模型的参数，看不到对方内部也能从文本输出检测，误报压到 0.1% 时最好那档检出 79%，旧的数水印词方法在对方降低随机性时常常失效 <a href="https://x.com/Moblacksoil/status/2116091990345494956">原帖</a></li>
+<li><strong>Thinking-in-Bets</strong>：谷歌研究员的论文让智能体在看用户反馈前先私下记下结论、做过的核对和把握程度，被质疑时只查被指出的点，改代码任务里被错误怀疑后把对的地方改坏的比例从 12.2% 降到 0.02% <a href="https://x.com/Moblacksoil/status/2116107341519372545">原帖</a></li>
+<li><strong>百度 AI 搜索 API 打价格战</strong>：增强版活动价 4.9 元每千次（刊例 40），旗舰版 9.9 元（刊例 72）需邀请码，活动到 12 月 31 日，DeepSeek Search 标价 5 元每千次成功请求，计费单位不完全一样，它在 Claude Code、Codex 里经服务端调用的搜索目前免费，北京时间 11 月 1 日起按次收费 <a href="https://x.com/Moblacksoil/status/2116136030713659835">原帖</a></li>
+</ul>
+<p>看法：投毒那条给了精确时间窗和要查的痕迹，用 Cursor 装过这个扩展的可以直接照着排查</p>
+<hr />
+<p><strong>王小庄 @BlockInsight214</strong></p>
+<ul>
+<li><strong>朝鲜假笔试木马能自我传播了</strong>：笔试仓库藏一个 .vscode/tasks.json，在 VS Code 里点“信任”就自动执行并下载 BeaverTail、InvisibleFerret，中招的人再推代码会把感染带进自己的仓库，Trend Micro 3 月统计超过 750 个仓库受感染，他按特征搜到 108 个 tailwind.config.js 末尾藏着混淆代码、168 处偷改提交的 temp_auto_push.bat <a href="https://x.com/BlockInsight214/status/2116132079851446396">原帖</a></li>
+<li><strong>五家 AI 编程工具的内置浏览器全中招</strong>：研究者把 Cursor、Copilot、Codex、VS Code、Claude Desktop 的问题统称 EMBRACE，Cursor 的问题是网页里藏一条看不见的指令就能让 AI 自己关掉沙箱执行（10 月 1 日已修），Copilot 则能被伪造地址栏 <a href="https://x.com/BlockInsight214/status/2116088954386804893">原帖</a></li>
+<li><strong>GLM 5.3 给 Firefox 造 exploit</strong>：Epoch AI 只给模型已公开但还没推送的安全修复信息，用刻意简陋的配置模拟低水平攻击者，GLM 5.3 为 6 个近期版本各自造出可用 exploit，每个成本约 1000 美元，用户打开网页就会被偷密码和 cookie <a href="https://x.com/BlockInsight214/status/2116137288866705529">原帖</a></li>
+</ul>
+<p>看法：三条放在一起看，攻击面已经从人点链接挪到 IDE 和 Agent 自己身上</p>
+<hr />
+<p><strong>meng shao @shao__meng</strong></p>
+<ul>
+<li><strong>阿里云开源《AI Agent Handbook》</strong>：2026 年调研里已开发完成或开发中的约 46%，真正上生产约 18%，上下文和记忆需求约 90%，基于轨迹自动评估的只有约 8%，约 16% 从没量化过成功率，MCP 企业内私有部署仅约 9%，缺的是注册中心、鉴权、灰度和审计，全书按架构、构建、运行、治理、调优写到 L1 到 L4 成熟度 <a href="https://x.com/shao__meng/status/2115975663148765204">原帖</a></li>
+<li><strong>Addy 谈 Opus 5.5 时代怎么用 Claude Code</strong>：一条提示说清要什么、怎么证明做完，从 /effort medium 起调，Claude Code 系统提示删掉八成以上评测没明显掉点，/doctor 的 prompt-audit 能标出为旧模型写的指令，琐碎活别硬拆子 agent，单 agent 加 skills 往往更好更省 <a href="https://x.com/shao__meng/status/2115986116482613486">原帖</a></li>
+<li><strong>给孩子的打字游戏加了句子模块</strong>：孩子手写时会注意首字母大写、空格和句号，打字时总忘，他干脆用软件练，省得妈妈一直说 <a href="https://x.com/shao__meng/status/2116062951279091969">原帖</a></li>
+</ul>
+<p>看法：手册那组调研数字比结构更值得看，评估缺位是企业 Agent 卡在试点的主因</p>
+<hr />
+<p><strong>硅谷居士 @SVScholar</strong></p>
+<ul>
+<li><strong>七姐妹今年谁最差</strong>：特斯拉 -12%、谷歌 -11%、Meta -6%、亚马逊 3%、微软 8%、英伟达 11%、苹果 27%，对照 SMH 47%、VGT 25%、纳指 100 13%、标普 11% <a href="https://x.com/SVScholar/status/2116175809803440250">原帖</a></li>
+<li><strong>英特尔历史第二惨</strong>：10 月 30 日早盘重挫 28%，史上更惨的一次是 1974 年 7 月 5 日跌 31% <a href="https://x.com/SVScholar/status/2116177127816994843">原帖</a></li>
+<li><strong>礼来上调全年指引</strong>：季度营收 244 亿美元、同比增 39%，净利润 64.5 亿、增 16%，2026 全年营收指引上调到 910 亿到 920 亿，中值提高 55 亿 <a href="https://x.com/SVScholar/status/2115869875382210981">原帖</a></li>
+</ul>
+<p>看法：数据型快讯依旧干净，七姐妹那张表和他一贯的指数基金立场正好互相印证</p>
+<hr />
+<p><strong>范凯说AI @fankaishuoai</strong></p>
+<ul>
+<li><strong>做内容别指望 X</strong>：他的 Substack 邮件列表打开率 30% 到 45%，YouTube 长视频粉丝触达率 16% 到 25%、直播 40% 到 60%，X 帖子的粉丝触达率只有 2% 到 4%，曝光几乎全靠推荐算法 <a href="https://x.com/fankaishuoai/status/2116148629597823315">原帖</a></li>
+<li><strong>质疑蒸馏 Astra 的说法</strong>：媒体说 DeepSeek 和 Kimi K3.1 蒸馏了 GPT Astra，他没看到严谨报告，按他用 DeepSeek 1017 的体感风格和 Astra 差异很大，说像 Opus 5.5 都更像一些 <a href="https://x.com/fankaishuoai/status/2116097113214042269">原帖</a></li>
+</ul>
+<p>看法：触达率那组是自己账号的真实数据，对在 X 上做内容的人很有校准作用</p>
+<hr />
+<p><strong>小工具</strong></p>
+<ul>
+<li><strong>baoyu-design v2.1</strong>：在设计页和 slides 上圈元素写评论，Agent 能读也能回，评论和项目数据存在一起 <a href="https://x.com/dotey/status/2116060639533969759">原帖</a></li>
+<li><strong>NamiAgent</strong>：“从零手写 Agent”教程整理成的开源项目，能在指定工作区读写文件、跑命令、接 MCP，写文件和跑命令前先问你，带本地网页端 <a href="https://x.com/antiAIvo/status/2116161150455025693">原帖</a></li>
+<li><strong>Idol</strong>：Sperid Labs 开源，单张物体图几秒生成完整 3D 高斯模型，自动抠图补背面，约 7.2GB 显存 <a href="https://x.com/Gorden_Sun/status/2116145550672490873">原帖</a></li>
+<li><strong>Surya OCR 2.5</strong>：约 0.7B 参数，输出保留排版的网页格式，跨行跨列的复杂表格和公式不用二次处理 <a href="https://x.com/Gorden_Sun/status/2116157329242718234">原帖</a></li>
+<li><strong>抖音评论抓取 skill</strong>：抓全评论区不弹验证码，比浏览器自动化点展开快约 2.5 倍 <a href="https://x.com/Pluvio9yte/status/2116195906328637534">原帖</a></li>
+<li><strong>Magpie 当 Claude Code 多账户切换器</strong>：不在 Agent 页启用 Claude Code，在供应商页登录多个账号再设首选即可 <a href="https://x.com/yetone/status/2115843318693417429">原帖</a></li>
+<li><strong>夸克网盘 Skill</strong>：让 AI 直接读网盘里的图片、视频和资料，生成的文件也能直接存回网盘 <a href="https://x.com/op7418/status/2116119701487337890">原帖</a></li>
+<li><strong>Screenbox</strong>：基于 LibVLC 的 Windows 播放器，Fluent Design 界面，空闲内存不到 50MB <a href="https://x.com/0xGky/status/2115960373136253076">原帖</a></li>
+<li><strong>七牛云每天 1 亿免费 token</strong>：持续到 11 月底，以 DeepSeek V4.1 Flash 和 GLM 5.3 Flash 为主，聚合 API 不能指定模型，需实名 <a href="https://x.com/ruanyf/status/2115985866367909976">原帖</a></li>
+<li><strong>SenseNova-Loop-9B-Preview</strong>：商汤开源，24 层共享权重跑两遍，存约 9B、推理相当于约 14.6B，Apache 2.0 <a href="https://x.com/Moblacksoil/status/2116173779495792818">原帖</a></li>
+</ul>
+<hr />
+<p><strong>推荐关注</strong></p>
+<ul>
+<li><a href="https://x.com/wallst_sw">Selina美股观察 @wallst_sw</a>：简介写华尔街 FA、CFA、CPA，9 月才开的号，昨天三条长帖拆了 SpaceX 和 Anthropic 的算力合同结构、云厂商开支里的涨价成分和 Reddit 掉的是哪批用户，每条都写明自己要盯的指标</li>
+<li><a href="https://x.com/fiona_1st">Fiona 美股第一线 @fiona_1st</a>：简介是 7 年美股投研的 TMT 分析师，也是 9 月新号，英伟达担保、闪迪、卡特彼勒几条都是先给数字再讲一个关键比值，信息密度高，偶尔夹杂互关帖</li>
+</ul>
+<p><strong>建议取关</strong></p>
+<ul>
+<li><a href="https://x.com/grgerwcwetwet">周览资源 @grgerwcwetwet</a>：跟踪一周基本是网盘资源刷屏，10 月 30 日十几条里有“WPS 终身高级会员”“学而思绝版精品课”这类疑似盗版资源链接，和你的关注方向无关</li>
+<li><a href="https://x.com/hodu382759">棈澧 @hodu382759</a>：一天 26 条原创几乎全是羊毛清单和“卧槽”体快讯，还在卖“muse 成品号 5r 一个”和“0 刀信用卡”，前几天也以蓝 V 互浇和卖号为主</li>
+<li><a href="https://x.com/btcup99">比特HODL @btcup99</a>：一周内容以返佣和卡片推广为主，10 月 30 日同一条 OKX U 卡推广发了两遍，云办公室展示帖发了三遍，没有可用信息</li>
+</ul>]]></content:encoded></item>
 <item><title>中文推特圈精选｜10月29日（上海时间）</title><link>https://yanjieli.com/x-digest-feed/zh/2026-10-29.html</link><guid isPermaLink="false">x-digest-zh-2026-10-29</guid><pubDate>Fri, 30 Oct 2026 08:00:00 +0800</pubDate><description><![CDATA[<p><strong>中文推特圈精选｜10月29日（上海时间）</strong></p>
 <p><strong>今日主线</strong>
 1. 谷歌发布 Gemini 4 Carbon 拿下 AA 综合榜第一，却只先开放给网络安全防御方，中文圈一边惊叹分数一边吐槽“又是用不上的最强模型”
