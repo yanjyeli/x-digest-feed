@@ -1,5 +1,276 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>英文推特圈每日精选</title><link>https://yanjieli.com/x-digest-feed/en/</link><atom:link href="https://yanjieli.com/x-digest-feed/en.xml" rel="self" type="application/rss+xml"/><description>每天早上 8 点（上海时间）更新的英文推特圈精选，用中文写</description><language>zh-cn</language><lastBuildDate>Fri, 30 Oct 2026 08:00:00 +0800</lastBuildDate><ttl>360</ttl>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>英文推特圈每日精选</title><link>https://yanjieli.com/x-digest-feed/en/</link><atom:link href="https://yanjieli.com/x-digest-feed/en.xml" rel="self" type="application/rss+xml"/><description>每天早上 8 点（上海时间）更新的英文推特圈精选，用中文写</description><language>zh-cn</language><lastBuildDate>Sat, 31 Oct 2026 08:00:00 +0800</lastBuildDate><ttl>360</ttl>
+<item><title>英文推特圈精选｜10月30日（上海时间）</title><link>https://yanjieli.com/x-digest-feed/en/2026-10-30.html</link><guid isPermaLink="false">x-digest-en-2026-10-30</guid><pubDate>Sat, 31 Oct 2026 08:00:00 +0800</pubDate><description><![CDATA[<p><strong>英文推特圈精选｜10月30日（上海时间）</strong></p>
+<p><strong>今日主线</strong>
+1. Cursor 插件市场里混进被篡改的 Claude Code 扩展，叠加 Binance 疑因工程师笔记本被攻破失窃约 63 亿美元，开发机安全成了全天焦点
+2. Amazon 财报把 AI 基建账算得更大，AWS 预计 2027、2028 年增速都超 40%，九家公司今年 capex 合计约 1 万亿美元
+3. agent 带来的心态分化继续发酵，有人怀念 flow state，有人提醒忙碌感是另一种逃避，DHH 则说还当它是普通工具才是真正的 AI psychosis</p>
+<hr />
+<p><strong>Wall St Engine</strong> @wallstengine</p>
+<ul>
+<li><strong>Amazon 给 AWS 定了更高的调子</strong>：Andy Jassy 预计 AWS 在 2027 和 2028 年增速都在 40% 以上，还说世上从没出现过万亿美元营收的业务，Amazon 可能在 5 到 10 年内拥有两个，2026 年现金 capex 仍按约 2200 亿美元走，2027 年会“明显更多”，原因是客户几乎装多少容量就用多少 <a href="https://x.com/wallstengine/status/2115903203841917212">原帖</a></li>
+<li><strong>推理已占 AWS AI 收入一半以上</strong>：Jassy 说企业大规模用推理还处在早期，但 inference 已经贡献 AWS AI 收入的一大半，且 AI 收入同比三位数增长，另外 Trainium 芯片计划 2027 年底开始对 AWS 以外销售，他认为外卖芯片能立刻确认收入，自用则在五六年里带来更多收入和现金流 <a href="https://x.com/wallstengine/status/2115924119367958725">原帖</a> <a href="https://x.com/wallstengine/status/2115933466361753652">Trainium 外售</a></li>
+<li><strong>Reddit CEO 直说 AI Mode 不导流</strong>：Huffman 表示 Google 爬 Reddit 的力度一点没减，但 AI Mode 不给任何人带流量，过去是流量来源现在不是了，Reddit 不指望 Google 流量回来，只能让用户自己来 Reddit <a href="https://x.com/wallstengine/status/2115935155424809142">原帖</a></li>
+<li><strong>九家公司 capex 合计约 1 万亿美元</strong>：Amazon 2200 亿、Google 1950 到 2050 亿、Microsoft 1700 亿、Meta 1350 到 1450 亿，SpaceX、Samsung、TSMC、CoreWeave、Nebius 也在榜，存储端 Sandisk 说长期 NAND 协议需求已超过到本十年末的供给，FY28 三分之二的产能已被锁定 <a href="https://x.com/wallstengine/status/2116130585504850038">原帖</a> <a href="https://x.com/wallstengine/status/2115911144938651915">Sandisk</a></li>
+</ul>
+<p>我的看法：Amazon 和 Reddit 放在一起看很有意思，一边是基建方越花越有底气，一边是内容方发现 AI 搜索在切断流量入口</p>
+<hr />
+<p><strong>Jamin Ball</strong> @jaminball</p>
+<ul>
+<li><strong>三大云最新年化收入</strong>：AWS 约 1840 亿美元、同比增 39%（上季 37%），Azure 约 1380 亿美元、增 48%（上季 43%），Google Cloud 含 GSuite 约 1230 亿美元、增 103%（上季 82%），三家都在加速 <a href="https://x.com/jaminball/status/2115905121444135188">原帖</a></li>
+<li><strong>分季度增速图</strong>：他把三家各自的季度同比增速走势单独拆开，Google Cloud 的曲线最陡，AWS 在规模最大的前提下仍在回升 <a href="https://x.com/jaminball/status/2115900826560643220">AWS</a> <a href="https://x.com/jaminball/status/2115904536548393015">Google Cloud</a></li>
+</ul>
+<p>我的看法：三家同时加速说明供给仍是瓶颈，谁先把容量建出来谁就吃到增长</p>
+<hr />
+<p><strong>Amjad Masad</strong> @amasad</p>
+<ul>
+<li><strong>Claude Code 扩展被投毒</strong>：他发帖说被严重低估的一件事是有一个 Claude Code 扩展被篡改并在开发者机器上装了后门，还追问会不会和 Binance 失窃有关，Binance 初步调查称事件可能源于一名 DevOps 工程师的笔记本被攻破，攻击者借此进入服务容器提交未授权提现 <a href="https://x.com/amasad/status/2116170090991484947">原帖</a></li>
+<li><strong>Anthropic 澄清来源</strong>：Anthropic 的 Felix Rieseberg 回应说这不是 Anthropic 系统或员工电脑被攻破，而是有人借 Cursor 插件市场的权限发布了一个篡改版 Claude Code 扩展，官方渠道不受影响，只波及 Cursor 用户，Cursor 方面通报最多影响 5000 名用户 <a href="https://x.com/felixrieseberg/status/2116170451466543578">原帖</a></li>
+<li><strong>coding agent 在员工电脑上是安全隐患</strong>：Amjad 接着把话题拉高，认为员工和外包电脑上跑的 coding agent 是巨大的网络安全乃至国家安全风险，这也顺带是 Replit 云端开发的卖点 <a href="https://x.com/amasad/status/2116179892991922433">原帖</a></li>
+<li><strong>Replit 直接跑 GitHub 仓库</strong>：粘贴任意 GitHub 链接 Replit 就能自动配好环境跑起来，有用户 fork Excalidraw 加了画鱼游泳的新功能再提 PR <a href="https://x.com/amasad/status/2115890577430438063">原帖</a></li>
+</ul>
+<p>我的看法：扩展市场是 IDE 生态里最薄的一环，这次之后企业会更认真考虑把 agent 放进隔离环境</p>
+<hr />
+<p><strong>Tibo</strong> @thsottiaux</p>
+<ul>
+<li><strong>Codex 额度翻倍</strong>：Codex 倒计时第 25 天，OpenAI 宣布 Pro 100/200/500 和 Business Premium 的使用额度全部翻倍即日生效，并表示听到了反馈，不会削减 Pro 200 的额度，这条拿到 3.8 万赞 <a href="https://x.com/thsottiaux/status/2115850175868727621">原帖</a></li>
+<li><strong>同时启动产品冲刺</strong>：他转发同事的说明，额度恢复双倍是用户反馈起了作用，团队当天开始一轮密集冲刺，专门提升 app 的简洁度和性能，欢迎大家把吐槽发过去 <a href="https://x.com/thsottiaux/status/2115890336107233347">原帖</a></li>
+</ul>
+<p>我的看法：几天内从缩额度到翻倍，说明 coding agent 订阅的竞争已经激烈到用户声音能直接改定价</p>
+<hr />
+<p><strong>Ethan Mollick</strong> @emollick</p>
+<ul>
+<li><strong>“卖铲子”是错的类比</strong>：他认为给 AI 创业套淘金热卖铲子的逻辑不对，金矿会挖完，机器却能持续让一切变便宜，工业革命里靠用新机器致富的人远多于造机器的人 <a href="https://x.com/emollick/status/2115844131985494092">原帖</a></li>
+<li><strong>协作才是经济影响的关键</strong>：他推荐 Google DeepMind 新发布的 The Economics of Intelligence 研究（Shane Legg 参与），观点是组织不等于最强员工之和，单个 agent 变聪明不足以改造经济，能彼此协作的 agent 才可能 <a href="https://x.com/emollick/status/2115911454994186301">原帖</a></li>
+<li><strong>实验室内外的模型差距</strong>：他说没有好指标衡量实验室最强内部模型和公开最强模型的差距，怀疑这一年差距一直在扩大，又补充说前沿用户和普通人的差距在拉大，而前沿用户的用法和模型真实能力之间的差距更大 <a href="https://x.com/emollick/status/2116152813570969993">原帖</a> <a href="https://x.com/emollick/status/2116161095073431906">补充</a></li>
+<li><strong>给 Opus 5.5 设检查点</strong>：长任务里与其一次 one-shot 到目标，不如让模型阶段性回报中间想法或原型，方便人及时纠偏 <a href="https://x.com/emollick/status/2115875693120676157">原帖</a></li>
+</ul>
+<p>我的看法：从单个 agent 能力转向多 agent 协作，是接下来讨论 AI 生产率时最值得盯的变量</p>
+<hr />
+<p><strong>Gergely Orosz</strong> @GergelyOrosz</p>
+<ul>
+<li><strong>用 agent 写代码少了 flow state</strong>：他问过的开发者几乎都怀念写代码时的心流，觉得用 agent 不够满足，唯一例外是在做 AI 做不了、没有任何蓝本可抄的 agentic 系统的人 <a href="https://x.com/GergelyOrosz/status/2115965483279331735">原帖</a></li>
+<li><strong>下班后被 page 次数翻倍</strong>：Rootly 的数据显示开发者在工作时间外被呼叫的次数比一年前多了约一倍，最可能的原因是 AI 生成的 PR 让提交频率翻了一倍 <a href="https://x.com/GergelyOrosz/status/2115908668969652332">原帖</a></li>
+<li><strong>NVIDIA 给每个开发者 token 预算</strong>：他确认 NVIDIA 设了每人每月 1 万美元的上限，另一家交易公司是 2.5 万美元，主要是交易员会用到接近上限 <a href="https://x.com/GergelyOrosz/status/2116004652223475842">原帖</a></li>
+<li><strong>PHP2Shell 之后的扫描潮</strong>：漏洞爆出后他名下每个站点都在被疯狂扫描 index.php，尽管一个 PHP 站都没有，他已经开始担心下一次轮到操作系统或主流框架 <a href="https://x.com/GergelyOrosz/status/2116037819634422245">原帖</a></li>
+</ul>
+<p>我的看法：page 翻倍是 AI 提效的隐性成本，交付速度上去了，运维和 on-call 的压力也跟着上去</p>
+<hr />
+<p><strong>DHH</strong> @dhh</p>
+<ul>
+<li><strong>真正的 AI psychosis</strong>：他说把 AI 当作“只是另一个工具”“随机鹦鹉”或坚持“每行代码都要人审”才是真正的妄想，该醒醒了，这条有 5700 多赞 <a href="https://x.com/dhh/status/2116109588554498081">原帖</a></li>
+<li><strong>Proton CTO 的 AI 宣言</strong>：404 Media 拿到 Proton CTO 的内部 AI 备忘录并引发员工不满，DHH 认为里面没有任何出格内容，如果这都让员工造反，agent 时代他们会很难过 <a href="https://x.com/dhh/status/2116108467060535440">原帖</a></li>
+<li><strong>Apple 不再设计默认值</strong>：他批评 Apple 把很多默认设置推给新机首次开机流程让用户自己选，认为这是在推卸设计责任 <a href="https://x.com/dhh/status/2115871561848684616">原帖</a></li>
+<li><strong>Linux 版 Word 和 Excel</strong>：他转发一款为 Linux 重做、号称完全兼容的 Word 和 Excel 替代品，调侃也许不需要微软移植 Office 了 <a href="https://x.com/dhh/status/2115838430340907090">原帖</a></li>
+</ul>
+<p>我的看法：DHH 的立场越来越激进，但 Proton 的反弹说明不少公司内部对 AI 的共识还远没形成</p>
+<hr />
+<p><strong>Artificial Analysis</strong> @ArtificialAnlys</p>
+<ul>
+<li><strong>推出 Progress Index</strong>：和 Intelligence Index v5 一起发布，用 item response theory（标准化考试常用的统计方法）从所有评测题目里估计每个模型的一般能力分，覆盖 2022 年以来所有语言模型，专门用来跨时间比较，弥补 Intelligence Index 版本之间不可比的问题 <a href="https://x.com/ArtificialAnlys/status/2115848471244886081">原帖</a></li>
+<li><strong>HLE-Diamond 榜单</strong>：独立评测 CAIS 和 Scale AI 花一年清洗后的 1000 题版 Humanity's Last Exam，已纳入 Intelligence Index v5 <a href="https://x.com/ArtificialAnlys/status/2115989388689813945">原帖</a></li>
+<li><strong>语音到语音新第一</strong>：Phonic 1（High）以 87.1 分登顶 Speech to Speech Index，小幅领先 Grok Voice 3.0 的 86.9，API 价格每分钟 0.07 美元 <a href="https://x.com/ArtificialAnlys/status/2115836126925901915">原帖</a></li>
+<li><strong>Grok 越来越不谄媚</strong>：AA-PersonalityBench 显示 Grok 近几个版本的 Sycophantic 和 Slop（套话填充）指标持续下降，回答更真诚 <a href="https://x.com/ArtificialAnlys/status/2115923815247274045">原帖</a></li>
+</ul>
+<p>我的看法：Progress Index 解决的是“模型到底进步了多少”这个老问题，比单次榜单更适合看长期趋势</p>
+<hr />
+<p><strong>Guillermo Rauch</strong> @rauchg</p>
+<ul>
+<li><strong>让 agent 给 Vercel 提反馈</strong>：agent 现在可以通过 Vercel MCP 的 submit_feedback 用自然语言提交 bug 或功能需求并附上结构化上下文，Rauch 建议大家在 AGENTS.md 里写上“遇到可改进之处就给 Vercel 发反馈”，他认为软件工程的未来是 agent 跨公司互相对话 <a href="https://x.com/rauchg/status/2115874115118834153">原帖</a></li>
+<li><strong>Node.js 26 LTS 上线</strong>：成为新项目默认版本，内置 fetch 默认走 HTTP/2，加上 Temporal API 和 V8 14.6，他说 agent 产生大量网络请求，性能提升会很明显 <a href="https://x.com/rauchg/status/2115941392698798365">原帖</a></li>
+<li><strong>Daemons 支持 HTTP 存活检查</strong>：Vercel 会定期请求守护进程的健康端点，失败就重启容器，Rauch 自嘲这是 Vercelnetes <a href="https://x.com/rauchg/status/2116197836362772776">原帖</a></li>
+</ul>
+<p>我的看法：把 agent 当成产品反馈渠道是个聪明的做法，比用户手动提 issue 的信息质量高得多</p>
+<hr />
+<p><strong>Pieter Levels</strong> @levelsio</p>
+<ul>
+<li><strong>荷兰“倦怠”带薪假</strong>：他说身边多数荷兰朋友都处在 burn out 状态，可以拿一年全薪、第二年七成薪水在家休息，回复区还有雇主抱怨员工试用期一过就请病假、期间装修房子，企业无法解约 <a href="https://x.com/levelsio/status/2115951722019397859">原帖</a> <a href="https://x.com/levelsio/status/2116142341815714212">后续</a></li>
+<li><strong>欧洲正在走法国的路</strong>：他认为法国现在的状况会蔓延到整个西欧和南欧，监管把新老企业都管走了，有钱有人才的人搬去美国和亚洲 <a href="https://x.com/levelsio/status/2116157883943440583">原帖</a></li>
+<li><strong>Nomads widgets.js</strong>：一行 script 就能在博客上嵌入一个显示旅行足迹的地球，隐私关闭时还会显示当前和下一段行程，此前 Nomads 已推出面向 AI agent 的付费 API，年费 2490 到 9990 美元 <a href="https://x.com/levelsio/status/2115949469229281714">原帖</a></li>
+</ul>
+<p>我的看法：Nomads 的 API 定价把 agent 当成主要客户，独立开发者开始直接给 agent 卖数据</p>
+<hr />
+<p><strong>Thariq</strong> @trq212</p>
+<ul>
+<li><strong>coding agent 带来的“狂热”</strong>：他说用 coding agent 很容易进入一种状态，感觉一直在干活、产出很多，实际上什么都没发生，他认为这常常是在逃避生活里的其他事，这条拿到 1.5 万赞 <a href="https://x.com/trq212/status/2115937378674372783">原帖</a></li>
+</ul>
+<p>我的看法：和 Gergely 说的 flow state 正好互补，agent 让“忙”变得很廉价，判断有没有真进展反而更难</p>
+<hr />
+<p><strong>Alexandr Wang</strong> @alexandr_wang</p>
+<ul>
+<li><strong>Muse 回答更短</strong>：他转发对比，同一个问题 ChatGPT 写的字数是 Meta Muse 的 6.7 倍，认为 Muse 的性格被低估了 <a href="https://x.com/alexandr_wang/status/2115996525746860212">原帖</a></li>
+<li><strong>Muse 帮用户省车险</strong>：他转发用户的“收据”，Muse 把一份 2123 美元的 GEICO 续保换成了 Progressive 的 1536 美元且保障更好，还自己打电话给 GEICO 取消，并在 GEICO 要求本人确认时打给用户合并通话，Wang 说这就是 personal superintelligence <a href="https://x.com/alexandr_wang/status/2116183696344830235">原帖</a></li>
+</ul>
+<p>我的看法：Meta 在把 Muse 往能打电话办事的个人代理推，真实账单类案例比跑分更能打动普通用户</p>
+<hr />
+<p><strong>Nathan Lambert</strong> @natolambert</p>
+<ul>
+<li><strong>受够了模型过度回避</strong>：他说和 Claude 这类模型聊法律、医疗等灰色地带非常磨人，它们急于规避风险而回避真正的问题，Meta Muse 那种引用更多来源、字更少、不追问的风格很有必要 <a href="https://x.com/natolambert/status/2115840347087814713">原帖</a></li>
+<li><strong>为 distillation 说话</strong>：The Economist 有文章反对禁止部分基于美国模型训练的中国模型，理由包括价格竞争有利于生态，Nathan 表示认同，认为 distillation 是否损害美国 AI 竞争力并非定论 <a href="https://x.com/natolambert/status/2115881074115084733">原帖</a></li>
+</ul>
+<p>我的看法：答案风格正在成为模型差异化的新战场，简短直接正在从缺点变成卖点</p>
+<hr />
+<p><strong>Garry Tan</strong> @garrytan</p>
+<ul>
+<li><strong>YC 公司 Viraj Aero 的新燃气轮机</strong>：原本为飞行设计的涡轮改用来给数据中心供电，能从尾气里自己产出冷却水，同样燃料多发 40% 电，几周就能拿到许可，不用等电网和水管接入 <a href="https://x.com/garrytan/status/2115891013252473137">原帖</a></li>
+<li><strong>YC 加码硬件</strong>：YC 正在招人管理自家的硬件工坊 <a href="https://x.com/garrytan/status/2115888824484257895">原帖</a></li>
+<li><strong>Particle-1 上 Capy</strong>：Particle-1 是基于 DeepSeek V4.1 Flash 后训练的省 token 编程模型，1M 上下文，每百万 token 0.25 / 1 美元，现已接入 Capy 的 agent 集群 harness，Garry 说自己用下来很满意 <a href="https://x.com/garrytan/status/2115973131206799619">原帖</a></li>
+</ul>
+<p>我的看法：数据中心缺电缺水，把能源问题当创业机会的硬件公司会越来越多</p>
+<hr />
+<p><strong>Axiom</strong> @axiommathai</p>
+<ul>
+<li><strong>AxiomProver 参与证明 Ramanujan 相关猜想</strong>：Ramanujan 在 1912 年寄出过一些自己证明不了的公式，其中两个是一个无穷族的最简单情形，这个族对应每一个 torus knot，AxiomProver 和数学家 Yifeng Huang 一起证明了 Huang-Jiang-Oblomkov 猜想 <a href="https://x.com/axiommathai/status/2115850590278565916">原帖</a></li>
+</ul>
+<p>我的看法：AI 证明器开始出现在真实数学合作的署名里，比刷竞赛题更能说明能力边界</p>
+<hr />
+<p><strong>小工具</strong>
+- <a href="https://x.com/AravSrinivas/status/2116186492758577575">Perplexity Computer 接管 Chrome</a>：装上扩展后 Mac 和 Windows 版 Computer 能直接用你本地已登录的 Chrome 完成浏览任务
+- <a href="https://x.com/AravSrinivas/status/2115838915647271104">Teardown skill</a>：在 Perplexity Computer 里给任意物体画可交互的爆炸图或剖面图，11 月 6 日前免费
+- <a href="https://x.com/mitchellh/status/2116186029875134574">Termius × libghostty</a>：主流移动终端 Termius 的 iOS 和 Android 版改用 libghostty 渲染，滚动和文字更顺更清晰
+- <a href="https://x.com/hwchase17/status/2115854759991369840">Managed Deep Agents 0.10</a>：LangChain 托管 agent 加入浏览器和异步子 agent，遇到登录时可以把窗口交给人，密码不进模型
+- <a href="https://x.com/amasad/status/2115944760829698343">Kino</a>：用 Claude Code 和 Codex 端到端剪视频，丢素材、出精华、协作收反馈
+- <a href="https://x.com/LexnLin/status/2115971250480726225">Claude 多账号</a>：Claude Code 桌面版和网页版支持多账号</p>
+<p><strong>推荐关注</strong>
+- <a href="https://x.com/amasad">Amjad Masad @amasad</a>：Replit CEO，昨天最早把 Claude Code 扩展投毒事件和开发机安全风险讲透的人之一，日常也常发 Replit 和 agent 开发的一手进展
+- <a href="https://x.com/mitchellh">Mitchell Hashimoto @mitchellh</a>：HashiCorp 联合创始人、Ghostty 作者，发帖不多但几乎都是终端和开发工具的硬核进展，比如 libghostty 已经进了 Termius</p>
+<p><strong>建议取关</strong>
+- <a href="https://x.com/mollycantillon">Molly Cantillon @mollycantillon</a>：跟踪 11 天里只在 10 月 22 日转过一条融资消息，之后只有零星短回复，对精选几乎没有贡献，可以先取关，之后有新动向再关注</p>]]></description><content:encoded><![CDATA[<p><strong>英文推特圈精选｜10月30日（上海时间）</strong></p>
+<p><strong>今日主线</strong>
+1. Cursor 插件市场里混进被篡改的 Claude Code 扩展，叠加 Binance 疑因工程师笔记本被攻破失窃约 63 亿美元，开发机安全成了全天焦点
+2. Amazon 财报把 AI 基建账算得更大，AWS 预计 2027、2028 年增速都超 40%，九家公司今年 capex 合计约 1 万亿美元
+3. agent 带来的心态分化继续发酵，有人怀念 flow state，有人提醒忙碌感是另一种逃避，DHH 则说还当它是普通工具才是真正的 AI psychosis</p>
+<hr />
+<p><strong>Wall St Engine</strong> @wallstengine</p>
+<ul>
+<li><strong>Amazon 给 AWS 定了更高的调子</strong>：Andy Jassy 预计 AWS 在 2027 和 2028 年增速都在 40% 以上，还说世上从没出现过万亿美元营收的业务，Amazon 可能在 5 到 10 年内拥有两个，2026 年现金 capex 仍按约 2200 亿美元走，2027 年会“明显更多”，原因是客户几乎装多少容量就用多少 <a href="https://x.com/wallstengine/status/2115903203841917212">原帖</a></li>
+<li><strong>推理已占 AWS AI 收入一半以上</strong>：Jassy 说企业大规模用推理还处在早期，但 inference 已经贡献 AWS AI 收入的一大半，且 AI 收入同比三位数增长，另外 Trainium 芯片计划 2027 年底开始对 AWS 以外销售，他认为外卖芯片能立刻确认收入，自用则在五六年里带来更多收入和现金流 <a href="https://x.com/wallstengine/status/2115924119367958725">原帖</a> <a href="https://x.com/wallstengine/status/2115933466361753652">Trainium 外售</a></li>
+<li><strong>Reddit CEO 直说 AI Mode 不导流</strong>：Huffman 表示 Google 爬 Reddit 的力度一点没减，但 AI Mode 不给任何人带流量，过去是流量来源现在不是了，Reddit 不指望 Google 流量回来，只能让用户自己来 Reddit <a href="https://x.com/wallstengine/status/2115935155424809142">原帖</a></li>
+<li><strong>九家公司 capex 合计约 1 万亿美元</strong>：Amazon 2200 亿、Google 1950 到 2050 亿、Microsoft 1700 亿、Meta 1350 到 1450 亿，SpaceX、Samsung、TSMC、CoreWeave、Nebius 也在榜，存储端 Sandisk 说长期 NAND 协议需求已超过到本十年末的供给，FY28 三分之二的产能已被锁定 <a href="https://x.com/wallstengine/status/2116130585504850038">原帖</a> <a href="https://x.com/wallstengine/status/2115911144938651915">Sandisk</a></li>
+</ul>
+<p>我的看法：Amazon 和 Reddit 放在一起看很有意思，一边是基建方越花越有底气，一边是内容方发现 AI 搜索在切断流量入口</p>
+<hr />
+<p><strong>Jamin Ball</strong> @jaminball</p>
+<ul>
+<li><strong>三大云最新年化收入</strong>：AWS 约 1840 亿美元、同比增 39%（上季 37%），Azure 约 1380 亿美元、增 48%（上季 43%），Google Cloud 含 GSuite 约 1230 亿美元、增 103%（上季 82%），三家都在加速 <a href="https://x.com/jaminball/status/2115905121444135188">原帖</a></li>
+<li><strong>分季度增速图</strong>：他把三家各自的季度同比增速走势单独拆开，Google Cloud 的曲线最陡，AWS 在规模最大的前提下仍在回升 <a href="https://x.com/jaminball/status/2115900826560643220">AWS</a> <a href="https://x.com/jaminball/status/2115904536548393015">Google Cloud</a></li>
+</ul>
+<p>我的看法：三家同时加速说明供给仍是瓶颈，谁先把容量建出来谁就吃到增长</p>
+<hr />
+<p><strong>Amjad Masad</strong> @amasad</p>
+<ul>
+<li><strong>Claude Code 扩展被投毒</strong>：他发帖说被严重低估的一件事是有一个 Claude Code 扩展被篡改并在开发者机器上装了后门，还追问会不会和 Binance 失窃有关，Binance 初步调查称事件可能源于一名 DevOps 工程师的笔记本被攻破，攻击者借此进入服务容器提交未授权提现 <a href="https://x.com/amasad/status/2116170090991484947">原帖</a></li>
+<li><strong>Anthropic 澄清来源</strong>：Anthropic 的 Felix Rieseberg 回应说这不是 Anthropic 系统或员工电脑被攻破，而是有人借 Cursor 插件市场的权限发布了一个篡改版 Claude Code 扩展，官方渠道不受影响，只波及 Cursor 用户，Cursor 方面通报最多影响 5000 名用户 <a href="https://x.com/felixrieseberg/status/2116170451466543578">原帖</a></li>
+<li><strong>coding agent 在员工电脑上是安全隐患</strong>：Amjad 接着把话题拉高，认为员工和外包电脑上跑的 coding agent 是巨大的网络安全乃至国家安全风险，这也顺带是 Replit 云端开发的卖点 <a href="https://x.com/amasad/status/2116179892991922433">原帖</a></li>
+<li><strong>Replit 直接跑 GitHub 仓库</strong>：粘贴任意 GitHub 链接 Replit 就能自动配好环境跑起来，有用户 fork Excalidraw 加了画鱼游泳的新功能再提 PR <a href="https://x.com/amasad/status/2115890577430438063">原帖</a></li>
+</ul>
+<p>我的看法：扩展市场是 IDE 生态里最薄的一环，这次之后企业会更认真考虑把 agent 放进隔离环境</p>
+<hr />
+<p><strong>Tibo</strong> @thsottiaux</p>
+<ul>
+<li><strong>Codex 额度翻倍</strong>：Codex 倒计时第 25 天，OpenAI 宣布 Pro 100/200/500 和 Business Premium 的使用额度全部翻倍即日生效，并表示听到了反馈，不会削减 Pro 200 的额度，这条拿到 3.8 万赞 <a href="https://x.com/thsottiaux/status/2115850175868727621">原帖</a></li>
+<li><strong>同时启动产品冲刺</strong>：他转发同事的说明，额度恢复双倍是用户反馈起了作用，团队当天开始一轮密集冲刺，专门提升 app 的简洁度和性能，欢迎大家把吐槽发过去 <a href="https://x.com/thsottiaux/status/2115890336107233347">原帖</a></li>
+</ul>
+<p>我的看法：几天内从缩额度到翻倍，说明 coding agent 订阅的竞争已经激烈到用户声音能直接改定价</p>
+<hr />
+<p><strong>Ethan Mollick</strong> @emollick</p>
+<ul>
+<li><strong>“卖铲子”是错的类比</strong>：他认为给 AI 创业套淘金热卖铲子的逻辑不对，金矿会挖完，机器却能持续让一切变便宜，工业革命里靠用新机器致富的人远多于造机器的人 <a href="https://x.com/emollick/status/2115844131985494092">原帖</a></li>
+<li><strong>协作才是经济影响的关键</strong>：他推荐 Google DeepMind 新发布的 The Economics of Intelligence 研究（Shane Legg 参与），观点是组织不等于最强员工之和，单个 agent 变聪明不足以改造经济，能彼此协作的 agent 才可能 <a href="https://x.com/emollick/status/2115911454994186301">原帖</a></li>
+<li><strong>实验室内外的模型差距</strong>：他说没有好指标衡量实验室最强内部模型和公开最强模型的差距，怀疑这一年差距一直在扩大，又补充说前沿用户和普通人的差距在拉大，而前沿用户的用法和模型真实能力之间的差距更大 <a href="https://x.com/emollick/status/2116152813570969993">原帖</a> <a href="https://x.com/emollick/status/2116161095073431906">补充</a></li>
+<li><strong>给 Opus 5.5 设检查点</strong>：长任务里与其一次 one-shot 到目标，不如让模型阶段性回报中间想法或原型，方便人及时纠偏 <a href="https://x.com/emollick/status/2115875693120676157">原帖</a></li>
+</ul>
+<p>我的看法：从单个 agent 能力转向多 agent 协作，是接下来讨论 AI 生产率时最值得盯的变量</p>
+<hr />
+<p><strong>Gergely Orosz</strong> @GergelyOrosz</p>
+<ul>
+<li><strong>用 agent 写代码少了 flow state</strong>：他问过的开发者几乎都怀念写代码时的心流，觉得用 agent 不够满足，唯一例外是在做 AI 做不了、没有任何蓝本可抄的 agentic 系统的人 <a href="https://x.com/GergelyOrosz/status/2115965483279331735">原帖</a></li>
+<li><strong>下班后被 page 次数翻倍</strong>：Rootly 的数据显示开发者在工作时间外被呼叫的次数比一年前多了约一倍，最可能的原因是 AI 生成的 PR 让提交频率翻了一倍 <a href="https://x.com/GergelyOrosz/status/2115908668969652332">原帖</a></li>
+<li><strong>NVIDIA 给每个开发者 token 预算</strong>：他确认 NVIDIA 设了每人每月 1 万美元的上限，另一家交易公司是 2.5 万美元，主要是交易员会用到接近上限 <a href="https://x.com/GergelyOrosz/status/2116004652223475842">原帖</a></li>
+<li><strong>PHP2Shell 之后的扫描潮</strong>：漏洞爆出后他名下每个站点都在被疯狂扫描 index.php，尽管一个 PHP 站都没有，他已经开始担心下一次轮到操作系统或主流框架 <a href="https://x.com/GergelyOrosz/status/2116037819634422245">原帖</a></li>
+</ul>
+<p>我的看法：page 翻倍是 AI 提效的隐性成本，交付速度上去了，运维和 on-call 的压力也跟着上去</p>
+<hr />
+<p><strong>DHH</strong> @dhh</p>
+<ul>
+<li><strong>真正的 AI psychosis</strong>：他说把 AI 当作“只是另一个工具”“随机鹦鹉”或坚持“每行代码都要人审”才是真正的妄想，该醒醒了，这条有 5700 多赞 <a href="https://x.com/dhh/status/2116109588554498081">原帖</a></li>
+<li><strong>Proton CTO 的 AI 宣言</strong>：404 Media 拿到 Proton CTO 的内部 AI 备忘录并引发员工不满，DHH 认为里面没有任何出格内容，如果这都让员工造反，agent 时代他们会很难过 <a href="https://x.com/dhh/status/2116108467060535440">原帖</a></li>
+<li><strong>Apple 不再设计默认值</strong>：他批评 Apple 把很多默认设置推给新机首次开机流程让用户自己选，认为这是在推卸设计责任 <a href="https://x.com/dhh/status/2115871561848684616">原帖</a></li>
+<li><strong>Linux 版 Word 和 Excel</strong>：他转发一款为 Linux 重做、号称完全兼容的 Word 和 Excel 替代品，调侃也许不需要微软移植 Office 了 <a href="https://x.com/dhh/status/2115838430340907090">原帖</a></li>
+</ul>
+<p>我的看法：DHH 的立场越来越激进，但 Proton 的反弹说明不少公司内部对 AI 的共识还远没形成</p>
+<hr />
+<p><strong>Artificial Analysis</strong> @ArtificialAnlys</p>
+<ul>
+<li><strong>推出 Progress Index</strong>：和 Intelligence Index v5 一起发布，用 item response theory（标准化考试常用的统计方法）从所有评测题目里估计每个模型的一般能力分，覆盖 2022 年以来所有语言模型，专门用来跨时间比较，弥补 Intelligence Index 版本之间不可比的问题 <a href="https://x.com/ArtificialAnlys/status/2115848471244886081">原帖</a></li>
+<li><strong>HLE-Diamond 榜单</strong>：独立评测 CAIS 和 Scale AI 花一年清洗后的 1000 题版 Humanity's Last Exam，已纳入 Intelligence Index v5 <a href="https://x.com/ArtificialAnlys/status/2115989388689813945">原帖</a></li>
+<li><strong>语音到语音新第一</strong>：Phonic 1（High）以 87.1 分登顶 Speech to Speech Index，小幅领先 Grok Voice 3.0 的 86.9，API 价格每分钟 0.07 美元 <a href="https://x.com/ArtificialAnlys/status/2115836126925901915">原帖</a></li>
+<li><strong>Grok 越来越不谄媚</strong>：AA-PersonalityBench 显示 Grok 近几个版本的 Sycophantic 和 Slop（套话填充）指标持续下降，回答更真诚 <a href="https://x.com/ArtificialAnlys/status/2115923815247274045">原帖</a></li>
+</ul>
+<p>我的看法：Progress Index 解决的是“模型到底进步了多少”这个老问题，比单次榜单更适合看长期趋势</p>
+<hr />
+<p><strong>Guillermo Rauch</strong> @rauchg</p>
+<ul>
+<li><strong>让 agent 给 Vercel 提反馈</strong>：agent 现在可以通过 Vercel MCP 的 submit_feedback 用自然语言提交 bug 或功能需求并附上结构化上下文，Rauch 建议大家在 AGENTS.md 里写上“遇到可改进之处就给 Vercel 发反馈”，他认为软件工程的未来是 agent 跨公司互相对话 <a href="https://x.com/rauchg/status/2115874115118834153">原帖</a></li>
+<li><strong>Node.js 26 LTS 上线</strong>：成为新项目默认版本，内置 fetch 默认走 HTTP/2，加上 Temporal API 和 V8 14.6，他说 agent 产生大量网络请求，性能提升会很明显 <a href="https://x.com/rauchg/status/2115941392698798365">原帖</a></li>
+<li><strong>Daemons 支持 HTTP 存活检查</strong>：Vercel 会定期请求守护进程的健康端点，失败就重启容器，Rauch 自嘲这是 Vercelnetes <a href="https://x.com/rauchg/status/2116197836362772776">原帖</a></li>
+</ul>
+<p>我的看法：把 agent 当成产品反馈渠道是个聪明的做法，比用户手动提 issue 的信息质量高得多</p>
+<hr />
+<p><strong>Pieter Levels</strong> @levelsio</p>
+<ul>
+<li><strong>荷兰“倦怠”带薪假</strong>：他说身边多数荷兰朋友都处在 burn out 状态，可以拿一年全薪、第二年七成薪水在家休息，回复区还有雇主抱怨员工试用期一过就请病假、期间装修房子，企业无法解约 <a href="https://x.com/levelsio/status/2115951722019397859">原帖</a> <a href="https://x.com/levelsio/status/2116142341815714212">后续</a></li>
+<li><strong>欧洲正在走法国的路</strong>：他认为法国现在的状况会蔓延到整个西欧和南欧，监管把新老企业都管走了，有钱有人才的人搬去美国和亚洲 <a href="https://x.com/levelsio/status/2116157883943440583">原帖</a></li>
+<li><strong>Nomads widgets.js</strong>：一行 script 就能在博客上嵌入一个显示旅行足迹的地球，隐私关闭时还会显示当前和下一段行程，此前 Nomads 已推出面向 AI agent 的付费 API，年费 2490 到 9990 美元 <a href="https://x.com/levelsio/status/2115949469229281714">原帖</a></li>
+</ul>
+<p>我的看法：Nomads 的 API 定价把 agent 当成主要客户，独立开发者开始直接给 agent 卖数据</p>
+<hr />
+<p><strong>Thariq</strong> @trq212</p>
+<ul>
+<li><strong>coding agent 带来的“狂热”</strong>：他说用 coding agent 很容易进入一种状态，感觉一直在干活、产出很多，实际上什么都没发生，他认为这常常是在逃避生活里的其他事，这条拿到 1.5 万赞 <a href="https://x.com/trq212/status/2115937378674372783">原帖</a></li>
+</ul>
+<p>我的看法：和 Gergely 说的 flow state 正好互补，agent 让“忙”变得很廉价，判断有没有真进展反而更难</p>
+<hr />
+<p><strong>Alexandr Wang</strong> @alexandr_wang</p>
+<ul>
+<li><strong>Muse 回答更短</strong>：他转发对比，同一个问题 ChatGPT 写的字数是 Meta Muse 的 6.7 倍，认为 Muse 的性格被低估了 <a href="https://x.com/alexandr_wang/status/2115996525746860212">原帖</a></li>
+<li><strong>Muse 帮用户省车险</strong>：他转发用户的“收据”，Muse 把一份 2123 美元的 GEICO 续保换成了 Progressive 的 1536 美元且保障更好，还自己打电话给 GEICO 取消，并在 GEICO 要求本人确认时打给用户合并通话，Wang 说这就是 personal superintelligence <a href="https://x.com/alexandr_wang/status/2116183696344830235">原帖</a></li>
+</ul>
+<p>我的看法：Meta 在把 Muse 往能打电话办事的个人代理推，真实账单类案例比跑分更能打动普通用户</p>
+<hr />
+<p><strong>Nathan Lambert</strong> @natolambert</p>
+<ul>
+<li><strong>受够了模型过度回避</strong>：他说和 Claude 这类模型聊法律、医疗等灰色地带非常磨人，它们急于规避风险而回避真正的问题，Meta Muse 那种引用更多来源、字更少、不追问的风格很有必要 <a href="https://x.com/natolambert/status/2115840347087814713">原帖</a></li>
+<li><strong>为 distillation 说话</strong>：The Economist 有文章反对禁止部分基于美国模型训练的中国模型，理由包括价格竞争有利于生态，Nathan 表示认同，认为 distillation 是否损害美国 AI 竞争力并非定论 <a href="https://x.com/natolambert/status/2115881074115084733">原帖</a></li>
+</ul>
+<p>我的看法：答案风格正在成为模型差异化的新战场，简短直接正在从缺点变成卖点</p>
+<hr />
+<p><strong>Garry Tan</strong> @garrytan</p>
+<ul>
+<li><strong>YC 公司 Viraj Aero 的新燃气轮机</strong>：原本为飞行设计的涡轮改用来给数据中心供电，能从尾气里自己产出冷却水，同样燃料多发 40% 电，几周就能拿到许可，不用等电网和水管接入 <a href="https://x.com/garrytan/status/2115891013252473137">原帖</a></li>
+<li><strong>YC 加码硬件</strong>：YC 正在招人管理自家的硬件工坊 <a href="https://x.com/garrytan/status/2115888824484257895">原帖</a></li>
+<li><strong>Particle-1 上 Capy</strong>：Particle-1 是基于 DeepSeek V4.1 Flash 后训练的省 token 编程模型，1M 上下文，每百万 token 0.25 / 1 美元，现已接入 Capy 的 agent 集群 harness，Garry 说自己用下来很满意 <a href="https://x.com/garrytan/status/2115973131206799619">原帖</a></li>
+</ul>
+<p>我的看法：数据中心缺电缺水，把能源问题当创业机会的硬件公司会越来越多</p>
+<hr />
+<p><strong>Axiom</strong> @axiommathai</p>
+<ul>
+<li><strong>AxiomProver 参与证明 Ramanujan 相关猜想</strong>：Ramanujan 在 1912 年寄出过一些自己证明不了的公式，其中两个是一个无穷族的最简单情形，这个族对应每一个 torus knot，AxiomProver 和数学家 Yifeng Huang 一起证明了 Huang-Jiang-Oblomkov 猜想 <a href="https://x.com/axiommathai/status/2115850590278565916">原帖</a></li>
+</ul>
+<p>我的看法：AI 证明器开始出现在真实数学合作的署名里，比刷竞赛题更能说明能力边界</p>
+<hr />
+<p><strong>小工具</strong>
+- <a href="https://x.com/AravSrinivas/status/2116186492758577575">Perplexity Computer 接管 Chrome</a>：装上扩展后 Mac 和 Windows 版 Computer 能直接用你本地已登录的 Chrome 完成浏览任务
+- <a href="https://x.com/AravSrinivas/status/2115838915647271104">Teardown skill</a>：在 Perplexity Computer 里给任意物体画可交互的爆炸图或剖面图，11 月 6 日前免费
+- <a href="https://x.com/mitchellh/status/2116186029875134574">Termius × libghostty</a>：主流移动终端 Termius 的 iOS 和 Android 版改用 libghostty 渲染，滚动和文字更顺更清晰
+- <a href="https://x.com/hwchase17/status/2115854759991369840">Managed Deep Agents 0.10</a>：LangChain 托管 agent 加入浏览器和异步子 agent，遇到登录时可以把窗口交给人，密码不进模型
+- <a href="https://x.com/amasad/status/2115944760829698343">Kino</a>：用 Claude Code 和 Codex 端到端剪视频，丢素材、出精华、协作收反馈
+- <a href="https://x.com/LexnLin/status/2115971250480726225">Claude 多账号</a>：Claude Code 桌面版和网页版支持多账号</p>
+<p><strong>推荐关注</strong>
+- <a href="https://x.com/amasad">Amjad Masad @amasad</a>：Replit CEO，昨天最早把 Claude Code 扩展投毒事件和开发机安全风险讲透的人之一，日常也常发 Replit 和 agent 开发的一手进展
+- <a href="https://x.com/mitchellh">Mitchell Hashimoto @mitchellh</a>：HashiCorp 联合创始人、Ghostty 作者，发帖不多但几乎都是终端和开发工具的硬核进展，比如 libghostty 已经进了 Termius</p>
+<p><strong>建议取关</strong>
+- <a href="https://x.com/mollycantillon">Molly Cantillon @mollycantillon</a>：跟踪 11 天里只在 10 月 22 日转过一条融资消息，之后只有零星短回复，对精选几乎没有贡献，可以先取关，之后有新动向再关注</p>]]></content:encoded></item>
 <item><title>英文推特圈精选｜10月29日（上海时间）</title><link>https://yanjieli.com/x-digest-feed/en/2026-10-29.html</link><guid isPermaLink="false">x-digest-en-2026-10-29</guid><pubDate>Fri, 30 Oct 2026 08:00:00 +0800</pubDate><description><![CDATA[<p><strong>英文推特圈精选｜10月29日（上海时间）</strong></p>
 <p><strong>今日主线</strong>
 1. Google 发布 Gemini 4 Carbon，登上 Artificial Analysis v5 第一，但大家还用不上，兴奋和吐槽一起来
