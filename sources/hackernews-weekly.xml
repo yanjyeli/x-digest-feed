@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel>
 <title>Hacker News Weekly Top 10</title><link>https://github.com/headllines/hackernews-weekly</link><description>Hacker News 每周 Top 10（自建 RSS，源自 GitHub issues）</description>
 <atom:link href="https://yanjieli.com/x-digest-feed/sources/hackernews-weekly.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Fri, 30 Oct 2026 12:01:01 GMT</lastBuildDate><ttl>120</ttl>
+<lastBuildDate>Sat, 31 Oct 2026 00:09:17 GMT</lastBuildDate><ttl>120</ttl>
 <item><title>Hacker News Weekly Top 10 @2026-10-26</title><link>https://github.com/headllines/hackernews-weekly/issues/361</link><guid isPermaLink="false">https://github.com/headllines/hackernews-weekly/issues/361</guid><pubDate>Mon, 26 Oct 2026 04:28:57 GMT</pubDate><dc:creator>headllines</dc:creator><description>&lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;&lt;a href="https://github.com/deepseek-ai/DeepInfer"&gt;DeepInfer: High-performance inference framework for DeepSeek models&lt;/a&gt;&lt;/strong&gt;
