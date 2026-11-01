@@ -1,5 +1,300 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>中文推特圈每日精选</title><link>https://yanjieli.com/x-digest-feed/zh/</link><atom:link href="https://yanjieli.com/x-digest-feed/zh.xml" rel="self" type="application/rss+xml"/><description>每天早上 8 点（上海时间）更新的中文推特圈精选</description><language>zh-cn</language><lastBuildDate>Sat, 31 Oct 2026 08:00:00 +0800</lastBuildDate><ttl>360</ttl>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>中文推特圈每日精选</title><link>https://yanjieli.com/x-digest-feed/zh/</link><atom:link href="https://yanjieli.com/x-digest-feed/zh.xml" rel="self" type="application/rss+xml"/><description>每天早上 8 点（上海时间）更新的中文推特圈精选</description><language>zh-cn</language><lastBuildDate>Sun, 01 Nov 2026 08:00:00 +0800</lastBuildDate><ttl>360</ttl>
+<item><title>中文推特圈精选｜10月31日（上海时间）</title><link>https://yanjieli.com/x-digest-feed/zh/2026-10-31.html</link><guid isPermaLink="false">x-digest-zh-2026-10-31</guid><pubDate>Sun, 01 Nov 2026 08:00:00 +0800</pubDate><description><![CDATA[<p><strong>中文推特圈精选｜10月31日（上海时间）</strong></p>
+<p><strong>今日主线</strong>
+1. Anthropic 把 200 美元的 Max 20x 改名 Ultra，已验证账号取消 5 小时限额，但周额度仍是 Pro 的 10 倍，中文圈一边算账一边交流多 Pro 账号、换客户端避封号的办法
+2. 10 月最后一个交易日纳指跌近 3%、英特尔跌近三成，几位投资博主晒出账户回撤和调仓，南向资金和 QQQ 空头数据都在指向避险
+3. 国行 Apple 智能定档 11 月 4 日开测、接入千问，X 和 Grok 订阅开始支持支付宝，DeepSeek 第二轮融资的出资名单也被曝出</p>
+<hr />
+<p><strong>宝玉 @dotey</strong></p>
+<ul>
+<li><strong>思科让 27 岁员工重写 98% 老代码</strong>：思科总裁兼首席产品官 Jeetu Patel 在 Fortune 的晚宴上讲，他把公司最大的工程之一交给 27 岁的 Padmanabhan Krishnamurthy（Paddy），给不限量的 AI 用量，目标两年内重写 98% 的遗留代码，这是这两天被转得最多的一条大厂 AI 用法案例 <a href="https://x.com/dotey/status/2116218545906319826">原帖</a></li>
+<li><strong>兜售 Claude Fable 5 权重疑似造假</strong>：黑客论坛有人自称从 Bedrock 相关的存储桶拿到 Fable 5 权重的一个约 7GB 分片，说全模型 640 片约 8TB，网友 toriset 指出截图文件和 10 月 17 日开源的 DeepSeek V4.1-Flash-1017 第 13 到 42 号分片完全一样，宝玉核对 Hugging Face 上分片多为 7.39GB，640 片也只有约 4.73TB，和 8TB 对不上，发帖账号本月才注册 <a href="https://x.com/dotey/status/2116366460939386990">原帖</a></li>
+<li><strong>Max 20x 的“20 倍”说的是什么</strong>：他补了一句，Max 20x 的周用量一直是 Pro 的 10 倍，20 倍只是每 5 小时窗口的额度，这次改名 Ultra 等于把名字和实际对齐 <a href="https://x.com/dotey/status/2116334522748809566">原帖</a></li>
+<li><strong>网页客服转真人</strong>：很多公司的在线客服默认是选项式问答，背后不是人，输入“live agent”往往能直接转接真人 <a href="https://x.com/dotey/status/2116258713187312073">原帖</a></li>
+</ul>
+<p>看法：权重那条把“为什么是假的”拆成可以自己核对的几个数字，比单纯辟谣更有用</p>
+<hr />
+<p><strong>思维怪怪 @0xLogicrw</strong></p>
+<ul>
+<li><strong>小米开源 Xiaomi-OCR-0</strong>：8 亿参数，基于 Qwen3.5-0.8B 用约 1.7 亿条样本继续训练，能做文档转可编辑内容、票据证件字段抽取成 JSON、图表问答，五项 OCR 问答测试平均 83.2，高于 2.5 倍参数的 Qwen3.5-2B（80.9），接近 4B 的 84.9，权重、推理代码、MCP 服务和 Agent Skill 都开源 <a href="https://x.com/0xLogicrw/status/2116351187226329301">原帖</a></li>
+<li><strong>Factory 收购 Typedef</strong>：Typedef 分析 SQL 等数据工程代码，梳理字段、处理流程和下游报表的依赖，比如改一个关联字段程序照跑但财报重复计收入，这种连锁影响它能提前发现，自测里加上这套上下文后 Agent 成功率从 46.4% 提到 81.5%，将并入 Droid <a href="https://x.com/0xLogicrw/status/2116353960412078452">原帖</a></li>
+<li><strong>Claude Code 不再帮你复刻游戏</strong>：Anthropic 给 Opus 5.5 加了两句限制，可以做原创、可以借鉴玩法，但不能直接复刻某款游戏，换名字也不行，Addy Osmani 已确认，有用户发现让它“重写”能过、“复刻”会被拒，靠提示词划线并不精确 <a href="https://x.com/0xLogicrw/status/2116408342398783902">原帖</a></li>
+<li><strong>Mika 安卓助手</strong>：独立开发者王赞开源，通过无线调试起一个有 Shell 权限的辅助进程，在普通手机上建一块看不见的虚拟屏幕让微信等 App 在上面跑，靠无障碍服务点按输入，识别不了的界面用本地 OCR 或视觉模型，Android 14 以上后台虚拟屏才不抢主屏焦点 <a href="https://x.com/0xLogicrw/status/2116556440194478273">原帖</a></li>
+</ul>
+<p>看法：Typedef 那组 46% 到 81% 的数字说明数据类任务卡的是上下文不是模型，值得做数据工程的人留意</p>
+<hr />
+<p><strong>投资TALK君 @TJ_Research</strong></p>
+<ul>
+<li><strong>10 月是分歧最大的一个月</strong>：必需消费 +11%，公用事业 +10%，医疗 +10%，TLT +5.2%，科技 -8.3%，半导体 -17%，他自己账户当月 -15%，距高点回撤 -18%，年内仍 +19%，他的感受是投资者和行业从业者对 AI 的看法分歧很大，前者决定短期价格，后者决定长期价格 <a href="https://x.com/TJ_Research/status/2116280911851336148">原帖</a></li>
+<li><strong>大跌时做整合</strong>：清掉 BE、NOK、NUGT，加了 QCOM、VST、QQQM，仍是满仓，再跌就把 QQQM 全部挪到现有个股上，英特尔仓位 13% 排第二所以没加，逻辑是集中到确定性更高的标的，少盯几只 <a href="https://x.com/TJ_Research/status/2116244523491774963">原帖</a> <a href="https://x.com/TJ_Research/status/2116276011260400076">原帖</a></li>
+<li><strong>Reddit 财报里的谷歌问题</strong>：管理层说谷歌已经带不来流量，AI 搜索让人不再点出处，而谷歌自己的搜索次数增速是 5 年新高，他认为谷歌的问题不是流量被抢，而是 AI 模式里的变现跟不上，类似 Meta 刚上 Reels 时先抓流量再找变现 <a href="https://x.com/TJ_Research/status/2116219912498631084">原帖</a></li>
+<li><strong>10 月回撤的自我复盘</strong>：一是 4、5 月大涨没减仓，二是 9 月底默认了利率会下行，市场却在反转年初以来的走势 <a href="https://x.com/TJ_Research/status/2116375083421733014">原帖</a></li>
+</ul>
+<p>看法：把账户回撤和板块数据一起摊开讲，还写清下一步动作，比同日满屏的“抄底”和“清仓”都更可参考</p>
+<hr />
+<p><strong>Selina美股观察 @wallst_sw</strong></p>
+<ul>
+<li><strong>Anthropic 的一股 F 类股</strong>：公众股东投票权封顶 49.9%，七位创始人共持一股 F 类股，票数按公式随公众 A 类股增发同步放大，而 Anthropic 签下的算力账单远超一次 IPO 能募的钱，以后大概率还要增发，她拿 Meta 对比，扎克伯格握六成投票权也是大股东，ANT 创始人据外部估计合计只持股一成左右，董事会多数由和公司没有经济利益的长期利益信托选出 <a href="https://x.com/wallst_sw/status/2116257832899109355">原帖</a> <a href="https://x.com/wallst_sw/status/2116274694588637315">原帖</a></li>
+<li><strong>英特尔 EMIB 客户能说明什么</strong>：英特尔预告两个季度内可能宣布 EMIB 封装客户，但这类客户芯片多在台积电造，它只证明英特尔接得住台积电排不过来的封装单，证明不了制程，她要等 14A 的第一个外部客户 <a href="https://x.com/wallst_sw/status/2116288283709968750">原帖</a></li>
+<li><strong>关税打折换建厂</strong>：按报道方案降的是进口整车税，先受益的是奥迪这种车靠进口又肯签字的车企，福特在美国造车最多反而分得最少，奥迪佐治亚工厂要到 2030 年代初才出车，关税可能从 15% 降到 10% 左右，她没在报道里看到“建不成要补交”的条款，所以车企省下的关税可以算进利润，“制造业回流”要打折看，下个月大众监事会的表决更关键 <a href="https://x.com/wallst_sw/status/2116355728055116172">原帖</a> <a href="https://x.com/wallst_sw/status/2116371079233204569">原帖</a></li>
+<li><strong>闪迪长协不只锁量</strong>：有人说合同只锁量不锁价，她指出公司披露的条款里写着价格下限，客户履约担保大多放在第三方银行，签约方几乎都是投资级大公司 <a href="https://x.com/wallst_sw/status/2116343648493396031">原帖</a></li>
+</ul>
+<p>看法：第二天依旧稳定，每条都写明自己要等什么证据才改判断，关税那条拿富士康威斯康星做对照很到位</p>
+<hr />
+<p><strong>Fiona 美股第一线 @fiona_1st</strong></p>
+<ul>
+<li><strong>四大云单季资本开支首破 2000 亿</strong>：三季度合计约 2019 亿美元，一年前同季不到一半，亚马逊一家 773 亿接近四成，口径是现金流量表里的设备和厂房支出，算上微软和 Meta 的融资租赁会更高 <a href="https://x.com/fiona_1st/status/2116243992228593707">原帖</a></li>
+<li><strong>GDP 强，收入弱</strong>：美国三季度 GDP 首估年化 3.4%，高于 3.1% 到 3.2% 的预期，但同日公布的 9 月数据里实际消费环比几乎没涨，实际可支配收入降 0.3%，储蓄率只有 3.8% <a href="https://x.com/fiona_1st/status/2116300614988972319">原帖</a> <a href="https://x.com/fiona_1st/status/2116311939597156710">原帖</a></li>
+<li><strong>交易所大案怎么赔</strong>：2014 年 Mt.Gox 丢约 4.5 亿美元后破产、用户自担，2018 年 Coincheck 自有资金赔付，2025 年 Bybit 丢约 15 亿美元 ETH 不停提现几天补齐，这次币安约 63 亿美元，一半多是 USDT、USDC，Tether 和 Circle 一小时内动手，几小时合计冻住约 30 亿，11 月 1 日要看提现恢复后的流出和储备证明里 ETH 补没补回 <a href="https://x.com/fiona_1st/status/2116394987113816378">原帖</a></li>
+<li><strong>DeepSeek 第二轮出资名单</strong>：The Information 称第二轮约 150 亿美元，腾讯本轮再投 100 亿元人民币、两轮累计 200 亿，宁德时代和曾毓群合计 100 亿，长鑫存储和中芯系首次入股，vivo、美团也在列，目前只有这一家报了明细，DeepSeek 未确认，据报已聘中信证券筹备科创板 <a href="https://x.com/fiona_1st/status/2116420152598077612">原帖</a> <a href="https://x.com/fiona_1st/status/2116437768813297829">原帖</a></li>
+</ul>
+<p>看法：GDP 和个人收支放在一起读这种细节，正是她比快讯号多出来的部分</p>
+<hr />
+<p><strong>Michael Guo @Michaelzsguo</strong></p>
+<ul>
+<li><strong>Instinct 这个月在做实事</strong>：他翻了 Instinct 10 月的更新，订机票（9 月已有超 20% 用户让它处理航班事务）、订酒店、和 Stripe 与 Link 合作给 Agent 充值并设单笔上限、Shopify 购物、深化 1Password 集成登录账号、接 OpenTable 订餐，每笔购买都要用户确认 <a href="https://x.com/Michaelzsguo/status/2116323715675775149">原帖</a></li>
+<li><strong>Anthropic 早期员工回忆</strong>：Ivan Vendrov 写了自己 2022 年 10 月到 2023 年 5 月在 Anthropic 的经历，从午餐闲聊、和创始人的对话到失眠和离职，他说这是理解 Anthropic 早期文化难得的窗口，文中还提到 FBI 很早就在公司做反间谍培训 <a href="https://x.com/Michaelzsguo/status/2116285211260698672">原帖</a> <a href="https://x.com/Michaelzsguo/status/2116334826068574566">原帖</a></li>
+<li><strong>法国拟按流量向内容平台收税</strong>：国民议会通过一项预算修正案，每传输 1GB 收 0.055 欧元，Netflix、YouTube 这类平台可能被波及 <a href="https://x.com/Michaelzsguo/status/2116314854931718618">原帖</a></li>
+</ul>
+<p>看法：Instinct 那条按日期列更新，对比各家 Agent 抢演示效果，能看出个人 Agent 落地真正卡在支付和登录</p>
+<hr />
+<p><strong>李志 | Rational Investing @LZRationalnvest</strong></p>
+<ul>
+<li><strong>Chase 入金 IBKR 用 RFP</strong>：RFP 在 IBKR 发起、去 Chase App 确认，资金基本实时到账且没有入金信用冻结期，ACH 首次入金一般要等 4 个工作日才能交易，两种都免费 <a href="https://x.com/LZRationalnvest/status/2116349671396515981">原帖</a></li>
+<li><strong>空头集中到科技股</strong>：QQQ 空头持仓约 8200 万股，2023 年 3 月以来最高，SPY 空头自 3 月以来减少约 3000 万股，只剩 9200 万股，接近至少五年低位 <a href="https://x.com/LZRationalnvest/status/2116351537702441119">原帖</a></li>
+<li><strong>南向资金 10 月净流出创纪录</strong>：据联合早报，9 月南向净买入约 608 亿港元，10 月转为净卖出约 280 亿，是 2021 年以来最大单月流出，近 13 个交易日累计流出约 373 亿，阿里、小米、中芯是抛售重点，同期两只 30 年国债 ETF 净流入 138 亿元人民币 <a href="https://x.com/LZRationalnvest/status/2116357884565156227">原帖</a></li>
+<li><strong>嘉信可能对部分客户做审查</strong>：有网友收到站内信要求主动联系客服完成账户审查，否则可能限制交易，参照 Reddit 2 月的案例，主要是核实收入来源、职业和净资产，说清楚就解决 <a href="https://x.com/LZRationalnvest/status/2116399899109622052">原帖</a></li>
+</ul>
+<p>看法：出入金和账户合规提醒依旧是他最实用的一类内容，嘉信用户可以留意站内信</p>
+<hr />
+<p><strong>墨无归 @Moblacksoil</strong></p>
+<ul>
+<li><strong>技能文件里藏着“跳过人工把关”</strong>：加拿大女王大学分析约 153 万份智能体技能文件，约每 17 个就有 1 个（约 8.8 万）写了让智能体跳过人工确认的句子，70.1% 不分场合生效，Cisco 和 NVIDIA 的开源扫描器最多抓到 46%，报出来的里不到四成是真的 <a href="https://x.com/Moblacksoil/status/2116525094017400857">原帖</a></li>
+<li><strong>榜单更新两则</strong>：AA 的 Omniscience v1.1 把题库从 6000 换成 3000 题，答错扣分、说不知道不扣，Gemini 4 Carbon 54 分第一，幻觉率最低的是 Gemini 4 Argon 的 4%，Cognition 的 FrontierCode 2.0 上 Gemini 4 Carbon 40% 排第四，前三是 Opus 5.5 的 45.5%、GPT-6 Astra 的 42.8%、Sonnet 5.5 的 41.0% <a href="https://x.com/Moblacksoil/status/2116347423283139050">原帖</a> <a href="https://x.com/Moblacksoil/status/2116410338178420897">原帖</a></li>
+<li><strong>微软 4B 电脑操作代理</strong>：Mage-VL-Cowork 用一个模型每步自己决定点界面还是开终端，自测 OSWorld-Verified 66.0%，高于 Qwen3.6-27B 的 63.9%，人类参考 72.4%，因为能直接执行系统命令，官方要求放在隔离容器或虚拟机里跑 <a href="https://x.com/Moblacksoil/status/2116424430821757251">原帖</a></li>
+<li><strong>OpenRouter 近 12 周花费</strong>：从 8 月 3 日那周到 10 月 19 日那周，Anthropic +107.0%，OpenAI +78.9%，DeepSeek +73.9%，Google +14.6%，分别对应 Opus 5.5 和 GPT-6 Astra 发布后的拉升 <a href="https://x.com/Moblacksoil/status/2116479795592585222">原帖</a></li>
+</ul>
+<p>看法：技术快讯密度仍然高，但当天混进不少带 @grok 的擦边视频帖，需要自己跳过，后续继续观察</p>
+<hr />
+<p><strong>meng shao @shao__meng</strong></p>
+<ul>
+<li><strong>DeepSeek Harness 的 Super-agent 设计</strong>：团队认为单任务 Agent 已够强，瓶颈是一个人只盯得住 3 到 5 个活跃 Session，于是拆成常驻的 Router（管交互、协调和记忆，可以用更轻的模型）和上下文隔离、挂满工具的 Worker，输入改成群聊、邮件、CI 等事件触发，先用确定性规则过滤再交 LLM 判断，同一 PR 或话题的后续事件直通对应 Worker <a href="https://x.com/shao__meng/status/2116541149443698968">原帖</a></li>
+<li><strong>三个国产 OCR 怎么选</strong>：MiniCPM-OCR-1.0（1.3B）吞吐最高约 1.22 页每秒、管线完整，Xiaomi-OCR-0（0.8B）单页解析和问答抽取最强，Unlimited-OCR-2（3B/A0.5B）主攻整本合同书籍一次通读，单页分数和前两家硬比意义不大 <a href="https://x.com/shao__meng/status/2116535521644105826">原帖</a></li>
+<li><strong>训推基础系列视频</strong>：jbhuang 的 9 集 230 分钟「AI Training and Inference」，从单卡显存、千卡并行、便宜微调、推理加速、蒸馏、推理 RL 讲到 AdamW 到 Muon <a href="https://x.com/shao__meng/status/2116335089546035522">原帖</a></li>
+</ul>
+<p>看法：Super-agent 那篇是今天最值得细读的架构长文，把多任务的上限从模型挪到了人的注意力上来讨论</p>
+<hr />
+<p><strong>纳米AI @antiAIvo</strong></p>
+<ul>
+<li><strong>拆解 DeepSeek Harness 系列预告</strong>：仓库一百多万行 TypeScript、两万多个文件，他 fork 下来过了一遍，真正驱动 Agent 的核心循环只有两千行左右，系列计划写全景地图、插件化的 Agent 循环、会话日志、工具审批与沙箱、上下文压缩、子 Agent，最后和 Claude Code 横向对比 <a href="https://x.com/antiAIvo/status/2116506558469464072">原帖</a></li>
+<li><strong>DeepSeek 服务端岗开了约 150 个 HC</strong>：公司此前总共 300 多人，这批后端岗分五个方向，研究平台、Agent 框架组件、研发效率基建、超大规模 API、数千万日活的线上服务，全是高并发、分布式、调度、存储这类老活 <a href="https://x.com/antiAIvo/status/2116513402411786433">原帖</a></li>
+<li><strong>斯坦福 CS146S</strong>：Mihail Eric 讲怎么用好管好编程 Agent，从 200 行写一个 Claude Code 式 Agent 起步，再到 spec 驱动、MCP、Skills、AGENTS.md、hooks、AI 代码审查，嘉宾有 Claude Code 作者、Cursor 的 leerob、Replit CEO <a href="https://x.com/antiAIvo/status/2116420397252116786">原帖</a></li>
+</ul>
+<p>看法：DSH 拆解如果按计划写完，会是中文圈少有的源码级 Agent 资料，值得跟</p>
+<hr />
+<p><strong>伊凡投資心得 @yifaninvest</strong></p>
+<ul>
+<li><strong>开户以来最大单日回撤 -6.35%</strong>：他觉得选股没问题，择时不理想但择时本身是伪命题，宽基指数占比 45% 让波动比前几年大，睡眠没受影响就不调 <a href="https://x.com/yifaninvest/status/2116321173034410382">原帖</a></li>
+<li><strong>杠杆怎么把下跌放大</strong>：单股 2 倍 3 倍 ETF、短期期权、融资盘和按波动率调仓的基金平时放大涨幅，下跌时变成同一个动作，杠杆 ETF 收盘前要卖更多来维持倍数，做市商对冲也要卖，最危险的不是你判断错，而是别人爆仓把价格推向你的强平线 <a href="https://x.com/yifaninvest/status/2116491534602486053">原帖</a></li>
+<li><strong>QDII 合不合规</strong>：基金公司发的 QDII 基金无论人民币还是美元计价、在哪申购都合规，银行子公司发的是投短期美债和中资海外债的理财，购汇用途里本身就有“购买境内外汇理财产品”，记住一点，钱没出境怎么弄都合规 <a href="https://x.com/yifaninvest/status/2116366570242896230">原帖</a></li>
+</ul>
+<p>看法：杠杆链条那条把周五急跌的机制讲清楚了，比情绪帖更能帮人判断自己该不该动</p>
+<hr />
+<p><strong>硅谷居士 @SVScholar</strong></p>
+<ul>
+<li><strong>今年前 10 个月主流 ETF</strong>：VTI 和标普 500 都是 11.8%，纳指 100 12.9%，VGT 24.6%，SMH 45.1%，VXUS 10.0%，短债 VBIL 3.1%，GLD -10.2%，并附过去 15 年年化，纳指 100 19.1%，SMH 27.5% <a href="https://x.com/SVScholar/status/2116375236434399576">原帖</a></li>
+<li><strong>中美油价倒挂</strong>：美国 10 月 30 日普通汽油均价每加仑 4.2 美元，约合每升 7.4 元，中国约 8.9 元，柴油反过来，美国每加仑 6.35 美元约合每升 11.2 元，中国约 8.3 元，他的解释是中国汽油税费占比 30% 到 50%，柴油作为生产资料受价格调控，美国柴油环保标准推高精炼成本 <a href="https://x.com/SVScholar/status/2116340296791490618">原帖</a> <a href="https://x.com/SVScholar/status/2116349008117735807">原帖</a></li>
+<li><strong>埃克森美孚净利翻倍</strong>：季度收入 1132 亿美元同比 +33%，净利润 154 亿美元同比 +104% <a href="https://x.com/SVScholar/status/2116329731595571202">原帖</a></li>
+</ul>
+<p>看法：数据快讯仍然干净，ETF 那张表和前一天的七姐妹表连起来看，指数基金今年其实不差</p>
+<hr />
+<p><strong>王小庄 @BlockInsight214</strong></p>
+<ul>
+<li><strong>eMudhra 弱密钥事件的后续</strong>：Cloudflare 披露，密钥细节公开不到 1 小时就有人用泄漏的密钥给别家域名签发了伪造证书，等于任何人都能给任意域名签一张“合法”证书 <a href="https://x.com/BlockInsight214/status/2116316721292230690">原帖</a></li>
+<li><strong>AI 训练退出信号统一</strong>：OpenAI、Google、微软、Anthropic 联合支持 robots.txt 里的 <code>__usage_ai-training</code>，Anthropic 已落地，OpenAI 说还要几个月，微软定在 2027 年 2 月 1 日，Google 定在 2027 年，已抓取的数据不追溯 <a href="https://x.com/BlockInsight214/status/2116463385030316503">原帖</a></li>
+<li><strong>同一模型换 harness 差 6 倍</strong>：一篇梳理 57 篇论文和实战文章的帖子引多伦多大学研究，harness 不同性能最多差 6 倍，OpenAI 巨型指令文件翻车后砍到约 100 行才好用，Vercel 砍掉 80% 工具后成功率从 80% 到 100% <a href="https://x.com/BlockInsight214/status/2116358244793037132">原帖</a></li>
+</ul>
+<p>看法：证书那条信息量最大，安全类快讯仍是他的强项，Muse 语聊之类的体验帖可以略过</p>
+<hr />
+<p><strong>yetone @yetone</strong></p>
+<ul>
+<li><strong>Magpie 改用 Claude Code TUI</strong>：Magpie 的 Claude Code Provider 从 <code>claude -p</code> 改为直接驱动 Claude Code TUI（可配置回旧方案），起因是有人发现 <code>claude -p</code> 在 5 小时窗口下比 TUI 多花约两倍 token，改完后额度消耗和直接用 TUI 一样，也几乎没有被识别为第三方使用而封号的风险，代价是额外工作多、streaming 做不完美 <a href="https://x.com/yetone/status/2116525328390823955">原帖</a></li>
+<li><strong>适配 iPad 和灵动岛</strong>：同时支持了 Codex 和 Pi <a href="https://x.com/yetone/status/2116266362415075638">原帖</a></li>
+</ul>
+<p>看法：和同日一堆多号避封的经验帖相比，这是从工具层面解决计费差异的做法，用 Magpie 跑 Claude Code 的可以更新</p>
+<hr />
+<p><strong>小工具</strong></p>
+<ul>
+<li><strong>baoyu-design 的 DeepSeek Harness 插件</strong>：Claude Design 可以跑在 DSH 上，支持标注和评论修改 <a href="https://x.com/dotey/status/2116336030584574076">原帖</a></li>
+<li><strong>dsh-guizang-design 和 guizang-pages-skill</strong>：歸藏把几个设计 Skill 合成 DSH 插件，共用一套 Design Token，新的网页排版 Skill 针对中文阅读调了字号间距，可导出 PDF <a href="https://x.com/op7418/status/2116203707318841379">原帖</a> <a href="https://x.com/op7418/status/2116398126546526443">原帖</a></li>
+<li><strong>dsh-superagent-prototype</strong>：DeepSeek 开源的研究原型（MIT，非正式产品），监听 GitHub 或飞书，在隔离环境干活后把合并请求等结果发回原对话 <a href="https://x.com/Moblacksoil/status/2116517544391741454">原帖</a></li>
+<li><strong>铜匠实验室 3D 课件</strong>：54 门高中理化生地实验做成可拖动的 3D 课件，按人教版编写，单个网页文件断网可用 <a href="https://x.com/Gorden_Sun/status/2116476410105929954">原帖</a></li>
+<li><strong>pixelfx</strong>：200 多个纯代码实时绘制的像素特效，可导出精灵表 <a href="https://x.com/Gorden_Sun/status/2116523310456689071">原帖</a></li>
+<li><strong>乔木剪藏总结视频号</strong>：复制视频号链接到 Chrome 用插件打开，Qwen 0.6B 本地转写后就能对话 <a href="https://x.com/vista8/status/2116200606394384451">原帖</a></li>
+<li><strong>Fli</strong>：让 Claude 直接查 Google Flights，按日期、机场、舱位、直飞筛选和找低价日期，也有 CLI 和 Python，不需要 API Key <a href="https://x.com/abskoop/status/2116492844311654467">原帖</a></li>
+<li><strong>zvec</strong>：阿里开源的 C++ 嵌入式向量数据库，不用单独起服务，适合 RAG <a href="https://x.com/0xGky/status/2116536167868899416">原帖</a></li>
+<li><strong>Claude Code 2.1.316 提醒</strong>：Opus 4.8 fast mode 11 月 30 日下线，到期请求直接报错不会回落，新增可关闭 ULTRATHINK 关键词的开关 <a href="https://x.com/ai_fengshou/status/2116406814614938088">原帖</a></li>
+</ul>
+<hr />
+<p><strong>推荐关注</strong></p>
+<ul>
+<li><a href="https://x.com/Daviswh">daviswu @Daviswh</a>：连载「SIWITHUS：超级智能与我们」，10 月 31 日那期拆了 Nature Human Behaviour 上 487 名咨询顾问用 ChatGPT 的随机对照试验，产品更新类帖子会对照官方 changelog 写出容易漏的几点，工具推荐每条都附“适合谁、不适合谁”的判断</li>
+<li><a href="https://x.com/0xGky">Gk @0xGky</a>：跟踪一周多，每天十几条开源项目推荐，每条都列清楚能做什么和适用场景，昨天的 zvec、Shimmy、DeepSearcher、UCLA 的大模型强化学习课都属于能直接用的那类</li>
+</ul>
+<p><strong>建议取关</strong></p>
+<ul>
+<li><a href="https://x.com/bailyLU">贝利Baily @bailyLU</a>：跟踪 10 天基本是信用卡开卡、ITIN 拼车和知识星球导流，10 月 31 日 18 条里有 48 个月订阅拼车链接、399 拼车 ITIN 和春节机票星球引流，几乎没有可用信息</li>
+<li><a href="https://x.com/DtDt666">看不懂的SOL @DtDt666</a>：10 月 31 日发了无来源的“特朗普介入币安黑客事件”突发新闻、“CZ 与马斯克泄露电话”和性教育擦边帖，一周来记录都是娱乐鸡汤和零散内容</li>
+<li><a href="https://x.com/XuwenC9238">清秋ClearLove @XuwenC9238</a>：一天 41 条，大半是向 @grok 提问或一句话情绪，比如“纳指跌 10% 满仓 QQQ、跌 50% 全仓 long call”，一周来多是定投口号和互关营销</li>
+</ul>]]></description><content:encoded><![CDATA[<p><strong>中文推特圈精选｜10月31日（上海时间）</strong></p>
+<p><strong>今日主线</strong>
+1. Anthropic 把 200 美元的 Max 20x 改名 Ultra，已验证账号取消 5 小时限额，但周额度仍是 Pro 的 10 倍，中文圈一边算账一边交流多 Pro 账号、换客户端避封号的办法
+2. 10 月最后一个交易日纳指跌近 3%、英特尔跌近三成，几位投资博主晒出账户回撤和调仓，南向资金和 QQQ 空头数据都在指向避险
+3. 国行 Apple 智能定档 11 月 4 日开测、接入千问，X 和 Grok 订阅开始支持支付宝，DeepSeek 第二轮融资的出资名单也被曝出</p>
+<hr />
+<p><strong>宝玉 @dotey</strong></p>
+<ul>
+<li><strong>思科让 27 岁员工重写 98% 老代码</strong>：思科总裁兼首席产品官 Jeetu Patel 在 Fortune 的晚宴上讲，他把公司最大的工程之一交给 27 岁的 Padmanabhan Krishnamurthy（Paddy），给不限量的 AI 用量，目标两年内重写 98% 的遗留代码，这是这两天被转得最多的一条大厂 AI 用法案例 <a href="https://x.com/dotey/status/2116218545906319826">原帖</a></li>
+<li><strong>兜售 Claude Fable 5 权重疑似造假</strong>：黑客论坛有人自称从 Bedrock 相关的存储桶拿到 Fable 5 权重的一个约 7GB 分片，说全模型 640 片约 8TB，网友 toriset 指出截图文件和 10 月 17 日开源的 DeepSeek V4.1-Flash-1017 第 13 到 42 号分片完全一样，宝玉核对 Hugging Face 上分片多为 7.39GB，640 片也只有约 4.73TB，和 8TB 对不上，发帖账号本月才注册 <a href="https://x.com/dotey/status/2116366460939386990">原帖</a></li>
+<li><strong>Max 20x 的“20 倍”说的是什么</strong>：他补了一句，Max 20x 的周用量一直是 Pro 的 10 倍，20 倍只是每 5 小时窗口的额度，这次改名 Ultra 等于把名字和实际对齐 <a href="https://x.com/dotey/status/2116334522748809566">原帖</a></li>
+<li><strong>网页客服转真人</strong>：很多公司的在线客服默认是选项式问答，背后不是人，输入“live agent”往往能直接转接真人 <a href="https://x.com/dotey/status/2116258713187312073">原帖</a></li>
+</ul>
+<p>看法：权重那条把“为什么是假的”拆成可以自己核对的几个数字，比单纯辟谣更有用</p>
+<hr />
+<p><strong>思维怪怪 @0xLogicrw</strong></p>
+<ul>
+<li><strong>小米开源 Xiaomi-OCR-0</strong>：8 亿参数，基于 Qwen3.5-0.8B 用约 1.7 亿条样本继续训练，能做文档转可编辑内容、票据证件字段抽取成 JSON、图表问答，五项 OCR 问答测试平均 83.2，高于 2.5 倍参数的 Qwen3.5-2B（80.9），接近 4B 的 84.9，权重、推理代码、MCP 服务和 Agent Skill 都开源 <a href="https://x.com/0xLogicrw/status/2116351187226329301">原帖</a></li>
+<li><strong>Factory 收购 Typedef</strong>：Typedef 分析 SQL 等数据工程代码，梳理字段、处理流程和下游报表的依赖，比如改一个关联字段程序照跑但财报重复计收入，这种连锁影响它能提前发现，自测里加上这套上下文后 Agent 成功率从 46.4% 提到 81.5%，将并入 Droid <a href="https://x.com/0xLogicrw/status/2116353960412078452">原帖</a></li>
+<li><strong>Claude Code 不再帮你复刻游戏</strong>：Anthropic 给 Opus 5.5 加了两句限制，可以做原创、可以借鉴玩法，但不能直接复刻某款游戏，换名字也不行，Addy Osmani 已确认，有用户发现让它“重写”能过、“复刻”会被拒，靠提示词划线并不精确 <a href="https://x.com/0xLogicrw/status/2116408342398783902">原帖</a></li>
+<li><strong>Mika 安卓助手</strong>：独立开发者王赞开源，通过无线调试起一个有 Shell 权限的辅助进程，在普通手机上建一块看不见的虚拟屏幕让微信等 App 在上面跑，靠无障碍服务点按输入，识别不了的界面用本地 OCR 或视觉模型，Android 14 以上后台虚拟屏才不抢主屏焦点 <a href="https://x.com/0xLogicrw/status/2116556440194478273">原帖</a></li>
+</ul>
+<p>看法：Typedef 那组 46% 到 81% 的数字说明数据类任务卡的是上下文不是模型，值得做数据工程的人留意</p>
+<hr />
+<p><strong>投资TALK君 @TJ_Research</strong></p>
+<ul>
+<li><strong>10 月是分歧最大的一个月</strong>：必需消费 +11%，公用事业 +10%，医疗 +10%，TLT +5.2%，科技 -8.3%，半导体 -17%，他自己账户当月 -15%，距高点回撤 -18%，年内仍 +19%，他的感受是投资者和行业从业者对 AI 的看法分歧很大，前者决定短期价格，后者决定长期价格 <a href="https://x.com/TJ_Research/status/2116280911851336148">原帖</a></li>
+<li><strong>大跌时做整合</strong>：清掉 BE、NOK、NUGT，加了 QCOM、VST、QQQM，仍是满仓，再跌就把 QQQM 全部挪到现有个股上，英特尔仓位 13% 排第二所以没加，逻辑是集中到确定性更高的标的，少盯几只 <a href="https://x.com/TJ_Research/status/2116244523491774963">原帖</a> <a href="https://x.com/TJ_Research/status/2116276011260400076">原帖</a></li>
+<li><strong>Reddit 财报里的谷歌问题</strong>：管理层说谷歌已经带不来流量，AI 搜索让人不再点出处，而谷歌自己的搜索次数增速是 5 年新高，他认为谷歌的问题不是流量被抢，而是 AI 模式里的变现跟不上，类似 Meta 刚上 Reels 时先抓流量再找变现 <a href="https://x.com/TJ_Research/status/2116219912498631084">原帖</a></li>
+<li><strong>10 月回撤的自我复盘</strong>：一是 4、5 月大涨没减仓，二是 9 月底默认了利率会下行，市场却在反转年初以来的走势 <a href="https://x.com/TJ_Research/status/2116375083421733014">原帖</a></li>
+</ul>
+<p>看法：把账户回撤和板块数据一起摊开讲，还写清下一步动作，比同日满屏的“抄底”和“清仓”都更可参考</p>
+<hr />
+<p><strong>Selina美股观察 @wallst_sw</strong></p>
+<ul>
+<li><strong>Anthropic 的一股 F 类股</strong>：公众股东投票权封顶 49.9%，七位创始人共持一股 F 类股，票数按公式随公众 A 类股增发同步放大，而 Anthropic 签下的算力账单远超一次 IPO 能募的钱，以后大概率还要增发，她拿 Meta 对比，扎克伯格握六成投票权也是大股东，ANT 创始人据外部估计合计只持股一成左右，董事会多数由和公司没有经济利益的长期利益信托选出 <a href="https://x.com/wallst_sw/status/2116257832899109355">原帖</a> <a href="https://x.com/wallst_sw/status/2116274694588637315">原帖</a></li>
+<li><strong>英特尔 EMIB 客户能说明什么</strong>：英特尔预告两个季度内可能宣布 EMIB 封装客户，但这类客户芯片多在台积电造，它只证明英特尔接得住台积电排不过来的封装单，证明不了制程，她要等 14A 的第一个外部客户 <a href="https://x.com/wallst_sw/status/2116288283709968750">原帖</a></li>
+<li><strong>关税打折换建厂</strong>：按报道方案降的是进口整车税，先受益的是奥迪这种车靠进口又肯签字的车企，福特在美国造车最多反而分得最少，奥迪佐治亚工厂要到 2030 年代初才出车，关税可能从 15% 降到 10% 左右，她没在报道里看到“建不成要补交”的条款，所以车企省下的关税可以算进利润，“制造业回流”要打折看，下个月大众监事会的表决更关键 <a href="https://x.com/wallst_sw/status/2116355728055116172">原帖</a> <a href="https://x.com/wallst_sw/status/2116371079233204569">原帖</a></li>
+<li><strong>闪迪长协不只锁量</strong>：有人说合同只锁量不锁价，她指出公司披露的条款里写着价格下限，客户履约担保大多放在第三方银行，签约方几乎都是投资级大公司 <a href="https://x.com/wallst_sw/status/2116343648493396031">原帖</a></li>
+</ul>
+<p>看法：第二天依旧稳定，每条都写明自己要等什么证据才改判断，关税那条拿富士康威斯康星做对照很到位</p>
+<hr />
+<p><strong>Fiona 美股第一线 @fiona_1st</strong></p>
+<ul>
+<li><strong>四大云单季资本开支首破 2000 亿</strong>：三季度合计约 2019 亿美元，一年前同季不到一半，亚马逊一家 773 亿接近四成，口径是现金流量表里的设备和厂房支出，算上微软和 Meta 的融资租赁会更高 <a href="https://x.com/fiona_1st/status/2116243992228593707">原帖</a></li>
+<li><strong>GDP 强，收入弱</strong>：美国三季度 GDP 首估年化 3.4%，高于 3.1% 到 3.2% 的预期，但同日公布的 9 月数据里实际消费环比几乎没涨，实际可支配收入降 0.3%，储蓄率只有 3.8% <a href="https://x.com/fiona_1st/status/2116300614988972319">原帖</a> <a href="https://x.com/fiona_1st/status/2116311939597156710">原帖</a></li>
+<li><strong>交易所大案怎么赔</strong>：2014 年 Mt.Gox 丢约 4.5 亿美元后破产、用户自担，2018 年 Coincheck 自有资金赔付，2025 年 Bybit 丢约 15 亿美元 ETH 不停提现几天补齐，这次币安约 63 亿美元，一半多是 USDT、USDC，Tether 和 Circle 一小时内动手，几小时合计冻住约 30 亿，11 月 1 日要看提现恢复后的流出和储备证明里 ETH 补没补回 <a href="https://x.com/fiona_1st/status/2116394987113816378">原帖</a></li>
+<li><strong>DeepSeek 第二轮出资名单</strong>：The Information 称第二轮约 150 亿美元，腾讯本轮再投 100 亿元人民币、两轮累计 200 亿，宁德时代和曾毓群合计 100 亿，长鑫存储和中芯系首次入股，vivo、美团也在列，目前只有这一家报了明细，DeepSeek 未确认，据报已聘中信证券筹备科创板 <a href="https://x.com/fiona_1st/status/2116420152598077612">原帖</a> <a href="https://x.com/fiona_1st/status/2116437768813297829">原帖</a></li>
+</ul>
+<p>看法：GDP 和个人收支放在一起读这种细节，正是她比快讯号多出来的部分</p>
+<hr />
+<p><strong>Michael Guo @Michaelzsguo</strong></p>
+<ul>
+<li><strong>Instinct 这个月在做实事</strong>：他翻了 Instinct 10 月的更新，订机票（9 月已有超 20% 用户让它处理航班事务）、订酒店、和 Stripe 与 Link 合作给 Agent 充值并设单笔上限、Shopify 购物、深化 1Password 集成登录账号、接 OpenTable 订餐，每笔购买都要用户确认 <a href="https://x.com/Michaelzsguo/status/2116323715675775149">原帖</a></li>
+<li><strong>Anthropic 早期员工回忆</strong>：Ivan Vendrov 写了自己 2022 年 10 月到 2023 年 5 月在 Anthropic 的经历，从午餐闲聊、和创始人的对话到失眠和离职，他说这是理解 Anthropic 早期文化难得的窗口，文中还提到 FBI 很早就在公司做反间谍培训 <a href="https://x.com/Michaelzsguo/status/2116285211260698672">原帖</a> <a href="https://x.com/Michaelzsguo/status/2116334826068574566">原帖</a></li>
+<li><strong>法国拟按流量向内容平台收税</strong>：国民议会通过一项预算修正案，每传输 1GB 收 0.055 欧元，Netflix、YouTube 这类平台可能被波及 <a href="https://x.com/Michaelzsguo/status/2116314854931718618">原帖</a></li>
+</ul>
+<p>看法：Instinct 那条按日期列更新，对比各家 Agent 抢演示效果，能看出个人 Agent 落地真正卡在支付和登录</p>
+<hr />
+<p><strong>李志 | Rational Investing @LZRationalnvest</strong></p>
+<ul>
+<li><strong>Chase 入金 IBKR 用 RFP</strong>：RFP 在 IBKR 发起、去 Chase App 确认，资金基本实时到账且没有入金信用冻结期，ACH 首次入金一般要等 4 个工作日才能交易，两种都免费 <a href="https://x.com/LZRationalnvest/status/2116349671396515981">原帖</a></li>
+<li><strong>空头集中到科技股</strong>：QQQ 空头持仓约 8200 万股，2023 年 3 月以来最高，SPY 空头自 3 月以来减少约 3000 万股，只剩 9200 万股，接近至少五年低位 <a href="https://x.com/LZRationalnvest/status/2116351537702441119">原帖</a></li>
+<li><strong>南向资金 10 月净流出创纪录</strong>：据联合早报，9 月南向净买入约 608 亿港元，10 月转为净卖出约 280 亿，是 2021 年以来最大单月流出，近 13 个交易日累计流出约 373 亿，阿里、小米、中芯是抛售重点，同期两只 30 年国债 ETF 净流入 138 亿元人民币 <a href="https://x.com/LZRationalnvest/status/2116357884565156227">原帖</a></li>
+<li><strong>嘉信可能对部分客户做审查</strong>：有网友收到站内信要求主动联系客服完成账户审查，否则可能限制交易，参照 Reddit 2 月的案例，主要是核实收入来源、职业和净资产，说清楚就解决 <a href="https://x.com/LZRationalnvest/status/2116399899109622052">原帖</a></li>
+</ul>
+<p>看法：出入金和账户合规提醒依旧是他最实用的一类内容，嘉信用户可以留意站内信</p>
+<hr />
+<p><strong>墨无归 @Moblacksoil</strong></p>
+<ul>
+<li><strong>技能文件里藏着“跳过人工把关”</strong>：加拿大女王大学分析约 153 万份智能体技能文件，约每 17 个就有 1 个（约 8.8 万）写了让智能体跳过人工确认的句子，70.1% 不分场合生效，Cisco 和 NVIDIA 的开源扫描器最多抓到 46%，报出来的里不到四成是真的 <a href="https://x.com/Moblacksoil/status/2116525094017400857">原帖</a></li>
+<li><strong>榜单更新两则</strong>：AA 的 Omniscience v1.1 把题库从 6000 换成 3000 题，答错扣分、说不知道不扣，Gemini 4 Carbon 54 分第一，幻觉率最低的是 Gemini 4 Argon 的 4%，Cognition 的 FrontierCode 2.0 上 Gemini 4 Carbon 40% 排第四，前三是 Opus 5.5 的 45.5%、GPT-6 Astra 的 42.8%、Sonnet 5.5 的 41.0% <a href="https://x.com/Moblacksoil/status/2116347423283139050">原帖</a> <a href="https://x.com/Moblacksoil/status/2116410338178420897">原帖</a></li>
+<li><strong>微软 4B 电脑操作代理</strong>：Mage-VL-Cowork 用一个模型每步自己决定点界面还是开终端，自测 OSWorld-Verified 66.0%，高于 Qwen3.6-27B 的 63.9%，人类参考 72.4%，因为能直接执行系统命令，官方要求放在隔离容器或虚拟机里跑 <a href="https://x.com/Moblacksoil/status/2116424430821757251">原帖</a></li>
+<li><strong>OpenRouter 近 12 周花费</strong>：从 8 月 3 日那周到 10 月 19 日那周，Anthropic +107.0%，OpenAI +78.9%，DeepSeek +73.9%，Google +14.6%，分别对应 Opus 5.5 和 GPT-6 Astra 发布后的拉升 <a href="https://x.com/Moblacksoil/status/2116479795592585222">原帖</a></li>
+</ul>
+<p>看法：技术快讯密度仍然高，但当天混进不少带 @grok 的擦边视频帖，需要自己跳过，后续继续观察</p>
+<hr />
+<p><strong>meng shao @shao__meng</strong></p>
+<ul>
+<li><strong>DeepSeek Harness 的 Super-agent 设计</strong>：团队认为单任务 Agent 已够强，瓶颈是一个人只盯得住 3 到 5 个活跃 Session，于是拆成常驻的 Router（管交互、协调和记忆，可以用更轻的模型）和上下文隔离、挂满工具的 Worker，输入改成群聊、邮件、CI 等事件触发，先用确定性规则过滤再交 LLM 判断，同一 PR 或话题的后续事件直通对应 Worker <a href="https://x.com/shao__meng/status/2116541149443698968">原帖</a></li>
+<li><strong>三个国产 OCR 怎么选</strong>：MiniCPM-OCR-1.0（1.3B）吞吐最高约 1.22 页每秒、管线完整，Xiaomi-OCR-0（0.8B）单页解析和问答抽取最强，Unlimited-OCR-2（3B/A0.5B）主攻整本合同书籍一次通读，单页分数和前两家硬比意义不大 <a href="https://x.com/shao__meng/status/2116535521644105826">原帖</a></li>
+<li><strong>训推基础系列视频</strong>：jbhuang 的 9 集 230 分钟「AI Training and Inference」，从单卡显存、千卡并行、便宜微调、推理加速、蒸馏、推理 RL 讲到 AdamW 到 Muon <a href="https://x.com/shao__meng/status/2116335089546035522">原帖</a></li>
+</ul>
+<p>看法：Super-agent 那篇是今天最值得细读的架构长文，把多任务的上限从模型挪到了人的注意力上来讨论</p>
+<hr />
+<p><strong>纳米AI @antiAIvo</strong></p>
+<ul>
+<li><strong>拆解 DeepSeek Harness 系列预告</strong>：仓库一百多万行 TypeScript、两万多个文件，他 fork 下来过了一遍，真正驱动 Agent 的核心循环只有两千行左右，系列计划写全景地图、插件化的 Agent 循环、会话日志、工具审批与沙箱、上下文压缩、子 Agent，最后和 Claude Code 横向对比 <a href="https://x.com/antiAIvo/status/2116506558469464072">原帖</a></li>
+<li><strong>DeepSeek 服务端岗开了约 150 个 HC</strong>：公司此前总共 300 多人，这批后端岗分五个方向，研究平台、Agent 框架组件、研发效率基建、超大规模 API、数千万日活的线上服务，全是高并发、分布式、调度、存储这类老活 <a href="https://x.com/antiAIvo/status/2116513402411786433">原帖</a></li>
+<li><strong>斯坦福 CS146S</strong>：Mihail Eric 讲怎么用好管好编程 Agent，从 200 行写一个 Claude Code 式 Agent 起步，再到 spec 驱动、MCP、Skills、AGENTS.md、hooks、AI 代码审查，嘉宾有 Claude Code 作者、Cursor 的 leerob、Replit CEO <a href="https://x.com/antiAIvo/status/2116420397252116786">原帖</a></li>
+</ul>
+<p>看法：DSH 拆解如果按计划写完，会是中文圈少有的源码级 Agent 资料，值得跟</p>
+<hr />
+<p><strong>伊凡投資心得 @yifaninvest</strong></p>
+<ul>
+<li><strong>开户以来最大单日回撤 -6.35%</strong>：他觉得选股没问题，择时不理想但择时本身是伪命题，宽基指数占比 45% 让波动比前几年大，睡眠没受影响就不调 <a href="https://x.com/yifaninvest/status/2116321173034410382">原帖</a></li>
+<li><strong>杠杆怎么把下跌放大</strong>：单股 2 倍 3 倍 ETF、短期期权、融资盘和按波动率调仓的基金平时放大涨幅，下跌时变成同一个动作，杠杆 ETF 收盘前要卖更多来维持倍数，做市商对冲也要卖，最危险的不是你判断错，而是别人爆仓把价格推向你的强平线 <a href="https://x.com/yifaninvest/status/2116491534602486053">原帖</a></li>
+<li><strong>QDII 合不合规</strong>：基金公司发的 QDII 基金无论人民币还是美元计价、在哪申购都合规，银行子公司发的是投短期美债和中资海外债的理财，购汇用途里本身就有“购买境内外汇理财产品”，记住一点，钱没出境怎么弄都合规 <a href="https://x.com/yifaninvest/status/2116366570242896230">原帖</a></li>
+</ul>
+<p>看法：杠杆链条那条把周五急跌的机制讲清楚了，比情绪帖更能帮人判断自己该不该动</p>
+<hr />
+<p><strong>硅谷居士 @SVScholar</strong></p>
+<ul>
+<li><strong>今年前 10 个月主流 ETF</strong>：VTI 和标普 500 都是 11.8%，纳指 100 12.9%，VGT 24.6%，SMH 45.1%，VXUS 10.0%，短债 VBIL 3.1%，GLD -10.2%，并附过去 15 年年化，纳指 100 19.1%，SMH 27.5% <a href="https://x.com/SVScholar/status/2116375236434399576">原帖</a></li>
+<li><strong>中美油价倒挂</strong>：美国 10 月 30 日普通汽油均价每加仑 4.2 美元，约合每升 7.4 元，中国约 8.9 元，柴油反过来，美国每加仑 6.35 美元约合每升 11.2 元，中国约 8.3 元，他的解释是中国汽油税费占比 30% 到 50%，柴油作为生产资料受价格调控，美国柴油环保标准推高精炼成本 <a href="https://x.com/SVScholar/status/2116340296791490618">原帖</a> <a href="https://x.com/SVScholar/status/2116349008117735807">原帖</a></li>
+<li><strong>埃克森美孚净利翻倍</strong>：季度收入 1132 亿美元同比 +33%，净利润 154 亿美元同比 +104% <a href="https://x.com/SVScholar/status/2116329731595571202">原帖</a></li>
+</ul>
+<p>看法：数据快讯仍然干净，ETF 那张表和前一天的七姐妹表连起来看，指数基金今年其实不差</p>
+<hr />
+<p><strong>王小庄 @BlockInsight214</strong></p>
+<ul>
+<li><strong>eMudhra 弱密钥事件的后续</strong>：Cloudflare 披露，密钥细节公开不到 1 小时就有人用泄漏的密钥给别家域名签发了伪造证书，等于任何人都能给任意域名签一张“合法”证书 <a href="https://x.com/BlockInsight214/status/2116316721292230690">原帖</a></li>
+<li><strong>AI 训练退出信号统一</strong>：OpenAI、Google、微软、Anthropic 联合支持 robots.txt 里的 <code>__usage_ai-training</code>，Anthropic 已落地，OpenAI 说还要几个月，微软定在 2027 年 2 月 1 日，Google 定在 2027 年，已抓取的数据不追溯 <a href="https://x.com/BlockInsight214/status/2116463385030316503">原帖</a></li>
+<li><strong>同一模型换 harness 差 6 倍</strong>：一篇梳理 57 篇论文和实战文章的帖子引多伦多大学研究，harness 不同性能最多差 6 倍，OpenAI 巨型指令文件翻车后砍到约 100 行才好用，Vercel 砍掉 80% 工具后成功率从 80% 到 100% <a href="https://x.com/BlockInsight214/status/2116358244793037132">原帖</a></li>
+</ul>
+<p>看法：证书那条信息量最大，安全类快讯仍是他的强项，Muse 语聊之类的体验帖可以略过</p>
+<hr />
+<p><strong>yetone @yetone</strong></p>
+<ul>
+<li><strong>Magpie 改用 Claude Code TUI</strong>：Magpie 的 Claude Code Provider 从 <code>claude -p</code> 改为直接驱动 Claude Code TUI（可配置回旧方案），起因是有人发现 <code>claude -p</code> 在 5 小时窗口下比 TUI 多花约两倍 token，改完后额度消耗和直接用 TUI 一样，也几乎没有被识别为第三方使用而封号的风险，代价是额外工作多、streaming 做不完美 <a href="https://x.com/yetone/status/2116525328390823955">原帖</a></li>
+<li><strong>适配 iPad 和灵动岛</strong>：同时支持了 Codex 和 Pi <a href="https://x.com/yetone/status/2116266362415075638">原帖</a></li>
+</ul>
+<p>看法：和同日一堆多号避封的经验帖相比，这是从工具层面解决计费差异的做法，用 Magpie 跑 Claude Code 的可以更新</p>
+<hr />
+<p><strong>小工具</strong></p>
+<ul>
+<li><strong>baoyu-design 的 DeepSeek Harness 插件</strong>：Claude Design 可以跑在 DSH 上，支持标注和评论修改 <a href="https://x.com/dotey/status/2116336030584574076">原帖</a></li>
+<li><strong>dsh-guizang-design 和 guizang-pages-skill</strong>：歸藏把几个设计 Skill 合成 DSH 插件，共用一套 Design Token，新的网页排版 Skill 针对中文阅读调了字号间距，可导出 PDF <a href="https://x.com/op7418/status/2116203707318841379">原帖</a> <a href="https://x.com/op7418/status/2116398126546526443">原帖</a></li>
+<li><strong>dsh-superagent-prototype</strong>：DeepSeek 开源的研究原型（MIT，非正式产品），监听 GitHub 或飞书，在隔离环境干活后把合并请求等结果发回原对话 <a href="https://x.com/Moblacksoil/status/2116517544391741454">原帖</a></li>
+<li><strong>铜匠实验室 3D 课件</strong>：54 门高中理化生地实验做成可拖动的 3D 课件，按人教版编写，单个网页文件断网可用 <a href="https://x.com/Gorden_Sun/status/2116476410105929954">原帖</a></li>
+<li><strong>pixelfx</strong>：200 多个纯代码实时绘制的像素特效，可导出精灵表 <a href="https://x.com/Gorden_Sun/status/2116523310456689071">原帖</a></li>
+<li><strong>乔木剪藏总结视频号</strong>：复制视频号链接到 Chrome 用插件打开，Qwen 0.6B 本地转写后就能对话 <a href="https://x.com/vista8/status/2116200606394384451">原帖</a></li>
+<li><strong>Fli</strong>：让 Claude 直接查 Google Flights，按日期、机场、舱位、直飞筛选和找低价日期，也有 CLI 和 Python，不需要 API Key <a href="https://x.com/abskoop/status/2116492844311654467">原帖</a></li>
+<li><strong>zvec</strong>：阿里开源的 C++ 嵌入式向量数据库，不用单独起服务，适合 RAG <a href="https://x.com/0xGky/status/2116536167868899416">原帖</a></li>
+<li><strong>Claude Code 2.1.316 提醒</strong>：Opus 4.8 fast mode 11 月 30 日下线，到期请求直接报错不会回落，新增可关闭 ULTRATHINK 关键词的开关 <a href="https://x.com/ai_fengshou/status/2116406814614938088">原帖</a></li>
+</ul>
+<hr />
+<p><strong>推荐关注</strong></p>
+<ul>
+<li><a href="https://x.com/Daviswh">daviswu @Daviswh</a>：连载「SIWITHUS：超级智能与我们」，10 月 31 日那期拆了 Nature Human Behaviour 上 487 名咨询顾问用 ChatGPT 的随机对照试验，产品更新类帖子会对照官方 changelog 写出容易漏的几点，工具推荐每条都附“适合谁、不适合谁”的判断</li>
+<li><a href="https://x.com/0xGky">Gk @0xGky</a>：跟踪一周多，每天十几条开源项目推荐，每条都列清楚能做什么和适用场景，昨天的 zvec、Shimmy、DeepSearcher、UCLA 的大模型强化学习课都属于能直接用的那类</li>
+</ul>
+<p><strong>建议取关</strong></p>
+<ul>
+<li><a href="https://x.com/bailyLU">贝利Baily @bailyLU</a>：跟踪 10 天基本是信用卡开卡、ITIN 拼车和知识星球导流，10 月 31 日 18 条里有 48 个月订阅拼车链接、399 拼车 ITIN 和春节机票星球引流，几乎没有可用信息</li>
+<li><a href="https://x.com/DtDt666">看不懂的SOL @DtDt666</a>：10 月 31 日发了无来源的“特朗普介入币安黑客事件”突发新闻、“CZ 与马斯克泄露电话”和性教育擦边帖，一周来记录都是娱乐鸡汤和零散内容</li>
+<li><a href="https://x.com/XuwenC9238">清秋ClearLove @XuwenC9238</a>：一天 41 条，大半是向 @grok 提问或一句话情绪，比如“纳指跌 10% 满仓 QQQ、跌 50% 全仓 long call”，一周来多是定投口号和互关营销</li>
+</ul>]]></content:encoded></item>
 <item><title>中文推特圈精选｜10月30日（上海时间）</title><link>https://yanjieli.com/x-digest-feed/zh/2026-10-30.html</link><guid isPermaLink="false">x-digest-zh-2026-10-30</guid><pubDate>Sat, 31 Oct 2026 08:00:00 +0800</pubDate><description><![CDATA[<p><strong>中文推特圈精选｜10月30日（上海时间）</strong></p>
 <p><strong>今日主线</strong>
 1. 英特尔四季度指引远低于预期，周五开盘重挫近三成，加上谷歌、亚马逊自由现金流转负，半导体和七巨头集体下跌，资金躲进沃尔玛、好市多这类防御股
