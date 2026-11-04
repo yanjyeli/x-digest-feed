@@ -2,7 +2,50 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel>
 <title>Hacker News Weekly Top 10</title><link>https://github.com/headllines/hackernews-weekly</link><description>Hacker News 每周 Top 10（自建 RSS，源自 GitHub issues）</description>
 <atom:link href="https://yanjieli.com/x-digest-feed/sources/hackernews-weekly.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Sun, 01 Nov 2026 06:04:22 GMT</lastBuildDate><ttl>120</ttl>
+<lastBuildDate>Wed, 04 Nov 2026 00:02:18 GMT</lastBuildDate><ttl>120</ttl>
+<item><title>Hacker News Weekly Top 10 @2026-11-02</title><link>https://github.com/headllines/hackernews-weekly/issues/362</link><guid isPermaLink="false">https://github.com/headllines/hackernews-weekly/issues/362</guid><pubDate>Mon, 02 Nov 2026 05:46:13 GMT</pubDate><dc:creator>headllines</dc:creator><description>&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href="https://www.nytimes.com/2026/10/29/arts/television/patrick-stewart-dead.html"&gt;Patrick Stewart has died&lt;/a&gt;&lt;/strong&gt;
+3304 points by &lt;a href="https://news.ycombinator.com/user?id=j4mie"&gt;j4mie&lt;/a&gt; 3 days ago | &lt;a href="https://news.ycombinator.com/item?id=50294702"&gt;755 comments&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href="https://karpathy.bearblog.dev/hacker-tube/"&gt;HackerTube: YouTube built from videos recommended by HN&lt;/a&gt;&lt;/strong&gt;
+2418 points by &lt;a href="https://news.ycombinator.com/user?id=karpathy"&gt;karpathy&lt;/a&gt; 1 day ago | &lt;a href="https://news.ycombinator.com/item?id=50319510"&gt;553 comments&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href="https://arkm.com/explorer/entity/21a94755-f604-45e5-9501-6542e23005e8"&gt;Binance-hacker-1029 – $5.6B stolen from Binance&lt;/a&gt;&lt;/strong&gt;
+1757 points by &lt;a href="https://news.ycombinator.com/user?id=Tiberium"&gt;Tiberium&lt;/a&gt; 3 days ago | &lt;a href="https://news.ycombinator.com/item?id=50296470"&gt;1258 comments&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href="https://mistral.ai/news/mistral-large-4-oss/"&gt;We're releasing the weights of Mistral Large 4&lt;/a&gt;&lt;/strong&gt;
+1716 points by &lt;a href="https://news.ycombinator.com/user?id=kuberwastaken"&gt;kuberwastaken&lt;/a&gt; 3 days ago | &lt;a href="https://news.ycombinator.com/item?id=50289418"&gt;439 comments&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href="https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm"&gt;Anthropic S-1&lt;/a&gt;&lt;/strong&gt;
+1709 points by &lt;a href="https://news.ycombinator.com/user?id=SiNTEx"&gt;SiNTEx&lt;/a&gt; 6 days ago | &lt;a href="https://news.ycombinator.com/item?id=50242939"&gt;1680 comments&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href="https://nullpt.rs/fingerprinting-bioweapons"&gt;Why is this fingerprinting script creating bioweapons?&lt;/a&gt;&lt;/strong&gt;
+1594 points by &lt;a href="https://news.ycombinator.com/user?id=hazebooth"&gt;hazebooth&lt;/a&gt; 4 days ago | &lt;a href="https://news.ycombinator.com/item?id=50276998"&gt;308 comments&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href="https://ghostty.org/docs/install/release-notes/1-4-0"&gt;Ghostty 1.4&lt;/a&gt;&lt;/strong&gt;
+1356 points by &lt;a href="https://news.ycombinator.com/user?id=deaux"&gt;deaux&lt;/a&gt; 5 days ago | &lt;a href="https://news.ycombinator.com/item?id=50261998"&gt;443 comments&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href="https://emudhra.we-have-a-problem.com/apple.html"&gt;Apple's git still trusts the compromised eMudhra certificates&lt;/a&gt;&lt;/strong&gt;
+1202 points by &lt;a href="https://news.ycombinator.com/user?id=galadran"&gt;galadran&lt;/a&gt; 4 days ago | &lt;a href="https://news.ycombinator.com/item?id=50271640"&gt;413 comments&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href="https://www.wired.com/story/ice-is-running-one-of-the-largest-anti-left-surveillance-operations-in-us-history/"&gt;Evidence of a spying operation by ICE against left-wing social movements&lt;/a&gt;&lt;/strong&gt;
+1196 points by &lt;a href="https://news.ycombinator.com/user?id=zzzeek"&gt;zzzeek&lt;/a&gt; 4 days ago | &lt;a href="https://news.ycombinator.com/item?id=50272749"&gt;1040 comments&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href="https://openai.com/index/building-scientific-understanding-with-academic-communities/"&gt;Three new discoveries in mathematics, computer science, and physics&lt;/a&gt;&lt;/strong&gt;
+1162 points by &lt;a href="https://news.ycombinator.com/user?id=jonluca"&gt;jonluca&lt;/a&gt; 6 days ago | &lt;a href="https://news.ycombinator.com/item?id=50251344"&gt;714 comments&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p  align="right"&gt;&lt;a href="https://github.com/sponsors/timqian"&gt; &lt;i&gt;❤️ Sponsor the author&lt;/i&gt;&lt;/a&gt; &lt;/p&gt;</description></item>
 <item><title>Hacker News Weekly Top 10 @2026-10-26</title><link>https://github.com/headllines/hackernews-weekly/issues/361</link><guid isPermaLink="false">https://github.com/headllines/hackernews-weekly/issues/361</guid><pubDate>Mon, 26 Oct 2026 04:28:57 GMT</pubDate><dc:creator>headllines</dc:creator><description>&lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;&lt;a href="https://github.com/deepseek-ai/DeepInfer"&gt;DeepInfer: High-performance inference framework for DeepSeek models&lt;/a&gt;&lt;/strong&gt;
@@ -862,5 +905,5 @@
 1034 points by &lt;a href="https://news.ycombinator.com/user?id=mips_avatar"&gt;mips_avatar&lt;/a&gt; 5 days ago | &lt;a href="https://news.ycombinator.com/item?id=48467896"&gt;500 comments&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;p  align="right"&gt;&lt;a href="https://github.com/sponsors/timqian"&gt; &lt;i&gt;❤️ Sponsor the author&lt;/i&gt;&lt;/a&gt; &lt;/p&gt;</description></item>
+&lt;p align="right"&gt;&lt;a href="https://github.com/sponsors/timqian"&gt; &lt;i&gt;❤️ Sponsor the author&lt;/i&gt;&lt;/a&gt; &lt;/p&gt;</description></item>
 </channel></rss>
